@@ -6,5 +6,92 @@ html {
 body {
 	background-color: #fff;
     min-height: 100vh;
-    padding: 2rem;
+    padding: 0 2rem;
+}
+
+main {
+	display: flex;
+	flex-flow: column nowrap;
+	height: 100vh;
+	margin: 0 auto;
+}
+
+.title {
+	text-align: center;
+	font-size: 4rem;
+	letter-spacing: 0.15rem;
+	margin: 0;
+	font-weight: 400;
+}
+
+.title-sub {
+	text-align: center;
+	color: #888;
+	margin: 0.5rem 0;
+}
+
+input {
+	width: 100%;
+	text-align: center;
+	font-size: 1.5rem;
+	background-color: #eee;
+	outline-color: #888;
+	border: none;
+	padding: 0.8rem;
+}
+input::placeholder {
+	color: #888;
+}
+
+.list {
+	list-style: none;
+	padding: 0;
+}
+
+.list-item {
+	padding: 0.5rem 0.5rem;
+}
+
+.article-list {
+	display: flex;
+	flex-flow: column nowrap;
+	min-height: 3.0rem;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.article-list-item {
+	font-size: 1.5rem;
+	font-weight: 800;
+}
+
+.article-list-item:hover {
+	background-color: #eee;
+}
+
+.legend-list {
+	margin-top: auto;
+	display: flex;
+	flex-flow: row wrap;
+	background-color: #eee;
+	border-radius: 0.2rem;
+	padding: 0.5rem;
+}
+
+.legend-list-item {
+	
+}
+
+.article-icon {
+	width: 2.0rem;
+	height: 2.0rem;
+}
+
+.legend-icon {
+	width: 1.0rem;
+	height: 1.0rem;
+}
+.note-icon {
+	width: 1.0rem;
+	height: 1.0rem;
 }

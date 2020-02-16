@@ -5,23 +5,32 @@
 <link rel="stylesheet"  href="css/sanitize.css">
 <link rel="stylesheet"  href="css/typography.css">
 <link rel="stylesheet"  href="css/style.css">
+<script src="js/vue.js"></script>
 <title>Gomipedia</title>
 
-<header>
-  <h1>Gomipedia</h1>
-  <div>XX市 版<br>YYYY年MM月DD日 更新</div>
-</header>
+<div id="app" v-cloak>
 
 <main>
-  <input placeholder="例：瓶のふた">
-  <ul>
-    <li>item</li>
-    <li>item</li>
-    <li>item</li>
+  <h1 class="title">(製作中)</h1>
+  <div class="title-sub">{{cityName}}版 -- {{updatedAt}} 更新</div>
+  <input class="keyword-input" :placeholder="placeholder" >
+  <ul class="list article-list">
+    <list-item-article
+      v-for="article in matchedArticles"
+      v-bind:data="article"
+      v-bind:image="categories[article.category].image"
+      v-bind:key="article.name">
+    </list-item-article>
   </ul>
-  <ul>
-    <li>item</li>
-    <li>item</li>
-    <li>item</li>
+  <ul class="list legend-list">
+    <list-item-legend
+      v-for="key in Object.keys(categories)"
+      v-bind:data="categories[key]"
+      v-bind:key="key">
+    </list-item-legend>
   </ul>
 </main>
+
+</div>
+
+<script src="js/main.js"></script>

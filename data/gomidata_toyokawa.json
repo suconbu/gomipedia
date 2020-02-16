@@ -1,0 +1,41 @@
+{
+    "cityName" : "豊川市",
+    "updatedAt" : "2019/12/16",
+    "articles" : [
+        {
+            "name" : "アイスピック",
+            "category" : "nonburnable",
+            "note" : "先端にセロテープなどを巻きつけて刺さらないようにしてください。"
+        },
+        {
+            "name" : "アイスまくら",
+            "category" : "burnable",
+            "note" : ""
+        },
+        {
+            "name" : "空き缶（アルミ・スチール）",
+            "category" : "recyclable",
+            "note" : "水ですすいでからつぶさないで出してください。"
+        },
+        {
+            "name" : "空きびん（飲食料用）",
+            "category" : "recyclable",
+            "note" : "水ですすいでから出してください。漬物容器など容器だけで販売している物や飲食料以外のガラス製品は不燃ごみ。"
+        },
+        {
+            "name" : "アコーディオンカーテン",
+            "category" : "oversized",
+            "note" : ""
+        },
+        {
+            "name" : "温度計（水銀使用）",
+            "category" : "hazardous",
+            "note" : "水銀不使用・デジタル式は不燃ごみ。"
+        },
+        {
+            "name" : "油（機械用、自動車用など）",
+            "category" : "uncollectible",
+            "note" : "販売店に相談してください。"
+        }
+    ]
+}

@@ -1,0 +1,10 @@
+html {
+	background-color: #eee;
+	padding: 0 calc(50% - 15rem);
+}
+
+body {
+	background-color: #fff;
+    min-height: 100vh;
+    padding: 2rem;
+}

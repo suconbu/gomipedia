@@ -5,14 +5,15 @@ html {
 
 body {
 	background-color: #fff;
-    min-height: 100vh;
-    padding: 0 2rem;
+	min-height: 100vh;
+	padding: 0 2rem;
 }
 
 main {
 	display: flex;
 	flex-flow: column nowrap;
 	height: 100vh;
+	height: calc(var(--vh) * 100); 
 	margin: 0 auto;
 }
 

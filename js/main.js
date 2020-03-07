@@ -29,21 +29,29 @@ const categories = {
         "name" : "不燃ごみ",
         "image" : "img/nonburnable.png"
     },
-    recyclable : {
-        "name" : "資源",
-        "image" : "img/recyclable.png"
+    hazardous : {
+        "name" : "危険ごみ",
+        "image" : "img/hazardous.png"
     },
     oversized : {
         "name" : "粗大ごみ",
         "image" : "img/oversized.png"
     },
-    hazardous : {
-        "name" : "危険ごみ",
-        "image" : "img/hazardous.png"
+    recyclable : {
+        "name" : "資源",
+        "image" : "img/recyclable.png"
+    },
+    specificrecycling : {
+        "name" : "家電リサイクル法対象",
+        "image" : "img/specificrecycling.png"
     },
     uncollectible : {
         "name" : "回収できません",
         "image" : "img/uncollectible.png"
+    },
+    unknown : {
+        "name" : "分類不明",
+        "image" : "img/unknown.png"
     }
 };
 

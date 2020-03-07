@@ -13,7 +13,7 @@
 <main>
   <h1 class="title">(製作中)</h1>
   <div class="title-sub">{{cityName}}版 -- {{updatedAt}} 更新</div>
-  <input class="keyword-input" :placeholder="placeholder" >
+  <input class="keyword-input" :placeholder="placeholder" v-model="keyword" >
   <ul class="list article-list">
     <list-item-article
       v-for="article in matchedArticles"

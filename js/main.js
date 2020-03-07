@@ -61,13 +61,39 @@ request.onload = function() {
 function load(gomidata) {
     data.cityName = gomidata.cityName;
     data.updatedAt = gomidata.updatedAt;
-    data.matchedArticles = gomidata.articles;
+    data.articles = gomidata.articles;
     data.categories = categories;
     const index = Math.floor(Math.random() * gomidata.articles.length);
     data.placeholder = "例：" + gomidata.articles[index].name;
+    data.keyword = "";
+    data.matchedArticles = [];
 
     const app = new Vue({
         el: "#app",
-        data: data
+        data: data,
+        watch: {
+            keyword: function(newValue, oldValue) {
+                this.keyword = newValue;
+                this.keywordChanged();
+            }
+        },
+        methods: {
+            keywordChanged: function() {
+                const matched = []
+                if (this.keyword == "*") {
+                    for (let article of this.articles) {
+                        matched.push(article);
+                    }
+                }
+                else if (this.keyword) {
+                    for (let article of this.articles) {
+                        if (~article.name.indexOf(this.keyword)) {
+                            matched.push(article);
+                        }
+                    }
+                }
+                this.matchedArticles = matched;
+            }
+        }
     });
 }

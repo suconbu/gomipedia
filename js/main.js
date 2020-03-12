@@ -1,21 +1,21 @@
 
-Vue.component('list-item-article', {
-    props: ["data", "image"],
+Vue.component("list-item-article", {
+    props: ["article", "category", "click"],
     template: `
-        <li class="list-item article-list-item">
-            <img class="article-icon" :src="image">
-            {{data.name}}
-            <img class="note-icon" v-if="data.note" src="img/note.png">
+        <li class="list-item article-list-item" @click="click(article)">
+            <img class="article-icon" :src="category.image">
+            {{article.name}}
+            <img class="note-icon" v-if="article.note" src="img/note.png">
         </li>
     `
 })
 
-Vue.component('list-item-legend', {
-    props: ["data"],
+Vue.component("list-item-legend", {
+    props: ["category"],
     template: `
         <li class="list-item legend-list-item">
-            <img class="legend-icon" :src="data.image">
-            {{data.name}}
+            <img class="legend-icon" :src="category.image">
+            {{category.name}}
         </li>
     `
 })
@@ -74,7 +74,8 @@ function load(gomidata) {
     const index = Math.floor(Math.random() * gomidata.articles.length);
     data.placeholder = "例：" + gomidata.articles[index].name;
     data.keyword = "";
-    data.matchedArticles = [];
+    data.matchedArticles = gomidata.articles;
+    data.selectedArticle = null;
 
     const app = new Vue({
         el: "#app",
@@ -86,9 +87,9 @@ function load(gomidata) {
             }
         },
         methods: {
-            keywordChanged: function() {
+            keywordChanged() {
                 const matched = []
-                if (this.keyword == "*") {
+                if (this.keyword == "") {
                     for (let article of this.articles) {
                         matched.push(article);
                     }
@@ -101,6 +102,16 @@ function load(gomidata) {
                     }
                 }
                 this.matchedArticles = matched;
+            },
+            articleClicked(article) {
+                this.selectedArticle = article
+                console.log(article.name)
+            },
+            closePopup() {
+                this.selectedArticle = null
+            },
+            dummy(e) {
+                e.stopPropagation()
             }
         }
     });

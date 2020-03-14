@@ -128,15 +128,22 @@ function load(gomidata) {
             },
             popupKeydown(e) {
                 if (e.key == "ArrowUp" || e.key == "ArrowLeft") {
-                    this.moveArticleSelection(-1);
+                    this.moveArticleSelection(-1, true);
                 } else if (e.key == "ArrowDown" || e.key == "ArrowRight") {
-                    this.moveArticleSelection(+1);
+                    this.moveArticleSelection(+1, true);
+                } else if (e.key == "PageUp") {
+                    this.moveArticleSelection(-10, false);
+                } else if (e.key == "PageDown") {
+                    this.moveArticleSelection(+10, false);
+                } else if (e.key == "Home") {
+                    this.moveArticleSelection(-this.allArticles.length, false);
+                } else if (e.key == "End") {
+                    this.moveArticleSelection(+this.allArticles.length, false);
                 } else if (e.key == "Enter") {
                     this.closePopup();
                 }
             },
-            moveArticleSelection(offset) {
-                const wraparound = true;
+            moveArticleSelection(offset, wraparound) {
                 const nextIndex = getIndex(this.matchedArticles, this.selectedArticle, offset, wraparound);
                 if (nextIndex !== -1) {
                     this.selectedArticle = this.matchedArticles[nextIndex];

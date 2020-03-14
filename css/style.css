@@ -141,6 +141,7 @@ input::placeholder {
 	padding: 2.0rem;
 	background-color: white;
 	border-radius: 0.2rem;
+	outline: none;
 }
 
 .popup-close {

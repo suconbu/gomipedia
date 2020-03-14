@@ -73,6 +73,10 @@ function getIndex(articles, article, offset, wraparound) {
     return index;
 }
 
+function getMatchedArticles(articles, keyword) {
+    return keyword ? articles.filter(article => article.name.indexOf(keyword) !== -1) : articles;
+}
+
 const data = {};
 
 const request = new XMLHttpRequest();
@@ -87,15 +91,15 @@ request.onload = function() {
 function load(gomidata) {
     data.cityName = gomidata.cityName;
     data.updatedAt = gomidata.updatedAt;
-    data.articles = gomidata.articles;
-    for (let i = 0; i < data.articles.length; ++i) {
-        data.articles[i].id = i;
+    data.allArticles = gomidata.articles;
+    for (let i = 0; i < data.allArticles.length; ++i) {
+        data.allArticles[i].id = i;
     }
     data.categories = categories;
-    const index = Math.floor(Math.random() * gomidata.articles.length);
-    data.placeholder = "例：" + gomidata.articles[index].name;
+    const index = Math.floor(Math.random() * data.allArticles.length);
+    data.placeholder = "例：" + data.allArticles[index].name;
     data.keyword = "";
-    data.matchedArticles = gomidata.articles;
+    data.matchedArticles = data.allArticles;
     data.selectedArticle = null;
 
     const app = new Vue({
@@ -104,31 +108,15 @@ function load(gomidata) {
         watch: {
             keyword: function(newValue, oldValue) {
                 this.keyword = newValue;
-                this.keywordChanged();
+                this.matchedArticles = getMatchedArticles(this.allArticles, this.keyword);
             }
         },
         methods: {
-            keywordChanged() {
-                const matched = []
-                if (this.keyword == "") {
-                    for (let article of this.articles) {
-                        matched.push(article);
-                    }
-                } else {
-                    for (let article of this.articles) {
-                        if (~article.name.indexOf(this.keyword)) {
-                            matched.push(article);
-                        }
-                    }
-                }
-                this.matchedArticles = matched;
-            },
             articleClicked(article) {
                 this.selectedArticle = article;
                 this.$nextTick(function() {
                     this.$refs.popupWindow.focus();
                 })
-                console.log("selectedArticle.name: " + article.name);
             },
             popupKeydown(e) {
                 if (e.key == "ArrowUp" || e.key == "ArrowLeft") {

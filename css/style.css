@@ -108,6 +108,7 @@ input::placeholder {
 	width: 2.0rem;
 	height: 2.0rem;
 	margin: 0.5rem;
+	flex-shrink: 0;
 }
 
 .legend-icon {

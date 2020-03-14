@@ -23,7 +23,7 @@
     <h1 class="title">GOMIPEDIA</h1>
     <div class="municipal">{{cityName}}版</div>
   </div>
-  <input class="keyword-input" :placeholder="placeholder" v-model="keyword" >
+  <input class="keyword-input" :placeholder="placeholder" v-model="keyword">
   <ul class="list article-list">
     <list-item-article
       v-for="article in matchedArticles"
@@ -45,7 +45,7 @@
 
 <transition name="popup">
   <div class="popup-fill" v-if="selectedArticle" @click="closePopup">
-    <div class="popup-window" @click="dummy">
+    <div class="popup-window" tabindex="0" ref="popupWindow" @click="dummy" @keydown="popupKeydown">
       <div class="popup-close" @click="closePopup">✖</div>
       <div class="popup-title"><strong>{{selectedArticle.name}}</strong> は</div>
       <img class="popup-category-icon" :src="categories[selectedArticle.category].image"/>

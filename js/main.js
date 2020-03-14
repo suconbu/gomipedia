@@ -55,6 +55,24 @@ const categories = {
     }
 };
 
+function getIndex(articles, article, offset, wraparound) {
+    let index = articles.findIndex(a => a === article)
+    if (index === -1) return -1
+    index += offset
+    if (wraparound) {
+        index =
+            (index < 0) ? (articles.length + index) :
+            (articles.length <= index) ? (index - articles.length) :
+            index
+    } else {
+        index =
+            (index < 0) ? 0 :
+            (articles.length <= index) ? (articles.length - 1) :
+            index
+    }
+    return index
+}
+
 const data = {};
 
 const request = new XMLHttpRequest();
@@ -93,8 +111,7 @@ function load(gomidata) {
                     for (let article of this.articles) {
                         matched.push(article);
                     }
-                }
-                else if (this.keyword) {
+                } else {
                     for (let article of this.articles) {
                         if (~article.name.indexOf(this.keyword)) {
                             matched.push(article);
@@ -105,7 +122,24 @@ function load(gomidata) {
             },
             articleClicked(article) {
                 this.selectedArticle = article
-                console.log(article.name)
+                this.$nextTick(function() {
+                    this.$refs.popupWindow.focus()
+                })
+                console.log("selectedArticle.name: " + article.name)
+            },
+            popupKeydown(e) {
+                if (e.key.startsWith("Arrow")) {
+                    const wraparound = true
+                    let nextIndex = -1
+                    if (e.key == "ArrowDown" || e.key == "ArrowRight") {
+                        nextIndex = getIndex(this.articles, this.selectedArticle, 1, wraparound)
+                    } else if (e.key == "ArrowUp" || e.key == "ArrowLeft") {
+                        nextIndex = getIndex(this.articles, this.selectedArticle, -1, wraparound)
+                    }
+                    if (nextIndex !== -1) {
+                        this.selectedArticle = this.articles[nextIndex]
+                    }
+                }
             },
             closePopup() {
                 this.selectedArticle = null

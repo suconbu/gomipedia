@@ -139,7 +139,7 @@ function load(gomidata) {
                     this.moveArticleSelection(-this.allArticles.length, false);
                 } else if (e.key == "End") {
                     this.moveArticleSelection(+this.allArticles.length, false);
-                } else if (e.key == "Enter") {
+                } else if (e.key == "Enter" || e.key == "Escape") {
                     this.closePopup();
                 }
             },

@@ -19,7 +19,7 @@
 <div id="app" v-cloak>
 
 <main>
-  <div class="title-unit">
+  <div class="title-box">
     <h1 class="title">GOMIPEDIA</h1>
     <div class="municipal">{{cityName}}版</div>
   </div>
@@ -27,7 +27,8 @@
   <ul class="list article-list">
     <list-item-article
       v-for="article in matchedArticles"
-      :key="article.name"
+      ref="article"
+      :key="article.id"
       :article="article"
       :category="categories[article.category]"
       :click="articleClicked">
@@ -46,7 +47,15 @@
 <transition name="popup">
   <div class="popup-fill" v-if="selectedArticle" @click="closePopup">
     <div class="popup-window" tabindex="0" ref="popupWindow" @click="dummy" @keydown="popupKeydown">
-      <div class="popup-close" @click="closePopup">✖</div>
+      <div class="popup-close-box" @click="closePopup">
+        <div class="popup-close">✖</div>
+      </div>
+      <div class="popup-prev-box">
+        <div class="popup-prev" @click="moveArticleSelection(-1)">&lt;</div>
+      </div>
+      <div class="popup-next-box">
+        <div class="popup-next" @click="moveArticleSelection(+1)">&gt;</div>
+      </div>
       <div class="popup-title"><strong>{{selectedArticle.name}}</strong> は</div>
       <img class="popup-category-icon" :src="categories[selectedArticle.category].image"/>
       <div class="popup-category-text"><strong>{{categories[selectedArticle.category].name}}</strong> です。</div>

@@ -74,7 +74,15 @@ function getIndex(articles, article, offset, wraparound) {
 }
 
 function getMatchedArticles(articles, keyword) {
-    return keyword ? articles.filter(article => article.name.indexOf(keyword) !== -1) : articles;
+    let matched = [];
+    if (keyword) {
+        matched = matched.concat(articles.filter(article => article.name === keyword));
+        matched = matched.concat(articles.filter(article => article.name.startsWith(keyword) && matched.indexOf(article) === -1));
+        matched = matched.concat(articles.filter(article => article.name.indexOf(keyword) !== -1 && matched.indexOf(article) === -1));
+    } else {
+        matched = articles;
+    }
+    return matched;
 }
 
 const data = {};

@@ -139,6 +139,8 @@ function load(gomidata) {
                     if (nextIndex !== -1) {
                         this.selectedArticle = this.articles[nextIndex]
                     }
+                } else if (e.key == "Enter") {
+                    this.closePopup()
                 }
             },
             closePopup() {

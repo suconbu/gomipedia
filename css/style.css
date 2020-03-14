@@ -61,7 +61,7 @@ input::placeholder {
 }
 
 .list-item {
-	padding: 0.5rem 0.5rem;
+	/* padding: 0.5rem 0.5rem; */
 }
 
 .article-list {
@@ -73,6 +73,9 @@ input::placeholder {
 }
 
 .article-list-item {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
 	font-size: 1.5rem;
 	font-weight: 800;
 }
@@ -91,22 +94,32 @@ input::placeholder {
 }
 
 .legend-list-item {
-	padding: 0.2rem 0.5rem;
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: center;
+	padding: 0.2rem;
+	margin-right: 0.5rem;
+}
+.legend-list-item:last-child {
+	margin-right: 0;
 }
 
 .article-icon {
 	width: 2.0rem;
 	height: 2.0rem;
+	margin: 0.5rem;
 }
 
 .legend-icon {
 	width: 1.0rem;
 	height: 1.0rem;
+	margin: 0.2rem;
 }
 
 .note-icon {
 	width: 1.0rem;
 	height: 1.0rem;
+	margin: 0.5rem;
 }
 
 .popup-fill {

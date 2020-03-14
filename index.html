@@ -47,20 +47,20 @@
 <transition name="popup">
   <div class="popup-fill" v-if="selectedArticle" @click="closePopup">
     <div class="popup-window" tabindex="0" ref="popupWindow" @click="dummy" @keydown="popupKeydown">
+      <div class="popup-pager-box">
+        <div class="popup-prev" @click="moveArticleSelection(-1)">&lt;</div>
+        <div class="popup-next" @click="moveArticleSelection(+1)">&gt;</div>
+      </div>
       <div class="popup-close-box" @click="closePopup">
         <div class="popup-close">✖</div>
       </div>
-      <div class="popup-prev-box">
-        <div class="popup-prev" @click="moveArticleSelection(-1)">&lt;</div>
+      <div class="popup-content-box">
+        <div class="popup-title"><strong>{{selectedArticle.name}}</strong> は</div>
+        <img class="popup-category-icon" :src="categories[selectedArticle.category].image"/>
+        <div class="popup-category-text"><strong>{{categories[selectedArticle.category].name}}</strong> です。</div>
+        <img class="popup-note-icon" src="img/note.png" v-if="selectedArticle.note"/>
+        <div class="popup-note-text" v-if="selectedArticle.note">{{selectedArticle.note}}</div>
       </div>
-      <div class="popup-next-box">
-        <div class="popup-next" @click="moveArticleSelection(+1)">&gt;</div>
-      </div>
-      <div class="popup-title"><strong>{{selectedArticle.name}}</strong> は</div>
-      <img class="popup-category-icon" :src="categories[selectedArticle.category].image"/>
-      <div class="popup-category-text"><strong>{{categories[selectedArticle.category].name}}</strong> です。</div>
-      <img class="popup-note-icon" src="img/note.png" v-if="selectedArticle.note"/>
-      <div class="popup-note-text" v-if="selectedArticle.note">{{selectedArticle.note}}</div>
     </div>
   </div>
 </transition>

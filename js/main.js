@@ -141,9 +141,9 @@ function load(gomidata) {
             },
             moveArticleSelection(offset) {
                 const wraparound = true;
-                const nextIndex = getIndex(this.articles, this.selectedArticle, offset, wraparound);
+                const nextIndex = getIndex(this.matchedArticles, this.selectedArticle, offset, wraparound);
                 if (nextIndex !== -1) {
-                    this.selectedArticle = this.articles[nextIndex];
+                    this.selectedArticle = this.matchedArticles[nextIndex];
                     this.$refs.article[nextIndex].$el.scrollIntoView(false);
                 }
             },

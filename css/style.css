@@ -137,11 +137,20 @@ input::placeholder {
 	align-items: center;
 	width: 100%;
 	height: auto;
-	margin: 0 calc(50% - 15rem);
-	padding: 2.0rem;
+	margin: 0 calc(50% - 16rem);
+	padding: 2.5rem;
 	background-color: white;
 	border-radius: 0.2rem;
 	outline: none;
+}
+
+.popup-window * {
+	margin-bottom: 0.5rem;
+	text-align: center;
+}
+
+.popup-window *:last-child {
+	margin-bottom: 0;
 }
 
 .popup-close-box, .popup-prev-box, .popup-next-box {
@@ -161,7 +170,6 @@ input::placeholder {
 }
 
 .popup-close {
-	text-align: center;
 	font-size: 1.5rem;
 	user-select: none;
 }
@@ -175,7 +183,6 @@ input::placeholder {
 }
 
 .popup-prev, .popup-next {
-	text-align: center;
 	font-size: 2.0rem;
 	width: 2.5rem;
 	height: 3.4rem;
@@ -186,14 +193,6 @@ input::placeholder {
 
 .popup-close-box:hover, .popup-prev:hover, .popup-next:hover {
 	background-color: orangered;
-}
-
-.popup-window * {
-	margin-bottom: 0.5rem;
-}
-
-.popup-window *:last-child {
-	margin-bottom: 0;
 }
 
 .popup-title {

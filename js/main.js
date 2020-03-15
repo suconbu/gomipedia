@@ -107,8 +107,9 @@ function load(gomidata) {
     const index = Math.floor(Math.random() * data.allArticles.length);
     data.placeholder = "例：" + data.allArticles[index].name;
     data.keyword = "";
-    data.matchedArticles = data.allArticles;
     data.selectedArticle = null;
+    data.waitingArticles = [];
+    data.appearedArticles = [];
 
     const app = new Vue({
         el: "#app",
@@ -117,10 +118,27 @@ function load(gomidata) {
             keyword: function(newValue, oldValue) {
                 this.keyword = newValue;
                 this.keywordRegex = new RegExp(this.keyword, "ig");
-                this.matchedArticles = getMatchedArticles(this.allArticles, this.keyword);
+                this.updateAppearedArticles(getMatchedArticles(this.allArticles, this.keyword));
             }
         },
+        created() {
+            this.updateAppearedArticles(this.allArticles);
+        },
         methods: {
+            updateAppearedArticles(articles) {
+                this.waitingArticles = articles;
+                this.appearedArticles = [];
+                this.transferAppearedArticles(0, 50);
+            },
+            transferAppearedArticles(start, count) {
+                if (start < this.waitingArticles.length) {
+                    const articles = this.waitingArticles.slice(start, start + count);
+                    this.appearedArticles = this.appearedArticles.concat(articles);
+                    setTimeout(() => this.transferAppearedArticles(start + articles.length, count), 10)
+                } else {
+                    this.waitingArticles = [];
+                }
+            },
             articleClicked(article) {
                 this.selectedArticle = article;
                 this.$nextTick(function() {
@@ -145,9 +163,9 @@ function load(gomidata) {
                 }
             },
             moveArticleSelection(offset, wraparound) {
-                const nextIndex = getIndex(this.matchedArticles, this.selectedArticle, offset, wraparound);
+                const nextIndex = getIndex(this.appearedArticles, this.selectedArticle, offset, wraparound);
                 if (nextIndex !== -1) {
-                    this.selectedArticle = this.matchedArticles[nextIndex];
+                    this.selectedArticle = this.appearedArticles[nextIndex];
                     this.$refs.article[nextIndex].$el.scrollIntoView(false);
                 }
             },

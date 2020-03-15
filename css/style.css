@@ -84,6 +84,24 @@ input::placeholder {
 	background-color: #eee;
 }
 
+.article-icon {
+	width: 2.0rem;
+	height: 2.0rem;
+	margin: 0.5rem;
+	flex-shrink: 0;
+}
+
+.note-icon {
+	width: 1.0rem;
+	height: 1.0rem;
+	margin: 0.5rem;
+}
+
+.keyword-highlight {
+	background-color: rgba(255, 69, 0, 0.3); /* orangered */
+	border-radius: 0.2rem;
+}
+
 .legend-list {
 	margin-top: auto;
 	display: flex;
@@ -104,23 +122,10 @@ input::placeholder {
 	margin-right: 0;
 }
 
-.article-icon {
-	width: 2.0rem;
-	height: 2.0rem;
-	margin: 0.5rem;
-	flex-shrink: 0;
-}
-
 .legend-icon {
 	width: 1.0rem;
 	height: 1.0rem;
 	margin: 0.2rem;
-}
-
-.note-icon {
-	width: 1.0rem;
-	height: 1.0rem;
-	margin: 0.5rem;
 }
 
 .popup-fill {

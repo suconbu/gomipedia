@@ -1,10 +1,10 @@
 
 Vue.component("list-item-article", {
-    props: ["article", "category", "click"],
+    props: ["article", "category", "click", "highlighter"],
     template: `
         <li class="list-item article-list-item" @click="click(article)">
             <img class="article-icon" :src="category.image">
-            {{article.name}}
+            <span v-html="highlighter(article.name)" />
             <img class="note-icon" v-if="article.note" src="img/note.png">
         </li>
     `
@@ -116,6 +116,7 @@ function load(gomidata) {
         watch: {
             keyword: function(newValue, oldValue) {
                 this.keyword = newValue;
+                this.keywordRegex = new RegExp(this.keyword, "ig");
                 this.matchedArticles = getMatchedArticles(this.allArticles, this.keyword);
             }
         },
@@ -155,6 +156,9 @@ function load(gomidata) {
             },
             dummy(e) {
                 e.stopPropagation();
+            },
+            getKeywordHighlighted(text) {
+                return this.keyword ? text.replace(this.keywordRegex, match => "<span class='keyword-highlight'>" + match + "</span>") : text;
             }
         }
     });

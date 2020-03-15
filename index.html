@@ -31,7 +31,8 @@
       :key="article.id"
       :article="article"
       :category="categories[article.category]"
-      :click="articleClicked">
+      :click="articleClicked"
+      :highlighter="getKeywordHighlighted">
     </list-item-article>
   </ul>
   <ul class="list legend-list">

@@ -19,10 +19,7 @@
 <div id="app" v-cloak>
 
 <main>
-  <div class="title-box">
-    <h1 class="title">GOMIPEDIA</h1>
-    <div class="municipal">{{cityName}}版</div>
-  </div>
+  <h1 class="title">{{cityName}}のごみ分別検索</h1>
   <input class="keyword-input" :placeholder="placeholder" v-model="keyword">
   <ul class="list article-list">
     <list-item-article

@@ -110,6 +110,7 @@ function load(gomidata) {
     data.selectedArticle = null;
     data.waitingArticles = [];
     data.appearedArticles = [];
+    data.timeoutId = 0;
 
     const app = new Vue({
         el: "#app",
@@ -128,14 +129,18 @@ function load(gomidata) {
             updateAppearedArticles(articles) {
                 this.waitingArticles = articles;
                 this.appearedArticles = [];
+                if (this.timeoutId) {
+                    clearTimeout(this.timeoutId);
+                }
                 this.transferAppearedArticles(0, 50);
             },
             transferAppearedArticles(start, count) {
                 if (start < this.waitingArticles.length) {
                     const articles = this.waitingArticles.slice(start, start + count);
                     this.appearedArticles = this.appearedArticles.concat(articles);
-                    setTimeout(() => this.transferAppearedArticles(start + articles.length, count), 10)
+                    this.timeoutId = setTimeout(() => this.transferAppearedArticles(start + articles.length, count), 10)
                 } else {
+                    this.timeoutId = 0;
                     this.waitingArticles = [];
                 }
             },

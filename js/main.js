@@ -2,7 +2,7 @@
 Vue.component("list-item-article", {
     props: ["article", "category", "click", "highlighter"],
     template: `
-        <li class="list-item article-list-item" @click="click(article)">
+        <li class="article-list-item" @click="click(article)">
             <img class="article-icon" :src="category.image">
             <span v-html="highlighter(article.name)" />
             <img class="note-icon" v-if="article.note" src="img/note.png">
@@ -13,7 +13,7 @@ Vue.component("list-item-article", {
 Vue.component("list-item-legend", {
     props: ["category"],
     template: `
-        <li class="list-item legend-list-item">
+        <li class="legend-list-item">
             <img class="legend-icon" :src="category.image">
             {{category.name}}
         </li>
@@ -21,38 +21,14 @@ Vue.component("list-item-legend", {
 })
 
 const categories = {
-    burnable : {
-        "name" : "可燃ごみ",
-        "image" : "img/burnable.png"
-    },
-    nonburnable : {
-        "name" : "不燃ごみ",
-        "image" : "img/nonburnable.png"
-    },
-    hazardous : {
-        "name" : "危険ごみ",
-        "image" : "img/hazardous.png"
-    },
-    oversized : {
-        "name" : "粗大ごみ",
-        "image" : "img/oversized.png"
-    },
-    recyclable : {
-        "name" : "資源",
-        "image" : "img/recyclable.png"
-    },
-    specificrecycling : {
-        "name" : "家電リサイクル法対象",
-        "image" : "img/specificrecycling.png"
-    },
-    uncollectible : {
-        "name" : "回収できません",
-        "image" : "img/uncollectible.png"
-    },
-    unknown : {
-        "name" : "分類不明",
-        "image" : "img/unknown.png"
-    }
+    burnable: { "name": "可燃ごみ", "image": "img/burnable.png" },
+    unburnable: { "name": "不燃ごみ", "image": "img/unburnable.png" },
+    hazardous: { "name": "危険ごみ", "image": "img/hazardous.png" },
+    oversized: { "name": "粗大ごみ", "image": "img/oversized.png" },
+    recyclable: { "name": "資源", "image": "img/recyclable.png" },
+    legalrecycling: { "name": "家電リサイクル法対象", "image": "img/legalrecycling.png" },
+    uncollectible: { "name": "回収できません", "image": "img/uncollectible.png" },
+    unknown: { "name": "分類不明", "image": "img/unknown.png" }
 };
 
 function getIndex(articles, article, offset, wraparound) {
@@ -97,8 +73,9 @@ request.onload = function() {
 }
 
 function load(gomidata) {
-    data.cityName = gomidata.cityName;
+    data.municipality = gomidata.municipality;
     data.updatedAt = gomidata.updatedAt;
+    data.sourceUrl = gomidata.sourceUrl;
     data.allArticles = gomidata.articles;
     for (let i = 0; i < data.allArticles.length; ++i) {
         data.allArticles[i].id = i;

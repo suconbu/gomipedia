@@ -7,6 +7,7 @@
 <link rel="stylesheet"  href="css/style.css">
 <script src="js/vue.js"></script>
 <script>
+  // Adjust page height for mobile Chrome
   let vh = window.innerHeight * 0.01; 
   document.documentElement.style.setProperty('--vh', `${vh}px`); 
   window.addEventListener('resize', () => { 
@@ -19,7 +20,7 @@
 <div id="app" v-cloak>
 
 <main>
-  <h1 class="title">{{cityName}}のごみ分別検索</h1>
+  <h1 class="title">{{municipality}}のごみ分別検索</h1>
   <input class="keyword-input" :placeholder="placeholder" v-model="keyword">
   <ul class="list article-list">
     <list-item-article

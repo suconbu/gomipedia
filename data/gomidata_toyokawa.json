@@ -1,10 +1,11 @@
 {
-  "cityName": "豊川市",
+  "municipality": "豊川市",
   "updatedAt": "2019-12-16",
+  "sourceUrl": "https://www.city.toyokawa.lg.jp/smph/kurashi/gomirecycle/gomihayamihyo/",
   "articles": [
     {
       "name": "アイスピック",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "先端にセロテープなどを巻きつけて刺さらないようにしてください。"
     },
     {
@@ -19,7 +20,7 @@
     },
     {
       "name": "アイロン",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -49,7 +50,7 @@
     },
     {
       "name": "アダプター",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -79,7 +80,7 @@
     },
     {
       "name": "油カン（機械用、自動車用など）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "中身のないものに限ります。事業で使用したものは廃棄物処理業者に相談してください。"
     },
     {
@@ -124,7 +125,7 @@
     },
     {
       "name": "アルミホイルの刃",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "プラスチック製、紙製は可燃ごみ。"
     },
     {
@@ -134,7 +135,7 @@
     },
     {
       "name": "安全カミソリ（金属製、一体型）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "刃物は金属製でも不燃ごみです。紙に包んでください。"
     },
     {
@@ -174,7 +175,7 @@
     },
     {
       "name": "板ガラス",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -199,7 +200,7 @@
     },
     {
       "name": "イヤホン",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -214,12 +215,12 @@
     },
     {
       "name": "衣類乾燥機",
-      "category": "specificrecycling",
+      "category": "legalrecycling",
       "note": ""
     },
     {
       "name": "イルミネーション",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -244,7 +245,7 @@
     },
     {
       "name": "インターホン",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -274,7 +275,7 @@
     },
     {
       "name": "植木鉢（陶磁器製）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "プラスチック製は可燃ごみ。指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -299,7 +300,7 @@
     },
     {
       "name": "梅干のビン（漬け込み用のもの）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "ガラス製でも資源になりません。"
     },
     {
@@ -309,7 +310,7 @@
     },
     {
       "name": "エアコン（室外機含む）",
-      "category": "specificrecycling",
+      "category": "legalrecycling",
       "note": ""
     },
     {
@@ -319,7 +320,7 @@
     },
     {
       "name": "絵の具（金属製チューブ）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "プラスチック製チューブは可燃ごみ。"
     },
     {
@@ -344,12 +345,12 @@
     },
     {
       "name": "園芸用噴霧器（金属製）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "プラスチック製は可燃ごみ。指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "延長コード",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "束ねてください。リール式は指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -359,12 +360,12 @@
     },
     {
       "name": "鉛筆削り",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
       "name": "LED電球",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "危険ごみではありません。"
     },
     {
@@ -374,7 +375,7 @@
     },
     {
       "name": "オイル缶",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "中身のないものに限ります。ふたを開けた状態で指定袋に入れて出してください。"
     },
     {
@@ -384,12 +385,12 @@
     },
     {
       "name": "オーディオ機器",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "オーブントースター",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -414,7 +415,7 @@
     },
     {
       "name": "斧",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -444,7 +445,7 @@
     },
     {
       "name": "おもちゃ（プラスチック、金属が混合）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "電池は抜いて出してください。金属部分がネジ数本程度なら可燃ごみ。"
     },
     {
@@ -504,7 +505,7 @@
     },
     {
       "name": "懐中電灯",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "電池は抜いて出してください。"
     },
     {
@@ -514,7 +515,7 @@
     },
     {
       "name": "鏡",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -534,7 +535,7 @@
     },
     {
       "name": "傘・折りたたみ傘",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋からはみ出しても不燃ごみ。"
     },
     {
@@ -544,12 +545,12 @@
     },
     {
       "name": "加湿器",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "果実酒等の広口ガラス容器",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "ガラス製でも資源になりません。"
     },
     {
@@ -569,7 +570,7 @@
     },
     {
       "name": "カセットコンロ",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "カセットボンベは外して出してください。カセットボンベは危険ごみ。"
     },
     {
@@ -584,7 +585,7 @@
     },
     {
       "name": "カッター類の刃",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "刃物は金属製でも不燃ごみです。紙に包んでください。"
     },
     {
@@ -604,7 +605,7 @@
     },
     {
       "name": "花びん（陶磁器製・ガラス製）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -614,7 +615,7 @@
     },
     {
       "name": "鎌",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "刃物は金属製でも不燃ごみです。紙に包んでください。"
     },
     {
@@ -624,7 +625,7 @@
     },
     {
       "name": "かみそり（金属製、一体型）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "刃物は金属製でも不燃ごみです。紙に包んでください。"
     },
     {
@@ -639,7 +640,7 @@
     },
     {
       "name": "カメラ",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -659,7 +660,7 @@
     },
     {
       "name": "ガラス（食器、工芸品）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -679,7 +680,7 @@
     },
     {
       "name": "軽石",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -729,7 +730,7 @@
     },
     {
       "name": "キーボード（パソコン）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "パソコン本体と一緒にリサイクル可能です。"
     },
     {
@@ -779,7 +780,7 @@
     },
     {
       "name": "きゅうす",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "金属製は資源。"
     },
     {
@@ -789,7 +790,7 @@
     },
     {
       "name": "吸入器",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -809,7 +810,7 @@
     },
     {
       "name": "金庫（家庭用の小さな手提げのもの）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "耐火金庫などコンクリート入りのものは廃棄物処理業者に相談してください。"
     },
     {
@@ -824,7 +825,7 @@
     },
     {
       "name": "空気清浄機",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -849,7 +850,7 @@
     },
     {
       "name": "草刈機の刃",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "刃物は金属製でも不燃ごみです。紙に包んでください。"
     },
     {
@@ -864,7 +865,7 @@
     },
     {
       "name": "薬の金属製チューブ（塗り薬）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -874,7 +875,7 @@
     },
     {
       "name": "薬のびん（塗り薬、ガラスびん）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "ふたは金属製なら資源。プラスチック製なら可燃ごみ。"
     },
     {
@@ -939,7 +940,7 @@
     },
     {
       "name": "携行缶",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "燃料を抜いて指定袋に入れて出してください。"
     },
     {
@@ -949,7 +950,7 @@
     },
     {
       "name": "携帯電話・携帯電話用充電器",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "各社ショップ等の回収制度もご利用ください。"
     },
     {
@@ -959,17 +960,17 @@
     },
     {
       "name": "計量ばかり（家庭用）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "電池は抜いて出してください。"
     },
     {
       "name": "ケーブル（電話用・パソコン用）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "長いものは束ねてください。"
     },
     {
       "name": "ゲーム機",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -1004,7 +1005,7 @@
     },
     {
       "name": "血圧計（デジタル式）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -1029,12 +1030,12 @@
     },
     {
       "name": "顕微鏡",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
       "name": "碁石",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
@@ -1049,7 +1050,7 @@
     },
     {
       "name": "工具類",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "全て金属のものは資源。"
     },
     {
@@ -1064,17 +1065,17 @@
     },
     {
       "name": "コード",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "長いものは束ねてください。"
     },
     {
       "name": "コーヒーメーカー",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
       "name": "小型家電製品",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -1089,7 +1090,7 @@
     },
     {
       "name": "コップ（ガラス製・陶磁器製）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "金属製は資源。"
     },
     {
@@ -1124,7 +1125,7 @@
     },
     {
       "name": "コンパクト（化粧用）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -1134,7 +1135,7 @@
     },
     {
       "name": "コンポ",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -1174,7 +1175,7 @@
     },
     {
       "name": "殺虫剤ビン",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "中身を使い切って出してください。"
     },
     {
@@ -1189,7 +1190,7 @@
     },
     {
       "name": "三脚",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -1219,7 +1220,7 @@
     },
     {
       "name": "CDプレーヤー・ＣＤラジカセ",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -1229,7 +1230,7 @@
     },
     {
       "name": "磁気ネックレス",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -1239,7 +1240,7 @@
     },
     {
       "name": "磁石（マグネット）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -1249,12 +1250,12 @@
     },
     {
       "name": "七輪（しちりん）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "室外機のみ",
-      "category": "specificrecycling",
+      "category": "legalrecycling",
       "note": "室外機のみ処分する場合も家電リサイクル料金が掛かります。"
     },
     {
@@ -1284,12 +1285,12 @@
     },
     {
       "name": "シャープペンシル（金属製）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "蛇口",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "全て金属のものは資源。"
     },
     {
@@ -1299,7 +1300,7 @@
     },
     {
       "name": "ジューサー",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -1309,7 +1310,7 @@
     },
     {
       "name": "充電器（家庭用）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -1339,12 +1340,12 @@
     },
     {
       "name": "浄水器",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
       "name": "照明器具",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。蛍光管は外して危険ごみ。"
     },
     {
@@ -1354,7 +1355,7 @@
     },
     {
       "name": "食卓カバー（かさ式のもの）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "骨がプラスチック製のものは可燃ごみ。"
     },
     {
@@ -1399,7 +1400,7 @@
     },
     {
       "name": "食器類（陶磁器・ガラス製）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -1414,7 +1415,7 @@
     },
     {
       "name": "水槽・水槽専用クーラー",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "水槽は指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -1424,7 +1425,7 @@
     },
     {
       "name": "炊飯器",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -1459,7 +1460,7 @@
     },
     {
       "name": "スキー靴・スノーボードの靴・スケート靴",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -1479,7 +1480,7 @@
     },
     {
       "name": "すずり（習字道具）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
@@ -1489,7 +1490,7 @@
     },
     {
       "name": "スタンプ台（主に金属製）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
@@ -1499,7 +1500,7 @@
     },
     {
       "name": "ステレオ",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -1534,7 +1535,7 @@
     },
     {
       "name": "すり鉢",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -1564,7 +1565,7 @@
     },
     {
       "name": "せともの類",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -1594,7 +1595,7 @@
     },
     {
       "name": "洗濯機",
-      "category": "specificrecycling",
+      "category": "legalrecycling",
       "note": ""
     },
     {
@@ -1629,7 +1630,7 @@
     },
     {
       "name": "双眼鏡",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -1669,12 +1670,12 @@
     },
     {
       "name": "体重計（ヘルスメーター）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
       "name": "耐熱食器・容器",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
@@ -1789,7 +1790,7 @@
     },
     {
       "name": "彫刻刀",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "刃先をセロテープなどで保護してください。"
     },
     {
@@ -1834,7 +1835,7 @@
     },
     {
       "name": "爪きり",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "刃物は金属製でも不燃ごみです。"
     },
     {
@@ -1859,12 +1860,12 @@
     },
     {
       "name": "DVDレコーダー・DVDプレーヤー",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "テープレコーダー",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -1904,7 +1905,7 @@
     },
     {
       "name": "テレビ（ブラウン管・液晶・プラズマ）",
-      "category": "specificrecycling",
+      "category": "legalrecycling",
       "note": ""
     },
     {
@@ -1919,22 +1920,22 @@
     },
     {
       "name": "電気釜",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "電気かみそり",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
       "name": "電気スタンド",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。蛍光管は外して危険ごみ。"
     },
     {
       "name": "電気ストーブ",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -1944,7 +1945,7 @@
     },
     {
       "name": "電球（白熱電球・豆電球など）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -1954,7 +1955,7 @@
     },
     {
       "name": "電子体温計",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -1969,7 +1970,7 @@
     },
     {
       "name": "電卓",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "電池式は電池を抜いて出してください。"
     },
     {
@@ -1994,12 +1995,12 @@
     },
     {
       "name": "電話機",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
       "name": "砥石（といし）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -2009,7 +2010,7 @@
     },
     {
       "name": "陶磁器",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -2034,12 +2035,12 @@
     },
     {
       "name": "トースター",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
       "name": "時計（腕時計・置時計）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "電池は抜いて出してください。"
     },
     {
@@ -2054,12 +2055,12 @@
     },
     {
       "name": "土鍋",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
       "name": "ドライヤー",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -2074,7 +2075,7 @@
     },
     {
       "name": "塗料缶（金属製）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "中身のないものに限ります。プラスチック製は可燃ごみ。"
     },
     {
@@ -2094,12 +2095,12 @@
     },
     {
       "name": "トロフィー",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
       "name": "ナイフ",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "紙で包んでください。"
     },
     {
@@ -2129,7 +2130,7 @@
     },
     {
       "name": "鍋の蓋（ガラス製）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "金属製は資源。"
     },
     {
@@ -2154,7 +2155,7 @@
     },
     {
       "name": "入浴剤の容器（金属と紙製混合）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
@@ -2194,7 +2195,7 @@
     },
     {
       "name": "ネクタイピン",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -2239,12 +2240,12 @@
     },
     {
       "name": "農薬缶（容器のみ）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "家庭菜園等の少量のものに限ります。農業で出たものは産業廃棄物です。廃棄物処理業者に相談してください。"
     },
     {
       "name": "農薬ビン（容器のみ）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "家庭菜園等の少量のものに限ります。農業で出たものは産業廃棄物です。廃棄物処理業者に相談してください。"
     },
     {
@@ -2254,7 +2255,7 @@
     },
     {
       "name": "のこぎり",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -2294,7 +2295,7 @@
     },
     {
       "name": "ハサミ",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "刃物は金属製でも不燃ごみです。紙に包んでください。"
     },
     {
@@ -2309,7 +2310,7 @@
     },
     {
       "name": "パソコン周辺機器",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "パソコン本体と一緒にリサイクル可能です。"
     },
     {
@@ -2364,7 +2365,7 @@
     },
     {
       "name": "刃物",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "刃物は金属製でも不燃ごみです。紙に包んでください。"
     },
     {
@@ -2394,7 +2395,7 @@
     },
     {
       "name": "BSアンテナ",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -2404,7 +2405,7 @@
     },
     {
       "name": "ビー玉",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -2424,12 +2425,12 @@
     },
     {
       "name": "ピッケル（登山用品）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
       "name": "ビデオカメラ",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -2439,7 +2440,7 @@
     },
     {
       "name": "ビデオデッキ",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -2499,7 +2500,7 @@
     },
     {
       "name": "ビン（上記以外）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "飲食料以外のガラス製品は不燃ごみ。"
     },
     {
@@ -2509,7 +2510,7 @@
     },
     {
       "name": "ファックス",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "家庭用のものに限ります。指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -2549,7 +2550,7 @@
     },
     {
       "name": "布団乾燥機",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -2684,7 +2685,7 @@
     },
     {
       "name": "ヘッドホン",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -2719,7 +2720,7 @@
     },
     {
       "name": "ヘルメット",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "小中学生の通学用ヘルメットは可燃ごみ。"
     },
     {
@@ -2779,12 +2780,12 @@
     },
     {
       "name": "包丁",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "刃物は金属製でも不燃ごみです。紙に包んでください。"
     },
     {
       "name": "防犯ブザー",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -2829,12 +2830,12 @@
     },
     {
       "name": "補聴器",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
       "name": "ホッチキス",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -2844,12 +2845,12 @@
     },
     {
       "name": "ホットプレート",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "ポット（電気ポットも含む）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -2879,7 +2880,7 @@
     },
     {
       "name": "ホワイトボード",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -2894,12 +2895,12 @@
     },
     {
       "name": "マイク",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "電池は抜いて出してください。"
     },
     {
       "name": "マグネット、マグネットシート",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -2914,7 +2915,7 @@
     },
     {
       "name": "マジックペン（金属製）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
@@ -2954,22 +2955,22 @@
     },
     {
       "name": "万年筆",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
       "name": "万歩計",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
       "name": "ミキサー",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
       "name": "ミシン",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -2979,7 +2980,7 @@
     },
     {
       "name": "水差し",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
@@ -2989,7 +2990,7 @@
     },
     {
       "name": "ミニコンポ",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -3019,7 +3020,7 @@
     },
     {
       "name": "虫めがね（ガラス製）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
@@ -3029,7 +3030,7 @@
     },
     {
       "name": "めがね",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "レンズがプラスチック製なら可燃ごみ。"
     },
     {
@@ -3049,7 +3050,7 @@
     },
     {
       "name": "メジャー（金属製）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
@@ -3059,7 +3060,7 @@
     },
     {
       "name": "モーター（玩具用）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -3114,7 +3115,7 @@
     },
     {
       "name": "ヤスリ",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -3174,7 +3175,7 @@
     },
     {
       "name": "ライター（オイルライター、ガスライター等の充填式のもの）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "燃料を抜いてください。"
     },
     {
@@ -3184,12 +3185,12 @@
     },
     {
       "name": "ラジオ",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "電池は抜いて出してください。"
     },
     {
       "name": "ラジコン",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "電池は抜いて出してください。指定袋に入らないものは粗大ごみ。"
     },
     {
@@ -3204,12 +3205,12 @@
     },
     {
       "name": "ラップの刃（金属製）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "プラスチック製、紙製は可燃ごみ。"
     },
     {
       "name": "ランチジャー（金属部分含む）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
@@ -3219,12 +3220,12 @@
     },
     {
       "name": "ランプ",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "燃料を抜いてください。"
     },
     {
       "name": "リール（釣具）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "釣り糸は可燃ごみ。"
     },
     {
@@ -3239,7 +3240,7 @@
     },
     {
       "name": "リモコン",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "電池は抜いて出してください。"
     },
     {
@@ -3254,7 +3255,7 @@
     },
     {
       "name": "ルアー（釣具）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -3264,12 +3265,12 @@
     },
     {
       "name": "ルーペ",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "冷蔵庫・冷凍庫",
-      "category": "specificrecycling",
+      "category": "legalrecycling",
       "note": ""
     },
     {
@@ -3319,7 +3320,7 @@
     },
     {
       "name": "ローラースケート、ローラーブレード",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": ""
     },
     {
@@ -3329,7 +3330,7 @@
     },
     {
       "name": "ワープロ（専用機で、パソコンでないもの）",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
@@ -3339,7 +3340,7 @@
     },
     {
       "name": "ワインセラー",
-      "category": "specificrecycling",
+      "category": "legalrecycling",
       "note": ""
     },
     {
@@ -3379,7 +3380,7 @@
     },
     {
       "name": "割れたビン",
-      "category": "nonburnable",
+      "category": "unburnable",
       "note": "紙に包んで出してください。"
     }
   ]

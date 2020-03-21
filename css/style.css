@@ -244,4 +244,6 @@ input::placeholder {
 }
 .popup-note-text {
 	font-size: 1.5rem;
+	max-height: 20vh;
+	overflow-y: auto;
 }

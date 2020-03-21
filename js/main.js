@@ -1,26 +1,34 @@
 
-Vue.component("list-item-article", {
-    props: ["article", "category", "click", "highlighter"],
+Vue.component("list-item", {
+    props: ["data", "text", "image", "exclamation", "click", "highlighter"],
     template: `
-        <li class="article-list-item" @click="click(article)">
-            <img class="article-icon" :src="category.image">
-            <span v-html="highlighter(article.name)" />
-            <img class="note-icon" v-if="article.note" src="img/note.png">
+        <li @click="click(data)">
+            <img class="normal-icon" v-if="image" :src="image">
+            <span v-html="highlighter ? highlighter(text) : text" />
+            <img class="small-icon" v-if="exclamation" src="img/note.png">
         </li>
     `
 })
 
-Vue.component("list-item-legend", {
-    props: ["category"],
+Vue.component("legend-list-item", {
+    props: ["text", "image"],
     template: `
         <li class="legend-list-item">
-            <img class="legend-icon" :src="category.image">
-            {{category.name}}
+            <img class="legend-icon" :src="image">{{text}}
         </li>
     `
 })
 
-const categories = {
+let app = null;
+const data = {};
+
+data.currentMunicipalityId = "toyokawa-city"
+
+data.allMunicipalities = {
+    "toyokawa-city": { name: "豊川市", data: "gomidata_toyokawa.json" }
+};
+
+data.categories = {
     burnable: { "name": "可燃ごみ", "image": "img/burnable.png" },
     unburnable: { "name": "不燃ごみ", "image": "img/unburnable.png" },
     hazardous: { "name": "危険ごみ", "image": "img/hazardous.png" },
@@ -67,26 +75,24 @@ function getMatchedArticles(articles, keyword) {
     return matched;
 }
 
-const data = {};
-
-const request = new XMLHttpRequest();
-request.open('GET', "data/gomidata_toyokawa.json");
-request.responseType = 'json';
-request.send();
-request.onload = function() {
-    const gomidata = request.response;
-    load(gomidata);
+function request(dataname) {
+    const request = new XMLHttpRequest();
+    request.open('GET', `data/${dataname}`);
+    request.responseType = 'json';
+    request.send();
+    request.onload = function() {
+        const gomidata = request.response;
+        load(gomidata);
+    }
 }
 
 function load(gomidata) {
-    data.municipality = gomidata.municipality;
     data.updatedAt = gomidata.updatedAt;
     data.sourceUrl = gomidata.sourceUrl;
     data.allArticles = gomidata.articles;
     for (let i = 0; i < data.allArticles.length; ++i) {
         data.allArticles[i].id = i;
     }
-    data.categories = categories;
     const index = Math.floor(Math.random() * data.allArticles.length);
     data.placeholder = "例：" + data.allArticles[index].name;
     data.keyword = "";
@@ -94,8 +100,11 @@ function load(gomidata) {
     data.waitingArticles = [];
     data.appearedArticles = [];
     data.timeoutId = 0;
+    data.municipalityPopupVisible = false;
 
-    const app = new Vue({
+    if (app != null) return;
+
+    app = new Vue({
         el: "#app",
         data: data,
         watch: {
@@ -103,6 +112,9 @@ function load(gomidata) {
                 this.keyword = newValue;
                 this.keywordRegex = new RegExp(this.keyword, "ig");
                 this.updateAppearedArticles(getMatchedArticles(this.allArticles, this.keyword));
+            },
+            allArticles: function(newValue, oldValue) {
+                this.updateAppearedArticles(this.allArticles)
             }
         },
         created() {
@@ -165,7 +177,20 @@ function load(gomidata) {
             },
             getKeywordHighlighted(text) {
                 return this.keyword ? text.replace(this.keywordRegex, match => "<span class='keyword-highlight'>" + match + "</span>") : text;
+            },
+            openMunicipalityPopup() {
+                this.municipalityPopupVisible = true;
+            },
+            closeMunicipalityPopup() {
+                this.municipalityPopupVisible = false;
+            },
+            municipalityClicked(municipalityId) {
+                this.municipalityPopupVisible = false;
+                this.currentMunicipalityId = municipalityId;
+                request(data.allMunicipalities[data.currentMunicipalityId].data)
             }
         }
     });
 }
+
+request(data.allMunicipalities[data.currentMunicipalityId].data)

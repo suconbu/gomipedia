@@ -20,28 +20,61 @@
 <div id="app" v-cloak>
 
 <main>
-  <h1 class="title">{{municipality}}のごみ分別検索</h1>
+  <h1 class="title">
+    <a href="javascript:void(0)" @click="openMunicipalityPopup">{{allMunicipalities[currentMunicipalityId].name}}</a>のごみ分別検索
+  </h1>
   <input class="keyword-input" :placeholder="placeholder" v-model="keyword">
-  <ul class="list article-list">
-    <list-item-article
+  <ul class="normal-list">
+    <list-item
+      class="normal-list-item"
       v-for="article in appearedArticles"
       ref="article"
       :key="article.id"
-      :article="article"
-      :category="categories[article.category]"
+      :data="article"
+      :text="article.name"
+      :image="categories[article.category].image"
+      :exclamation="article.note ? true : false"
       :click="articleClicked"
       :highlighter="getKeywordHighlighted">
-    </list-item-article>
+    </list-item>
   </ul>
-  <ul class="list legend-list">
-    <list-item-legend
+  <ul class="legend-list">
+    <legend-list-item
       v-for="key in Object.keys(categories)"
       :key="key"
-      :category="categories[key]">
+      :text="categories[key].name"
+      :image="categories[key].image">
     </list-item-legend>
   </ul>
-  <div class="datasource"><a :href="sourceUrl">分別データ取得元</a></div>
+  <div class="datasource">
+    <a :href="sourceUrl">分別データ取得元</a>
+  </div>
 </main>
+
+<transition name="popup">
+  <div class="popup-fill" v-if="municipalityPopupVisible" @click="closeMunicipalityPopup">
+    <div class="popup-window" tabindex="0" ref="popupWindow" @click="dummy" @keydown="popupKeydown">
+      <div class="popup-title">自治体の変更</div>
+      <div class="popup-close-box" @click="closeMunicipalityPopup">
+        <div class="popup-close">✖</div>
+      </div>
+      <div class="popup-content-box">
+        <!-- <input class="municipality-input" v-model="municipality"> -->
+        <ul class="normal-list-horizontal">
+          <list-item
+            class="normal-list-item-horizontal"
+            v-for="(value, id) in allMunicipalities"
+            ref="id"
+            :key="id"
+            :data="id"
+            :text="value.name"
+            :click="municipalityClicked">
+          </list-item>
+        </ul>
+      </div>
+    </div>
+  </div>
+</transition>
 
 <transition name="popup">
   <div class="popup-fill" v-if="selectedArticle" @click="closePopup">
@@ -54,7 +87,7 @@
         <div class="popup-close">✖</div>
       </div>
       <div class="popup-content-box">
-        <div class="popup-title"><strong>{{selectedArticle.name}}</strong> は</div>
+        <div class="popup-category-text"><strong>{{selectedArticle.name}}</strong> は</div>
         <img class="popup-category-icon" :src="categories[selectedArticle.category].image"/>
         <div class="popup-category-text"><strong>{{categories[selectedArticle.category].name}}</strong> です。</div>
         <img class="popup-note-icon" src="img/note.png" v-if="selectedArticle.note"/>

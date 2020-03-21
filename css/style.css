@@ -9,6 +9,20 @@ body {
 	padding: 0 2rem;
 }
 
+a {
+	color: black;
+	font-weight: bold;
+	text-decoration: underline;
+	padding: 0.2rem 0.5rem;
+	padding-right: 0;
+}
+
+a:hover {
+	color: orangered;
+	/* background-color: #eee;
+	border-radius: 0.2rem; */
+}
+
 [v-cloak] {
 	display: none;
 }
@@ -40,15 +54,6 @@ main > * {
 	margin-bottom: 0.2rem;
 }
 
-a {
-	color: #888;
-	text-decoration: underline;
-}
-
-a:hover {
-	color: orangered;
-}
-
 input {
 	width: 100%;
 	text-align: center;
@@ -63,20 +68,24 @@ input::placeholder {
 	color: #888;
 }
 
-.list {
-	list-style: none;
-	padding: 0;
-}
-
-.article-list {
+.normal-list, .normal-list-horizontal {
 	display: flex;
 	flex-flow: column nowrap;
 	min-height: 3.0rem;
 	overflow-x: hidden;
 	overflow-y: auto;
+	list-style: none;
+	padding: 0;
 }
 
-.article-list-item {
+.normal-list-horizontal {
+	flex-flow: row wrap;
+	padding: 0.5rem;
+	background-color: #eee;
+	/* outline: 1px solid orangered; */
+}
+
+.normal-list-item, .normal-list-item-horizontal {
 	display: flex;
 	flex-flow: row nowrap;
 	align-items: center;
@@ -84,18 +93,26 @@ input::placeholder {
 	font-weight: 800;
 }
 
-.article-list-item:hover {
+.normal-list-item-horizontal {
+	margin: 0.2rem;
+	padding: 0.2rem 0.5rem;
+	background-color: #fff;
+	border-radius: 0.2rem;
+	border: 1px solid #888;
+}
+
+.normal-list-item:hover, .normal-list-item-horizontal:hover {
 	background-color: #eee;
 }
 
-.article-icon {
+.normal-icon {
 	width: 2.0rem;
 	height: 2.0rem;
 	margin: 0.5rem;
 	flex-shrink: 0;
 }
 
-.note-icon {
+.small-icon {
 	width: 1.0rem;
 	height: 1.0rem;
 	margin: 0.5rem;
@@ -113,6 +130,7 @@ input::placeholder {
 	border-radius: 0.2rem;
 	padding: 0.5rem;
 	margin-bottom: 0;
+	list-style: none;
 }
 
 .legend-list-item {
@@ -161,6 +179,16 @@ input::placeholder {
 	background-color: white;
 	border-radius: 0.2rem;
 	outline: none;
+}
+
+.popup-title {
+	position: absolute;
+	text-align: center;
+	font-size: 1.5rem;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 2.5rem;
 }
 
 .popup-close-box {
@@ -216,20 +244,19 @@ input::placeholder {
 	align-items: center;
 	width: 100%;
 	height: 100%;
+	/* outline: 1px solid orangered; */
 }
 
-.popup-content-box * {
+.popup-content-box > * {
+	margin: 0;
 	margin-bottom: 0.5rem;
 	text-align: center;
 }
 
-.popup-content-box *:last-child {
+.popup-content-box > *:last-child {
 	margin-bottom: 0;
 }
 
-.popup-title {
-	font-size: 2.0rem;
-}
 .popup-category-icon {
 	width: 6.0rem;
 	height: 6.0rem;

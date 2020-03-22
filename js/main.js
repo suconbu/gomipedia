@@ -52,9 +52,15 @@ function getIndex(articles, article, offset, wraparound) {
 function getMatchedArticles(articles, keyword) {
     let matched = [];
     if (keyword) {
-        matched = matched.concat(articles.filter(article => article.name === keyword));
-        matched = matched.concat(articles.filter(article => article.name.startsWith(keyword) && matched.indexOf(article) === -1));
-        matched = matched.concat(articles.filter(article => article.name.indexOf(keyword) !== -1 && matched.indexOf(article) === -1));
+        keyword = keyword.toLowerCase()
+        matched = matched.concat(articles.filter(article => 
+            article.name.toLowerCase() === keyword || (article.nameKana && article.nameKana === keyword)));
+        matched = matched.concat(articles.filter(article => 
+            matched.indexOf(article) === -1 &&
+            (article.name.toLowerCase().startsWith(keyword) || article.nameKana && article.nameKana.startsWith(keyword))));
+        matched = matched.concat(articles.filter(article => 
+            matched.indexOf(article) === -1 &&
+            (article.name.toLowerCase().indexOf(keyword) !== -1 || article.nameKana && article.nameKana.indexOf(keyword) !== -1)));
     } else {
         matched = articles;
     }

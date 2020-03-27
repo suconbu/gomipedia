@@ -24,8 +24,10 @@ const data = {};
 
 data.currentMunicipalityId = "toyokawa-city"
 
+//TODO: 外部ファイル化
 data.allMunicipalities = {
-    "toyokawa-city": { name: "豊川市", data: "gomidata_toyokawa.json" }
+    "toyokawa-city": { name: "豊川市", data: "gomidata_toyokawa.json" },
+    "nagoya-city": { name: "名古屋市", data: "gomidata_nagoya_city.json" }
 };
 
 data.categories = {
@@ -34,9 +36,14 @@ data.categories = {
     hazardous: { "name": "危険ごみ", "image": "img/hazardous.png" },
     oversized: { "name": "粗大ごみ", "image": "img/oversized.png" },
     recyclable: { "name": "資源", "image": "img/recyclable.png" },
+    "recyclable-paperpack": { "name": "紙製容器包装", "image": "img/recyclable.png" },
+    "recyclable-plasticpack": { "name": "プラ容器包装", "image": "img/recyclable.png" },
+    "recyclable-bottole": { "name": "空きびん", "image": "img/recyclable.png" },
+    "recyclable-can": { "name": "空き缶", "image": "img/recyclable.png" },
+    "selfcarrying": { "name": "拠点収集", "image": "img/selfcarrying.png" },
     legalrecycling: { "name": "家電リサイクル法対象", "image": "img/legalrecycling.png" },
     uncollectible: { "name": "回収できません", "image": "img/uncollectible.png" },
-    unknown: { "name": "分類不明", "image": "img/unknown.png" }
+    unknown: { "name": "その他", "image": "img/unknown.png" }
 };
 
 function getIndex(articles, article, offset, wraparound) {

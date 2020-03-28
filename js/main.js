@@ -19,31 +19,28 @@ Vue.component("legend-list-item", {
     `
 })
 
-let app = null;
-const data = {};
-
-data.currentMunicipalityId = "toyokawa-city"
-
-//TODO: 外部ファイル化
-data.allMunicipalities = {
-    "toyokawa-city": { name: "豊川市", data: "gomidata_toyokawa.json" },
-    "nagoya-city": { name: "名古屋市", data: "gomidata_nagoya_city.json" }
-};
-
-data.categories = {
+const commonCategories = {
     burnable: { "name": "可燃ごみ", "image": "img/burnable.png" },
     unburnable: { "name": "不燃ごみ", "image": "img/unburnable.png" },
     hazardous: { "name": "危険ごみ", "image": "img/hazardous.png" },
     oversized: { "name": "粗大ごみ", "image": "img/oversized.png" },
     recyclable: { "name": "資源", "image": "img/recyclable.png" },
-    "recyclable-paperpack": { "name": "紙製容器包装", "image": "img/recyclable.png" },
-    "recyclable-plasticpack": { "name": "プラ容器包装", "image": "img/recyclable.png" },
-    "recyclable-bottole": { "name": "空きびん", "image": "img/recyclable.png" },
-    "recyclable-can": { "name": "空き缶", "image": "img/recyclable.png" },
-    "selfcarrying": { "name": "拠点収集", "image": "img/selfcarrying.png" },
     legalrecycling: { "name": "家電リサイクル法対象", "image": "img/legalrecycling.png" },
+    pointcollection: { "name": "拠点回収", "image": "img/pointcollection.png" },
+    localcollection: { "name": "集団回収", "image": "img/localcollection.png" },
     uncollectible: { "name": "回収できません", "image": "img/uncollectible.png" },
     unknown: { "name": "その他", "image": "img/unknown.png" }
+};
+
+let app = null;
+const data = {};
+
+data.currentMunicipalityId = "aichi_toyokawa_shi"
+
+//TODO: 外部ファイル化
+data.allMunicipalities = {
+    "aichi_toyokawa_shi": { name: "豊川市", data: "gomidata_aichi_toyokawa_shi.json" },
+    "aichi_nagoya_shi": { name: "名古屋市", data: "gomidata_aichi_nagoya_shi.json" }
 };
 
 function getIndex(articles, article, offset, wraparound) {
@@ -88,8 +85,7 @@ function request(dataname) {
     request.responseType = 'json';
     request.send();
     request.onload = function() {
-        const gomidata = request.response;
-        load(gomidata);
+        load(request.response);
     }
 }
 
@@ -99,6 +95,22 @@ function load(gomidata) {
     data.allArticles = gomidata.articles;
     for (let i = 0; i < data.allArticles.length; ++i) {
         data.allArticles[i].id = i;
+    }
+    data.categories = {}
+    for (let article of data.allArticles) {
+        if (!(article.categoryId in data.categories)) {
+            data.categories[article.categoryId] = commonCategories[article.categoryId]
+        }
+    }
+    if (gomidata.localCategories) {
+        for (let localCategoryId of Object.keys(gomidata.localCategories)) {
+            localCategory = gomidata.localCategories[localCategoryId]
+            commonCategory = commonCategories[localCategory.categoryId] ?? commonCategory["unknown"]
+            data.categories[localCategoryId] = {
+                name: localCategory.name,
+                image: commonCategory.image
+            }
+        }
     }
     const index = Math.floor(Math.random() * data.allArticles.length);
     data.placeholder = "例：" + data.allArticles[index].name;

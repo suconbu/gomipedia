@@ -1,3 +1,4 @@
+(function() {
 
 Vue.component("list-item", {
     props: ["data", "text", "image", "exclamation", "click", "highlighter"],
@@ -8,7 +9,7 @@ Vue.component("list-item", {
             <img class="small-icon" v-if="exclamation" src="img/note.png">
         </li>
     `
-})
+});
 
 Vue.component("legend-list-item", {
     props: ["text", "image"],
@@ -17,7 +18,7 @@ Vue.component("legend-list-item", {
             <img class="legend-icon" :src="image">{{text}}
         </li>
     `
-})
+});
 
 // 凡例にはこの順番で表示します
 const commonCategories = [
@@ -38,28 +39,29 @@ commonCategories.forEach(category => commonCategoryMap[category.id] = { "name": 
 let app = null;
 const data = {};
 
-data.currentMunicipalityId = "aichi_nagoya_shi"
+data.currentMunicipalityId = "aichi_nagoya_shi";
 
 //TODO: 外部ファイル化
 data.allMunicipalities = {
-    "aichi_toyokawa_shi": { name: "豊川市", data: "gomidata_aichi_toyokawa_shi.json" },
-    "aichi_nagoya_shi": { name: "名古屋市", data: "gomidata_aichi_nagoya_shi.json" }
+    "aichi_toyokawa_shi": { name: "豊川市", file: "gomidata_aichi_toyokawa_shi.json" },
+    "aichi_nagoya_shi": { name: "名古屋市", file: "gomidata_aichi_nagoya_shi.json" }
 };
 
 function getIndex(articles, article, offset, wraparound) {
     let index = articles.findIndex(a => a === article);
-    if (index === -1) return -1;
-    index += offset;
-    if (wraparound) {
-        index =
-            (index < 0) ? (articles.length + index) :
-            (articles.length <= index) ? (index - articles.length) :
-            index;
-    } else {
-        index =
-            (index < 0) ? 0 :
-            (articles.length <= index) ? (articles.length - 1) :
-            index;
+    if (0 < index) {
+        index += offset;
+        if (wraparound) {
+            index =
+                (index < 0) ? (articles.length + index) :
+                (articles.length <= index) ? (index - articles.length) :
+                index;
+        } else {
+            index =
+                (index < 0) ? 0 :
+                (articles.length <= index) ? (articles.length - 1) :
+                index;
+        }
     }
     return index;
 }
@@ -82,9 +84,9 @@ function getMatchedArticles(articles, keyword) {
     return matched;
 }
 
-function request(dataname) {
+function request(filename) {
     const request = new XMLHttpRequest();
-    request.open('GET', `data/${dataname}`);
+    request.open('GET', `data/${filename}`);
     request.responseType = 'json';
     request.send();
     request.onload = function() {
@@ -237,10 +239,12 @@ function createApp(response) {
             municipalityClicked(municipalityId) {
                 this.municipalityPopupVisible = false;
                 this.currentMunicipalityId = municipalityId;
-                request(data.allMunicipalities[data.currentMunicipalityId].data)
+                request(data.allMunicipalities[data.currentMunicipalityId].file)
             }
         }
     });
 }
 
-request(data.allMunicipalities[data.currentMunicipalityId].data)
+request(data.allMunicipalities[data.currentMunicipalityId].file);
+
+})();

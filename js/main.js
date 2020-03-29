@@ -19,23 +19,26 @@ Vue.component("legend-list-item", {
     `
 })
 
-const commonCategories = {
-    burnable: { "name": "可燃ごみ", "image": "img/burnable.png" },
-    unburnable: { "name": "不燃ごみ", "image": "img/unburnable.png" },
-    hazardous: { "name": "危険ごみ", "image": "img/hazardous.png" },
-    oversized: { "name": "粗大ごみ", "image": "img/oversized.png" },
-    recyclable: { "name": "資源", "image": "img/recyclable.png" },
-    legalrecycling: { "name": "家電リサイクル法対象", "image": "img/legalrecycling.png" },
-    pointcollection: { "name": "拠点回収", "image": "img/pointcollection.png" },
-    localcollection: { "name": "集団回収", "image": "img/localcollection.png" },
-    uncollectible: { "name": "回収できません", "image": "img/uncollectible.png" },
-    unknown: { "name": "その他", "image": "img/unknown.png" }
-};
+// 凡例にはこの順番で表示します
+const commonCategories = [
+    { "id": "burnable", "name": "可燃ごみ", "image": "img/burnable.png" },
+    { "id": "unburnable", "name": "不燃ごみ", "image": "img/unburnable.png" },
+    { "id": "hazardous", "name": "危険ごみ", "image": "img/hazardous.png" },
+    { "id": "oversized", "name": "粗大ごみ", "image": "img/oversized.png" },
+    { "id": "recyclable", "name": "資源", "image": "img/recyclable.png" },
+    { "id": "legalrecycling", "name": "家電リサイクル法対象", "image": "img/legalrecycling.png" },
+    { "id": "pointcollection", "name": "拠点回収", "image": "img/pointcollection.png" },
+    { "id": "localcollection", "name": "集団回収", "image": "img/localcollection.png" },
+    { "id": "uncollectible", "name": "回収できません", "image": "img/uncollectible.png" },
+    { "id": "unknown", "name": "その他", "image": "img/unknown.png" }
+];
+const commonCategoryMap = {};
+commonCategories.forEach(category => commonCategoryMap[category.id] = { "name": category.name, "image": category.image });
 
 let app = null;
 const data = {};
 
-data.currentMunicipalityId = "aichi_toyokawa_shi"
+data.currentMunicipalityId = "aichi_nagoya_shi"
 
 //TODO: 外部ファイル化
 data.allMunicipalities = {
@@ -85,45 +88,71 @@ function request(dataname) {
     request.responseType = 'json';
     request.send();
     request.onload = function() {
-        load(request.response);
+        loadGomiData(request.response);
+        if (app == null) {
+            app = createApp();
+        }
     }
 }
 
-function load(gomidata) {
+function loadGomiData(gomidata) {
     data.updatedAt = gomidata.updatedAt;
     data.sourceUrl = gomidata.sourceUrl;
     data.allArticles = gomidata.articles;
-    for (let i = 0; i < data.allArticles.length; ++i) {
-        data.allArticles[i].id = i;
-    }
-    data.categories = {}
+    data.allArticles.forEach((article, index) => article.no = index);
+    data.categoryMap = {};
     for (let article of data.allArticles) {
-        if (!(article.categoryId in data.categories)) {
-            data.categories[article.categoryId] = commonCategories[article.categoryId]
+        if (!(article.categoryId in data.categoryMap)) {
+            data.categoryMap[article.categoryId] = Object.assign({}, commonCategoryMap[article.categoryId]);
         }
     }
-    if (gomidata.localCategories) {
-        for (let localCategoryId of Object.keys(gomidata.localCategories)) {
-            localCategory = gomidata.localCategories[localCategoryId]
-            commonCategory = commonCategories[localCategory.categoryId] ?? commonCategory["unknown"]
-            data.categories[localCategoryId] = {
-                name: localCategory.name,
-                image: commonCategory.image
+    if (gomidata.localCategoryDefinition) {
+        for (let categoryId of Object.keys(gomidata.localCategoryDefinition)) {
+            if (!(categoryId in commonCategoryMap)) {
+                console.error(`Invalid categoryId: ${categoryId} in localCategoryDefinition`);
+                continue;
+            }
+            entry = gomidata.localCategoryDefinition[categoryId];
+            if (!(categoryId in data.categoryMap)) {
+                // 凡例表示で使うので設定
+                data.categoryMap[categoryId] = Object.assign({}, commonCategoryMap[categoryId]);
+            }
+            parentCategory = data.categoryMap[categoryId];
+            if (entry.name) {
+                // 表示名上書き
+                parentCategory.name = entry.name;
+            }
+            if (entry.subCategories) {
+                for (let subCategoryId of Object.keys(entry.subCategories)) {
+                    subCategory = entry.subCategories[subCategoryId];
+                    data.categoryMap[subCategoryId] = {
+                        name: `${subCategory.name} (${parentCategory.name})`,
+                        image: parentCategory.image
+                    }
+                }
             }
         }
     }
+    data.legendCategoryIds = [];
+    for (let commonCategory of commonCategories) {
+        if (commonCategory.id in data.categoryMap) {
+            data.legendCategoryIds.push(commonCategory.id);
+        }
+    }
+
     const index = Math.floor(Math.random() * data.allArticles.length);
     data.placeholder = "例：" + data.allArticles[index].name;
+
     data.keyword = "";
     data.selectedArticle = null;
     data.waitingArticles = [];
     data.appearedArticles = [];
     data.timeoutId = 0;
     data.municipalityPopupVisible = false;
+}
 
-    if (app != null) return;
-
-    app = new Vue({
+function createApp(response) {
+    return new Vue({
         el: "#app",
         data: data,
         watch: {

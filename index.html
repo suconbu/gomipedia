@@ -29,10 +29,10 @@
       class="normal-list-item"
       v-for="article in appearedArticles"
       ref="article"
-      :key="article.id"
+      :key="article.no"
       :data="article"
       :text="article.name"
-      :image="categories[article.categoryId].image"
+      :image="categoryMap[article.categoryId].image"
       :exclamation="article.note ? true : false"
       :click="articleClicked"
       :highlighter="getKeywordHighlighted">
@@ -40,10 +40,10 @@
   </ul>
   <ul class="legend-list">
     <legend-list-item
-      v-for="key in Object.keys(categories)"
-      :key="key"
-      :text="categories[key].name"
-      :image="categories[key].image">
+      v-for="categoryId in legendCategoryIds"
+      :key="categoryMap[categoryId].name"
+      :text="categoryMap[categoryId].name"
+      :image="categoryMap[categoryId].image">
     </list-item-legend>
   </ul>
   <div class="datasource">
@@ -88,8 +88,8 @@
       </div>
       <div class="popup-content-box">
         <div class="popup-category-text"><strong>{{selectedArticle.name}}</strong> は</div>
-        <img class="popup-category-icon" :src="categories[selectedArticle.categoryId].image"/>
-        <div class="popup-category-text"><strong>{{categories[selectedArticle.categoryId].name}}</strong> です。</div>
+        <img class="popup-category-icon" :src="categoryMap[selectedArticle.categoryId].image"/>
+        <div class="popup-category-text"><strong>{{categoryMap[selectedArticle.categoryId].name}}</strong> です。</div>
         <img class="popup-note-icon" src="img/note.png" v-if="selectedArticle.note"/>
         <div class="popup-note-text" v-if="selectedArticle.note">{{selectedArticle.note}}</div>
       </div>

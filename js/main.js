@@ -158,7 +158,9 @@ function createApp(response) {
         watch: {
             keyword: function(newValue, oldValue) {
                 this.keyword = newValue;
-                this.keywordRegex = new RegExp(this.keyword, "ig");
+                // https://s8a.jp/javascript-escape-regexp
+                escaped = this.keyword.replace(/[\\^$.*+?()[\]{}|]/g, '\\$&');
+                this.keywordRegex = new RegExp(escaped, "ig");
                 this.updateAppearedArticles(getMatchedArticles(this.allArticles, this.keyword));
             },
             allArticles: function(newValue, oldValue) {

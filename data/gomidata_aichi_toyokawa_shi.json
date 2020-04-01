@@ -1,7 +1,8 @@
 {
-  "municipality": "豊川市",
+  "prefectureName": "愛知県",
+  "municipalityName": "豊川市",
+  "dataSourceUrl": "https://www.city.toyokawa.lg.jp/smph/kurashi/gomirecycle/gomihayamihyo/",
   "updatedAt": "2019-12-16",
-  "sourceUrl": "https://www.city.toyokawa.lg.jp/smph/kurashi/gomirecycle/gomihayamihyo/",
   "articles": [
     {
       "name": "アイスピック",
@@ -430,7 +431,7 @@
     {
       "name": "MO ・ MD",
       "nameKana": "えむおー ・ えむでぃー",
-      "nameRoman": "MO . MD",
+      "nameRoman": "mo . md",
       "categoryId": "burnable"
     },
     {
@@ -482,7 +483,7 @@
     {
       "name": "LED電球",
       "nameKana": "えるいーでぃーでんきゅう",
-      "nameRoman": "LEDdenkyuu",
+      "nameRoman": "leddenkyuu",
       "categoryId": "unburnable",
       "note": "危険ごみではありません。"
     },
@@ -1610,13 +1611,13 @@
     {
       "name": "CD・CDケース",
       "nameKana": "しーでぃー・しーでぃーけーす",
-      "nameRoman": "CD.CDkeesu",
+      "nameRoman": "cd.cdkeesu",
       "categoryId": "burnable"
     },
     {
       "name": "CDプレーヤー・CDラジカセ",
       "nameKana": "しーでぃーぷれーやー・しーでぃーらじかせ",
-      "nameRoman": "CDpureeyaa.CDrajikase",
+      "nameRoman": "cdpureeyaa.cdrajikase",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
@@ -2449,13 +2450,13 @@
     {
       "name": "DVD・DVDケース",
       "nameKana": "でぃーぶいでぃー・でぃーぶいでぃーけーす",
-      "nameRoman": "DVD.DVDkeesu",
+      "nameRoman": "dvd.dvdkeesu",
       "categoryId": "burnable"
     },
     {
       "name": "DVDレコーダー・DVDプレーヤー",
       "nameKana": "でぃーぶいでぃーれこーだー・でぃーぶいでぃーぷれーやー",
-      "nameRoman": "DVDrekoodaa.DVDpureeyaa",
+      "nameRoman": "dvdrekoodaa.dvdpureeyaa",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
@@ -3161,7 +3162,7 @@
     {
       "name": "BSアンテナ",
       "nameKana": "びーえすあんてな",
-      "nameRoman": "BSantena",
+      "nameRoman": "bsantena",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },

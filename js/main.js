@@ -39,12 +39,12 @@ commonCategories.forEach(category => commonCategoryMap[category.id] = { "name": 
 let app = null;
 const data = {};
 
-data.currentMunicipalityId = "aichi_nagoya_shi";
+data.currentMunicipalityId = "aichi_toyokawa_shi";
 
 //TODO: 外部ファイル化
 data.allMunicipalities = {
-    "aichi_toyokawa_shi": { name: "豊川市", file: "gomidata_aichi_toyokawa_shi.json" },
-    "aichi_nagoya_shi": { name: "名古屋市", file: "gomidata_aichi_nagoya_shi.json" }
+    "aichi_toyokawa_shi": { name: "豊川市", file: "data/gomidata_aichi_toyokawa_shi.json" },
+    "aichi_nagoya_shi": { name: "名古屋市", file: "data/gomidata_aichi_nagoya_shi.json" }
 };
 
 function getIndex(articles, article, offset, wraparound) {
@@ -95,7 +95,7 @@ function getMatchedArticles(articles, keyword) {
 
 function request(filename) {
     const request = new XMLHttpRequest();
-    request.open('GET', `data/${filename}`);
+    request.open('GET', filename);
     request.responseType = 'json';
     request.send();
     request.onload = function() {
@@ -107,8 +107,8 @@ function request(filename) {
 }
 
 function loadGomiData(gomidata) {
+    data.dataSourceUrl = gomidata.dataSourceUrl;
     data.updatedAt = gomidata.updatedAt;
-    data.sourceUrl = gomidata.sourceUrl;
     data.allArticles = gomidata.articles;
     data.allArticles.forEach((article, index) => article.no = index);
     data.categoryMap = {};

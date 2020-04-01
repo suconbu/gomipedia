@@ -1,12 +1,52 @@
 {
-  "municipality": "名古屋市",
+  "prefectureName": "愛知県",
+  "municipalityName": "名古屋市",
+  "dataSourceUrl": "http://www.city.nagoya.jp/kurashi/category/5-6-22-0-0-0-0-0-0-0.html",
   "updatedAt": "2020-02-26",
-  "sourceUrl": "http://www.city.nagoya.jp/kurashi/category/5-6-22-0-0-0-0-0-0-0.html",
+  "localCategoryDefinition": {
+    "hazardous": {
+      "name": "発火性危険物"
+    },
+    "recyclable": {
+      "name": "資源ステーション",
+      "subCategories": {
+        "paperpackaging": {
+          "name": "紙製容器包装"
+        },
+        "plasticpackaging": {
+          "name": "プラ容器包装"
+        },
+        "grassbottole": {
+          "name": "空きびん"
+        },
+        "can": {
+          "name": "空き缶"
+        }
+      }
+    },
+    "pointcollection": {
+      "name": "回収ボックス",
+      "subCategories": {
+        "beveragepack": {
+          "name": "紙パック"
+        },
+        "petbottle": {
+          "name": "ペットボトル"
+        },
+        "edibleoil": {
+          "name": "食用油"
+        },
+        "smallappliances": {
+          "name": "小型家電"
+        }
+      }
+    }
+  },
   "articles": [
     {
       "name": "ICレコーダー",
       "nameKana": "あいしーれこーだー",
-      "nameRoman": "ICrekoodaa",
+      "nameRoman": "icrekoodaa",
       "categoryId": "smallappliances",
       "note": "回収ボックスを利用できない場合は可燃ごみへ"
     },
@@ -295,7 +335,7 @@
     {
       "name": "ETC車載ユニット",
       "nameKana": "いーてぃーしーしゃさいゆにっと",
-      "nameRoman": "ETCshasaiyunitto",
+      "nameRoman": "etcshasaiyunitto",
       "categoryId": "smallappliances",
       "note": "回収ボックスを利用できない場合は不燃ごみへ"
     },
@@ -532,7 +572,7 @@
     {
       "name": "ACアダプター",
       "nameKana": "えーしーあだぷたー",
-      "nameRoman": "ACadaputaa",
+      "nameRoman": "acadaputaa",
       "categoryId": "smallappliances",
       "note": "回収ボックスを利用できない場合は不燃ごみへ"
     },
@@ -546,7 +586,7 @@
     {
       "name": "SDカード",
       "nameKana": "えすでぃーかーど",
-      "nameRoman": "SDkaado",
+      "nameRoman": "sdkaado",
       "categoryId": "smallappliances",
       "note": "回収ボックスを利用できない場合は可燃ごみへ"
     },
@@ -607,33 +647,33 @@
     {
       "name": "MO(エムオー)・ケースを含む",
       "nameKana": "えむおー(えむおー)・けーすをふくむ",
-      "nameRoman": "MO(emuoo).keesuwofukumu",
+      "nameRoman": "mo(emuoo).keesuwofukumu",
       "categoryId": "burnable"
     },
     {
       "name": "MOドライブ",
       "nameKana": "えむおーどらいぶ",
-      "nameRoman": "MOdoraibu",
+      "nameRoman": "modoraibu",
       "categoryId": "smallappliances",
       "note": "回収ボックスを利用できない場合は不燃ごみへ"
     },
     {
       "name": "MD(ミニディスク)・ケースを含む",
       "nameKana": "えむでぃー(みにでぃすく)・けーすをふくむ",
-      "nameRoman": "MD(minidisuku).keesuwofukumu",
+      "nameRoman": "md(minidisuku).keesuwofukumu",
       "categoryId": "burnable"
     },
     {
       "name": "MDプレーヤー",
       "nameKana": "えむでぃーぷれーやー",
-      "nameRoman": "MDpureeyaa",
+      "nameRoman": "mdpureeyaa",
       "categoryId": "smallappliances",
       "note": "回収ボックスを利用できない場合は不燃ごみへ"
     },
     {
       "name": "LPガスボンベ類",
       "nameKana": "えるぴーがすぼんべるい",
-      "nameRoman": "LPgasubonberui",
+      "nameRoman": "lpgasubonberui",
       "categoryId": "uncollectible",
       "note": "販売店、愛知県LPガス協会(電話番号:052-261-2896)にご相談ください"
     },
@@ -1152,7 +1192,7 @@
     {
       "name": "ガスボンベ(LPG)",
       "nameKana": "がすぼんべ(えるぴーじー)",
-      "nameRoman": "gasubonbe(LPG)",
+      "nameRoman": "gasubonbe(lpg)",
       "categoryId": "uncollectible",
       "note": "販売店または、愛知県LPガス協会（電話番号：052-261-2896）にご相談ください"
     },
@@ -2872,13 +2912,13 @@
     {
       "name": "CDなど(LD・DVD・ブルーレイ)・ケースを含む",
       "nameKana": "しーでぃーなど(えるでぃー・でぃーぶいでぃー・ぶるーれい)・けーすをふくむ",
-      "nameRoman": "CDnado(LD.DVD.buruurei).keesuwofukumu",
+      "nameRoman": "cdnado(ld.dvd.buruurei).keesuwofukumu",
       "categoryId": "burnable"
     },
     {
       "name": "CDプレーヤー",
       "nameKana": "しーでぃーぷれーやー",
-      "nameRoman": "CDpureeyaa",
+      "nameRoman": "cdpureeyaa",
       "categoryId": "smallappliances",
       "note": "回収ボックスを利用できない場合は不燃ごみへ"
     },
@@ -4389,7 +4429,7 @@
     {
       "name": "Tシャツ",
       "nameKana": "てぃーしゃつ",
-      "nameRoman": "Tshatsu",
+      "nameRoman": "tshatsu",
       "categoryId": "localcollection",
       "note": "集団資源回収・リサイクルステーションなどへ利用できない場合は可燃ごみへ"
     },
@@ -4414,13 +4454,13 @@
     {
       "name": "DVD・ケースを含む",
       "nameKana": "でぃーぶいでぃー・けーすをふくむ",
-      "nameRoman": "DVD.keesuwofukumu",
+      "nameRoman": "dvd.keesuwofukumu",
       "categoryId": "burnable"
     },
     {
       "name": "DVDプレーヤーなど",
       "nameKana": "でぃーぶいでぃーぷれーやーなど",
-      "nameRoman": "DVDpureeyaanado",
+      "nameRoman": "dvdpureeyaanado",
       "categoryId": "smallappliances",
       "note": "回収ボックスを利用できない場合は不燃ごみ（30cm角を超えるものは粗大ごみ）へ"
     },
@@ -5638,7 +5678,7 @@
     {
       "name": "PHS",
       "nameKana": "ぴーえいちえす",
-      "nameRoman": "PHS",
+      "nameRoman": "phs",
       "categoryId": "unknown",
       "note": "販売店回収または小型家電回収ボックスを利用しましょう。利用できない場合は不燃ごみへ販売店回収についてはモバイル・リサイクル・ネットワークのホームページ(外部リンク)をご覧ください"
     },
@@ -5663,7 +5703,7 @@
     {
       "name": "PPバンド",
       "nameKana": "ぴーぴーばんど",
-      "nameRoman": "PPbando",
+      "nameRoman": "ppbando",
       "categoryId": "burnable"
     },
     {
@@ -6830,7 +6870,7 @@
     {
       "name": "ミニディスク(MD)・ケースを含む",
       "nameKana": "みにでぃすく(えむでぃー)・けーすをふくむ",
-      "nameRoman": "minidisuku(MD).keesuwofukumu",
+      "nameRoman": "minidisuku(md).keesuwofukumu",
       "categoryId": "burnable"
     },
     {
@@ -7101,7 +7141,7 @@
     {
       "name": "USBメモリー",
       "nameKana": "ゆーえすびーめもりー",
-      "nameRoman": "USBmemorii",
+      "nameRoman": "usbmemorii",
       "categoryId": "smallappliances",
       "note": "回収ボックスを利用できない場合は可燃ごみへ"
     },
@@ -7314,14 +7354,14 @@
     {
       "name": "レーザーディスク(LD)",
       "nameKana": "れーざーでぃすく(えるでぃー)",
-      "nameRoman": "reezaadisuku(LD)",
+      "nameRoman": "reezaadisuku(ld)",
       "categoryId": "burnable",
       "note": "紙製のケースは、集団資源回収・リサイクルステーションなどへ"
     },
     {
       "name": "レーザーディスク(LD)プレーヤー",
       "nameKana": "れーざーでぃすく(えるでぃー)ぷれーやー",
-      "nameRoman": "reezaadisuku(LD)pureeyaa",
+      "nameRoman": "reezaadisuku(ld)pureeyaa",
       "categoryId": "oversized"
     },
     {
@@ -7534,44 +7574,5 @@
       "nameRoman": "waribashinokofukuro(purasuchikkusei)",
       "categoryId": "plasticpackaging"
     }
-  ],
-  "localCategoryDefinition": {
-    "hazardous": {
-      "name": "発火性危険物"
-    },
-    "recyclable": {
-      "name": "資源ステーション",
-      "subCategories": {
-        "paperpackaging": {
-          "name": "紙製容器包装"
-        },
-        "plasticpackaging": {
-          "name": "プラ容器包装"
-        },
-        "grassbottole": {
-          "name": "空きびん"
-        },
-        "can": {
-          "name": "空き缶"
-        }
-      }
-    },
-    "pointcollection": {
-      "name": "回収ボックス",
-      "subCategories": {
-        "beveragepack": {
-          "name": "紙パック"
-        },
-        "petbottle": {
-          "name": "ペットボトル"
-        },
-        "edibleoil": {
-          "name": "食用油"
-        },
-        "smallappliances": {
-          "name": "小型家電"
-        }
-      }
-    }
-  }
+  ]
 }

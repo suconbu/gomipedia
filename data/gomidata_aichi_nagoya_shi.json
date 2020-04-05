@@ -5,12 +5,19 @@
   "updatedAt": "2020-02-26",
   "localCategoryDefinition": {
     "hazardous": {
-      "name": "発火性危険物"
+      "subCategories": {
+        "hazardous.ignitable": {
+          "name": "発火性危険物"
+        }
+      }
     },
     "recyclable": {
       "subCategories": {
         "recyclable.paperpackaging": {
           "name": "紙製容器包装"
+        },
+        "recyclable.petbottle": {
+          "name": "ペットボトル"
         },
         "recyclable.plasticpackaging": {
           "name": "プラ容器包装"
@@ -27,10 +34,7 @@
       "name": "回収ボックス",
       "subCategories": {
         "pointcollection.beveragepack": {
-          "name": "紙パック({categoryName})"
-        },
-        "pointcollection.petbottle": {
-          "name": "ペットボトル({categoryName})"
+          "name": "紙パック({categoryName}})"
         },
         "pointcollection.edibleoil": {
           "name": "食用油({categoryName})"
@@ -2185,7 +2189,7 @@
       "name": "蛍光管(直管型・環型・電球型)",
       "nameKana": "けいこうかん(ちょっかんかた・かんかた・でんきゅうかた)",
       "nameRoman": "keikoukan(chokkankata.kankata.denkyuukata)",
-      "categoryId": "unknown",
+      "categoryId": "uncollectible",
       "note": "環境事業所または蛍光管回収協力店舗へ白熱電球やLED製品は、不燃ごみへ割れた蛍光管は、丈夫な紙などに包み、「キケン」と表示し、不燃ごみへ"
     },
     {
@@ -2204,14 +2208,14 @@
       "name": "携帯電話",
       "nameKana": "けいたいでんわ",
       "nameRoman": "keitaidenwa",
-      "categoryId": "unknown",
+      "categoryId": "pointcollection.smallappliances",
       "note": "販売店回収または小型家電回収ボックスを利用しましょう。利用できない場合は不燃ごみへ。販売店回収については「モバイル・リサイクル・ネットワーク」(外部リンク)のホームページをご覧ください。"
     },
     {
       "name": "携帯電話のバッテリー",
       "nameKana": "けいたいでんわのばってりー",
       "nameRoman": "keitaidenwanobatterii",
-      "categoryId": "unknown",
+      "categoryId": "uncollectible",
       "note": "販売店の回収箱へ"
     },
     {
@@ -2509,7 +2513,7 @@
       "name": "小型充電池",
       "nameKana": "こがたじゅうでんち",
       "nameRoman": "kogatajuudenchi",
-      "categoryId": "unknown",
+      "categoryId": "uncollectible",
       "note": "回収拠点（各区の環境事業所、電気店など）にお持ち込みください。回収拠点は、一般社団法人JBRCのホームページ(外部リンク)で検索できます。"
     },
     {
@@ -3117,7 +3121,7 @@
       "name": "充電式電池",
       "nameKana": "じゅうでんしきでんち",
       "nameRoman": "juudenshikidenchi",
-      "categoryId": "unknown",
+      "categoryId": "uncollectible",
       "note": "回収拠点（各区の環境事業所、電気店など）にお持ち込みください。回収拠点は、一般社団法人JBRCのホームページ(外部リンク)で検索できます。"
     },
     {
@@ -3155,7 +3159,7 @@
       "name": "消火器",
       "nameKana": "しょうかき",
       "nameRoman": "shoukaki",
-      "categoryId": "unknown",
+      "categoryId": "uncollectible",
       "note": "リサイクル・廃棄の方法については、(株)消火器リサイクル推進センターのホームページ(外部リンク)をご覧ください"
     },
     {
@@ -4070,14 +4074,14 @@
       "name": "タイヤチェーン(車用)",
       "nameKana": "たいやちぇーん(くるまよう)",
       "nameRoman": "taiyacheen(kurumayou)",
-      "categoryId": "unknown",
+      "categoryId": "uncollectible",
       "note": "お住まいの区の環境事業所にお問い合わせください"
     },
     {
       "name": "タイヤホイール(車用)",
       "nameKana": "たいやほいーる(くるまよう)",
       "nameRoman": "taiyahoiiru(kurumayou)",
-      "categoryId": "unknown",
+      "categoryId": "uncollectible",
       "note": "お住まいの区の環境事業所にお問い合わせください"
     },
     {
@@ -4233,7 +4237,7 @@
       "name": "ダンベル・鉄アレイ",
       "nameKana": "だんべる・てつあれい",
       "nameRoman": "danberu.tetsuarei",
-      "categoryId": "unknown",
+      "categoryId": "uncollectible",
       "note": "お住まいの区の環境事業所にお問い合わせください"
     },
     {
@@ -4297,7 +4301,7 @@
       "name": "注射針、注射器(在宅医療用)",
       "nameKana": "ちゅうしゃばり、ちゅうしゃき(ざいたくいりょうよう)",
       "nameRoman": "chuushabari、chuushaki(zaitakuiryouyou)",
-      "categoryId": "unknown",
+      "categoryId": "uncollectible",
       "note": "かかりつけの病院・診療所へ返却してください"
     },
     {
@@ -4677,7 +4681,7 @@
       "name": "電球型蛍光管",
       "nameKana": "でんきゅうかたけいこうかん",
       "nameRoman": "denkyuukatakeikoukan",
-      "categoryId": "unknown",
+      "categoryId": "uncollectible",
       "note": "環境事業所または蛍光管回収協力店舗へ白熱電球やLED製品は、不燃ごみへ割れた蛍光管は、丈夫な紙などに包み、「キケン」と表示し、不燃ごみへ"
     },
     {
@@ -4744,14 +4748,14 @@
       "name": "電池(小型充電式電池)",
       "nameKana": "でんち(こがたじゅうでんしきでんち)",
       "nameRoman": "denchi(kogatajuudenshikidenchi)",
-      "categoryId": "unknown",
+      "categoryId": "uncollectible",
       "note": "回収拠点（各区の環境事業所、電気店など）にお持ち込みください。回収拠点は、一般社団法人JBRCのホームページ(外部リンク)で検索できます。"
     },
     {
       "name": "電池(ボタン型電池)",
       "nameKana": "でんち(ぼたんかたでんち)",
       "nameRoman": "denchi(botankatadenchi)",
-      "categoryId": "unknown",
+      "categoryId": "uncollectible",
       "note": "協力店のボタン電池回収缶へ。協力店については、「ボタン電池回収推進センター」のホームページ(外部リンク)をご覧ください。"
     },
     {
@@ -5032,7 +5036,7 @@
       "name": "ドレッシング(ノンオイル)の入ったペットボトル",
       "nameKana": "どれっしんぐ(のんおいる)のいっったぺっとぼとる",
       "nameRoman": "doresshingu(non'oiru)noitsutsutapettobotoru",
-      "categoryId": "unknown",
+      "categoryId": "recyclable.petbottle",
       "note": "油脂を使っているドレッシングの容器は、プラ容器包装へ"
     },
     {
@@ -5111,7 +5115,7 @@
       "name": "ニカド電池",
       "nameKana": "にかどでんち",
       "nameRoman": "nikadodenchi",
-      "categoryId": "unknown",
+      "categoryId": "uncollectible",
       "note": "回収拠点（各区の環境事業所、電気店など）にお持ち込みください。回収拠点は、一般社団法人JBRCのホームページ(外部リンク)で検索できます。"
     },
     {
@@ -5242,7 +5246,7 @@
       "name": "ノートパソコン",
       "nameKana": "のーとぱそこん",
       "nameRoman": "nootopasokon",
-      "categoryId": "unknown",
+      "categoryId": "pointcollection.smallappliances",
       "note": "各パソコンメーカーの回収または小型家電回収ボックスにお出しくださいくわしくは、家庭用パソコンリサイクルのページをご覧ください"
     },
     {
@@ -5277,7 +5281,7 @@
       "name": "バーベル",
       "nameKana": "ばーべる",
       "nameRoman": "baaberu",
-      "categoryId": "unknown",
+      "categoryId": "uncollectible",
       "note": "お住まいの区の環境事業所にお問い合わせください"
     },
     {
@@ -5405,7 +5409,7 @@
       "name": "パソコン(デスクトップ本体、ディスプレイ、ノートパソコン、ディスプレイ一体型パソコン)",
       "nameKana": "ぱそこん(ですくとっぷほんたい、でぃすぷれい、のーとぱそこん、でぃすぷれいいったいがたぱそこん)",
       "nameRoman": "pasokon(desukutoppuhontai、disupurei、nootopasokon、disupureiittaigatapasokon)",
-      "categoryId": "unknown",
+      "categoryId": "pointcollection.smallappliances",
       "note": "各パソコンメーカーの回収にお出しください。概ね縦15cm×横40cm×奥行25cm以下のパソコンは小型家電回収ボックスに出すこともできますくわしくは、家庭用パソコンリサイクルのページをご覧ください"
     },
     {
@@ -5678,7 +5682,7 @@
       "name": "PHS",
       "nameKana": "ぴーえいちえす",
       "nameRoman": "phs",
-      "categoryId": "unknown",
+      "categoryId": "pointcollection.smallappliances",
       "note": "販売店回収または小型家電回収ボックスを利用しましょう。利用できない場合は不燃ごみへ販売店回収についてはモバイル・リサイクル・ネットワークのホームページ(外部リンク)をご覧ください"
     },
     {
@@ -6260,7 +6264,7 @@
       "name": "ペットボトル(飲料、酒、 みりん類、しょうゆ用・めんつゆ・ノンオイルドレッシング・酢などのペットボトル)",
       "nameKana": "ぺっとぼとる(いんりょう、さけ、 みりんるい、しょうゆよう・めんつゆ・のんおいるどれっしんぐ・すなどのぺっとぼとる)",
       "nameRoman": "pettobotoru(inryou、sake、 mirinrui、shouyuyou.mentsuyu.non'oirudoresshingu.sunadonopettobotoru)",
-      "categoryId": "unknown",
+      "categoryId": "recyclable.petbottle",
       "note": "キャップを取り、中をさっとゆすぎ、なるべくつぶして出してください「プラスチック製容器包装マーク」がついた、ソース、食用油のペットボトルはプラ容器包装へ"
     },
     {
@@ -6459,7 +6463,7 @@
       "name": "ボウリングの球",
       "nameKana": "ぼうりんぐのたま",
       "nameRoman": "bouringunotama",
-      "categoryId": "unknown",
+      "categoryId": "uncollectible",
       "note": "お住まいの区の環境事業所にお問い合わせください"
     },
     {
@@ -6562,7 +6566,7 @@
       "name": "ボタン電池",
       "nameKana": "ぼたんでんち",
       "nameRoman": "botandenchi",
-      "categoryId": "unknown",
+      "categoryId": "uncollectible",
       "note": "協力店のボタン電池回収缶へ。協力店については、ボタン電池回収推進センターのホームページ(外部リンク)をご覧ください"
     },
     {
@@ -7088,7 +7092,7 @@
       "name": "モバイルバッテリー",
       "nameKana": "もばいるばってりー",
       "nameRoman": "mobairubatterii",
-      "categoryId": "unknown",
+      "categoryId": "uncollectible",
       "note": "回収拠点（各区の環境事業所、電気店など）にお持ち込みください。回収拠点は、一般社団法人JBRCのホームページ(外部リンク)で検索できます。"
     },
     {
@@ -7274,7 +7278,7 @@
       "name": "リチウムイオン電池(充電できるもの)",
       "nameKana": "りちうむいおんでんち(じゅうでんできるもの)",
       "nameRoman": "richiumuiondenchi(juudendekirumono)",
-      "categoryId": "unknown",
+      "categoryId": "uncollectible",
       "note": "協力店のリサイクルボックスへ。協力店については、一般社団法人JBRCのホームページ(外部リンク)をご覧ください"
     },
     {

@@ -50,7 +50,7 @@ data.allMunicipalities = {
 
 function getIndex(articles, article, offset, wraparound) {
     let index = articles.findIndex(a => a === article);
-    if (0 < index) {
+    if (0 <= index) {
         index += offset;
         if (wraparound) {
             index =

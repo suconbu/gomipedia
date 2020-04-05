@@ -80,8 +80,8 @@
   <div class="popup-fill" v-if="selectedArticle" @click="closePopup">
     <div class="popup-window" tabindex="0" ref="popupWindow" @click="dummy" @keydown="popupKeydown">
       <div class="popup-pager-box">
-        <div class="popup-prev" @click="moveArticleSelection(-1)">&lt;</div>
-        <div class="popup-next" @click="moveArticleSelection(+1)">&gt;</div>
+        <div class="popup-prev" @click="moveArticleSelection(-1, true)">&lt;</div>
+        <div class="popup-next" @click="moveArticleSelection(+1, true)">&gt;</div>
       </div>
       <div class="popup-close-box" @click="closePopup">
         <div class="popup-close">✖</div>

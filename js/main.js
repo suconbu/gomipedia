@@ -44,7 +44,8 @@ data.currentMunicipalityId = "aichi_toyokawa_shi";
 //TODO: 外部ファイル化
 data.allMunicipalities = {
     "aichi_toyokawa_shi": { name: "豊川市", file: "data/gomidata_aichi_toyokawa_shi.json" },
-    "aichi_nagoya_shi": { name: "名古屋市", file: "data/gomidata_aichi_nagoya_shi.json" }
+    "aichi_nagoya_shi": { name: "名古屋市", file: "data/gomidata_aichi_nagoya_shi.json" },
+    "aichi_okazaki_shi": { name: "岡崎市", file: "data/gomidata_aichi_okazaki_shi.json" }
 };
 
 function getIndex(articles, article, offset, wraparound) {
@@ -136,8 +137,13 @@ function loadGomiData(gomidata) {
             if (entry.subCategories) {
                 for (let subCategoryId of Object.keys(entry.subCategories)) {
                     subCategory = entry.subCategories[subCategoryId];
+                    if (subCategory.name) {
+                        name = subCategory.name.replace("{categoryName}", parentCategory.name)
+                    } else {
+                        name = parentCategory.name
+                    }
                     data.categoryMap[subCategoryId] = {
-                        name: `${subCategory.name} (${parentCategory.name})`,
+                        name: name,
                         image: parentCategory.image
                     }
                 }

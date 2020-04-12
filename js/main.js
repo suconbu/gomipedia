@@ -146,7 +146,10 @@ class AppState {
         this.dataSourceUrl = gomidata.dataSourceUrl;
         this.updatedAt = gomidata.updatedAt;
         this.allArticles = gomidata.articles;
-        this.allArticles.forEach((article, index) => article.no = index);
+        this.allArticles.forEach((article, index) => {
+            article.no = index;
+            article.nameRoman = kana2roman.convert(article.nameKana, true);
+        });
         this.categoryMap = {};
         for (let article of this.allArticles) {
             if (!(article.categoryId in this.categoryMap)) {

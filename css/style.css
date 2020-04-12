@@ -71,6 +71,7 @@ input::placeholder {
 .normal-list, .normal-list-horizontal {
 	display: flex;
 	flex-flow: column nowrap;
+	height: 100%;
 	min-height: 3.0rem;
 	overflow-x: hidden;
 	overflow-y: auto;

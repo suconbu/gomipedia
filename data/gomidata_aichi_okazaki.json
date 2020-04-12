@@ -48,2586 +48,2189 @@
     {
       "name": "アイスクリームのカップ(紙製)",
       "nameKana": "あいすくりーむのかっぷ(かみせい)",
-      "nameRoman": "aisukuriimunokappu(kamisei)",
       "categoryId": "recyclable.paperpackaging",
       "note": "中を洗って"
     },
     {
       "name": "アイスクリームのふた(紙製)",
       "nameKana": "あいすくりーむのふた(かみせい)",
-      "nameRoman": "aisukuriimunofuta(kamisei)",
       "categoryId": "recyclable.paperpackaging",
       "note": "洗って"
     },
     {
       "name": "アイロン",
       "nameKana": "あいろん",
-      "nameRoman": "airon",
       "categoryId": "unburnable"
     },
     {
       "name": "飴の個包装(紙製)",
       "nameKana": "あめのこほうそう(かみせい)",
-      "nameRoman": "amenokohousou(kamisei)",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "飴の個包装(プラスチック製)",
       "nameKana": "あめのこほうそう(ぷらすちっくせい)",
-      "nameRoman": "amenokohousou(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "飴の外袋(プラスチック製)",
       "nameKana": "あめのそとふくろ(ぷらすちっくせい)",
-      "nameRoman": "amenosotofukuro(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "アルバム",
       "nameKana": "あるばむ",
-      "nameRoman": "arubamu",
       "categoryId": "burnable"
     },
     {
       "name": "アルミ缶(飲料・食品用)",
       "nameKana": "あるみかん(いんりょう・しょくひんよう)",
-      "nameRoman": "arumikan(inryou.shokuhinyou)",
       "categoryId": "recyclable.can",
       "note": "中を洗って青色のコンテナへ"
     },
     {
       "name": "アルミコーティング袋(菓子・レトルト食品など)",
       "nameKana": "あるみこーてぃんぐふくろ(かし・れとるとしょくひんなど)",
-      "nameRoman": "arumikooteingufukuro(kashi.retorutoshokuhinnado)",
       "categoryId": "recyclable.plasticpackaging",
       "note": "きれいにして"
     },
     {
       "name": "アルミホイル(アルミ箔)",
       "nameKana": "あるみほいる(あるみはく)",
-      "nameRoman": "arumihoiru(arumihaku)",
       "categoryId": "unburnable"
     },
     {
       "name": "アルミホイルの芯",
       "nameKana": "あるみほいるのしん",
-      "nameRoman": "arumihoirunoshin",
       "categoryId": "burnable",
       "note": "切り開けば資源回収・拠点回収へ"
     },
     {
       "name": "アルミホイルの外箱",
       "nameKana": "あるみほいるのそとばこ",
-      "nameRoman": "arumihoirunosotobako",
       "categoryId": "recyclable.paperpackaging",
       "note": "たたんで"
     },
     {
       "name": "アルミホイルの外箱の刃(金属製)",
       "nameKana": "あるみほいるのそとばこのは(きんぞくせい)",
-      "nameRoman": "arumihoirunosotobakonoha(kinzokusei)",
       "categoryId": "unburnable"
     },
     {
       "name": "衣装ケース",
       "nameKana": "いしょうけーす",
-      "nameRoman": "ishoukeesu",
       "categoryId": "oversized",
       "note": "大きさ・重さによって値段は異なります"
     },
     {
       "name": "いす(応接用いすを除く)",
       "nameKana": "いす(おうせつもちいすをのぞく)",
-      "nameRoman": "isu(ousetsumochiisuwonozoku)",
       "categoryId": "oversized",
       "note": "大きさ・重さによって値段は異なります"
     },
     {
       "name": "いちごのパック",
       "nameKana": "いちごのぱっく",
-      "nameRoman": "ichigonopakku",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "一升びん",
       "nameKana": "いっしょうびん",
-      "nameRoman": "isshoubin",
       "categoryId": "recyclable.reusebottole",
       "note": "中を洗って白色のコンテナへ"
     },
     {
       "name": "一升びんのふた",
       "nameKana": "いっしょうびんのふた",
-      "nameRoman": "isshoubinnofuta",
       "categoryId": "unburnable"
     },
     {
       "name": "一斗缶",
       "nameKana": "いっとかん",
-      "nameRoman": "ittokan",
       "categoryId": "unburnable",
       "note": "指定袋に入るもの"
     },
     {
       "name": "衣類(皮・ビニール製)",
       "nameKana": "いるい(かわ・びにーるせい)",
-      "nameRoman": "irui(kawa.biniirusei)",
       "categoryId": "burnable"
     },
     {
       "name": "衣類(布製)",
       "nameKana": "いるい(ぬのせい)",
-      "nameRoman": "irui(nunosei)",
       "categoryId": "burnable",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "衣類乾燥機",
       "nameKana": "いるいかんそうき",
-      "nameRoman": "iruikansouki",
       "categoryId": "legalrecycling"
     },
     {
       "name": "インクリボン(ワープロ等)",
       "nameKana": "いんくりぼん(わーぷろなど)",
-      "nameRoman": "inkuribon(waapuronado)",
       "categoryId": "burnable"
     },
     {
       "name": "インスタントコーヒーのびん",
       "nameKana": "いんすたんとこーひーのびん",
-      "nameRoman": "insutantokoohiinobin",
       "categoryId": "recyclable.grassbottole",
       "note": "中を洗って茶色のコンテナへ"
     },
     {
       "name": "インスタントコーヒーのびんの密閉ふた",
       "nameKana": "いんすたんとこーひーのびんのみっぺいふた",
-      "nameRoman": "insutantokoohiinobinnomippeifuta",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "インスタントコーヒーのびんのふた",
       "nameKana": "いんすたんとこーひーのびんのふた",
-      "nameRoman": "insutantokoohiinobinnofuta",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "ウイスキーのびん",
       "nameKana": "ういすきーのびん",
-      "nameRoman": "uisukiinobin",
       "categoryId": "recyclable.grassbottole",
       "note": "中を洗って茶色のコンテナへ"
     },
     {
       "name": "ウイスキーのびんのふた",
       "nameKana": "ういすきーのびんのふた",
-      "nameRoman": "uisukiinobinnofuta",
       "categoryId": "unburnable"
     },
     {
       "name": "植木鉢(素焼き)",
       "nameKana": "うえきばち(すやきき)",
-      "nameRoman": "uekibachi(suyakiki)",
       "categoryId": "unburnable"
     },
     {
       "name": "植木鉢(プラスチック製)",
       "nameKana": "うえきばち(ぷらすちっくせい)",
-      "nameRoman": "uekibachi(purasuchikkusei)",
       "categoryId": "burnable"
     },
     {
       "name": "乳母車",
       "nameKana": "うばぐるま",
-      "nameRoman": "ubaguruma",
       "categoryId": "oversized",
       "note": "大きさ・重さによって値段は異なります"
     },
     {
       "name": "エアコン",
       "nameKana": "えあこん",
-      "nameRoman": "eakon",
       "categoryId": "legalrecycling"
     },
     {
       "name": "液晶テレビ",
       "nameKana": "えきしょうてれび",
-      "nameRoman": "ekishouterebi",
       "categoryId": "legalrecycling"
     },
     {
       "name": "枝葉類",
       "nameKana": "えだはるい",
-      "nameRoman": "edaharui",
       "categoryId": "burnable",
       "note": "必ず指定袋に入れて"
     },
     {
       "name": "絵本",
       "nameKana": "えほん",
-      "nameRoman": "ehon",
       "categoryId": "localcollection",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "MD",
       "nameKana": "えむでぃー",
-      "nameRoman": "md",
       "categoryId": "unburnable"
     },
     {
       "name": "延長コード",
       "nameKana": "えんちょうこーど",
-      "nameRoman": "enchoukoodo",
       "categoryId": "unburnable"
     },
     {
       "name": "オイル缶",
       "nameKana": "おいるかん",
-      "nameRoman": "oirukan",
       "categoryId": "unburnable",
       "note": "中を使いきって"
     },
     {
       "name": "応接用テーブル",
       "nameKana": "おうせつようてーぶる",
-      "nameRoman": "ousetsuyouteeburu",
       "categoryId": "oversized",
       "note": "大きさ・重さによって値段が異なります"
     },
     {
       "name": "オートバイ",
       "nameKana": "おーとばい",
-      "nameRoman": "ootobai",
       "categoryId": "uncollectible.difficult",
       "note": "購入業者又はコールセンター（電話番号 03-3598-8075）へ"
     },
     {
       "name": "おしゃぶり",
       "nameKana": "おしゃぶり",
-      "nameRoman": "oshaburi",
       "categoryId": "burnable"
     },
     {
       "name": "おもちゃ(木・布・プラスチック製)",
       "nameKana": "おもちゃ(き・ぬの・ぷらすちっくせい)",
-      "nameRoman": "omocha(ki.nuno.purasuchikkusei)",
       "categoryId": "burnable",
       "note": "金属・基盤があれば不燃ごみ"
     },
     {
       "name": "おもちゃ(金属)",
       "nameKana": "おもちゃ(きんぞく)",
-      "nameRoman": "omocha(kinzoku)",
       "categoryId": "unburnable"
     },
     {
       "name": "おもちゃの空き箱(紙製)",
       "nameKana": "おもちゃのあきはこ(かみせい)",
-      "nameRoman": "omochanoakihako(kamisei)",
       "categoryId": "recyclable.paperpackaging",
       "note": "たたんで"
     },
     {
       "name": "カーテン",
       "nameKana": "かーてん",
-      "nameRoman": "kaaten",
       "categoryId": "burnable",
       "note": "指定袋に入るもの"
     },
     {
       "name": "カーペット",
       "nameKana": "かーぺっと",
-      "nameRoman": "kaapetto",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "カーボン紙",
       "nameKana": "かーぼんかみ",
-      "nameRoman": "kaabonkami",
       "categoryId": "burnable"
     },
     {
       "name": "貝殻",
       "nameKana": "かいがら",
-      "nameRoman": "kaigara",
       "categoryId": "burnable"
     },
     {
       "name": "カイロ(使い捨て)",
       "nameKana": "かいろ(つかいすて)",
-      "nameRoman": "kairo(tsukaisute)",
       "categoryId": "burnable"
     },
     {
       "name": "カイロ(使い捨て)の外袋",
       "nameKana": "かいろ(つかいすて)のそとふくろ",
-      "nameRoman": "kairo(tsukaisute)nosotofukuro",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "鏡(手鏡)",
       "nameKana": "かがみ(てかがみ)",
-      "nameRoman": "kagami(tekagami)",
       "categoryId": "hazardous.harmful",
       "note": "透明袋に入れて空き缶空きびんの日に黄色のコンテナへ"
     },
     {
       "name": "鏡(姿見)",
       "nameKana": "かがみ(すがたみ)",
-      "nameRoman": "kagami(sugatami)",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "傘",
       "nameKana": "かさ",
-      "nameRoman": "kasa",
       "categoryId": "unburnable",
       "note": "多少袋から出ても可（袋の口をしばって出す）"
     },
     {
       "name": "菓子の筒型缶(紙製)",
       "nameKana": "かしのつつかたかん(かみせい)",
-      "nameRoman": "kashinotsutsukatakan(kamisei)",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "菓子缶(金属製)",
       "nameKana": "かしかん(きんぞくせい)",
-      "nameRoman": "kashikan(kinzokusei)",
       "categoryId": "recyclable.can",
       "note": "青色のコンテナへ"
     },
     {
       "name": "菓子・そうめん等の箱(木製)",
       "nameKana": "かし・そうめんなどのはこ(もくせい)",
-      "nameRoman": "kashi.soumennadonohako(mokusei)",
       "categoryId": "burnable"
     },
     {
       "name": "菓子箱(紙製)",
       "nameKana": "かしはこ(かみせい)",
-      "nameRoman": "kashihako(kamisei)",
       "categoryId": "recyclable.paperpackaging",
       "note": "たたんで"
     },
     {
       "name": "菓子箱の中仕切り(紙製)",
       "nameKana": "かしはこのなかしきり(かみせい)",
-      "nameRoman": "kashihakononakashikiri(kamisei)",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "菓子箱の中仕切り(プラスチック製)",
       "nameKana": "かしはこのなかしきり(ぷらすちっくせい)",
-      "nameRoman": "kashihakononakashikiri(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "菓子袋(プラスチック製)",
       "nameKana": "かしふくろ(ぷらすちっくせい)",
-      "nameRoman": "kashifukuro(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "ガステーブル",
       "nameKana": "がすてーぶる",
-      "nameRoman": "gasuteeburu",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "ガスマット(アルミ製)",
       "nameKana": "がすまっと(あるみせい)",
-      "nameRoman": "gasumatto(arumisei)",
       "categoryId": "unburnable",
       "note": "指定袋に入るもの"
     },
     {
       "name": "カセット式ガスボンベ",
       "nameKana": "かせっとしきがすぼんべ",
-      "nameRoman": "kasettoshikigasubonbe",
       "categoryId": "hazardous.ignitable",
       "note": "最後まで使いきって黄色のコンテナへ"
     },
     {
       "name": "カセット式ガスボンベのキャップ",
       "nameKana": "かせっとしきがすぼんべのきゃっぷ",
-      "nameRoman": "kasettoshikigasubonbenokyappu",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "カセットコンロ",
       "nameKana": "かせっとこんろ",
-      "nameRoman": "kasettokonro",
       "categoryId": "unburnable",
       "note": "指定袋に入るもの"
     },
     {
       "name": "カセットテープ・ケース",
       "nameKana": "かせっとてーぷ・けーす",
-      "nameRoman": "kasettoteepu.keesu",
       "categoryId": "burnable"
     },
     {
       "name": "カップめんのかやく等の袋",
       "nameKana": "かっぷめんのかやくなどのふくろ",
-      "nameRoman": "kappumennokayakunadonofukuro",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中をきれいにして"
     },
     {
       "name": "カップめんの外包装フィルム",
       "nameKana": "かっぷめんのそとほうそうふぃるむ",
-      "nameRoman": "kappumennosotohousoufirumu",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "カップめんのふた(紙製)",
       "nameKana": "かっぷめんのふた(かみせい)",
-      "nameRoman": "kappumennofuta(kamisei)",
       "categoryId": "recyclable.paperpackaging",
       "note": "洗って"
     },
     {
       "name": "カップめんの容器",
       "nameKana": "かっぷめんのようき",
-      "nameRoman": "kappumennoyouki",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗って"
     },
     {
       "name": "かばん(布・皮・ナイロン製)",
       "nameKana": "かばん(ぬの・かわ・ないろんせい)",
-      "nameRoman": "kaban(nuno.kawa.naironsei)",
       "categoryId": "burnable"
     },
     {
       "name": "かばん(ハードケース)",
       "nameKana": "かばん(はーどけーす)",
-      "nameRoman": "kaban(haadokeesu)",
       "categoryId": "burnable",
       "note": "指定袋に入るもの"
     },
     {
       "name": "紙おむつ",
       "nameKana": "かみおむつ",
-      "nameRoman": "kamiomutsu",
       "categoryId": "burnable",
       "note": "汚物はトイレに流して"
     },
     {
       "name": "紙くず",
       "nameKana": "かみくず",
-      "nameRoman": "kamikuzu",
       "categoryId": "burnable"
     },
     {
       "name": "紙コップ・紙皿",
       "nameKana": "かみこっぷ・かみさら",
-      "nameRoman": "kamikoppu.kamisara",
       "categoryId": "burnable",
       "note": "使い捨て商品はなるべく避けましょう"
     },
     {
       "name": "かみそり",
       "nameKana": "かみそり",
-      "nameRoman": "kamisori",
       "categoryId": "unburnable",
       "note": "紙等で包み「危険」と表示して"
     },
     {
       "name": "紙パック(内側が白いもの)",
       "nameKana": "かみぱっく(うちがわがしろいもの)",
-      "nameRoman": "kamipakku(uchigawagashiroimono)",
       "categoryId": "localcollection",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "紙パック(内側が銀色のもの)",
       "nameKana": "かみぱっく(うちがわがぎんいろのもの)",
-      "nameRoman": "kamipakku(uchigawagagin'ironomono)",
       "categoryId": "recyclable.paperpackaging",
       "note": "中を洗ってたたんで"
     },
     {
       "name": "紙袋",
       "nameKana": "かみぶくろ",
-      "nameRoman": "kamibukuro",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "ガムの包装紙",
       "nameKana": "がむのほうそうし",
-      "nameRoman": "gamunohousoushi",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "カメラ",
       "nameKana": "かめら",
-      "nameRoman": "kamera",
       "categoryId": "unburnable",
       "note": "販売店でご相談ください"
     },
     {
       "name": "カメラのケース(ソフトケース)",
       "nameKana": "かめらのけーす(そふとけーす)",
-      "nameRoman": "kameranokeesu(sofutokeesu)",
       "categoryId": "burnable"
     },
     {
       "name": "ガラス類",
       "nameKana": "がらするい",
-      "nameRoman": "garasurui",
       "categoryId": "unburnable",
       "note": "紙等で包み「危険」と表示して"
     },
     {
       "name": "乾燥剤",
       "nameKana": "かんそうざい",
-      "nameRoman": "kansouzai",
       "categoryId": "burnable"
     },
     {
       "name": "缶詰の缶",
       "nameKana": "かんづめのかん",
-      "nameRoman": "kanzumenokan",
       "categoryId": "recyclable.can",
       "note": "取れてしまったふたは不燃ごみへ"
     },
     {
       "name": "乾電池",
       "nameKana": "かんでんち",
-      "nameRoman": "kandenchi",
       "categoryId": "pointcollection",
       "note": "蛍光管乾電池の回収協力店へ"
     },
     {
       "name": "感熱紙",
       "nameKana": "かんねつし",
-      "nameRoman": "kannetsushi",
       "categoryId": "burnable"
     },
     {
       "name": "木くず",
       "nameKana": "きくず",
-      "nameRoman": "kikuzu",
       "categoryId": "burnable",
       "note": "必ず指定袋に入れて"
     },
     {
       "name": "着物",
       "nameKana": "きもの",
-      "nameRoman": "kimono",
       "categoryId": "burnable",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "キャラメルの紙箱",
       "nameKana": "きゃらめるのかみばこ",
-      "nameRoman": "kyaramerunokamibako",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "キャラメルの外包装フィルム",
       "nameKana": "きゃらめるのそとほうそうふぃるむ",
-      "nameRoman": "kyaramerunosotohousoufirumu",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "キャラメルの個包装紙",
       "nameKana": "きゃらめるのこほうそうし",
-      "nameRoman": "kyaramerunokohousoushi",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "牛乳パック(内側が白いもの)",
       "nameKana": "ぎゅうにゅうぱっく(うちがわがしろいもの)",
-      "nameRoman": "gyuunyuupakku(uchigawagashiroimono)",
       "categoryId": "localcollection",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "牛乳びん",
       "nameKana": "ぎゅうにゅうびん",
-      "nameRoman": "gyuunyuubin",
       "categoryId": "uncollectible.sellercollection",
       "note": "販売店へ返却"
     },
     {
       "name": "クーラーボックス",
       "nameKana": "くーらーぼっくす",
-      "nameRoman": "kuuraabokkusu",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "くぎ",
       "nameKana": "くぎ",
-      "nameRoman": "kugi",
       "categoryId": "unburnable",
       "note": "紙等で包み、「くぎ」と表示して"
     },
     {
       "name": "草",
       "nameKana": "くさ",
-      "nameRoman": "kusa",
       "categoryId": "burnable",
       "note": "土は落として指定袋に入れて"
     },
     {
       "name": "串(木・竹製)",
       "nameKana": "くし(き・たけせい)",
-      "nameRoman": "kushi(ki.takesei)",
       "categoryId": "burnable",
       "note": "収集時に危険のないように"
     },
     {
       "name": "薬の容器(プラスチック製)",
       "nameKana": "くすりのようき(ぷらすちっくせい)",
-      "nameRoman": "kusurinoyouki(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗って"
     },
     {
       "name": "薬(飲み薬・錠剤)のびん",
       "nameKana": "くすり(のみくすり・じょうざい)のびん",
-      "nameRoman": "kusuri(nomikusuri.jouzai)nobin",
       "categoryId": "recyclable.grassbottole",
       "note": "茶色のコンテナへ"
     },
     {
       "name": "薬の袋",
       "nameKana": "くすりのふくろ",
-      "nameRoman": "kusurinofukuro",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "薬(錠剤・カプセル等)の包装シート",
       "nameKana": "くすり(じょうざい・かぷせるなど)のほうそうしーと",
-      "nameRoman": "kusuri(jouzai.kapuserunado)nohousoushiito",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "果物を包んだネット",
       "nameKana": "くだものをつつんだねっと",
-      "nameRoman": "kudamonowotsutsundanetto",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "口紅の容器(金属製)",
       "nameKana": "くちべにのようき(きんぞくせい)",
-      "nameRoman": "kuchibeninoyouki(kinzokusei)",
       "categoryId": "unburnable"
     },
     {
       "name": "口紅の容器(プラスチック製)",
       "nameKana": "くちべにのようき(ぷらすちっくせい)",
-      "nameRoman": "kuchibeninoyouki(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中をきれいにして"
     },
     {
       "name": "靴(革・布・ビニール製)",
       "nameKana": "くつ(かわ・ぬの・びにーるせい)",
-      "nameRoman": "kutsu(kawa.nuno.biniirusei)",
       "categoryId": "burnable"
     },
     {
       "name": "靴の箱",
       "nameKana": "くつのはこ",
-      "nameRoman": "kutsunohako",
       "categoryId": "recyclable.paperpackaging",
       "note": "たたんで"
     },
     {
       "name": "靴下",
       "nameKana": "くつした",
-      "nameRoman": "kutsushita",
       "categoryId": "burnable",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "クリーニングの袋",
       "nameKana": "くりーにんぐのふくろ",
-      "nameRoman": "kuriiningunofukuro",
       "categoryId": "burnable",
       "note": "商品ではないため"
     },
     {
       "name": "車のオイル",
       "nameKana": "くるまのおいる",
-      "nameRoman": "kurumanooiru",
       "categoryId": "uncollectible.difficult",
       "note": "固めてあれば可燃ごみ"
     },
     {
       "name": "クレヨン",
       "nameKana": "くれよん",
-      "nameRoman": "kureyon",
       "categoryId": "burnable"
     },
     {
       "name": "軍手",
       "nameKana": "ぐんて",
-      "nameRoman": "gunte",
       "categoryId": "burnable"
     },
     {
       "name": "ゲーム機本体・ソフト",
       "nameKana": "げーむきほんたい・そふと",
-      "nameRoman": "geemukihontai.sofuto",
       "categoryId": "unburnable"
     },
     {
       "name": "蛍光管",
       "nameKana": "けいこうかん",
-      "nameRoman": "keikoukan",
       "categoryId": "pointcollection",
       "note": "蛍光管乾電池の回収協力店へ"
     },
     {
       "name": "蛍光管の外箱(紙製)",
       "nameKana": "けいこうかんのそとばこ(かみせい)",
-      "nameRoman": "keikoukannosotobako(kamisei)",
       "categoryId": "recyclable.paperpackaging",
       "note": "蛍光管を捨てる際、保護用に使うことをお薦めします"
     },
     {
       "name": "携帯電話",
       "nameKana": "けいたいでんわ",
-      "nameRoman": "keitaidenwa",
       "categoryId": "uncollectible.sellercollection",
       "note": "販売店へ"
     },
     {
       "name": "化粧品の外箱",
       "nameKana": "けしょうひんのそとばこ",
-      "nameRoman": "keshouhinnosotobako",
       "categoryId": "recyclable.paperpackaging",
       "note": "たたんで"
     },
     {
       "name": "化粧品のびん",
       "nameKana": "けしょうひんのびん",
-      "nameRoman": "keshouhinnobin",
       "categoryId": "unburnable"
     },
     {
       "name": "化粧品のびんのふた(プラスチック製)",
       "nameKana": "けしょうひんのびんのふた(ぷらすちっくせい)",
-      "nameRoman": "keshouhinnobinnofuta(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "化粧品の容器(プラスチック製)",
       "nameKana": "けしょうひんのようき(ぷらすちっくせい)",
-      "nameRoman": "keshouhinnoyouki(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗って"
     },
     {
       "name": "ケチャップの外袋",
       "nameKana": "けちゃっぷのそとふくろ",
-      "nameRoman": "kechappunosotofukuro",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "ケチャップのチューブ容器",
       "nameKana": "けちゃっぷのちゅーぶようき",
-      "nameRoman": "kechappunochuubuyouki",
       "categoryId": "burnable",
       "note": "中をきれいにできればプラスチック製容器包装へ"
     },
     {
       "name": "原動機付自転車",
       "nameKana": "げんどうきつきじてんしゃ",
-      "nameRoman": "gendoukitsukijitensha",
       "categoryId": "uncollectible.difficult",
       "note": "購入業者又はコールセンター（電話番号 03-3598-8075）へ"
     },
     {
       "name": "紅茶の外箱の包装フィルム",
       "nameKana": "こうちゃのそとばこのほうそうふぃるむ",
-      "nameRoman": "kouchanosotobakonohousoufirumu",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "紅茶(ティーバッグ型)の外パック",
       "nameKana": "こうちゃ(てぃーばっぐかた)のそとぱっく",
-      "nameRoman": "koucha(teiibaggukata)nosotopakku",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "紅茶(ティーバッグ型)のパックの台紙",
       "nameKana": "こうちゃ(てぃーばっぐかた)のぱっくのだいし",
-      "nameRoman": "koucha(teiibaggukata)nopakkunodaishi",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "紅茶(ティーバッグ型)のパックの個包装紙",
       "nameKana": "こうちゃ(てぃーばっぐかた)のぱっくのこほうそうし",
-      "nameRoman": "koucha(teiibaggukata)nopakkunokohousoushi",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "紅茶のティーバッグ",
       "nameKana": "こうちゃのてぃーばっぐ",
-      "nameRoman": "kouchanoteiibaggu",
       "categoryId": "burnable"
     },
     {
       "name": "こたつ",
       "nameKana": "こたつ",
-      "nameRoman": "kotatsu",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "コップ(ガラス・陶器)",
       "nameKana": "こっぷ(がらす・とうき)",
-      "nameRoman": "koppu(garasu.touki)",
       "categoryId": "unburnable"
     },
     {
       "name": "コップ(紙・プラスチック製)",
       "nameKana": "こっぷ(かみ・ぷらすちっくせい)",
-      "nameRoman": "koppu(kami.purasuchikkusei)",
       "categoryId": "burnable"
     },
     {
       "name": "粉ミルクの缶",
       "nameKana": "こなみるくのかん",
-      "nameRoman": "konamirukunokan",
       "categoryId": "recyclable.can",
       "note": "中を洗って青色のコンテナへ"
     },
     {
       "name": "ゴム手袋・ゴム長靴",
       "nameKana": "ごむてぶくろ・ごむながぐつ",
-      "nameRoman": "gomutebukuro.gomunagagutsu",
       "categoryId": "burnable"
     },
     {
       "name": "米袋(プラスチック製)",
       "nameKana": "こめぶくろ(ぷらすちっくせい)",
-      "nameRoman": "komebukuro(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "コルク栓",
       "nameKana": "こるくせん",
-      "nameRoman": "korukusen",
       "categoryId": "burnable"
     },
     {
       "name": "コンビニ弁当などの容器",
       "nameKana": "こんびにべんとうなどのようき",
-      "nameRoman": "konbinibentounadonoyouki",
       "categoryId": "recyclable.plasticpackaging",
       "note": "洗って"
     },
     {
       "name": "ゴルフ用具(バッグ・クラブ)",
       "nameKana": "ごるふようぐ(ばっぐ・くらぶ)",
-      "nameRoman": "gorufuyougu(baggu.kurabu)",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "ゴルフボール",
       "nameKana": "ごるふぼーる",
-      "nameRoman": "gorufubooru",
       "categoryId": "burnable"
     },
     {
       "name": "座いす",
       "nameKana": "ざいす",
-      "nameRoman": "zaisu",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "作業着",
       "nameKana": "さぎょうぎ",
-      "nameRoman": "sagyougi",
       "categoryId": "burnable",
       "note": "汚れているため"
     },
     {
       "name": "酒パック(内側が銀色のもの)",
       "nameKana": "さけぱっく(うちがわがぎんいろのもの)",
-      "nameRoman": "sakepakku(uchigawagagin'ironomono)",
       "categoryId": "recyclable.paperpackaging",
       "note": "中を洗ってたたんで"
     },
     {
       "name": "酒パックの口のふた",
       "nameKana": "さけぱっくのくちのふた",
-      "nameRoman": "sakepakkunokuchinofuta",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "雑誌",
       "nameKana": "ざっし",
-      "nameRoman": "zasshi",
       "categoryId": "localcollection",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "座布団",
       "nameKana": "ざぶとん",
-      "nameRoman": "zabuton",
       "categoryId": "burnable",
       "note": "指定袋に入るもの"
     },
     {
       "name": "三輪車",
       "nameKana": "さんりんしゃ",
-      "nameRoman": "sanrinsha",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります。"
     },
     {
       "name": "シーツ",
       "nameKana": "しーつ",
-      "nameRoman": "shiitsu",
       "categoryId": "burnable"
     },
     {
       "name": "CD(ケースを含む)",
       "nameKana": "しーでぃー(けーすをふくむ)",
-      "nameRoman": "cd(keesuwofukumu)",
       "categoryId": "burnable"
     },
     {
       "name": "下着類",
       "nameKana": "したぎるい",
-      "nameRoman": "shitagirui",
       "categoryId": "burnable",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "湿布",
       "nameKana": "しっぷ",
-      "nameRoman": "shippu",
       "categoryId": "burnable"
     },
     {
       "name": "湿布の表面に貼られた薄いフィルム",
       "nameKana": "しっぷのひょうめんにはられたうすいふぃるむ",
-      "nameRoman": "shippunohyoumennihararetausuifirumu",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "自転車",
       "nameKana": "じてんしゃ",
-      "nameRoman": "jitensha",
       "categoryId": "oversized"
     },
     {
       "name": "シャープペンシル",
       "nameKana": "しゃーぷぺんしる",
-      "nameRoman": "shaapupenshiru",
       "categoryId": "burnable"
     },
     {
       "name": "写真",
       "nameKana": "しゃしん",
-      "nameRoman": "shashin",
       "categoryId": "burnable"
     },
     {
       "name": "写真のネガフィルム(カバーを含む)",
       "nameKana": "しゃしんのねがふぃるむ(かばーをふくむ)",
-      "nameRoman": "shashinnonegafirumu(kabaawofukumu)",
       "categoryId": "burnable"
     },
     {
       "name": "シャンプーの詰め替え用の外袋",
       "nameKana": "しゃんぷーのつめかえようのそとふくろ",
-      "nameRoman": "shanpuunotsumekaeyounosotofukuro",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗って"
     },
     {
       "name": "シャンプーのボトル",
       "nameKana": "しゃんぷーのぼとる",
-      "nameRoman": "shanpuunobotoru",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗って"
     },
     {
       "name": "ジュースの缶",
       "nameKana": "じゅーすのかん",
-      "nameRoman": "juusunokan",
       "categoryId": "recyclable.can",
       "note": "中を洗って青色のコンテナへ"
     },
     {
       "name": "ジュースのびん",
       "nameKana": "じゅーすのびん",
-      "nameRoman": "juusunobin",
       "categoryId": "recyclable.grassbottole",
       "note": "中を洗って茶色のコンテナへ"
     },
     {
       "name": "ジュースのびんのふた(金属製)",
       "nameKana": "じゅーすのびんのふた(きんぞくせい)",
-      "nameRoman": "juusunobinnofuta(kinzokusei)",
       "categoryId": "unburnable"
     },
     {
       "name": "じゅうたん",
       "nameKana": "じゅうたん",
-      "nameRoman": "juutan",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "消火器",
       "nameKana": "しょうかき",
-      "nameRoman": "shoukaki",
       "categoryId": "uncollectible.difficult",
       "note": "購入業者又は消火器リサイクルコールセンター（電話番号 03-5829-6773）へ"
     },
     {
       "name": "食用油",
       "nameKana": "しょくようあぶら",
-      "nameRoman": "shokuyouabura",
       "categoryId": "burnable",
       "note": "布や紙にしみこませて"
     },
     {
       "name": "食用油の缶",
       "nameKana": "しょくようあぶらのかん",
-      "nameRoman": "shokuyouaburanokan",
       "categoryId": "recyclable.can",
       "note": "軽く洗って青色のコンテナへ"
     },
     {
       "name": "食用油のびん",
       "nameKana": "しょくようあぶらのびん",
-      "nameRoman": "shokuyouaburanobin",
       "categoryId": "recyclable.grassbottole",
       "note": "軽く洗って茶色のコンテナへ"
     },
     {
       "name": "食用油の容器(プラスチック製)",
       "nameKana": "しょくようあぶらのようき(ぷらすちっくせい)",
-      "nameRoman": "shokuyouaburanoyouki(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging",
       "note": "軽く洗って"
     },
     {
       "name": "食器洗い乾燥機",
       "nameKana": "しょっきあらいかんそうき",
-      "nameRoman": "shokkiaraikansouki",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "食器棚",
       "nameKana": "しょっきだな",
-      "nameRoman": "shokkidana",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "食器類(陶器)",
       "nameKana": "しょっきるい(とうき)",
-      "nameRoman": "shokkirui(touki)",
       "categoryId": "unburnable"
     },
     {
       "name": "食器類(プラスチック製)",
       "nameKana": "しょっきるい(ぷらすちっくせい)",
-      "nameRoman": "shokkirui(purasuchikkusei)",
       "categoryId": "burnable"
     },
     {
       "name": "新聞紙",
       "nameKana": "しんぶんし",
-      "nameRoman": "shinbunshi",
       "categoryId": "localcollection",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "炊飯器",
       "nameKana": "すいはんき",
-      "nameRoman": "suihanki",
       "categoryId": "unburnable",
       "note": "指定袋に入るもの"
     },
     {
       "name": "スーツケース",
       "nameKana": "すーつけーす",
-      "nameRoman": "suutsukeesu",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "スキー板・ストック",
       "nameKana": "すきーいた・すとっく",
-      "nameRoman": "sukiiita.sutokku",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "スキー靴",
       "nameKana": "すきーくつ",
-      "nameRoman": "sukiikutsu",
       "categoryId": "unburnable"
     },
     {
       "name": "すだれ",
       "nameKana": "すだれ",
-      "nameRoman": "sudare",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金がことなります"
     },
     {
       "name": "スチール缶(飲料・食品用)",
       "nameKana": "すちーるかん(いんりょう・しょくひんよう)",
-      "nameRoman": "suchiirukan(inryou.shokuhinyou)",
       "categoryId": "recyclable.can",
       "note": "中を洗って青色のコンテナへ"
     },
     {
       "name": "ステレオ",
       "nameKana": "すてれお",
-      "nameRoman": "sutereo",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "ストーブ",
       "nameKana": "すとーぶ",
-      "nameRoman": "sutoobu",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります必ず灯油は抜いて"
     },
     {
       "name": "ストッキング",
       "nameKana": "すとっきんぐ",
-      "nameRoman": "sutokkingu",
       "categoryId": "burnable"
     },
     {
       "name": "ストッキングの外袋",
       "nameKana": "すとっきんぐのそとふくろ",
-      "nameRoman": "sutokkingunosotofukuro",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "ストッキングの台紙",
       "nameKana": "すとっきんぐのだいし",
-      "nameRoman": "sutokkingunodaishi",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "ストロー",
       "nameKana": "すとろー",
-      "nameRoman": "sutoroo",
       "categoryId": "burnable"
     },
     {
       "name": "ストローの袋(紙製)",
       "nameKana": "すとろーのふくろ(かみせい)",
-      "nameRoman": "sutoroonofukuro(kamisei)",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "ストローの袋(プラスチック製)",
       "nameKana": "すとろーのふくろ(ぷらすちっくせい)",
-      "nameRoman": "sutoroonofukuro(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "スノーボード",
       "nameKana": "すのーぼーど",
-      "nameRoman": "sunooboodo",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "スプーン(プラスチック製)",
       "nameKana": "すぷーん(ぷらすちっくせい)",
-      "nameRoman": "supuun(purasuchikkusei)",
       "categoryId": "burnable"
     },
     {
       "name": "スプーン(金属製)",
       "nameKana": "すぷーん(きんぞくせい)",
-      "nameRoman": "supuun(kinzokusei)",
       "categoryId": "unburnable"
     },
     {
       "name": "スプレー缶",
       "nameKana": "すぷれーかん",
-      "nameRoman": "supureekan",
       "categoryId": "hazardous.ignitable",
       "note": "最後まで使いきって黄色のコンテナへ"
     },
     {
       "name": "スプレー缶のふた",
       "nameKana": "すぷれーかんのふた",
-      "nameRoman": "supureekannofuta",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "スポンジ",
       "nameKana": "すぽんじ",
-      "nameRoman": "suponji",
       "categoryId": "burnable"
     },
     {
       "name": "スリッパ",
       "nameKana": "すりっぱ",
-      "nameRoman": "surippa",
       "categoryId": "burnable"
     },
     {
       "name": "生理用品",
       "nameKana": "せいりようひん",
-      "nameRoman": "seiriyouhin",
       "categoryId": "burnable"
     },
     {
       "name": "せっけんの外箱(紙製)",
       "nameKana": "せっけんのそとばこ(かみせい)",
-      "nameRoman": "sekkennosotobako(kamisei)",
       "categoryId": "recyclable.paperpackaging",
       "note": "たたんで"
     },
     {
       "name": "せっけんの個袋(紙製)",
       "nameKana": "せっけんのこふくろ(かみせい)",
-      "nameRoman": "sekkennokofukuro(kamisei)",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "せっけんの個袋(プラスチック製)",
       "nameKana": "せっけんのこふくろ(ぷらすちっくせい)",
-      "nameRoman": "sekkennokofukuro(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "ゼリーの容器(プラスチック製)",
       "nameKana": "ぜりーのようき(ぷらすちっくせい)",
-      "nameRoman": "zeriinoyouki(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗って"
     },
     {
       "name": "ゼリーの容器のふた(プラスチック製)",
       "nameKana": "ぜりーのようきのふた(ぷらすちっくせい)",
-      "nameRoman": "zeriinoyoukinofuta(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging",
       "note": "洗って"
     },
     {
       "name": "セロハン紙",
       "nameKana": "せろはんかみ",
-      "nameRoman": "serohankami",
       "categoryId": "burnable"
     },
     {
       "name": "洗剤の紙箱",
       "nameKana": "せんざいのかみばこ",
-      "nameRoman": "senzainokamibako",
       "categoryId": "recyclable.paperpackaging",
       "note": "たたんで"
     },
     {
       "name": "洗剤の箱の取っ手(プラスチック製)",
       "nameKana": "せんざいのはこのとって(ぷらすちっくせい)",
-      "nameRoman": "senzainohakonototsute(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "洗剤の計量スプーン",
       "nameKana": "せんざいのけいりょうすぷーん",
-      "nameRoman": "senzainokeiryousupuun",
       "categoryId": "burnable"
     },
     {
       "name": "洗剤の詰め替え用外袋",
       "nameKana": "せんざいのつめかえようそとふくろ",
-      "nameRoman": "senzainotsumekaeyousotofukuro",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗って"
     },
     {
       "name": "洗剤の容器(プラスチック製)",
       "nameKana": "せんざいのようき(ぷらすちっくせい)",
-      "nameRoman": "senzainoyouki(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗って"
     },
     {
       "name": "洗剤の容器のふた(プラスチック製)",
       "nameKana": "せんざいのようきのふた(ぷらすちっくせい)",
-      "nameRoman": "senzainoyoukinofuta(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "洗濯機",
       "nameKana": "せんたくき",
-      "nameRoman": "sentakuki",
       "categoryId": "legalrecycling"
     },
     {
       "name": "扇風機",
       "nameKana": "せんぷうき",
-      "nameRoman": "senpuuki",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "洗面器(プラスチック製)",
       "nameKana": "せんめんき(ぷらすちっくせい)",
-      "nameRoman": "senmenki(purasuchikkusei)",
       "categoryId": "burnable"
     },
     {
       "name": "ぞうきん",
       "nameKana": "ぞうきん",
-      "nameRoman": "zoukin",
       "categoryId": "burnable"
     },
     {
       "name": "掃除機",
       "nameKana": "そうじき",
-      "nameRoman": "soujiki",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "ソースの容器",
       "nameKana": "そーすのようき",
-      "nameRoman": "soosunoyouki",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗ってきれいにできなければ可燃ごみ"
     },
     {
       "name": "ソファー",
       "nameKana": "そふぁー",
-      "nameRoman": "sofaa",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "体温計(水銀)",
       "nameKana": "たいおんけい(すいぎん)",
-      "nameRoman": "taionkei(suigin)",
       "categoryId": "hazardous.harmful",
       "note": "透明袋に入れて缶・びんの日に黄色のコンテナ へ"
     },
     {
       "name": "体温計(電子)",
       "nameKana": "たいおんけい(でんし)",
-      "nameRoman": "taionkei(denshi)",
       "categoryId": "unburnable"
     },
     {
       "name": "タイヤ",
       "nameKana": "たいや",
-      "nameRoman": "taiya",
       "categoryId": "oversized"
     },
     {
       "name": "ダイレクトメールの封筒",
       "nameKana": "だいれくとめーるのふうとう",
-      "nameRoman": "dairekutomeerunofuutou",
       "categoryId": "burnable"
     },
     {
       "name": "ダイレクトメールのチラシ",
       "nameKana": "だいれくとめーるのちらし",
-      "nameRoman": "dairekutomeerunochirashi",
       "categoryId": "burnable",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "タオル",
       "nameKana": "たおる",
-      "nameRoman": "taoru",
       "categoryId": "burnable"
     },
     {
       "name": "畳",
       "nameKana": "たたみ",
-      "nameRoman": "tatami",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "タバコの紙箱",
       "nameKana": "たばこのかみばこ",
-      "nameRoman": "tabakonokamibako",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "タバコの箱の中の銀紙・金紙",
       "nameKana": "たばこのはこのなかのぎんがみ・きんかみ",
-      "nameRoman": "tabakonohakononakanogingami.kinkami",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "タバコのすいがら",
       "nameKana": "たばこのすいがら",
-      "nameRoman": "tabakonosuigara",
       "categoryId": "burnable"
     },
     {
       "name": "タバコの外包装フィルム",
       "nameKana": "たばこのそとほうそうふぃるむ",
-      "nameRoman": "tabakonosotohousoufirumu",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "卵パック(紙製)",
       "nameKana": "たまごぱっく(かみせい)",
-      "nameRoman": "tamagopakku(kamisei)",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "卵パック(プラスチック製)",
       "nameKana": "たまごぱっく(ぷらすちっくせい)",
-      "nameRoman": "tamagopakku(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "たれのボトル容器(プラスチック製)",
       "nameKana": "たれのぼとるようき(ぷらすちっくせい)",
-      "nameRoman": "tarenobotoruyouki(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗って"
     },
     {
       "name": "たんす",
       "nameKana": "たんす",
-      "nameRoman": "tansu",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "ダンボール",
       "nameKana": "だんぼーる",
-      "nameRoman": "danbooru",
       "categoryId": "localcollection",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "茶の葉の缶",
       "nameKana": "ちゃのはのかん",
-      "nameRoman": "chanohanokan",
       "categoryId": "recyclable.can",
       "note": "中を洗って青色のコンテナへ"
     },
     {
       "name": "チューブ型容器",
       "nameKana": "ちゅーぶかたようき",
-      "nameRoman": "chuubukatayouki",
       "categoryId": "burnable",
       "note": "中をきれいにできればプラスチック製容器包装へ"
     },
     {
       "name": "調味料の缶",
       "nameKana": "ちょうみりょうのかん",
-      "nameRoman": "choumiryounokan",
       "categoryId": "recyclable.can",
       "note": "中を洗って青色のコンテナへ"
     },
     {
       "name": "調味料のびん",
       "nameKana": "ちょうみりょうのびん",
-      "nameRoman": "choumiryounobin",
       "categoryId": "recyclable.grassbottole",
       "note": "中を洗って茶色のコンテナへ"
     },
     {
       "name": "調味料の容器(プラスチック製)",
       "nameKana": "ちょうみりょうのようき(ぷらすちっくせい)",
-      "nameRoman": "choumiryounoyouki(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging",
       "note": "しょうゆ、みりん、酒、油分を含まない調味料のペットボトルはペットボトルへ"
     },
     {
       "name": "チラシ",
       "nameKana": "ちらし",
-      "nameRoman": "chirashi",
       "categoryId": "localcollection",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "机",
       "nameKana": "つくえ",
-      "nameRoman": "tsukue",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "土(注釈)",
       "nameKana": "つち(ちゅうしゃく)",
-      "nameRoman": "tsuchi(chuushaku)",
       "categoryId": "burnable",
       "note": "植木などの腐葉土"
     },
     {
       "name": "ティッシュペーパー",
       "nameKana": "てぃっしゅぺーぱー",
-      "nameRoman": "teisshupeepaa",
       "categoryId": "burnable"
     },
     {
       "name": "ティッシュペーパーの外箱",
       "nameKana": "てぃっしゅぺーぱーのそとばこ",
-      "nameRoman": "teisshupeepaanosotobako",
       "categoryId": "recyclable.paperpackaging",
       "note": "たたんで"
     },
     {
       "name": "ティッシュ箱の取出口フィルム",
       "nameKana": "てぃっしゅはこのしゅでぐちふぃるむ",
-      "nameRoman": "teisshuhakonoshudeguchifirumu",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "ティッシュ箱の外包装フィルム",
       "nameKana": "てぃっしゅはこのそとほうそうふぃるむ",
-      "nameRoman": "teisshuhakonosotohousoufirumu",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "テーブル",
       "nameKana": "てーぶる",
-      "nameRoman": "teeburu",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "手袋",
       "nameKana": "てぶくろ",
-      "nameRoman": "tebukuro",
       "categoryId": "burnable"
     },
     {
       "name": "テニスボール",
       "nameKana": "てにすぼーる",
-      "nameRoman": "tenisubooru",
       "categoryId": "burnable"
     },
     {
       "name": "テレビ",
       "nameKana": "てれび",
-      "nameRoman": "terebi",
       "categoryId": "legalrecycling"
     },
     {
       "name": "テレビ台",
       "nameKana": "てれびだい",
-      "nameRoman": "terebidai",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "電気毛布",
       "nameKana": "でんきもうふ",
-      "nameRoman": "denkimoufu",
       "categoryId": "unburnable"
     },
     {
       "name": "電気カーペット",
       "nameKana": "でんきかーぺっと",
-      "nameRoman": "denkikaapetto",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "電球",
       "nameKana": "でんきゅう",
-      "nameRoman": "denkyuu",
       "categoryId": "unburnable"
     },
     {
       "name": "電子レンジ",
       "nameKana": "でんしれんじ",
-      "nameRoman": "denshirenji",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "電池(乾電池)",
       "nameKana": "でんち(かんでんち)",
-      "nameRoman": "denchi(kandenchi)",
       "categoryId": "pointcollection",
       "note": "蛍光管・乾電池の回収協力店へ"
     },
     {
       "name": "電池(ボタン電池・小型充電式)",
       "nameKana": "でんち(ぼたんでんち・こがたじゅうでんしき)",
-      "nameRoman": "denchi(botandenchi.kogatajuudenshiki)",
       "categoryId": "uncollectible.sellercollection",
       "note": "家電販売店の自主回収へ"
     },
     {
       "name": "天ぷら油",
       "nameKana": "てんぷらあぶら",
-      "nameRoman": "tenpuraabura",
       "categoryId": "burnable",
       "note": "紙か布にしみ込ませて"
     },
     {
       "name": "トイレットペーパーの芯",
       "nameKana": "といれっとぺーぱーのしん",
-      "nameRoman": "toirettopeepaanoshin",
       "categoryId": "burnable",
       "note": "切り開けば資源回収・拠点回収へ"
     },
     {
       "name": "トイレットペーパーの外袋",
       "nameKana": "といれっとぺーぱーのそとふくろ",
-      "nameRoman": "toirettopeepaanosotofukuro",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "豆腐のパック",
       "nameKana": "とうふのぱっく",
-      "nameRoman": "toufunopakku",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "トースター",
       "nameKana": "とーすたー",
-      "nameRoman": "toosutaa",
       "categoryId": "unburnable"
     },
     {
       "name": "時計",
       "nameKana": "とけい",
-      "nameRoman": "tokei",
       "categoryId": "unburnable",
       "note": "指定袋に入るもの"
     },
     {
       "name": "ドリンクのびん",
       "nameKana": "どりんくのびん",
-      "nameRoman": "dorinkunobin",
       "categoryId": "recyclable.grassbottole",
       "note": "中を洗って茶色のコンテナへ"
     },
     {
       "name": "ドリンクのびんのふた(金属製)",
       "nameKana": "どりんくのびんのふた(きんぞくせい)",
-      "nameRoman": "dorinkunobinnofuta(kinzokusei)",
       "categoryId": "unburnable"
     },
     {
       "name": "トレイ(色つき含む)",
       "nameKana": "とれい(しょくつきふくむ)",
-      "nameRoman": "torei(shokutsukifukumu)",
       "categoryId": "recyclable.plasticpackaging",
       "note": "洗って"
     },
     {
       "name": "トレイについていたラップ",
       "nameKana": "とれいについていたらっぷ",
-      "nameRoman": "toreinitsuiteitarappu",
       "categoryId": "recyclable.plasticpackaging",
       "note": "きれいにできなければ可燃ごみ"
     },
     {
       "name": "ドレッシングのボトル(プラスチック製)",
       "nameKana": "どれっしんぐのぼとる(ぷらすちっくせい)",
-      "nameRoman": "doresshingunobotoru(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗って、きれいにできなければ可燃ごみ"
     },
     {
       "name": "鍋",
       "nameKana": "なべ",
-      "nameRoman": "nabe",
       "categoryId": "unburnable"
     },
     {
       "name": "鍋焼きうどんのアルミ容器",
       "nameKana": "なべやきうどんのあるみようき",
-      "nameRoman": "nabeyakiudonnoarumiyouki",
       "categoryId": "unburnable"
     },
     {
       "name": "鍋焼きうどんの外包装フィルム",
       "nameKana": "なべやきうどんのそとほうそうふぃるむ",
-      "nameRoman": "nabeyakiudonnosotohousoufirumu",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "鍋焼きうどんの調味料の袋",
       "nameKana": "なべやきうどんのちょうみりょうのふくろ",
-      "nameRoman": "nabeyakiudonnochoumiryounofukuro",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中をきれいにして"
     },
     {
       "name": "鍋焼きうどんの容器のふた(紙製)",
       "nameKana": "なべやきうどんのようきのふた(かみせい)",
-      "nameRoman": "nabeyakiudonnoyoukinofuta(kamisei)",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "乳酸菌飲料の容器",
       "nameKana": "にゅうさんきんいんりょうのようき",
-      "nameRoman": "nyuusankin'inryounoyouki",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗って"
     },
     {
       "name": "乳酸菌飲料の容器のふた(アルミ製)",
       "nameKana": "にゅうさんきんいんりょうのようきのふた(あるみせい)",
-      "nameRoman": "nyuusankin'inryounoyoukinofuta(arumisei)",
       "categoryId": "unburnable",
       "note": "洗って"
     },
     {
       "name": "入浴剤の缶",
       "nameKana": "にゅうよくざいのかん",
-      "nameRoman": "nyuuyokuzainokan",
       "categoryId": "unburnable"
     },
     {
       "name": "入浴剤の容器(プラスチック製)",
       "nameKana": "にゅうよくざいのようき(ぷらすちっくせい)",
-      "nameRoman": "nyuuyokuzainoyouki(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗って"
     },
     {
       "name": "ぬいぐるみ",
       "nameKana": "ぬいぐるみ",
-      "nameRoman": "nuigurumi",
       "categoryId": "burnable"
     },
     {
       "name": "ネクタイ",
       "nameKana": "ねくたい",
-      "nameRoman": "nekutai",
       "categoryId": "burnable",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "猫砂",
       "nameKana": "ねこすな",
-      "nameRoman": "nekosuna",
       "categoryId": "burnable",
       "note": "汚物は取り除いて"
     },
     {
       "name": "ねりからし・ねりわさび等のチューブ容器",
       "nameKana": "ねりからし・ねりわさびなどのちゅーぶようき",
-      "nameRoman": "nerikarashi.neriwasabinadonochuubuyouki",
       "categoryId": "burnable",
       "note": "きれいにできればプラスチック製容器包装"
     },
     {
       "name": "粘土",
       "nameKana": "ねんど",
-      "nameRoman": "nendo",
       "categoryId": "unburnable"
     },
     {
       "name": "ノートパソコン",
       "nameKana": "のーとぱそこん",
-      "nameRoman": "nootopasokon",
       "categoryId": "uncollectible.makercollection"
     },
     {
       "name": "のこぎり",
       "nameKana": "のこぎり",
-      "nameRoman": "nokogiri",
       "categoryId": "unburnable",
       "note": "紙等で包み、「危険」と表示して"
     },
     {
       "name": "海苔の缶",
       "nameKana": "のりのかん",
-      "nameRoman": "norinokan",
       "categoryId": "recyclable.can",
       "note": "中を洗って青色のコンテナへ"
     },
     {
       "name": "海苔の袋",
       "nameKana": "のりのふくろ",
-      "nameRoman": "norinofukuro",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中をきれいにして"
     },
     {
       "name": "灰",
       "nameKana": "はい",
-      "nameRoman": "hai",
       "categoryId": "burnable",
       "note": "少し湿らせて"
     },
     {
       "name": "はがき",
       "nameKana": "はがき",
-      "nameRoman": "hagaki",
       "categoryId": "burnable",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "バケツ(金属製)",
       "nameKana": "ばけつ(きんぞくせい)",
-      "nameRoman": "baketsu(kinzokusei)",
       "categoryId": "unburnable"
     },
     {
       "name": "バケツ(プラスチック製)",
       "nameKana": "ばけつ(ぷらすちっくせい)",
-      "nameRoman": "baketsu(purasuchikkusei)",
       "categoryId": "burnable"
     },
     {
       "name": "パソコン(デスクトップ型)",
       "nameKana": "ぱそこん(ですくとっぷかた)",
-      "nameRoman": "pasokon(desukutoppukata)",
       "categoryId": "uncollectible.makercollection"
     },
     {
       "name": "バッテリー",
       "nameKana": "ばってりー",
-      "nameRoman": "batterii",
       "categoryId": "oversized",
       "note": "600円"
     },
     {
       "name": "発泡スチロール",
       "nameKana": "はっぽうすちろーる",
-      "nameRoman": "happousuchirooru",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "花火",
       "nameKana": "はなび",
-      "nameRoman": "hanabi",
       "categoryId": "burnable",
       "note": "湿らせて発火しないように"
     },
     {
       "name": "花火の外袋",
       "nameKana": "はなびのそとふくろ",
-      "nameRoman": "hanabinosotofukuro",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "花火の袋の中の台紙",
       "nameKana": "はなびのふくろのなかのだいし",
-      "nameRoman": "hanabinofukurononakanodaishi",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "歯ブラシ",
       "nameKana": "はぶらし",
-      "nameRoman": "haburashi",
       "categoryId": "burnable"
     },
     {
       "name": "歯ブラシの台紙",
       "nameKana": "はぶらしのだいし",
-      "nameRoman": "haburashinodaishi",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "歯ブラシの包装用パック",
       "nameKana": "はぶらしのほうそうようぱっく",
-      "nameRoman": "haburashinohousouyoupakku",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "歯磨きチューブ",
       "nameKana": "はみがきちゅーぶ",
-      "nameRoman": "hamigakichuubu",
       "categoryId": "burnable",
       "note": "最後まで使いきってきれいにできればプラスチック製容器包装"
     },
     {
       "name": "ハンガー(木製・プラスチック製)",
       "nameKana": "はんがー(もくせい・ぷらすちっくせい)",
-      "nameRoman": "hangaa(mokusei.purasuchikkusei)",
       "categoryId": "burnable"
     },
     {
       "name": "ハンガー(金属製)",
       "nameKana": "はんがー(きんぞくせい)",
-      "nameRoman": "hangaa(kinzokusei)",
       "categoryId": "unburnable"
     },
     {
       "name": "ハンカチ",
       "nameKana": "はんかち",
-      "nameRoman": "hankachi",
       "categoryId": "burnable"
     },
     {
       "name": "ピアノ",
       "nameKana": "ぴあの",
-      "nameRoman": "piano",
       "categoryId": "uncollectible.difficult"
     },
     {
       "name": "ビールの缶",
       "nameKana": "びーるのかん",
-      "nameRoman": "biirunokan",
       "categoryId": "recyclable.can",
       "note": "中を洗って青色のコンテナへ"
     },
     {
       "name": "ビールびん",
       "nameKana": "びーるびん",
-      "nameRoman": "biirubin",
       "categoryId": "recyclable.grassbottole",
       "note": "中を洗って白色のコンテナへ"
     },
     {
       "name": "ビールびんのふた(金属製)",
       "nameKana": "びーるびんのふた(きんぞくせい)",
-      "nameRoman": "biirubinnofuta(kinzokusei)",
       "categoryId": "unburnable"
     },
     {
       "name": "ビデオテープ・ケース",
       "nameKana": "びでおてーぷ・けーす",
-      "nameRoman": "bideoteepu.keesu",
       "categoryId": "burnable"
     },
     {
       "name": "ビデオデッキ",
       "nameKana": "びでおでっき",
-      "nameRoman": "bideodekki",
       "categoryId": "unburnable",
       "note": "指定袋に入るもの"
     },
     {
       "name": "一口ゼリーのパック",
       "nameKana": "ひとくちぜりーのぱっく",
-      "nameRoman": "hitokuchizeriinopakku",
       "categoryId": "recyclable.plasticpackaging",
       "note": "洗って"
     },
     {
       "name": "ビニール袋",
       "nameKana": "びにーるふくろ",
-      "nameRoman": "biniirufukuro",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "ファクシミリ",
       "nameKana": "ふぁくしみり",
-      "nameRoman": "fakushimiri",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "フィルムの筒型ケース",
       "nameKana": "ふぃるむのつつかたけーす",
-      "nameRoman": "firumunotsutsukatakeesu",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "封筒",
       "nameKana": "ふうとう",
-      "nameRoman": "fuutou",
       "categoryId": "burnable",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "フォーク(金属製)",
       "nameKana": "ふぉーく(きんぞくせい)",
-      "nameRoman": "fooku(kinzokusei)",
       "categoryId": "unburnable"
     },
     {
       "name": "フォーク(プラスチック製)",
       "nameKana": "ふぉーく(ぷらすちっくせい)",
-      "nameRoman": "fooku(purasuchikkusei)",
       "categoryId": "burnable"
     },
     {
       "name": "ふた(金属製)",
       "nameKana": "ふた(きんぞくせい)",
-      "nameRoman": "futa(kinzokusei)",
       "categoryId": "unburnable"
     },
     {
       "name": "ふた(プラスチック製)",
       "nameKana": "ふた(ぷらすちっくせい)",
-      "nameRoman": "futa(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "布団",
       "nameKana": "ふとん",
-      "nameRoman": "futon",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "布団乾燥機",
       "nameKana": "ふとんかんそうき",
-      "nameRoman": "futonkansouki",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "フライパン",
       "nameKana": "ふらいぱん",
-      "nameRoman": "furaipan",
       "categoryId": "unburnable"
     },
     {
       "name": "プリンのカップ",
       "nameKana": "ぷりんのかっぷ",
-      "nameRoman": "purinnokappu",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗って"
     },
     {
       "name": "プリンのふた(プラスチック製)",
       "nameKana": "ぷりんのふた(ぷらすちっくせい)",
-      "nameRoman": "purinnofuta(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging",
       "note": "洗って"
     },
     {
       "name": "プリン3個組の外包装フィルム",
       "nameKana": "ぷりん3こくのそとほうそうふぃるむ",
-      "nameRoman": "purin3kokunosotohousoufirumu",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "プリン3個組の台紙",
       "nameKana": "ぷりん3こくのだいし",
-      "nameRoman": "purin3kokunodaishi",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "古着(服)",
       "nameKana": "ふるぎ(ふく)",
-      "nameRoman": "furugi(fuku)",
       "categoryId": "burnable",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "ヘアスプレー缶",
       "nameKana": "へあすぷれーかん",
-      "nameRoman": "heasupureekan",
       "categoryId": "hazardous.ignitable",
       "note": "最後まで使いきって黄色のコンテナへ"
     },
     {
       "name": "ヘアスプレーの缶のふた(プラスチック製)",
       "nameKana": "へあすぷれーのかんのふた(ぷらすちっくせい)",
-      "nameRoman": "heasupureenokannofuta(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "ヘアスプレー缶の外包装フィルム",
       "nameKana": "へあすぷれーかんのそとほうそうふぃるむ",
-      "nameRoman": "heasupureekannosotohousoufirumu",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "ベッド",
       "nameKana": "べっど",
-      "nameRoman": "beddo",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "ペットフードの缶",
       "nameKana": "ぺっとふーどのかん",
-      "nameRoman": "pettofuudonokan",
       "categoryId": "recyclable.can",
       "note": "中をふいて青色のコンテナへ"
     },
     {
       "name": "ペットボトル(飲料・酒類・しょうゆ・油分を含まない調味料)",
       "nameKana": "ぺっとぼとる(いんりょう・さけるい・しょうゆ・あぶらぶんをふくまないちょうみりょう)",
-      "nameRoman": "pettobotoru(inryou.sakerui.shouyu.aburabunwofukumanaichoumiryou)",
       "categoryId": "recyclable.petbottole",
       "note": "中を洗い、ふたとラベルを取って、つぶして（色付きペットボトルはリサイクルステーションへ）"
     },
     {
       "name": "ペットボトル(ソース・食用油など)",
       "nameKana": "ぺっとぼとる(そーす・しょくようあぶらなど)",
-      "nameRoman": "pettobotoru(soosu.shokuyouaburanado)",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗ってきれいにできなければ可燃ごみ"
     },
     {
       "name": "ペットボトルのふた(プラスチック製)",
       "nameKana": "ぺっとぼとるのふた(ぷらすちっくせい)",
-      "nameRoman": "pettobotorunofuta(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "ペットボトルのふた(金属製)",
       "nameKana": "ぺっとぼとるのふた(きんぞくせい)",
-      "nameRoman": "pettobotorunofuta(kinzokusei)",
       "categoryId": "unburnable"
     },
     {
       "name": "ベルト",
       "nameKana": "べると",
-      "nameRoman": "beruto",
       "categoryId": "burnable",
       "note": "金属部分は不燃ごみ"
     },
     {
       "name": "ペンキ缶",
       "nameKana": "ぺんきかん",
-      "nameRoman": "penkikan",
       "categoryId": "unburnable",
       "note": "最後まで使いきって"
     },
     {
       "name": "弁当箱(プラスチック製)",
       "nameKana": "べんとうばこ(ぷらすちっくせい)",
-      "nameRoman": "bentoubako(purasuchikkusei)",
       "categoryId": "burnable"
     },
     {
       "name": "弁当の容器(コンビニ弁当など)",
       "nameKana": "べんとうのようき(こんびにべんとうなど)",
-      "nameRoman": "bentounoyouki(konbinibentounado)",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗って"
     },
     {
       "name": "帽子",
       "nameKana": "ぼうし",
-      "nameRoman": "boushi",
       "categoryId": "burnable",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "包装紙",
       "nameKana": "ほうそうし",
-      "nameRoman": "housoushi",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "包丁",
       "nameKana": "ほうちょう",
-      "nameRoman": "houchou",
       "categoryId": "unburnable",
       "note": "紙等で包み「危険」と表示して"
     },
     {
       "name": "ボールペン",
       "nameKana": "ぼーるぺん",
-      "nameRoman": "boorupen",
       "categoryId": "burnable"
     },
     {
       "name": "ホットプレート",
       "nameKana": "ほっとぷれーと",
-      "nameRoman": "hottopureeto",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "ほ乳びん(ガラス製)",
       "nameKana": "ほちちびん(がらすせい)",
-      "nameRoman": "hochichibin(garasusei)",
       "categoryId": "unburnable"
     },
     {
       "name": "ほ乳びん(プラスチック製)",
       "nameKana": "ほちちびん(ぷらすちっくせい)",
-      "nameRoman": "hochichibin(purasuchikkusei)",
       "categoryId": "burnable"
     },
     {
       "name": "ポリタンク",
       "nameKana": "ぽりたんく",
-      "nameRoman": "poritanku",
       "categoryId": "burnable",
       "note": "指定袋に入るもの"
     },
     {
       "name": "保冷剤",
       "nameKana": "ほれいざい",
-      "nameRoman": "horeizai",
       "categoryId": "burnable"
     },
     {
       "name": "本",
       "nameKana": "ほん",
-      "nameRoman": "hon",
       "categoryId": "localcollection",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "マーガリンの容器",
       "nameKana": "まーがりんのようき",
-      "nameRoman": "maagarinnoyouki",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中をふいて"
     },
     {
       "name": "まくら",
       "nameKana": "まくら",
-      "nameRoman": "makura",
       "categoryId": "burnable"
     },
     {
       "name": "マッチ",
       "nameKana": "まっち",
-      "nameRoman": "matchi",
       "categoryId": "burnable",
       "note": "湿らせて発火しないようにしてから"
     },
     {
       "name": "マッチ箱",
       "nameKana": "まっちはこ",
-      "nameRoman": "matchihako",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "マットレス",
       "nameKana": "まっとれす",
-      "nameRoman": "mattoresu",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "窓つき封筒",
       "nameKana": "まどつきふうとう",
-      "nameRoman": "madotsukifuutou",
       "categoryId": "burnable"
     },
     {
       "name": "まな板(木製・プラスチック製)",
       "nameKana": "まないた(もくせい・ぷらすちっくせい)",
-      "nameRoman": "manaita(mokusei.purasuchikkusei)",
       "categoryId": "burnable"
     },
     {
       "name": "マヨネーズのチューブ容器",
       "nameKana": "まよねーずのちゅーぶようき",
-      "nameRoman": "mayoneezunochuubuyouki",
       "categoryId": "burnable",
       "note": "きれいにできればプラスチック製容器包装"
     },
     {
       "name": "マヨネーズのふた",
       "nameKana": "まよねーずのふた",
-      "nameRoman": "mayoneezunofuta",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "マヨネーズの外袋",
       "nameKana": "まよねーずのそとふくろ",
-      "nameRoman": "mayoneezunosotofukuro",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "ミシン",
       "nameKana": "みしん",
-      "nameRoman": "mishin",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金がことなります"
     },
     {
       "name": "みそのパック(袋状)",
       "nameKana": "みそのぱっく(ふくろじょう)",
-      "nameRoman": "misonopakku(fukurojou)",
       "categoryId": "burnable",
       "note": "きれいにできればプラスチック製容器包装"
     },
     {
       "name": "みその容器(プラスチック製)",
       "nameKana": "みそのようき(ぷらすちっくせい)",
-      "nameRoman": "misonoyouki(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "眼鏡(ケースを含む)",
       "nameKana": "めがね(けーすをふくむ)",
-      "nameRoman": "megane(keesuwofukumu)",
       "categoryId": "unburnable"
     },
     {
       "name": "目薬の容器(プラスチック製)ケースを含む",
       "nameKana": "めぐすりのようき(ぷらすちっくせい)けーすをふくむ",
-      "nameRoman": "megusurinoyouki(purasuchikkusei)keesuwofukumu",
       "categoryId": "recyclable.plasticpackaging",
       "note": "最後まで使い切って"
     },
     {
       "name": "綿棒",
       "nameKana": "めんぼう",
-      "nameRoman": "menbou",
       "categoryId": "burnable"
     },
     {
       "name": "綿棒の容器(プラスチック製)",
       "nameKana": "めんぼうのようき(ぷらすちっくせい)",
-      "nameRoman": "menbounoyouki(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "毛布",
       "nameKana": "もうふ",
-      "nameRoman": "moufu",
       "categoryId": "oversized",
       "note": "大きさ・重さによって料金が異なります"
     },
     {
       "name": "物干し竿(3本までにつき)",
       "nameKana": "ものほしさお(3ほんまでにつき)",
-      "nameRoman": "monohoshisao(3honmadenitsuki)",
       "categoryId": "oversized",
       "note": "300円"
     },
     {
       "name": "やかん",
       "nameKana": "やかん",
-      "nameRoman": "yakan",
       "categoryId": "unburnable"
     },
     {
       "name": "野菜を包んだ結束テープ",
       "nameKana": "やさいをつつんだけっそくてーぷ",
-      "nameRoman": "yasaiwotsutsundakessokuteepu",
       "categoryId": "burnable"
     },
     {
       "name": "野菜を包んだネット",
       "nameKana": "やさいをつつんだねっと",
-      "nameRoman": "yasaiwotsutsundanetto",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "ヨーグルトのカップ(紙製)",
       "nameKana": "よーぐるとのかっぷ(かみせい)",
-      "nameRoman": "yoogurutonokappu(kamisei)",
       "categoryId": "recyclable.paperpackaging",
       "note": "中を洗って"
     },
     {
       "name": "ヨーグルトのカップ(プラスチック製)",
       "nameKana": "よーぐるとのかっぷ(ぷらすちっくせい)",
-      "nameRoman": "yoogurutonokappu(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗って"
     },
     {
       "name": "ヨーグルトのふた(紙製)",
       "nameKana": "よーぐるとのふた(かみせい)",
-      "nameRoman": "yoogurutonofuta(kamisei)",
       "categoryId": "recyclable.paperpackaging",
       "note": "洗って"
     },
     {
       "name": "ヨーグルトのふた(プラスチック製)",
       "nameKana": "よーぐるとのふた(ぷらすちっくせい)",
-      "nameRoman": "yoogurutonofuta(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging",
       "note": "洗って"
     },
     {
       "name": "ヨーグルト3個組の外包装フィルム",
       "nameKana": "よーぐると3こくのそとほうそうふぃるむ",
-      "nameRoman": "yooguruto3kokunosotohousoufirumu",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "ヨーグルト3個組の台紙",
       "nameKana": "よーぐると3こくのだいし",
-      "nameRoman": "yooguruto3kokunodaishi",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "よしず",
       "nameKana": "よしず",
-      "nameRoman": "yoshizu",
       "categoryId": "oversized"
     },
     {
       "name": "ライター(使い捨てを含む)",
       "nameKana": "らいたー(つかいすてをふくむ)",
-      "nameRoman": "raitaa(tsukaisutewofukumu)",
       "categoryId": "hazardous.ignitable",
       "note": "最後まで使いきって黄色のコンテナへ"
     },
     {
       "name": "ラップ",
       "nameKana": "らっぷ",
-      "nameRoman": "rappu",
       "categoryId": "recyclable.plasticpackaging",
       "note": "きれいにできなければ可燃ごみ"
     },
     {
       "name": "ラップの紙箱(紙刃を含む)",
       "nameKana": "らっぷのかみばこ(かみはをふくむ)",
-      "nameRoman": "rappunokamibako(kamihawofukumu)",
       "categoryId": "recyclable.paperpackaging",
       "note": "たたんで"
     },
     {
       "name": "ラップの刃(金属製)",
       "nameKana": "らっぷのは(きんぞくせい)",
-      "nameRoman": "rappunoha(kinzokusei)",
       "categoryId": "unburnable"
     },
     {
       "name": "ラップの芯",
       "nameKana": "らっぷのしん",
-      "nameRoman": "rappunoshin",
       "categoryId": "burnable",
       "note": "切り開けば資源回収・拠点回収へ"
     },
     {
       "name": "ランドセル",
       "nameKana": "らんどせる",
-      "nameRoman": "randoseru",
       "categoryId": "burnable"
     },
     {
       "name": "リンスの詰め替え用の袋",
       "nameKana": "りんすのつめかえようのふくろ",
-      "nameRoman": "rinsunotsumekaeyounofukuro",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗って"
     },
     {
       "name": "リンスの容器",
       "nameKana": "りんすのようき",
-      "nameRoman": "rinsunoyouki",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中を洗って"
     },
     {
       "name": "冷蔵庫及び冷凍庫",
       "nameKana": "れいぞうこおよびれいとうこ",
-      "nameRoman": "reizoukooyobireitouko",
       "categoryId": "legalrecycling"
     },
     {
       "name": "冷凍食品の袋",
       "nameKana": "れいとうしょくひんのふくろ",
-      "nameRoman": "reitoushokuhinnofukuro",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "レコード盤",
       "nameKana": "れこーどばん",
-      "nameRoman": "rekoodoban",
       "categoryId": "burnable"
     },
     {
       "name": "レジ袋",
       "nameKana": "れじふくろ",
-      "nameRoman": "rejifukuro",
       "categoryId": "recyclable.plasticpackaging",
       "note": "買物袋を持参しましょう"
     },
     {
       "name": "レトルトパック",
       "nameKana": "れとるとぱっく",
-      "nameRoman": "retorutopakku",
       "categoryId": "recyclable.plasticpackaging",
       "note": "中をきれいにして"
     },
     {
       "name": "レトルトパックの外箱",
       "nameKana": "れとるとぱっくのそとばこ",
-      "nameRoman": "retorutopakkunosotobako",
       "categoryId": "recyclable.paperpackaging",
       "note": "たたんで"
     },
     {
       "name": "ローソク",
       "nameKana": "ろーそく",
-      "nameRoman": "roosoku",
       "categoryId": "burnable"
     },
     {
       "name": "ロープ",
       "nameKana": "ろーぷ",
-      "nameRoman": "roopu",
       "categoryId": "burnable"
     },
     {
       "name": "ワープロ",
       "nameKana": "わーぷろ",
-      "nameRoman": "waapuro",
       "categoryId": "oversized",
       "note": "大きさ、重さによって料金が異なります"
     },
     {
       "name": "ワイシャツ",
       "nameKana": "わいしゃつ",
-      "nameRoman": "waishatsu",
       "categoryId": "burnable",
       "note": "資源回収または拠点回収へ"
     },
     {
       "name": "ワイシャツの外袋",
       "nameKana": "わいしゃつのそとふくろ",
-      "nameRoman": "waishatsunosotofukuro",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "ワイシャツの中の台紙",
       "nameKana": "わいしゃつのなかのだいし",
-      "nameRoman": "waishatsunonakanodaishi",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "輪ゴム",
       "nameKana": "わごむ",
-      "nameRoman": "wagomu",
       "categoryId": "burnable"
     },
     {
       "name": "輪ゴムの外箱",
       "nameKana": "わごむのそとばこ",
-      "nameRoman": "wagomunosotobako",
       "categoryId": "recyclable.paperpackaging",
       "note": "たたんで"
     },
     {
       "name": "割り箸",
       "nameKana": "わりばし",
-      "nameRoman": "waribashi",
       "categoryId": "burnable",
       "note": "できるだけ使い捨て商品は避けましょう"
     },
     {
       "name": "割り箸の外袋(紙製)",
       "nameKana": "わりばしのそとふくろ(かみせい)",
-      "nameRoman": "waribashinosotofukuro(kamisei)",
       "categoryId": "recyclable.paperpackaging"
     },
     {
       "name": "割り箸の外袋(プラスチック製)",
       "nameKana": "わりばしのそとふくろ(ぷらすちっくせい)",
-      "nameRoman": "waribashinosotofukuro(purasuchikkusei)",
       "categoryId": "recyclable.plasticpackaging"
     },
     {
       "name": "割れたもの(びん・ガラス・陶器など)",
       "nameKana": "われたもの(びん・がらす・とうきなど)",
-      "nameRoman": "waretamono(bin.garasu.toukinado)",
       "categoryId": "unburnable",
       "note": "紙等で包み「危険」と表示して"
     }

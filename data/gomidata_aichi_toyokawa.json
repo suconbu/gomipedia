@@ -7,4454 +7,3778 @@
     {
       "name": "アイスピック",
       "nameKana": "あいすぴっく",
-      "nameRoman": "aisupikku",
       "categoryId": "unburnable",
       "note": "先端にセロテープなどを巻きつけて刺さらないようにしてください。"
     },
     {
       "name": "アイスまくら",
       "nameKana": "あいすまくら",
-      "nameRoman": "aisumakura",
       "categoryId": "burnable"
     },
     {
       "name": "アイス冷却剤(冷却パック)",
       "nameKana": "あいすれいきゃくざい(れいきゃくぱっく)",
-      "nameRoman": "aisureikyakuzai(reikyakupakku)",
       "categoryId": "burnable"
     },
     {
       "name": "アイロン",
       "nameKana": "あいろん",
-      "nameRoman": "airon",
       "categoryId": "unburnable"
     },
     {
       "name": "アイロン台",
       "nameKana": "あいろんだい",
-      "nameRoman": "airondai",
       "categoryId": "oversized"
     },
     {
       "name": "空き缶(アルミ・スチール)",
       "nameKana": "あきかん(あるみ・すちーる)",
-      "nameRoman": "akikan(arumi.suchiiru)",
       "categoryId": "recyclable",
       "note": "水ですすいでからつぶさないで出してください。"
     },
     {
       "name": "空きびん(飲食料用)",
       "nameKana": "あきびん(いんしょくりょうよう)",
-      "nameRoman": "akibin(inshokuryouyou)",
       "categoryId": "recyclable",
       "note": "水ですすいでから出してください。漬物容器など容器だけで販売している物や飲食料以外のガラス製品は不燃ごみ。"
     },
     {
       "name": "アコーディオンカーテン",
       "nameKana": "あこーでぃおんかーてん",
-      "nameRoman": "akoodionkaaten",
       "categoryId": "oversized"
     },
     {
       "name": "アタッシュケース",
       "nameKana": "あたっしゅけーす",
-      "nameRoman": "atasshukeesu",
       "categoryId": "burnable",
       "note": "金属製品は不燃ごみ。指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "アダプター",
       "nameKana": "あだぷたー",
-      "nameRoman": "adaputaa",
       "categoryId": "unburnable"
     },
     {
       "name": "足ふきマット",
       "nameKana": "あしふきまっと",
-      "nameRoman": "ashifukimatto",
       "categoryId": "burnable",
       "note": "１mを超えるものは１m以内に切断してください。切れないものは粗大ごみ。"
     },
     {
       "name": "圧着はがき",
       "nameKana": "あっちゃくはがき",
-      "nameRoman": "atchakuhagaki",
       "categoryId": "burnable",
       "note": "資源になりません。"
     },
     {
       "name": "圧力鍋",
       "nameKana": "あつりょくなべ",
-      "nameRoman": "atsuryokunabe",
       "categoryId": "recyclable"
     },
     {
       "name": "油(機械用、自動車用など)",
       "nameKana": "あぶら(きかいよう、じどうしゃようなど)",
-      "nameRoman": "abura(kikaiyou、jidoushayounado)",
       "categoryId": "uncollectible",
       "note": "販売店に相談してください。"
     },
     {
       "name": "油カン(食用)",
       "nameKana": "あぶらかん(しょくよう)",
-      "nameRoman": "aburakan(shokuyou)",
       "categoryId": "recyclable",
       "note": "洗浄し、油分を除去してください。"
     },
     {
       "name": "油カン(機械用、自動車用など)",
       "nameKana": "あぶらかん(きかいよう、じどうしゃようなど)",
-      "nameRoman": "aburakan(kikaiyou、jidoushayounado)",
       "categoryId": "unburnable",
       "note": "中身のないものに限ります。事業で使用したものは廃棄物処理業者に相談してください。"
     },
     {
       "name": "雨戸",
       "nameKana": "あまど",
-      "nameRoman": "amado",
       "categoryId": "oversized",
       "note": "建築、解体工事で発生したものは廃棄物処理業者に相談してください。"
     },
     {
       "name": "網戸",
       "nameKana": "あみど",
-      "nameRoman": "amido",
       "categoryId": "oversized",
       "note": "建築、解体工事で発生したものは廃棄物処理業者に相談してください。"
     },
     {
       "name": "編み機",
       "nameKana": "あみき",
-      "nameRoman": "amiki",
       "categoryId": "oversized"
     },
     {
       "name": "雨合羽(カッパ)",
       "nameKana": "あめかっぱ(かっぱ)",
-      "nameRoman": "amekappa(kappa)",
       "categoryId": "burnable"
     },
     {
       "name": "アルバム",
       "nameKana": "あるばむ",
-      "nameRoman": "arubamu",
       "categoryId": "burnable",
       "note": "ビニール、プラスチックの部分がなければ資源。"
     },
     {
       "name": "アルミガード(台所製品)",
       "nameKana": "あるみがーど(だいどころせいひん)",
-      "nameRoman": "arumigaado(daidokoroseihin)",
       "categoryId": "recyclable",
       "note": "汚れを落としてください。汚れが落ちないものは不燃ごみ。"
     },
     {
       "name": "アルミコーティング袋(菓子包装・レトルトパック)",
       "nameKana": "あるみこーてぃんぐふくろ(かしほうそう・れとるとぱっく)",
-      "nameRoman": "arumikooteingufukuro(kashihousou.retorutopakku)",
       "categoryId": "burnable"
     },
     {
       "name": "アルミホイル・アルミホイルの芯",
       "nameKana": "あるみほいる・あるみほいるのしん",
-      "nameRoman": "arumihoiru.arumihoirunoshin",
       "categoryId": "burnable",
       "note": "アルミホイル未使用品は資源。芯は資源になりません。"
     },
     {
       "name": "アルミホイルの刃",
       "nameKana": "あるみほいるのは",
-      "nameRoman": "arumihoirunoha",
       "categoryId": "unburnable",
       "note": "プラスチック製、紙製は可燃ごみ。"
     },
     {
       "name": "アルミ容器(鍋焼きうどん用等)",
       "nameKana": "あるみようき(なべやきうどんようなど)",
-      "nameRoman": "arumiyouki(nabeyakiudonyounado)",
       "categoryId": "recyclable",
       "note": "汚れを落としてください。汚れが落ちないものは不燃ごみ。"
     },
     {
       "name": "安全カミソリ(金属製、一体型)",
       "nameKana": "あんぜんかみそり(きんぞくせい、いったいがた)",
-      "nameRoman": "anzenkamisori(kinzokusei、ittaigata)",
       "categoryId": "unburnable",
       "note": "刃物は金属製でも不燃ごみです。紙に包んでください。"
     },
     {
       "name": "アンテナ(テレビ用)",
       "nameKana": "あんてな(てれびよう)",
-      "nameRoman": "antena(terebiyou)",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "アンプ(音響機器)",
       "nameKana": "あんぷ(おんきょうきき)",
-      "nameRoman": "anpu(onkyoukiki)",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "石・岩",
       "nameKana": "いし・いわ",
-      "nameRoman": "ishi.iwa",
       "categoryId": "uncollectible",
       "note": "再利用をお願いします。"
     },
     {
       "name": "衣装ケース",
       "nameKana": "いしょうけーす",
-      "nameRoman": "ishoukeesu",
       "categoryId": "oversized"
     },
     {
       "name": "いす",
       "nameKana": "いす",
-      "nameRoman": "isu",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるもので木・プラ製は可燃ごみ。金属製は不燃ごみ。"
     },
     {
       "name": "板(木製・プラスチック製)",
       "nameKana": "いた(もくせい・ぷらすちっくせい)",
-      "nameRoman": "ita(mokusei.purasuchikkusei)",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは可燃ごみ。建築、解体工事で発生したものは廃棄物処理業者に相談してください。"
     },
     {
       "name": "板(金属製)",
       "nameKana": "いた(きんぞくせい)",
-      "nameRoman": "ita(kinzokusei)",
       "categoryId": "recyclable",
       "note": "資源のかごに入らないものは粗大ごみ。建築、解体工事で発生したものは廃棄物処理業者に相談してください。"
     },
     {
       "name": "板ガラス",
       "nameKana": "いたがらす",
-      "nameRoman": "itagarasu",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "一輪車(運搬用・遊具)",
       "nameKana": "いちりんくるま(うんぱんよう・ゆうぐ)",
-      "nameRoman": "ichirinkuruma(unpanyou.yuugu)",
       "categoryId": "oversized"
     },
     {
       "name": "一斗缶(食品用・機械油用)",
       "nameKana": "いっとかん(しょくひんよう・きかいあぶらよう)",
-      "nameRoman": "ittokan(shokuhinyou.kikaiaburayou)",
       "categoryId": "recyclable",
       "note": "事業で使用したものは産業廃棄物です。市では処理できません。廃棄物処理業者に相談してください。"
     },
     {
       "name": "一升瓶",
       "nameKana": "いっしょうびん",
-      "nameRoman": "isshoubin",
       "categoryId": "recyclable",
       "note": "口が割れやすいので、ふたをしてください。"
     },
     {
       "name": "犬小屋",
       "nameKana": "いぬこや",
-      "nameRoman": "inukoya",
       "categoryId": "oversized",
       "note": "分解した場合は板として処分してください。"
     },
     {
       "name": "イヤホン",
       "nameKana": "いやほん",
-      "nameRoman": "iyahon",
       "categoryId": "unburnable"
     },
     {
       "name": "医療廃棄物",
       "nameKana": "いりょうはいきぶつ",
-      "nameRoman": "iryouhaikibutsu",
       "categoryId": "uncollectible",
       "note": "清掃事業課にお問い合わせください。"
     },
     {
       "name": "衣類(古着)",
       "nameKana": "いるい(ふるぎ)",
-      "nameRoman": "irui(furugi)",
       "categoryId": "recyclable",
       "note": "再利用します。破れ・汚れのひどい物は可燃ごみ。"
     },
     {
       "name": "衣類乾燥機",
       "nameKana": "いるいかんそうき",
-      "nameRoman": "iruikansouki",
       "categoryId": "legalrecycling"
     },
     {
       "name": "イルミネーション",
       "nameKana": "いるみねーしょん",
-      "nameRoman": "irumineeshon",
       "categoryId": "unburnable"
     },
     {
       "name": "入れ歯",
       "nameKana": "いれば",
-      "nameRoman": "ireba",
       "categoryId": "burnable"
     },
     {
       "name": "印鑑",
       "nameKana": "いんかん",
-      "nameRoman": "inkan",
       "categoryId": "burnable"
     },
     {
       "name": "印鑑ケース",
       "nameKana": "いんかんけーす",
-      "nameRoman": "inkankeesu",
       "categoryId": "burnable"
     },
     {
       "name": "インクカートリッジ(プリンター用)",
       "nameKana": "いんくかーとりっじ(ぷりんたーよう)",
-      "nameRoman": "inkukaatorijji(purintaayou)",
       "categoryId": "burnable",
       "note": "家電店等の回収ボックスも利用してください。"
     },
     {
       "name": "インターホン",
       "nameKana": "いんたーほん",
-      "nameRoman": "intaahon",
       "categoryId": "unburnable"
     },
     {
       "name": "ウインドブレーカー",
       "nameKana": "ういんどぶれーかー",
-      "nameRoman": "uindobureekaa",
       "categoryId": "recyclable"
     },
     {
       "name": "ウインドファン",
       "nameKana": "ういんどふぁん",
-      "nameRoman": "uindofan",
       "categoryId": "oversized"
     },
     {
       "name": "植木の枝葉(直径10cmまでのもの)",
       "nameKana": "うえきのえだは(ちょっけい10しーえむまでのもの)",
-      "nameRoman": "uekinoedaha(chokkei10cmmadenomono)",
       "categoryId": "burnable",
       "note": "指定袋に入れるか、長さ１m以下にし、３０cm以下の束に結束してください。"
     },
     {
       "name": "植木の枝葉(直径10cmから30cmまでのもの)",
       "nameKana": "うえきのえだは(ちょっけい10しーえむから30しーえむまでのもの)",
-      "nameRoman": "uekinoedaha(chokkei10cmkara30cmmadenomono)",
       "categoryId": "oversized",
       "note": "長さを１.５ｍ以下にして粗大ごみ受付センターへ持ち込んでください。"
     },
     {
       "name": "植木の枝葉(直径30cmを超えるもの)",
       "nameKana": "うえきのえだは(ちょっけい30しーえむをこえるもの)",
-      "nameRoman": "uekinoedaha(chokkei30cmwokoerumono)",
       "categoryId": "uncollectible",
       "note": "廃棄物処理業者へ相談してください。"
     },
     {
       "name": "植木鉢(陶磁器製)",
       "nameKana": "うえきばち(とうじきせい)",
-      "nameRoman": "uekibachi(toujikisei)",
       "categoryId": "unburnable",
       "note": "プラスチック製は可燃ごみ。指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "ウエットスーツ",
       "nameKana": "うえっとすーつ",
-      "nameRoman": "uettosuutsu",
       "categoryId": "oversized"
     },
     {
       "name": "浮き輪",
       "nameKana": "うきわ",
-      "nameRoman": "ukiwa",
       "categoryId": "burnable",
       "note": "空気は抜いてください。"
     },
     {
       "name": "臼(木製、餅つき用)",
       "nameKana": "うす(もくせい、もちつきよう)",
-      "nameRoman": "usu(mokusei、mochitsukiyou)",
       "categoryId": "oversized",
       "note": "石臼は廃棄物処理業者に相談してください。"
     },
     {
       "name": "ウッドデッキ",
       "nameKana": "うっどでっき",
-      "nameRoman": "uddodekki",
       "categoryId": "uncollectible",
       "note": "建築廃材です。廃棄物処理業者に相談してください。"
     },
     {
       "name": "梅干のビン(漬け込み用のもの)",
       "nameKana": "うめぼしのびん(つけこみようのもの)",
-      "nameRoman": "umeboshinobin(tsukekomiyounomono)",
       "categoryId": "unburnable",
       "note": "ガラス製でも資源になりません。"
     },
     {
       "name": "羽毛布団",
       "nameKana": "うもうふとん",
-      "nameRoman": "umoufuton",
       "categoryId": "oversized"
     },
     {
       "name": "エアコン(室外機含む)",
       "nameKana": "えあこん(しつがいきふくむ)",
-      "nameRoman": "eakon(shitsugaikifukumu)",
       "categoryId": "legalrecycling"
     },
     {
       "name": "枝",
       "nameKana": "えだ",
-      "nameRoman": "eda",
       "categoryId": "burnable",
       "note": "「植木の枝葉」を参照してください。"
     },
     {
       "name": "絵の具(金属製チューブ)",
       "nameKana": "えのぐ(きんぞくせいちゅーぶ)",
-      "nameRoman": "enogu(kinzokuseichuubu)",
       "categoryId": "unburnable",
       "note": "プラスチック製チューブは可燃ごみ。"
     },
     {
       "name": "MO ・ MD",
       "nameKana": "えむおー ・ えむでぃー",
-      "nameRoman": "mo . md",
       "categoryId": "burnable"
     },
     {
       "name": "エレクトーン",
       "nameKana": "えれくとーん",
-      "nameRoman": "erekutoon",
       "categoryId": "oversized"
     },
     {
       "name": "園芸用支柱(金属製)",
       "nameKana": "えんげいようしちゅう(きんぞくせい)",
-      "nameRoman": "engeiyoushichuu(kinzokusei)",
       "categoryId": "recyclable",
       "note": "プラスチック製は可燃ごみ。資源のかごに入らないものは粗大ごみ。"
     },
     {
       "name": "園芸用土",
       "nameKana": "えんげいようつち",
-      "nameRoman": "engeiyoutsuchi",
       "categoryId": "uncollectible",
       "note": "再利用をお願いします。"
     },
     {
       "name": "園芸用噴霧器(金属製)",
       "nameKana": "えんげいようふんむき(きんぞくせい)",
-      "nameRoman": "engeiyoufunmuki(kinzokusei)",
       "categoryId": "unburnable",
       "note": "プラスチック製は可燃ごみ。指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "延長コード",
       "nameKana": "えんちょうこーど",
-      "nameRoman": "enchoukoodo",
       "categoryId": "unburnable",
       "note": "束ねてください。リール式は指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "鉛筆",
       "nameKana": "えんぴつ",
-      "nameRoman": "enpitsu",
       "categoryId": "burnable"
     },
     {
       "name": "鉛筆削り",
       "nameKana": "えんぴつけずり",
-      "nameRoman": "enpitsukezuri",
       "categoryId": "unburnable"
     },
     {
       "name": "LED電球",
       "nameKana": "えるいーでぃーでんきゅう",
-      "nameRoman": "leddenkyuu",
       "categoryId": "unburnable",
       "note": "危険ごみではありません。"
     },
     {
       "name": "オイル(自動車、二輪車用)",
       "nameKana": "おいる(じどうしゃ、にりんしゃよう)",
-      "nameRoman": "oiru(jidousha、nirinshayou)",
       "categoryId": "uncollectible",
       "note": "自動車販売、修理店に相談してください。"
     },
     {
       "name": "オイル缶",
       "nameKana": "おいるかん",
-      "nameRoman": "oirukan",
       "categoryId": "unburnable",
       "note": "中身のないものに限ります。ふたを開けた状態で指定袋に入れて出してください。"
     },
     {
       "name": "オイルヒーター",
       "nameKana": "おいるひーたー",
-      "nameRoman": "oiruhiitaa",
       "categoryId": "oversized"
     },
     {
       "name": "オーディオ機器",
       "nameKana": "おーでぃおきき",
-      "nameRoman": "oodiokiki",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "オーブントースター",
       "nameKana": "おーぶんとーすたー",
-      "nameRoman": "oobuntoosutaa",
       "categoryId": "unburnable"
     },
     {
       "name": "おがくず",
       "nameKana": "おがくず",
-      "nameRoman": "ogakuzu",
       "categoryId": "burnable"
     },
     {
       "name": "桶(木・プラスチック製)",
       "nameKana": "おけ(き・ぷらすちっくせい)",
-      "nameRoman": "oke(ki.purasuchikkusei)",
       "categoryId": "burnable",
       "note": "金属製は資源。資源のかごに入らないものや指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "おしゃぶり",
       "nameKana": "おしゃぶり",
-      "nameRoman": "oshaburi",
       "categoryId": "burnable"
     },
     {
       "name": "おたま(金属製)",
       "nameKana": "おたま(きんぞくせい)",
-      "nameRoman": "otama(kinzokusei)",
       "categoryId": "recyclable",
       "note": "木・プラスチック製は可燃ごみ。"
     },
     {
       "name": "斧",
       "nameKana": "おの",
-      "nameRoman": "ono",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "帯(着物、浴衣用)",
       "nameKana": "おび(きもの、ゆかたよう)",
-      "nameRoman": "obi(kimono、yukatayou)",
       "categoryId": "oversized",
       "note": "１ｍ以内に切断すれば可燃ごみ。"
     },
     {
       "name": "お盆(木・プラスチック製)",
       "nameKana": "おぼん(き・ぷらすちっくせい)",
-      "nameRoman": "obon(ki.purasuchikkusei)",
       "categoryId": "burnable",
       "note": "金属製は資源。資源のかごに入らないものは粗大ごみ。"
     },
     {
       "name": "おまる",
       "nameKana": "おまる",
-      "nameRoman": "omaru",
       "categoryId": "burnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "オムツ",
       "nameKana": "おむつ",
-      "nameRoman": "omutsu",
       "categoryId": "burnable",
       "note": "汚物はトイレに流してから出してください。"
     },
     {
       "name": "おもちゃ(木・プラスチック製)",
       "nameKana": "おもちゃ(き・ぷらすちっくせい)",
-      "nameRoman": "omocha(ki.purasuchikkusei)",
       "categoryId": "burnable",
       "note": "金属製は資源。電池は抜いて出してください。"
     },
     {
       "name": "おもちゃ(プラスチック、金属が混合)",
       "nameKana": "おもちゃ(ぷらすちっく、きんぞくがこんごう)",
-      "nameRoman": "omocha(purasuchikku、kinzokugakongou)",
       "categoryId": "unburnable",
       "note": "電池は抜いて出してください。金属部分がネジ数本程度なら可燃ごみ。"
     },
     {
       "name": "オルガン",
       "nameKana": "おるがん",
-      "nameRoman": "orugan",
       "categoryId": "oversized"
     },
     {
       "name": "おろし金(プラスチック製)",
       "nameKana": "おろしきん(ぷらすちっくせい)",
-      "nameRoman": "oroshikin(purasuchikkusei)",
       "categoryId": "burnable",
       "note": "金属製は資源。"
     },
     {
       "name": "お椀",
       "nameKana": "おわん",
-      "nameRoman": "owan",
       "categoryId": "burnable"
     },
     {
       "name": "温室用ビニール",
       "nameKana": "おんしつようびにーる",
-      "nameRoman": "onshitsuyoubiniiru",
       "categoryId": "uncollectible",
       "note": "農業等事業で使用したものは産業廃棄物です。廃棄物処理業者に相談してください。"
     },
     {
       "name": "温水器",
       "nameKana": "おんすいうつわ",
-      "nameRoman": "onsuiutsuwa",
       "categoryId": "oversized",
       "note": "自身で取り外して持ち込む場合に限ります。電気温水器は処理できません。"
     },
     {
       "name": "温度計(水銀使用)",
       "nameKana": "おんどけい(すいぎんしよう)",
-      "nameRoman": "ondokei(suiginshiyou)",
       "categoryId": "hazardous",
       "note": "水銀不使用・デジタル式は不燃ごみ。"
     },
     {
       "name": "温風ヒーター",
       "nameKana": "おんぷうひーたー",
-      "nameRoman": "onpuuhiitaa",
       "categoryId": "oversized",
       "note": "燃料使用のものは燃料を抜いてください。"
     },
     {
       "name": "カーテン・レースカーテン",
       "nameKana": "かーてん・れーすかーてん",
-      "nameRoman": "kaaten.reesukaaten",
       "categoryId": "oversized",
       "note": "１ｍ角以内に切断すれば可燃ごみ。"
     },
     {
       "name": "カーテンレール",
       "nameKana": "かーてんれーる",
-      "nameRoman": "kaatenreeru",
       "categoryId": "oversized"
     },
     {
       "name": "カーペット(じゅうたん)",
       "nameKana": "かーぺっと(じゅうたん)",
-      "nameRoman": "kaapetto(juutan)",
       "categoryId": "oversized",
       "note": "１ｍ角以内に切断すれば可燃ごみ。"
     },
     {
       "name": "貝殻・かき殻",
       "nameKana": "かいがら・かきから",
-      "nameRoman": "kaigara.kakikara",
       "categoryId": "burnable"
     },
     {
       "name": "懐中電灯",
       "nameKana": "かいちゅうでんとう",
-      "nameRoman": "kaichuudentou",
       "categoryId": "unburnable",
       "note": "電池は抜いて出してください。"
     },
     {
       "name": "カイロ(使い捨て)",
       "nameKana": "かいろ(つかいすて)",
-      "nameRoman": "kairo(tsukaisute)",
       "categoryId": "burnable"
     },
     {
       "name": "鏡",
       "nameKana": "かがみ",
-      "nameRoman": "kagami",
       "categoryId": "unburnable"
     },
     {
       "name": "学生服",
       "nameKana": "がくせいふく",
-      "nameRoman": "gakuseifuku",
       "categoryId": "recyclable"
     },
     {
       "name": "額縁(木製・プラスチック製)",
       "nameKana": "がくぶち(もくせい・ぷらすちっくせい)",
-      "nameRoman": "gakubuchi(mokusei.purasuchikkusei)",
       "categoryId": "burnable",
       "note": "ガラス部分は不燃ごみ。指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "額縁(金属製)",
       "nameKana": "がくぶち(きんぞくせい)",
-      "nameRoman": "gakubuchi(kinzokusei)",
       "categoryId": "recyclable",
       "note": "ガラス部分は不燃ごみ。資源のかごに入らないものは粗大ごみ。"
     },
     {
       "name": "傘・折りたたみ傘",
       "nameKana": "かさ・おりたたみかさ",
-      "nameRoman": "kasa.oritatamikasa",
       "categoryId": "unburnable",
       "note": "指定袋からはみ出しても不燃ごみ。"
     },
     {
       "name": "傘立て",
       "nameKana": "かさたてて",
-      "nameRoman": "kasatatete",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "加湿器",
       "nameKana": "かしつき",
-      "nameRoman": "kashitsuki",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "果実酒等の広口ガラス容器",
       "nameKana": "かじつさけなどのこうくちがらすようき",
-      "nameRoman": "kajitsusakenadonokoukuchigarasuyouki",
       "categoryId": "unburnable",
       "note": "ガラス製でも資源になりません。"
     },
     {
       "name": "ガスコンロ",
       "nameKana": "がすこんろ",
-      "nameRoman": "gasukonro",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "ガスボンベ(プロパンガスボンベ)",
       "nameKana": "がすぼんべ(ぷろぱんがすぼんべ)",
-      "nameRoman": "gasubonbe(puropangasubonbe)",
       "categoryId": "uncollectible",
       "note": "ボンベ記載の販売店へ相談してください。記載のないものは廃棄物処理業者に相談してください。"
     },
     {
       "name": "カセットボンベ(カセット式ガスボンベ)",
       "nameKana": "かせっとぼんべ(かせっとしきがすぼんべ)",
-      "nameRoman": "kasettobonbe(kasettoshikigasubonbe)",
       "categoryId": "hazardous",
       "note": "中身を使い切って出してください。"
     },
     {
       "name": "カセットコンロ",
       "nameKana": "かせっとこんろ",
-      "nameRoman": "kasettokonro",
       "categoryId": "unburnable",
       "note": "カセットボンベは外して出してください。カセットボンベは危険ごみ。"
     },
     {
       "name": "カセットテープ",
       "nameKana": "かせっとてーぷ",
-      "nameRoman": "kasettoteepu",
       "categoryId": "burnable"
     },
     {
       "name": "ガソリン",
       "nameKana": "がそりん",
-      "nameRoman": "gasorin",
       "categoryId": "uncollectible",
       "note": "ガソリンスタンド等に相談してください。"
     },
     {
       "name": "カッター類の刃",
       "nameKana": "かったーるいのは",
-      "nameRoman": "kattaaruinoha",
       "categoryId": "unburnable",
       "note": "刃物は金属製でも不燃ごみです。紙に包んでください。"
     },
     {
       "name": "かつら",
       "nameKana": "かつら",
-      "nameRoman": "katsura",
       "categoryId": "burnable"
     },
     {
       "name": "かばん",
       "nameKana": "かばん",
-      "nameRoman": "kaban",
       "categoryId": "burnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "画鋲(押しピン)",
       "nameKana": "がびょう(おしぴん)",
-      "nameRoman": "gabyou(oshipin)",
       "categoryId": "recyclable",
       "note": "金属製の缶に入れるなど散乱しないようにしてください。"
     },
     {
       "name": "花びん(陶磁器製・ガラス製)",
       "nameKana": "はなびん(とうじきせい・がらすせい)",
-      "nameRoman": "hanabin(toujikisei.garasusei)",
       "categoryId": "unburnable"
     },
     {
       "name": "兜(五月人形)",
       "nameKana": "かぶと(ごがつにんぎょう)",
-      "nameRoman": "kabuto(gogatsuningyou)",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "鎌",
       "nameKana": "かま",
-      "nameRoman": "kama",
       "categoryId": "unburnable",
       "note": "刃物は金属製でも不燃ごみです。紙に包んでください。"
     },
     {
       "name": "紙コップ・紙皿",
       "nameKana": "かみこっぷ・かみさら",
-      "nameRoman": "kamikoppu.kamisara",
       "categoryId": "burnable",
       "note": "資源になりません。"
     },
     {
       "name": "かみそり(金属製、一体型)",
       "nameKana": "かみそり(きんぞくせい、いったいがた)",
-      "nameRoman": "kamisori(kinzokusei、ittaigata)",
       "categoryId": "unburnable",
       "note": "刃物は金属製でも不燃ごみです。紙に包んでください。"
     },
     {
       "name": "紙パック(牛乳・ジュース)",
       "nameKana": "かみぱっく(ぎゅうにゅう・じゅーす)",
-      "nameRoman": "kamipakku(gyuunyuu.juusu)",
       "categoryId": "recyclable",
       "note": "内側がアルミ加工のものは可燃ごみ。"
     },
     {
       "name": "紙やすり",
       "nameKana": "かみやすり",
-      "nameRoman": "kamiyasuri",
       "categoryId": "burnable"
     },
     {
       "name": "カメラ",
       "nameKana": "かめら",
-      "nameRoman": "kamera",
       "categoryId": "unburnable"
     },
     {
       "name": "カラーボックス",
       "nameKana": "からーぼっくす",
-      "nameRoman": "karaabokkusu",
       "categoryId": "oversized"
     },
     {
       "name": "蚊帳",
       "nameKana": "かや",
-      "nameRoman": "kaya",
       "categoryId": "oversized"
     },
     {
       "name": "火薬類(玩具花火を除く)",
       "nameKana": "かやくるい(がんぐはなびをのぞく)",
-      "nameRoman": "kayakurui(ganguhanabiwonozoku)",
       "categoryId": "uncollectible",
       "note": "販売店に相談してください。"
     },
     {
       "name": "ガラス(食器、工芸品)",
       "nameKana": "がらす(しょっき、こうげいひん)",
-      "nameRoman": "garasu(shokki、kougeihin)",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "ガラス(窓ガラス)",
       "nameKana": "がらす(まどがらす)",
-      "nameRoman": "garasu(madogarasu)",
       "categoryId": "oversized",
       "note": "指定袋に入る細かいものは新聞紙等に包んで不燃ごみ。建築、解体工事で発生したものは廃棄物処理業者に相談してください。"
     },
     {
       "name": "ガラスケース",
       "nameKana": "がらすけーす",
-      "nameRoman": "garasukeesu",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "ガラスクリーナー(スプレー式)",
       "nameKana": "がらすくりーなー(すぷれーしき)",
-      "nameRoman": "garasukuriinaa(supureeshiki)",
       "categoryId": "hazardous",
       "note": "中身を使い切って出してください。ポンプ式は可燃ごみ。"
     },
     {
       "name": "軽石",
       "nameKana": "けいいし",
-      "nameRoman": "keiishi",
       "categoryId": "unburnable"
     },
     {
       "name": "ガレキ",
       "nameKana": "がれき",
-      "nameRoman": "gareki",
       "categoryId": "uncollectible",
       "note": "廃棄物処理業者に相談してください。"
     },
     {
       "name": "カレンダー",
       "nameKana": "かれんだー",
-      "nameRoman": "karendaa",
       "categoryId": "recyclable",
       "note": "金属やプラスチックの留め金は外してください。金属部分は資源。"
     },
     {
       "name": "瓦",
       "nameKana": "かわら",
-      "nameRoman": "kawara",
       "categoryId": "uncollectible",
       "note": "廃棄物処理業者に相談してください。"
     },
     {
       "name": "缶きり",
       "nameKana": "かんきり",
-      "nameRoman": "kankiri",
       "categoryId": "recyclable"
     },
     {
       "name": "換気扇",
       "nameKana": "かんきせん",
-      "nameRoman": "kankisen",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "乾燥剤",
       "nameKana": "かんそうざい",
-      "nameRoman": "kansouzai",
       "categoryId": "burnable"
     },
     {
       "name": "乾電池",
       "nameKana": "かんでんち",
-      "nameRoman": "kandenchi",
       "categoryId": "hazardous",
       "note": "ボタン電池、充電式電池は市では回収できません。家電店等のリサイクルボックスをご利用ください。"
     },
     {
       "name": "感熱紙",
       "nameKana": "かんねつし",
-      "nameRoman": "kannetsushi",
       "categoryId": "burnable",
       "note": "資源になりません。"
     },
     {
       "name": "キーボード(楽器)",
       "nameKana": "きーぼーど(がっき)",
-      "nameRoman": "kiiboodo(gakki)",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "キーボード(パソコン)",
       "nameKana": "きーぼーど(ぱそこん)",
-      "nameRoman": "kiiboodo(pasokon)",
       "categoryId": "unburnable",
       "note": "パソコン本体と一緒にリサイクル可能です。"
     },
     {
       "name": "キーホルダー(金属)",
       "nameKana": "きーほるだー(きんぞく)",
-      "nameRoman": "kiihorudaa(kinzoku)",
       "categoryId": "recyclable"
     },
     {
       "name": "木くず",
       "nameKana": "きくず",
-      "nameRoman": "kikuzu",
       "categoryId": "burnable",
       "note": "建築廃材は出せません。廃棄物処理業者に相談してください。"
     },
     {
       "name": "ギター(エレキギターなど)",
       "nameKana": "ぎたー(えれきぎたーなど)",
-      "nameRoman": "gitaa(erekigitaanado)",
       "categoryId": "oversized"
     },
     {
       "name": "キッチンマット",
       "nameKana": "きっちんまっと",
-      "nameRoman": "kitchinmatto",
       "categoryId": "burnable",
       "note": "１mを超えるのものは１m以内に切断してください。切れないものは粗大ごみ。"
     },
     {
       "name": "杵(きね)",
       "nameKana": "きね(きね)",
-      "nameRoman": "kine(kine)",
       "categoryId": "oversized"
     },
     {
       "name": "木の根",
       "nameKana": "きのね",
-      "nameRoman": "kinone",
       "categoryId": "oversized",
       "note": "直径３０cmを超えるものは廃棄物処理業者に相談してください。土は洗い落としてください。また細かい根は切り落とし、可燃ごみに出してください。"
     },
     {
       "name": "着物",
       "nameKana": "きもの",
-      "nameRoman": "kimono",
       "categoryId": "burnable",
       "note": "衣類でも資源になりません。１m角以内に切断してください。"
     },
     {
       "name": "脚立",
       "nameKana": "きゃたつ",
-      "nameRoman": "kyatatsu",
       "categoryId": "oversized"
     },
     {
       "name": "キャリーバッグ(スーツケース、トランク)",
       "nameKana": "きゃりーばっぐ(すーつけーす、とらんく)",
-      "nameRoman": "kyariibaggu(suutsukeesu、toranku)",
       "categoryId": "oversized"
     },
     {
       "name": "きゅうす",
       "nameKana": "きゅうす",
-      "nameRoman": "kyuusu",
       "categoryId": "unburnable",
       "note": "金属製は資源。"
     },
     {
       "name": "給湯器",
       "nameKana": "きゅうとうき",
-      "nameRoman": "kyuutouki",
       "categoryId": "oversized",
       "note": "電気温水器は市で処理できません。販売店や廃棄物処理業者に相談してください。"
     },
     {
       "name": "吸入器",
       "nameKana": "きゅうにゅうき",
-      "nameRoman": "kyuunyuuki",
       "categoryId": "unburnable"
     },
     {
       "name": "給油ポンプ(手動式)",
       "nameKana": "きゅうゆぽんぷ(しゅどうしき)",
-      "nameRoman": "kyuuyuponpu(shudoushiki)",
       "categoryId": "burnable",
       "note": "電動式は電池は抜いて不燃ごみ。"
     },
     {
       "name": "鏡台(ドレッサー・姿見など)",
       "nameKana": "きょうだい(どれっさー・すがたみなど)",
-      "nameRoman": "kyoudai(doressaa.sugataminado)",
       "categoryId": "oversized"
     },
     {
       "name": "霧吹き",
       "nameKana": "きりふき",
-      "nameRoman": "kirifuki",
       "categoryId": "burnable",
       "note": "金属部分は資源。"
     },
     {
       "name": "金庫(家庭用の小さな手提げのもの)",
       "nameKana": "きんこ(かていようのちいさなてていげのもの)",
-      "nameRoman": "kinko(kateiyounochiisanateteigenomono)",
       "categoryId": "unburnable",
       "note": "耐火金庫などコンクリート入りのものは廃棄物処理業者に相談してください。"
     },
     {
       "name": "くい(木製・プラスチック製)",
       "nameKana": "くい(もくせい・ぷらすちっくせい)",
-      "nameRoman": "kui(mokusei.purasuchikkusei)",
       "categoryId": "burnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "空気入れ(金属製)",
       "nameKana": "くうきいれ(きんぞくせい)",
-      "nameRoman": "kuukiire(kinzokusei)",
       "categoryId": "oversized",
       "note": "プラスチック製は可燃ごみ。指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "空気清浄機",
       "nameKana": "くうきせいじょうき",
-      "nameRoman": "kuukiseijouki",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "クーハン",
       "nameKana": "くーはん",
-      "nameRoman": "kuuhan",
       "categoryId": "oversized"
     },
     {
       "name": "クーラーボックス",
       "nameKana": "くーらーぼっくす",
-      "nameRoman": "kuuraabokkusu",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "釘",
       "nameKana": "くぎ",
-      "nameRoman": "kugi",
       "categoryId": "recyclable",
       "note": "金属製の缶に入れるなど散乱しないようにしてください。"
     },
     {
       "name": "草刈機(刈り払い機)",
       "nameKana": "くさかりき(かりはらいき)",
-      "nameRoman": "kusakariki(kariharaiki)",
       "categoryId": "oversized",
       "note": "燃料を抜いてください。バッテリー式はバッテリーを外してください。"
     },
     {
       "name": "草刈機の刃",
       "nameKana": "くさかりきのは",
-      "nameRoman": "kusakarikinoha",
       "categoryId": "unburnable",
       "note": "刃物は金属製でも不燃ごみです。紙に包んでください。"
     },
     {
       "name": "鎖(金属製)",
       "nameKana": "くさり(きんぞくせい)",
-      "nameRoman": "kusari(kinzokusei)",
       "categoryId": "recyclable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "薬(錠剤、粉末)",
       "nameKana": "くすり(じょうざい、ふんまつ)",
-      "nameRoman": "kusuri(jouzai、funmatsu)",
       "categoryId": "burnable"
     },
     {
       "name": "薬の金属製チューブ(塗り薬)",
       "nameKana": "くすりのきんぞくせいちゅーぶ(ぬりくすり)",
-      "nameRoman": "kusurinokinzokuseichuubu(nurikusuri)",
       "categoryId": "unburnable"
     },
     {
       "name": "薬のびん(飲み薬、ガラスびん)",
       "nameKana": "くすりのびん(のみくすり、がらすびん)",
-      "nameRoman": "kusurinobin(nomikusuri、garasubin)",
       "categoryId": "recyclable",
       "note": "ふたは金属製なら資源。プラスチック製なら可燃ごみ。"
     },
     {
       "name": "薬のびん(塗り薬、ガラスびん)",
       "nameKana": "くすりのびん(ぬりくすり、がらすびん)",
-      "nameRoman": "kusurinobin(nurikusuri、garasubin)",
       "categoryId": "unburnable",
       "note": "ふたは金属製なら資源。プラスチック製なら可燃ごみ。"
     },
     {
       "name": "薬の容器(プラスチック製)",
       "nameKana": "くすりのようき(ぷらすちっくせい)",
-      "nameRoman": "kusurinoyouki(purasuchikkusei)",
       "categoryId": "burnable",
       "note": "ふたは金属製なら資源。プラスチック製なら可燃ごみ。"
     },
     {
       "name": "口紅",
       "nameKana": "くちべに",
-      "nameRoman": "kuchibeni",
       "categoryId": "burnable",
       "note": "柄が金属製のものは不燃ごみ。"
     },
     {
       "name": "くつ(運動靴、革靴、ビニール靴、長靴など)",
       "nameKana": "くつ(うんどうぐつ、かわぐつ、びにーるくつ、ながぐつなど)",
-      "nameRoman": "kutsu(undougutsu、kawagutsu、biniirukutsu、nagagutsunado)",
       "categoryId": "burnable"
     },
     {
       "name": "クッキングヒーター",
       "nameKana": "くっきんぐひーたー",
-      "nameRoman": "kukkinguhiitaa",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "クッキングペーパー",
       "nameKana": "くっきんぐぺーぱー",
-      "nameRoman": "kukkingupeepaa",
       "categoryId": "burnable"
     },
     {
       "name": "クッション",
       "nameKana": "くっしょん",
-      "nameRoman": "kusshon",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは可燃ごみ。"
     },
     {
       "name": "熊手",
       "nameKana": "くまて",
-      "nameRoman": "kumate",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるもので木・プラ製は可燃ごみ。金属製は不燃ごみ。"
     },
     {
       "name": "クリップ",
       "nameKana": "くりっぷ",
-      "nameRoman": "kurippu",
       "categoryId": "recyclable",
       "note": "金属製の缶に入れるなど散乱しないようにしてください。"
     },
     {
       "name": "車椅子",
       "nameKana": "くるまいす",
-      "nameRoman": "kurumaisu",
       "categoryId": "oversized"
     },
     {
       "name": "クレヨン",
       "nameKana": "くれよん",
-      "nameRoman": "kureyon",
       "categoryId": "burnable"
     },
     {
       "name": "グローブ",
       "nameKana": "ぐろーぶ",
-      "nameRoman": "guroobu",
       "categoryId": "burnable"
     },
     {
       "name": "鍬",
       "nameKana": "くわ",
-      "nameRoman": "kuwa",
       "categoryId": "oversized"
     },
     {
       "name": "携行缶",
       "nameKana": "けいこうかん",
-      "nameRoman": "keikoukan",
       "categoryId": "unburnable",
       "note": "燃料を抜いて指定袋に入れて出してください。"
     },
     {
       "name": "蛍光管(円形・棒状)",
       "nameKana": "けいこうかん(えんけい・ぼうじょう)",
-      "nameRoman": "keikoukan(enkei.boujou)",
       "categoryId": "hazardous",
       "note": "購入時のケースに入れるか紙に包んで出してください。点灯管（グローランプ）は不燃ごみ。"
     },
     {
       "name": "携帯電話・携帯電話用充電器",
       "nameKana": "けいたいでんわ・けいたいでんわようじゅうでんき",
-      "nameRoman": "keitaidenwa.keitaidenwayoujuudenki",
       "categoryId": "unburnable",
       "note": "各社ショップ等の回収制度もご利用ください。"
     },
     {
       "name": "計量スプーン・計量カップ(金属製)",
       "nameKana": "けいりょうすぷーん・けいりょうかっぷ(きんぞくせい)",
-      "nameRoman": "keiryousupuun.keiryoukappu(kinzokusei)",
       "categoryId": "recyclable",
       "note": "プラスチック製は可燃ごみ。ガラス製は不燃ごみ。"
     },
     {
       "name": "計量ばかり(家庭用)",
       "nameKana": "けいりょうばかり(かていよう)",
-      "nameRoman": "keiryoubakari(kateiyou)",
       "categoryId": "unburnable",
       "note": "電池は抜いて出してください。"
     },
     {
       "name": "ケーブル(電話用・パソコン用)",
       "nameKana": "けーぶる(でんわよう・ぱそこんよう)",
-      "nameRoman": "keeburu(denwayou.pasokonyou)",
       "categoryId": "unburnable",
       "note": "長いものは束ねてください。"
     },
     {
       "name": "ゲーム機",
       "nameKana": "げーむき",
-      "nameRoman": "geemuki",
       "categoryId": "unburnable"
     },
     {
       "name": "ゲームソフト",
       "nameKana": "げーむそふと",
-      "nameRoman": "geemusofuto",
       "categoryId": "burnable"
     },
     {
       "name": "毛皮製品",
       "nameKana": "けがわせいひん",
-      "nameRoman": "kegawaseihin",
       "categoryId": "burnable"
     },
     {
       "name": "劇薬",
       "nameKana": "げきやく",
-      "nameRoman": "gekiyaku",
       "categoryId": "uncollectible",
       "note": "販売店又は専門の処理業者に相談してください。"
     },
     {
       "name": "化粧品の容器(プラスチック製)",
       "nameKana": "けしょうひんのようき(ぷらすちっくせい)",
-      "nameRoman": "keshouhinnoyouki(purasuchikkusei)",
       "categoryId": "burnable",
       "note": "ガラス製は不燃ごみ。"
     },
     {
       "name": "下駄",
       "nameKana": "げた",
-      "nameRoman": "geta",
       "categoryId": "burnable"
     },
     {
       "name": "下駄箱",
       "nameKana": "げたばこ",
-      "nameRoman": "getabako",
       "categoryId": "oversized"
     },
     {
       "name": "血圧計(デジタル式)",
       "nameKana": "けつあつけい(でじたるしき)",
-      "nameRoman": "ketsuatsukei(dejitarushiki)",
       "categoryId": "unburnable"
     },
     {
       "name": "玄関マット",
       "nameKana": "げんかんまっと",
-      "nameRoman": "genkanmatto",
       "categoryId": "burnable",
       "note": "金属製のもの、指定袋に入らないものは粗大ごみ。"
     },
     {
       "name": "剣山(生け花用)",
       "nameKana": "けんざん(いけばなよう)",
-      "nameRoman": "kenzan(ikebanayou)",
       "categoryId": "recyclable"
     },
     {
       "name": "建築廃材",
       "nameKana": "けんちくはいざい",
-      "nameRoman": "kenchikuhaizai",
       "categoryId": "uncollectible",
       "note": "廃棄物処理業者に相談してください。"
     },
     {
       "name": "剣道防具",
       "nameKana": "けんどうぼうぐ",
-      "nameRoman": "kendoubougu",
       "categoryId": "oversized"
     },
     {
       "name": "顕微鏡",
       "nameKana": "けんびきょう",
-      "nameRoman": "kenbikyou",
       "categoryId": "unburnable"
     },
     {
       "name": "碁石",
       "nameKana": "ごいし",
-      "nameRoman": "goishi",
       "categoryId": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "こいのぼり・こいのぼりのポール",
       "nameKana": "こいのぼり・こいのぼりのぽーる",
-      "nameRoman": "koinobori.koinoborinopooru",
       "categoryId": "oversized",
       "note": "こいのぼりは１m角以内に切断すれば可燃ごみ。"
     },
     {
       "name": "耕運機",
       "nameKana": "こううんき",
-      "nameRoman": "kouunki",
       "categoryId": "uncollectible",
       "note": "販売店に相談してください。"
     },
     {
       "name": "工具類",
       "nameKana": "こうぐるい",
-      "nameRoman": "kougurui",
       "categoryId": "unburnable",
       "note": "全て金属のものは資源。"
     },
     {
       "name": "ゴーグル",
       "nameKana": "ごーぐる",
-      "nameRoman": "googuru",
       "categoryId": "burnable",
       "note": "ガラス製は不燃ごみ。"
     },
     {
       "name": "コート",
       "nameKana": "こーと",
-      "nameRoman": "kooto",
       "categoryId": "recyclable"
     },
     {
       "name": "コード",
       "nameKana": "こーど",
-      "nameRoman": "koodo",
       "categoryId": "unburnable",
       "note": "長いものは束ねてください。"
     },
     {
       "name": "コーヒーメーカー",
       "nameKana": "こーひーめーかー",
-      "nameRoman": "koohiimeekaa",
       "categoryId": "unburnable"
     },
     {
       "name": "小型家電製品",
       "nameKana": "こがたかでんせいひん",
-      "nameRoman": "kogatakadenseihin",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "ござ",
       "nameKana": "ござ",
-      "nameRoman": "goza",
       "categoryId": "oversized",
       "note": "１m角以内に切断すれば可燃ごみ。"
     },
     {
       "name": "コタツ",
       "nameKana": "こたつ",
-      "nameRoman": "kotatsu",
       "categoryId": "oversized"
     },
     {
       "name": "コップ(ガラス製・陶磁器製)",
       "nameKana": "こっぷ(がらすせい・とうじきせい)",
-      "nameRoman": "koppu(garasusei.toujikisei)",
       "categoryId": "unburnable",
       "note": "金属製は資源。"
     },
     {
       "name": "コピー機(プリンター)",
       "nameKana": "こぴーき(ぷりんたー)",
-      "nameRoman": "kopiiki(purintaa)",
       "categoryId": "oversized",
       "note": "家庭用のものに限ります。指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "ゴム製品(タイヤを除く)",
       "nameKana": "ごむせいひん(たいやをのぞく)",
-      "nameRoman": "gomuseihin(taiyawonozoku)",
       "categoryId": "burnable",
       "note": "自動車やバイクのタイヤは販売店に相談してください。"
     },
     {
       "name": "米びつ",
       "nameKana": "こめびつ",
-      "nameRoman": "komebitsu",
       "categoryId": "oversized"
     },
     {
       "name": "米袋(紙製、ビニール製)",
       "nameKana": "こめぶくろ(かみせい、びにーるせい)",
-      "nameRoman": "komebukuro(kamisei、biniirusei)",
       "categoryId": "burnable"
     },
     {
       "name": "ゴルフ用具(クラブ・バッグ)",
       "nameKana": "ごるふようぐ(くらぶ・ばっぐ)",
-      "nameRoman": "gorufuyougu(kurabu.baggu)",
       "categoryId": "oversized"
     },
     {
       "name": "コンクリートガラ、ブロック",
       "nameKana": "こんくりーとがら、ぶろっく",
-      "nameRoman": "konkuriitogara、burokku",
       "categoryId": "uncollectible",
       "note": "廃棄物処理業者に相談してください。"
     },
     {
       "name": "コンパクト(化粧用)",
       "nameKana": "こんぱくと(けしょうよう)",
-      "nameRoman": "konpakuto(keshouyou)",
       "categoryId": "unburnable"
     },
     {
       "name": "コンパス(金属製)",
       "nameKana": "こんぱす(きんぞくせい)",
-      "nameRoman": "konpasu(kinzokusei)",
       "categoryId": "recyclable"
     },
     {
       "name": "コンポ",
       "nameKana": "こんぽ",
-      "nameRoman": "konpo",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "サーフボード",
       "nameKana": "さーふぼーど",
-      "nameRoman": "saafuboodo",
       "categoryId": "oversized"
     },
     {
       "name": "座いす",
       "nameKana": "ざいす",
-      "nameRoman": "zaisu",
       "categoryId": "oversized"
     },
     {
       "name": "サイフ",
       "nameKana": "さいふ",
-      "nameRoman": "saifu",
       "categoryId": "burnable",
       "note": "鎖や金属製アクセサリーはできるだけ外して資源。"
     },
     {
       "name": "サインペン",
       "nameKana": "さいんぺん",
-      "nameRoman": "sainpen",
       "categoryId": "burnable",
       "note": "柄が金属製のものは不燃ごみ。"
     },
     {
       "name": "酒のびん",
       "nameKana": "さけのびん",
-      "nameRoman": "sakenobin",
       "categoryId": "recyclable"
     },
     {
       "name": "座卓",
       "nameKana": "ざたく",
-      "nameRoman": "zataku",
       "categoryId": "oversized"
     },
     {
       "name": "殺虫剤スプレー缶",
       "nameKana": "さっちゅうざいすぷれーかん",
-      "nameRoman": "satchuuzaisupureekan",
       "categoryId": "hazardous",
       "note": "中身を使い切って出してください。"
     },
     {
       "name": "殺虫剤ビン",
       "nameKana": "さっちゅうざいびん",
-      "nameRoman": "satchuuzaibin",
       "categoryId": "unburnable",
       "note": "中身を使い切って出してください。"
     },
     {
       "name": "ざぶとん(綿入り座敷用)",
       "nameKana": "ざぶとん(めんいりざしきよう)",
-      "nameRoman": "zabuton(menirizashikiyou)",
       "categoryId": "oversized"
     },
     {
       "name": "三角板(車用)",
       "nameKana": "さんかくいた(くるまよう)",
-      "nameRoman": "sankakuita(kurumayou)",
       "categoryId": "burnable"
     },
     {
       "name": "三脚",
       "nameKana": "さんきゃく",
-      "nameRoman": "sankyaku",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "サングラス",
       "nameKana": "さんぐらす",
-      "nameRoman": "sangurasu",
       "categoryId": "burnable",
       "note": "レンズがガラス製のものは不燃ごみ。"
     },
     {
       "name": "サンシェード(車の日よけ)",
       "nameKana": "さんしぇーど(くるまのにちよけ)",
-      "nameRoman": "sanshieedo(kurumanonichiyoke)",
       "categoryId": "burnable",
       "note": "１m以内に切断してください。"
     },
     {
       "name": "サンバイザー(紙、布、プラスチック製)",
       "nameKana": "さんばいざー(かみ、ぬの、ぷらすちっくせい)",
-      "nameRoman": "sanbaizaa(kami、nuno、purasuchikkusei)",
       "categoryId": "burnable"
     },
     {
       "name": "三輪車(幼児用)",
       "nameKana": "さんりんしゃ(ようじよう)",
-      "nameRoman": "sanrinsha(youjiyou)",
       "categoryId": "oversized"
     },
     {
       "name": "CD・CDケース",
       "nameKana": "しーでぃー・しーでぃーけーす",
-      "nameRoman": "cd.cdkeesu",
       "categoryId": "burnable"
     },
     {
       "name": "CDプレーヤー・CDラジカセ",
       "nameKana": "しーでぃーぷれーやー・しーでぃーらじかせ",
-      "nameRoman": "cdpureeyaa.cdrajikase",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "シーツ",
       "nameKana": "しーつ",
-      "nameRoman": "shiitsu",
       "categoryId": "oversized",
       "note": "１ｍ角以内に切断すれば可燃ごみ。"
     },
     {
       "name": "磁気ネックレス",
       "nameKana": "じきねっくれす",
-      "nameRoman": "jikinekkuresu",
       "categoryId": "unburnable"
     },
     {
       "name": "磁気マットレス",
       "nameKana": "じきまっとれす",
-      "nameRoman": "jikimattoresu",
       "categoryId": "oversized"
     },
     {
       "name": "磁石(マグネット)",
       "nameKana": "じしゃく(まぐねっと)",
-      "nameRoman": "jishaku(magunetto)",
       "categoryId": "unburnable"
     },
     {
       "name": "下着",
       "nameKana": "したぎ",
-      "nameRoman": "shitagi",
       "categoryId": "burnable"
     },
     {
       "name": "七輪(しちりん)",
       "nameKana": "しちりん(しちりん)",
-      "nameRoman": "shichirin(shichirin)",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "室外機のみ",
       "nameKana": "しつがいきのみ",
-      "nameRoman": "shitsugaikinomi",
       "categoryId": "legalrecycling",
       "note": "室外機のみ処分する場合も家電リサイクル料金が掛かります。"
     },
     {
       "name": "湿布剤(薬)",
       "nameKana": "しっぷざい(くすり)",
-      "nameRoman": "shippuzai(kusuri)",
       "categoryId": "burnable"
     },
     {
       "name": "自転車",
       "nameKana": "じてんしゃ",
-      "nameRoman": "jitensha",
       "categoryId": "oversized"
     },
     {
       "name": "自転車のタイヤチューブ",
       "nameKana": "じてんしゃのたいやちゅーぶ",
-      "nameRoman": "jitenshanotaiyachuubu",
       "categoryId": "burnable"
     },
     {
       "name": "自動車部品",
       "nameKana": "じどうしゃぶひん",
-      "nameRoman": "jidoushabuhin",
       "categoryId": "uncollectible",
       "note": "自動車販売、修理店に相談してください。"
     },
     {
       "name": "竹刀",
       "nameKana": "しない",
-      "nameRoman": "shinai",
       "categoryId": "oversized"
     },
     {
       "name": "シャープペンシル(金属製)",
       "nameKana": "しゃーぷぺんしる(きんぞくせい)",
-      "nameRoman": "shaapupenshiru(kinzokusei)",
       "categoryId": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "蛇口",
       "nameKana": "じゃぐち",
-      "nameRoman": "jaguchi",
       "categoryId": "unburnable",
       "note": "全て金属のものは資源。"
     },
     {
       "name": "写真・ポラロイド写真",
       "nameKana": "しゃしん・ぽらろいどしゃしん",
-      "nameRoman": "shashin.poraroidoshashin",
       "categoryId": "burnable"
     },
     {
       "name": "ジューサー",
       "nameKana": "じゅーさー",
-      "nameRoman": "juusaa",
       "categoryId": "unburnable"
     },
     {
       "name": "じゅうたん",
       "nameKana": "じゅうたん",
-      "nameRoman": "juutan",
       "categoryId": "oversized"
     },
     {
       "name": "充電器(家庭用)",
       "nameKana": "じゅうでんき(かていよう)",
-      "nameRoman": "juudenki(kateiyou)",
       "categoryId": "unburnable"
     },
     {
       "name": "充電式電池",
       "nameKana": "じゅうでんしきでんち",
-      "nameRoman": "juudenshikidenchi",
       "categoryId": "uncollectible",
       "note": "家電店のリサイクルボックスをご利用ください。回収協力店は一般社団法人JBRCのサイト（https://www.jbrc.com/general/recycle_kensaku/）よりご確認ください。"
     },
     {
       "name": "シュレッダー裁断紙(くず)",
       "nameKana": "しゅれっだーさいだんかみ(くず)",
-      "nameRoman": "shureddaasaidankami(kuzu)",
       "categoryId": "burnable",
       "note": "シュレッダーに掛けたものは資源になりません。"
     },
     {
       "name": "消火器",
       "nameKana": "しょうかき",
-      "nameRoman": "shoukaki",
       "categoryId": "uncollectible",
       "note": "消防設備業者、販売店等にご相談ください。"
     },
     {
       "name": "将棋盤・将棋の駒",
       "nameKana": "しょうぎばん・しょうぎのこま",
-      "nameRoman": "shougiban.shouginokoma",
       "categoryId": "burnable",
       "note": "将棋盤の厚いもの（厚さ１０cm以上）は粗大ごみ。"
     },
     {
       "name": "障子戸",
       "nameKana": "しょうじこ",
-      "nameRoman": "shoujiko",
       "categoryId": "oversized",
       "note": "建築、解体工事で発生したものは廃棄物処理業者に相談してください。"
     },
     {
       "name": "浄水器",
       "nameKana": "じょうすいき",
-      "nameRoman": "jousuiki",
       "categoryId": "unburnable"
     },
     {
       "name": "照明器具",
       "nameKana": "しょうめいきぐ",
-      "nameRoman": "shoumeikigu",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。蛍光管は外して危険ごみ。"
     },
     {
       "name": "じょうろ(金属製)",
       "nameKana": "じょうろ(きんぞくせい)",
-      "nameRoman": "jouro(kinzokusei)",
       "categoryId": "recyclable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "食卓カバー(かさ式のもの)",
       "nameKana": "しょくたくかばー(かさしきのもの)",
-      "nameRoman": "shokutakukabaa(kasashikinomono)",
       "categoryId": "unburnable",
       "note": "骨がプラスチック製のものは可燃ごみ。"
     },
     {
       "name": "食卓テーブル",
       "nameKana": "しょくたくてーぶる",
-      "nameRoman": "shokutakuteeburu",
       "categoryId": "oversized"
     },
     {
       "name": "食用油(植物油)",
       "nameKana": "しょくようあぶら(しょくぶつゆ)",
-      "nameRoman": "shokuyouabura(shokubutsuyu)",
       "categoryId": "recyclable",
       "note": "廃食用油回収制度（一部地域実施）や拠点回収をご利用ください。処分する場合は固めるなどして可燃ごみ。"
     },
     {
       "name": "食用油容器(缶・びん)",
       "nameKana": "しょくようあぶらようき(かん・びん)",
-      "nameRoman": "shokuyouaburayouki(kan.bin)",
       "categoryId": "recyclable",
       "note": "汚れを落としてください。"
     },
     {
       "name": "食用油容器(プラスチック製)",
       "nameKana": "しょくようあぶらようき(ぷらすちっくせい)",
-      "nameRoman": "shokuyouaburayouki(purasuchikkusei)",
       "categoryId": "burnable",
       "note": "ペットボトル製は可燃ごみ。材質がペットボトルでも資源になりません。"
     },
     {
       "name": "除湿機",
       "nameKana": "じょしつき",
-      "nameRoman": "joshitsuki",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "除湿剤",
       "nameKana": "じょしつざい",
-      "nameRoman": "joshitsuzai",
       "categoryId": "burnable",
       "note": "水を捨ててください。"
     },
     {
       "name": "食器洗い乾燥機",
       "nameKana": "しょっきあらいかんそうき",
-      "nameRoman": "shokkiaraikansouki",
       "categoryId": "oversized"
     },
     {
       "name": "食器類(金属製)",
       "nameKana": "しょっきるい(きんぞくせい)",
-      "nameRoman": "shokkirui(kinzokusei)",
       "categoryId": "recyclable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "食器類(陶磁器・ガラス製)",
       "nameKana": "しょっきるい(とうじき・がらすせい)",
-      "nameRoman": "shokkirui(toujiki.garasusei)",
       "categoryId": "unburnable"
     },
     {
       "name": "人工芝",
       "nameKana": "じんこうしば",
-      "nameRoman": "jinkoushiba",
       "categoryId": "burnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "シンナー",
       "nameKana": "しんなー",
-      "nameRoman": "shinnaa",
       "categoryId": "uncollectible",
       "note": "販売店に相談してください。"
     },
     {
       "name": "水槽・水槽専用クーラー",
       "nameKana": "すいそう・すいそうせんようくーらー",
-      "nameRoman": "suisou.suisousenyoukuuraa",
       "categoryId": "unburnable",
       "note": "水槽は指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "水筒(金属製)",
       "nameKana": "すいとう(きんぞくせい)",
-      "nameRoman": "suitou(kinzokusei)",
       "categoryId": "recyclable",
       "note": "プラスチックと混合の物は不燃ごみ。プラスチック製は可燃ごみ。"
     },
     {
       "name": "炊飯器",
       "nameKana": "すいはんき",
-      "nameRoman": "suihanki",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "スーツ",
       "nameKana": "すーつ",
-      "nameRoman": "suutsu",
       "categoryId": "recyclable"
     },
     {
       "name": "スーツケース(トランク)",
       "nameKana": "すーつけーす(とらんく)",
-      "nameRoman": "suutsukeesu(toranku)",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "スカーフ・ストール",
       "nameKana": "すかーふ・すとーる",
-      "nameRoman": "sukaafu.sutooru",
       "categoryId": "burnable"
     },
     {
       "name": "スキー板・スノーボード・スキー用ストック",
       "nameKana": "すきーいた・すのーぼーど・すきーようすとっく",
-      "nameRoman": "sukiiita.sunooboodo.sukiiyousutokku",
       "categoryId": "oversized"
     },
     {
       "name": "スキーウエア",
       "nameKana": "すきーうえあ",
-      "nameRoman": "sukiiuea",
       "categoryId": "burnable"
     },
     {
       "name": "スキーキャリア",
       "nameKana": "すきーきゃりあ",
-      "nameRoman": "sukiikyaria",
       "categoryId": "oversized"
     },
     {
       "name": "スキー靴・スノーボードの靴・スケート靴",
       "nameKana": "すきーくつ・すのーぼーどのくつ・すけーとくつ",
-      "nameRoman": "sukiikutsu.sunooboodonokutsu.sukeetokutsu",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "スケートボード",
       "nameKana": "すけーとぼーど",
-      "nameRoman": "sukeetoboodo",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "スコップ(金属製)",
       "nameKana": "すこっぷ(きんぞくせい)",
-      "nameRoman": "sukoppu(kinzokusei)",
       "categoryId": "recyclable",
       "note": "プラスチック製は可燃ごみ。指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "寿司桶",
       "nameKana": "すしおけ",
-      "nameRoman": "sushioke",
       "categoryId": "burnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "すずり(習字道具)",
       "nameKana": "すずり(しゅうじどうぐ)",
-      "nameRoman": "suzuri(shuujidougu)",
       "categoryId": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "すだれ",
       "nameKana": "すだれ",
-      "nameRoman": "sudare",
       "categoryId": "oversized"
     },
     {
       "name": "スタンプ台(主に金属製)",
       "nameKana": "すたんぷだい(おもにきんぞくせい)",
-      "nameRoman": "sutanpudai(omonikinzokusei)",
       "categoryId": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "スチール棚",
       "nameKana": "すちーるたな",
-      "nameRoman": "suchiirutana",
       "categoryId": "oversized"
     },
     {
       "name": "ステレオ",
       "nameKana": "すてれお",
-      "nameRoman": "sutereo",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "ストーブ",
       "nameKana": "すとーぶ",
-      "nameRoman": "sutoobu",
       "categoryId": "oversized",
       "note": "燃料使用のものは燃料を抜いてください。"
     },
     {
       "name": "すのこ(木製)",
       "nameKana": "すのこ(もくせい)",
-      "nameRoman": "sunoko(mokusei)",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは可燃ごみ。"
     },
     {
       "name": "スパイクシューズ",
       "nameKana": "すぱいくしゅーず",
-      "nameRoman": "supaikushuuzu",
       "categoryId": "burnable"
     },
     {
       "name": "スパナ",
       "nameKana": "すぱな",
-      "nameRoman": "supana",
       "categoryId": "recyclable"
     },
     {
       "name": "スピーカー",
       "nameKana": "すぴーかー",
-      "nameRoman": "supiikaa",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "スプリングマットレス",
       "nameKana": "すぷりんぐまっとれす",
-      "nameRoman": "supuringumattoresu",
       "categoryId": "oversized"
     },
     {
       "name": "すり鉢",
       "nameKana": "すりはち",
-      "nameRoman": "surihachi",
       "categoryId": "unburnable"
     },
     {
       "name": "製氷皿(金属製)",
       "nameKana": "せいひょうざら(きんぞくせい)",
-      "nameRoman": "seihyouzara(kinzokusei)",
       "categoryId": "recyclable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "セーター",
       "nameKana": "せーたー",
-      "nameRoman": "seetaa",
       "categoryId": "recyclable"
     },
     {
       "name": "セーラー服",
       "nameKana": "せーらーふく",
-      "nameRoman": "seeraafuku",
       "categoryId": "burnable",
       "note": "衣類でも資源になりません。"
     },
     {
       "name": "石鹸(固形・粉)",
       "nameKana": "せっけん(こけい・こな)",
-      "nameRoman": "sekken(kokei.kona)",
       "categoryId": "burnable",
       "note": "粉石鹸は飛散防止のため袋に入れてください。"
     },
     {
       "name": "石膏(せっこう)ボード",
       "nameKana": "せっこう(せっこう)ぼーど",
-      "nameRoman": "sekkou(sekkou)boodo",
       "categoryId": "uncollectible",
       "note": "廃棄物処理業者に処理を依頼してください。"
     },
     {
       "name": "せともの類",
       "nameKana": "せとものるい",
-      "nameRoman": "setomonorui",
       "categoryId": "unburnable"
     },
     {
       "name": "セメント袋",
       "nameKana": "せめんとふくろ",
-      "nameRoman": "sementofukuro",
       "categoryId": "burnable"
     },
     {
       "name": "セラミックヒーター",
       "nameKana": "せらみっくひーたー",
-      "nameRoman": "seramikkuhiitaa",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "洗剤(液体・粉末)の容器",
       "nameKana": "せんざい(えきたい・ふんまつ)のようき",
-      "nameRoman": "senzai(ekitai.funmatsu)noyouki",
       "categoryId": "burnable"
     },
     {
       "name": "洗濯かご",
       "nameKana": "せんたくかご",
-      "nameRoman": "sentakukago",
       "categoryId": "oversized"
     },
     {
       "name": "洗濯はさみ(プラスチック製)",
       "nameKana": "せんたくはさみ(ぷらすちっくせい)",
-      "nameRoman": "sentakuhasami(purasuchikkusei)",
       "categoryId": "burnable",
       "note": "金属製は資源。"
     },
     {
       "name": "洗濯機",
       "nameKana": "せんたくき",
-      "nameRoman": "sentakuki",
       "categoryId": "legalrecycling"
     },
     {
       "name": "洗濯物角ハンガー",
       "nameKana": "せんたくものかくはんがー",
-      "nameRoman": "sentakumonokakuhangaa",
       "categoryId": "burnable",
       "note": "主な素材プラスチック製は可燃ごみ。金属製は不燃ごみ。"
     },
     {
       "name": "栓抜き",
       "nameKana": "せんぬき",
-      "nameRoman": "sennuki",
       "categoryId": "recyclable"
     },
     {
       "name": "船舶(ボート)",
       "nameKana": "せんぱく(ぼーと)",
-      "nameRoman": "senpaku(booto)",
       "categoryId": "uncollectible",
       "note": "販売業者等へ相談してください。"
     },
     {
       "name": "扇風機",
       "nameKana": "せんぷうき",
-      "nameRoman": "senpuuki",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "洗面器(プラスチック製)",
       "nameKana": "せんめんき(ぷらすちっくせい)",
-      "nameRoman": "senmenki(purasuchikkusei)",
       "categoryId": "burnable",
       "note": "金属製は資源。"
     },
     {
       "name": "造花",
       "nameKana": "ぞうか",
-      "nameRoman": "zouka",
       "categoryId": "burnable"
     },
     {
       "name": "双眼鏡",
       "nameKana": "そうがんきょう",
-      "nameRoman": "sougankyou",
       "categoryId": "unburnable"
     },
     {
       "name": "掃除機",
       "nameKana": "そうじき",
-      "nameRoman": "soujiki",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "ソファー・ソファーベッド",
       "nameKana": "そふぁー・そふぁーべっど",
-      "nameRoman": "sofaa.sofaabeddo",
       "categoryId": "oversized"
     },
     {
       "name": "ソーラーパネル",
       "nameKana": "そーらーぱねる",
-      "nameRoman": "sooraapaneru",
       "categoryId": "uncollectible",
       "note": "廃棄物処理業者に相談してください。。電卓やラジコン用の小型のものは不燃ごみ。"
     },
     {
       "name": "そろばん",
       "nameKana": "そろばん",
-      "nameRoman": "soroban",
       "categoryId": "burnable"
     },
     {
       "name": "体温計(水銀使用)",
       "nameKana": "たいおんけい(すいぎんしよう)",
-      "nameRoman": "taionkei(suiginshiyou)",
       "categoryId": "hazardous",
       "note": "水銀使用以外のものは不燃ごみ。"
     },
     {
       "name": "耐火金庫",
       "nameKana": "たいかきんこ",
-      "nameRoman": "taikakinko",
       "categoryId": "uncollectible",
       "note": "廃棄物処理業者に相談してください。"
     },
     {
       "name": "台車(ホームカート)",
       "nameKana": "だいしゃ(ほーむかーと)",
-      "nameRoman": "daisha(hoomukaato)",
       "categoryId": "oversized"
     },
     {
       "name": "体重計(ヘルスメーター)",
       "nameKana": "たいじゅうけい(へるすめーたー)",
-      "nameRoman": "taijuukei(herusumeetaa)",
       "categoryId": "unburnable"
     },
     {
       "name": "耐熱食器・容器",
       "nameKana": "たいねつしょっき・ようき",
-      "nameRoman": "tainetsushokki.youki",
       "categoryId": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "タイヤ(自動車・バイク・農業機械)",
       "nameKana": "たいや(じどうしゃ・ばいく・のうぎょうきかい)",
-      "nameRoman": "taiya(jidousha.baiku.nougyoukikai)",
       "categoryId": "uncollectible",
       "note": "販売店に相談してください。"
     },
     {
       "name": "タイヤチェーン(金属製)",
       "nameKana": "たいやちぇーん(きんぞくせい)",
-      "nameRoman": "taiyacheen(kinzokusei)",
       "categoryId": "recyclable",
       "note": "ゴム、プラスチック製は可燃ごみ。"
     },
     {
       "name": "タイル",
       "nameKana": "たいる",
-      "nameRoman": "tairu",
       "categoryId": "uncollectible",
       "note": "廃棄物処理業者に相談してください。"
     },
     {
       "name": "ダウンジャケット",
       "nameKana": "だうんじゃけっと",
-      "nameRoman": "daunjaketto",
       "categoryId": "recyclable"
     },
     {
       "name": "タオル",
       "nameKana": "たおる",
-      "nameRoman": "taoru",
       "categoryId": "recyclable",
       "note": "１mを超えるものは粗大ごみ。汚れているものは可燃ごみ。"
     },
     {
       "name": "タオルケット",
       "nameKana": "たおるけっと",
-      "nameRoman": "taoruketto",
       "categoryId": "oversized",
       "note": "１m角以内に切断すれば可燃ごみ。"
     },
     {
       "name": "竹製品",
       "nameKana": "たけせいひん",
-      "nameRoman": "takeseihin",
       "categoryId": "burnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "畳(たたみ)",
       "nameKana": "たたみ(たたみ)",
-      "nameRoman": "tatami(tatami)",
       "categoryId": "oversized",
       "note": "８枚程度まで。業者による交換の場合は粗大ごみ受付センターでは受け取りません。廃棄物処理業者に相談してください。"
     },
     {
       "name": "脱衣かご",
       "nameKana": "だついかご",
-      "nameRoman": "datsuikago",
       "categoryId": "oversized"
     },
     {
       "name": "脱臭剤",
       "nameKana": "だっしゅうざい",
-      "nameRoman": "dasshuuzai",
       "categoryId": "burnable"
     },
     {
       "name": "脱臭剤容器(プラスチック製)",
       "nameKana": "だっしゅうざいようき(ぷらすちっくせい)",
-      "nameRoman": "dasshuuzaiyouki(purasuchikkusei)",
       "categoryId": "burnable",
       "note": "金属製、陶器製は不燃ごみ。"
     },
     {
       "name": "たとう紙(和服をしまうときに包む紙)",
       "nameKana": "たとうかみ(わふくをしまうときにつつむかみ)",
-      "nameRoman": "tatoukami(wafukuwoshimautokinitsutsumukami)",
       "categoryId": "recyclable"
     },
     {
       "name": "たらい",
       "nameKana": "たらい",
-      "nameRoman": "tarai",
       "categoryId": "oversized"
     },
     {
       "name": "たわし(亀の子・スポンジ製等)",
       "nameKana": "たわし(かめのこ・すぽんじせいなど)",
-      "nameRoman": "tawashi(kamenoko.suponjiseinado)",
       "categoryId": "burnable",
       "note": "金属製は資源。"
     },
     {
       "name": "たんす",
       "nameKana": "たんす",
-      "nameRoman": "tansu",
       "categoryId": "oversized"
     },
     {
       "name": "ダンベル(金属製)",
       "nameKana": "だんべる(きんぞくせい)",
-      "nameRoman": "danberu(kinzokusei)",
       "categoryId": "recyclable",
       "note": "１０kg以上のものは粗大ごみ。プラスチック製は可燃ごみ。"
     },
     {
       "name": "地球儀",
       "nameKana": "ちきゅうぎ",
-      "nameRoman": "chikyuugi",
       "categoryId": "burnable"
     },
     {
       "name": "チャイルドシート",
       "nameKana": "ちゃいるどしーと",
-      "nameRoman": "chairudoshiito",
       "categoryId": "oversized"
     },
     {
       "name": "茶漉し(金属製)",
       "nameKana": "ちゃこし(きんぞくせい)",
-      "nameRoman": "chakoshi(kinzokusei)",
       "categoryId": "recyclable"
     },
     {
       "name": "着火剤",
       "nameKana": "ちゃっかざい",
-      "nameRoman": "chakkazai",
       "categoryId": "burnable"
     },
     {
       "name": "茶筒(金属製)",
       "nameKana": "ちゃつつ(きんぞくせい)",
-      "nameRoman": "chatsutsu(kinzokusei)",
       "categoryId": "recyclable"
     },
     {
       "name": "注射針・注射器",
       "nameKana": "ちゅうしゃばり・ちゅうしゃき",
-      "nameRoman": "chuushabari.chuushaki",
       "categoryId": "uncollectible",
       "note": "在宅医療廃棄物は、清掃事業課にお問い合わせください。"
     },
     {
       "name": "彫刻刀",
       "nameKana": "ちょうこくとう",
-      "nameRoman": "choukokutou",
       "categoryId": "unburnable",
       "note": "刃先をセロテープなどで保護してください。"
     },
     {
       "name": "提灯",
       "nameKana": "ていとう",
-      "nameRoman": "teitou",
       "categoryId": "burnable"
     },
     {
       "name": "調理台",
       "nameKana": "ちょうりだい",
-      "nameRoman": "chouridai",
       "categoryId": "oversized"
     },
     {
       "name": "ちりとり(プラスチック製)",
       "nameKana": "ちりとり(ぷらすちっくせい)",
-      "nameRoman": "chiritori(purasuchikkusei)",
       "categoryId": "burnable",
       "note": "金属製は資源のかごに入れば資源、入らないものは粗大ごみ。"
     },
     {
       "name": "杖",
       "nameKana": "つえ",
-      "nameRoman": "tsue",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるもので木・プラ製は可燃ごみ。金属製は不燃ごみ。"
     },
     {
       "name": "漬物石",
       "nameKana": "つけものいし",
-      "nameRoman": "tsukemonoishi",
       "categoryId": "oversized",
       "note": "購入したものに限ります。自然石は再利用を。"
     },
     {
       "name": "漬物容器(プラスチック製)",
       "nameKana": "つけものようき(ぷらすちっくせい)",
-      "nameRoman": "tsukemonoyouki(purasuchikkusei)",
       "categoryId": "burnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "突っ張り棒",
       "nameKana": "つっぱりぼう",
-      "nameRoman": "tsupparibou",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるもので木・プラ製は可燃ごみ。金属製は不燃ごみ。"
     },
     {
       "name": "積み木(木製・プラスチック製)",
       "nameKana": "つみき(もくせい・ぷらすちっくせい)",
-      "nameRoman": "tsumiki(mokusei.purasuchikkusei)",
       "categoryId": "burnable"
     },
     {
       "name": "爪きり",
       "nameKana": "つめきり",
-      "nameRoman": "tsumekiri",
       "categoryId": "unburnable",
       "note": "刃物は金属製でも不燃ごみです。"
     },
     {
       "name": "釣り糸",
       "nameKana": "つりいと",
-      "nameRoman": "tsuriito",
       "categoryId": "burnable"
     },
     {
       "name": "釣りざお(木製・カーボン製)",
       "nameKana": "つりざお(もくせい・かーぼんせい)",
-      "nameRoman": "tsurizao(mokusei.kaabonsei)",
       "categoryId": "oversized"
     },
     {
       "name": "釣り針",
       "nameKana": "つりはり",
-      "nameRoman": "tsurihari",
       "categoryId": "recyclable",
       "note": "金属製の缶に入れるなど散乱しないようにしてください。"
     },
     {
       "name": "DVD・DVDケース",
       "nameKana": "でぃーぶいでぃー・でぃーぶいでぃーけーす",
-      "nameRoman": "dvd.dvdkeesu",
       "categoryId": "burnable"
     },
     {
       "name": "DVDレコーダー・DVDプレーヤー",
       "nameKana": "でぃーぶいでぃーれこーだー・でぃーぶいでぃーぷれーやー",
-      "nameRoman": "dvdrekoodaa.dvdpureeyaa",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "テープレコーダー",
       "nameKana": "てーぷれこーだー",
-      "nameRoman": "teepurekoodaa",
       "categoryId": "unburnable"
     },
     {
       "name": "ディスプレイ(パソコン用)",
       "nameKana": "でぃすぷれい(ぱそこんよう)",
-      "nameRoman": "disupurei(pasokonyou)",
       "categoryId": "uncollectible",
       "note": "リサイクル制度があります。メーカーへ問い合わせてください。"
     },
     {
       "name": "ティッシュペーパーの外箱",
       "nameKana": "てぃっしゅぺーぱーのそとばこ",
-      "nameRoman": "teisshupeepaanosotobako",
       "categoryId": "recyclable",
       "note": "ビニール部分は可燃ごみ。"
     },
     {
       "name": "テーブルクロス",
       "nameKana": "てーぶるくろす",
-      "nameRoman": "teeburukurosu",
       "categoryId": "oversized",
       "note": "１m角以内に切断すれば可燃ごみ。"
     },
     {
       "name": "デスクマット",
       "nameKana": "ですくまっと",
-      "nameRoman": "desukumatto",
       "categoryId": "burnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "手筒花火の筒",
       "nameKana": "てつつはなびのつつ",
-      "nameRoman": "tetsutsuhanabinotsutsu",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは可燃ごみ。"
     },
     {
       "name": "鉄板(バーベキュー用)",
       "nameKana": "てっぱん(ばーべきゅーよう)",
-      "nameRoman": "teppan(baabekyuuyou)",
       "categoryId": "recyclable",
       "note": "資源かごに入らないものは粗大ごみ。"
     },
     {
       "name": "テニスラケット",
       "nameKana": "てにすらけっと",
-      "nameRoman": "tenisuraketto",
       "categoryId": "oversized"
     },
     {
       "name": "テレビ(ブラウン管・液晶・プラズマ)",
       "nameKana": "てれび(ぶらうんかん・えきしょう・ぷらずま)",
-      "nameRoman": "terebi(buraunkan.ekishou.purazuma)",
       "categoryId": "legalrecycling"
     },
     {
       "name": "テレフォンカード",
       "nameKana": "てれふぉんかーど",
-      "nameRoman": "terefonkaado",
       "categoryId": "burnable"
     },
     {
       "name": "電気カーペット",
       "nameKana": "でんきかーぺっと",
-      "nameRoman": "denkikaapetto",
       "categoryId": "oversized"
     },
     {
       "name": "電気釜",
       "nameKana": "でんきがま",
-      "nameRoman": "denkigama",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "電気かみそり",
       "nameKana": "でんきかみそり",
-      "nameRoman": "denkikamisori",
       "categoryId": "unburnable"
     },
     {
       "name": "電気スタンド",
       "nameKana": "でんきすたんど",
-      "nameRoman": "denkisutando",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。蛍光管は外して危険ごみ。"
     },
     {
       "name": "電気ストーブ",
       "nameKana": "でんきすとーぶ",
-      "nameRoman": "denkisutoobu",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "電気毛布",
       "nameKana": "でんきもうふ",
-      "nameRoman": "denkimoufu",
       "categoryId": "oversized"
     },
     {
       "name": "電球(白熱電球・豆電球など)",
       "nameKana": "でんきゅう(はくねつでんきゅう・まめでんきゅうなど)",
-      "nameRoman": "denkyuu(hakunetsudenkyuu.mamedenkyuunado)",
       "categoryId": "unburnable"
     },
     {
       "name": "点字用紙",
       "nameKana": "てんじようかみ",
-      "nameRoman": "tenjiyoukami",
       "categoryId": "burnable"
     },
     {
       "name": "電子体温計",
       "nameKana": "でんしたいおんけい",
-      "nameRoman": "denshitaionkei",
       "categoryId": "unburnable"
     },
     {
       "name": "電子ピアノ",
       "nameKana": "でんしぴあの",
-      "nameRoman": "denshipiano",
       "categoryId": "oversized"
     },
     {
       "name": "電子レンジ",
       "nameKana": "でんしれんじ",
-      "nameRoman": "denshirenji",
       "categoryId": "oversized"
     },
     {
       "name": "電卓",
       "nameKana": "でんたく",
-      "nameRoman": "dentaku",
       "categoryId": "unburnable",
       "note": "電池式は電池を抜いて出してください。"
     },
     {
       "name": "テント(シート)",
       "nameKana": "てんと(しーと)",
-      "nameRoman": "tento(shiito)",
       "categoryId": "oversized",
       "note": "１ｍ角以内に切断すれば可燃ごみ。"
     },
     {
       "name": "テント(骨組み)",
       "nameKana": "てんと(ほねぐみ)",
-      "nameRoman": "tento(honegumi)",
       "categoryId": "oversized"
     },
     {
       "name": "電動自転車",
       "nameKana": "でんどうじてんしゃ",
-      "nameRoman": "dendoujitensha",
       "categoryId": "oversized",
       "note": "バッテリーは外して販売店の店頭回収を利用してください。"
     },
     {
       "name": "電動ベッド",
       "nameKana": "でんどうべっど",
-      "nameRoman": "dendoubeddo",
       "categoryId": "oversized"
     },
     {
       "name": "電話機",
       "nameKana": "でんわき",
-      "nameRoman": "denwaki",
       "categoryId": "unburnable"
     },
     {
       "name": "砥石(といし)",
       "nameKana": "といし(といし)",
-      "nameRoman": "toishi(toishi)",
       "categoryId": "unburnable"
     },
     {
       "name": "トイレットペーパーの芯",
       "nameKana": "といれっとぺーぱーのしん",
-      "nameRoman": "toirettopeepaanoshin",
       "categoryId": "burnable",
       "note": "資源になりません。"
     },
     {
       "name": "陶磁器",
       "nameKana": "とうじき",
-      "nameRoman": "toujiki",
       "categoryId": "unburnable"
     },
     {
       "name": "銅製品",
       "nameKana": "どうせいひん",
-      "nameRoman": "douseihin",
       "categoryId": "recyclable"
     },
     {
       "name": "灯油",
       "nameKana": "とうゆ",
-      "nameRoman": "touyu",
       "categoryId": "uncollectible",
       "note": "ガソリンスタンド等に相談してください。"
     },
     {
       "name": "灯油ポリタンク",
       "nameKana": "とうゆぽりたんく",
-      "nameRoman": "touyuporitanku",
       "categoryId": "burnable",
       "note": "中身のないものに限ります。"
     },
     {
       "name": "灯油ポンプ",
       "nameKana": "とうゆぽんぷ",
-      "nameRoman": "touyuponpu",
       "categoryId": "burnable",
       "note": "電動式の電池は抜いて出してください。"
     },
     {
       "name": "トースター",
       "nameKana": "とーすたー",
-      "nameRoman": "toosutaa",
       "categoryId": "unburnable"
     },
     {
       "name": "時計(腕時計・置時計)",
       "nameKana": "とけい(うでどけい・ちとけい)",
-      "nameRoman": "tokei(udedokei.chitokei)",
       "categoryId": "unburnable",
       "note": "電池は抜いて出してください。"
     },
     {
       "name": "土砂",
       "nameKana": "どしゃ",
-      "nameRoman": "dosha",
       "categoryId": "uncollectible",
       "note": "再利用をお願いします。"
     },
     {
       "name": "トタン板(プラスチック製・金属製)",
       "nameKana": "とたんいた(ぷらすちっくせい・きんぞくせい)",
-      "nameRoman": "totanita(purasuchikkusei.kinzokusei)",
       "categoryId": "oversized",
       "note": "建築、解体工事で発生したものは廃棄物処理業者に相談してください。"
     },
     {
       "name": "土鍋",
       "nameKana": "どなべ",
-      "nameRoman": "donabe",
       "categoryId": "unburnable"
     },
     {
       "name": "ドライヤー",
       "nameKana": "どらいやー",
-      "nameRoman": "doraiyaa",
       "categoryId": "unburnable"
     },
     {
       "name": "トランプ",
       "nameKana": "とらんぷ",
-      "nameRoman": "toranpu",
       "categoryId": "burnable",
       "note": "紙製のものは資源。"
     },
     {
       "name": "塗料",
       "nameKana": "とりょう",
-      "nameRoman": "toryou",
       "categoryId": "uncollectible",
       "note": "販売店や廃棄物処理業者に相談してください。"
     },
     {
       "name": "塗料缶(金属製)",
       "nameKana": "とりょうかん(きんぞくせい)",
-      "nameRoman": "toryoukan(kinzokusei)",
       "categoryId": "unburnable",
       "note": "中身のないものに限ります。プラスチック製は可燃ごみ。"
     },
     {
       "name": "塗料缶(スプレー缶)",
       "nameKana": "とりょうかん(すぷれーかん)",
-      "nameRoman": "toryoukan(supureekan)",
       "categoryId": "hazardous",
       "note": "中身を使い切って出してください。"
     },
     {
       "name": "トレー(白色)",
       "nameKana": "とれー(はくしょく)",
-      "nameRoman": "toree(hakushoku)",
       "categoryId": "recyclable",
       "note": "洗って、乾かして出してください。色、柄付きは可燃ごみ。"
     },
     {
       "name": "ドレッシング空きビン",
       "nameKana": "どれっしんぐあきびん",
-      "nameRoman": "doresshinguakibin",
       "categoryId": "recyclable",
       "note": "水ですすいで汚れを落としてください。"
     },
     {
       "name": "トロフィー",
       "nameKana": "とろふぃー",
-      "nameRoman": "torofii",
       "categoryId": "unburnable"
     },
     {
       "name": "ナイフ",
       "nameKana": "ないふ",
-      "nameRoman": "naifu",
       "categoryId": "unburnable",
       "note": "紙で包んでください。"
     },
     {
       "name": "苗木用ポット(ビニール製)",
       "nameKana": "なえぎようぽっと(びにーるせい)",
-      "nameRoman": "naegiyoupotto(biniirusei)",
       "categoryId": "burnable",
       "note": "農業等事業で使用したものは廃棄物処理業者に相談してください。"
     },
     {
       "name": "流し台",
       "nameKana": "ながしだい",
-      "nameRoman": "nagashidai",
       "categoryId": "oversized"
     },
     {
       "name": "ナット",
       "nameKana": "なっと",
-      "nameRoman": "natto",
       "categoryId": "recyclable",
       "note": "金属製の缶に入れるなど散乱しないようにしてください。"
     },
     {
       "name": "納豆の容器",
       "nameKana": "なっとうのようき",
-      "nameRoman": "nattounoyouki",
       "categoryId": "burnable"
     },
     {
       "name": "鍋(ホーロー、ステンレスなどの金属製)",
       "nameKana": "なべ(ほーろー、すてんれすなどのきんぞくせい)",
-      "nameRoman": "nabe(hooroo、sutenresunadonokinzokusei)",
       "categoryId": "recyclable",
       "note": "陶器製は不燃ごみ。"
     },
     {
       "name": "鍋の蓋(ガラス製)",
       "nameKana": "なべのふた(がらすせい)",
-      "nameRoman": "nabenofuta(garasusei)",
       "categoryId": "unburnable",
       "note": "金属製は資源。"
     },
     {
       "name": "縄",
       "nameKana": "なわ",
-      "nameRoman": "nawa",
       "categoryId": "burnable",
       "note": "１ｍ以内に切断してください。"
     },
     {
       "name": "なわとび",
       "nameKana": "なわとび",
-      "nameRoman": "nawatobi",
       "categoryId": "burnable",
       "note": "１ｍ以内に切断してください。"
     },
     {
       "name": "ニカド電池",
       "nameKana": "にかどでんち",
-      "nameRoman": "nikadodenchi",
       "categoryId": "uncollectible",
       "note": "家電店等のリサイクルボックスをご利用ください。"
     },
     {
       "name": "荷造りひも",
       "nameKana": "にづくりひも",
-      "nameRoman": "nizukurihimo",
       "categoryId": "burnable"
     },
     {
       "name": "入浴剤の容器(金属と紙製混合)",
       "nameKana": "にゅうよくざいのようき(きんぞくとかみせいこんごう)",
-      "nameRoman": "nyuuyokuzainoyouki(kinzokutokamiseikongou)",
       "categoryId": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "庭木の剪定枝",
       "nameKana": "にわきのせんていえだ",
-      "nameRoman": "niwakinosenteieda",
       "categoryId": "burnable",
       "note": "「植木の枝葉」を参照してください。"
     },
     {
       "name": "人形",
       "nameKana": "にんぎょう",
-      "nameRoman": "ningyou",
       "categoryId": "burnable"
     },
     {
       "name": "人形ケース",
       "nameKana": "にんぎょうけーす",
-      "nameRoman": "ningyoukeesu",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "ぬいぐるみ",
       "nameKana": "ぬいぐるみ",
-      "nameRoman": "nuigurumi",
       "categoryId": "burnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "糠",
       "nameKana": "ぬか",
-      "nameRoman": "nuka",
       "categoryId": "burnable"
     },
     {
       "name": "布オムツ",
       "nameKana": "ぬのおむつ",
-      "nameRoman": "nunoomutsu",
       "categoryId": "burnable"
     },
     {
       "name": "ネクタイ",
       "nameKana": "ねくたい",
-      "nameRoman": "nekutai",
       "categoryId": "burnable"
     },
     {
       "name": "ネクタイピン",
       "nameKana": "ねくたいぴん",
-      "nameRoman": "nekutaipin",
       "categoryId": "unburnable"
     },
     {
       "name": "ネジ",
       "nameKana": "ねじ",
-      "nameRoman": "neji",
       "categoryId": "recyclable",
       "note": "金属製の缶に入れるなど散乱しないようにしてください。"
     },
     {
       "name": "ネット(網)",
       "nameKana": "ねっと(あみ)",
-      "nameRoman": "netto(ami)",
       "categoryId": "burnable",
       "note": "大きいものは１ｍ角以内に切断してください。切れないものは粗大ごみ。"
     },
     {
       "name": "寝袋",
       "nameKana": "ねぶくろ",
-      "nameRoman": "nebukuro",
       "categoryId": "oversized"
     },
     {
       "name": "粘着テープ",
       "nameKana": "ねんちゃくてーぷ",
-      "nameRoman": "nenchakuteepu",
       "categoryId": "burnable"
     },
     {
       "name": "粘土(油粘土、紙粘土などの玩具粘土)",
       "nameKana": "ねんど(あぶらねんど、かみねんどなどのがんぐねんど)",
-      "nameRoman": "nendo(aburanendo、kaminendonadonogangunendo)",
       "categoryId": "burnable"
     },
     {
       "name": "農業用機械器具",
       "nameKana": "のうぎょうようきかいきぐ",
-      "nameRoman": "nougyouyoukikaikigu",
       "categoryId": "uncollectible",
       "note": "販売店に相談してください。"
     },
     {
       "name": "農業用ビニール",
       "nameKana": "のうぎょうようびにーる",
-      "nameRoman": "nougyouyoubiniiru",
       "categoryId": "uncollectible",
       "note": "農業等事業で使用したものは産業廃棄物です。廃棄物処理業者に相談してください。"
     },
     {
       "name": "農薬",
       "nameKana": "のうやく",
-      "nameRoman": "nouyaku",
       "categoryId": "uncollectible",
       "note": "廃棄物処理業者に相談してください。"
     },
     {
       "name": "農薬缶(容器のみ)",
       "nameKana": "のうやくかん(ようきのみ)",
-      "nameRoman": "nouyakukan(youkinomi)",
       "categoryId": "unburnable",
       "note": "家庭菜園等の少量のものに限ります。農業で出たものは産業廃棄物です。廃棄物処理業者に相談してください。"
     },
     {
       "name": "農薬ビン(容器のみ)",
       "nameKana": "のうやくびん(ようきのみ)",
-      "nameRoman": "nouyakubin(youkinomi)",
       "categoryId": "unburnable",
       "note": "家庭菜園等の少量のものに限ります。農業で出たものは産業廃棄物です。廃棄物処理業者に相談してください。"
     },
     {
       "name": "ノート",
       "nameKana": "のーと",
-      "nameRoman": "nooto",
       "categoryId": "recyclable"
     },
     {
       "name": "のこぎり",
       "nameKana": "のこぎり",
-      "nameRoman": "nokogiri",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "のり(文房具)",
       "nameKana": "のり(ぶんぼうぐ)",
-      "nameRoman": "nori(bunbougu)",
       "categoryId": "burnable"
     },
     {
       "name": "バーベキューコンロ",
       "nameKana": "ばーべきゅーこんろ",
-      "nameRoman": "baabekyuukonro",
       "categoryId": "oversized"
     },
     {
       "name": "灰(焼却灰)",
       "nameKana": "はい(しょうきゃくはい)",
-      "nameRoman": "hai(shoukyakuhai)",
       "categoryId": "burnable",
       "note": "湿らせて飛散しないようにしてください。"
     },
     {
       "name": "バイク(オートバイ・ミニバイク)",
       "nameKana": "ばいく(おーとばい・みにばいく)",
-      "nameRoman": "baiku(ootobai.minibaiku)",
       "categoryId": "uncollectible",
       "note": "二輪車リサイクル制度があります。販売店に相談してください。"
     },
     {
       "name": "バインダー",
       "nameKana": "ばいんだー",
-      "nameRoman": "baindaa",
       "categoryId": "burnable",
       "note": "金属製の留め金は資源。"
     },
     {
       "name": "はがき",
       "nameKana": "はがき",
-      "nameRoman": "hagaki",
       "categoryId": "recyclable"
     },
     {
       "name": "バケツ(金属製)",
       "nameKana": "ばけつ(きんぞくせい)",
-      "nameRoman": "baketsu(kinzokusei)",
       "categoryId": "recyclable",
       "note": "プラスチック製は可燃ごみ。指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "ハサミ",
       "nameKana": "はさみ",
-      "nameRoman": "hasami",
       "categoryId": "unburnable",
       "note": "刃物は金属製でも不燃ごみです。紙に包んでください。"
     },
     {
       "name": "バスタオル",
       "nameKana": "ばすたおる",
-      "nameRoman": "basutaoru",
       "categoryId": "oversized",
       "note": "１mを超えず、汚れや破れのないものは資源。１m以内に切断したものは可燃ごみ。"
     },
     {
       "name": "パソコン(ノート・デスクトップ)",
       "nameKana": "ぱそこん(のーと・ですくとっぷ)",
-      "nameRoman": "pasokon(nooto.desukutoppu)",
       "categoryId": "uncollectible",
       "note": "リサイクル制度があります。メーカーへ問い合わせてください。"
     },
     {
       "name": "パソコン周辺機器",
       "nameKana": "ぱそこんしゅうへんきき",
-      "nameRoman": "pasokonshuuhenkiki",
       "categoryId": "unburnable",
       "note": "パソコン本体と一緒にリサイクル可能です。"
     },
     {
       "name": "パソコン用ディスプレイ(モニター)",
       "nameKana": "ぱそこんようでぃすぷれい(もにたー)",
-      "nameRoman": "pasokonyoudisupurei(monitaa)",
       "categoryId": "uncollectible",
       "note": "リサイクル制度があります。メーカーへ問い合わせてください。"
     },
     {
       "name": "パソコンラック",
       "nameKana": "ぱそこんらっく",
-      "nameRoman": "pasokonrakku",
       "categoryId": "oversized"
     },
     {
       "name": "発炎筒",
       "nameKana": "はつほのおつつ",
-      "nameRoman": "hatsuhonootsutsu",
       "categoryId": "burnable",
       "note": "未使用のものは湿らせて出してください。"
     },
     {
       "name": "バッテリー(自動車等)",
       "nameKana": "ばってりー(じどうしゃなど)",
-      "nameRoman": "batterii(jidoushanado)",
       "categoryId": "uncollectible",
       "note": "自動車販売、修理店に相談してください。"
     },
     {
       "name": "バッテリー(小型電気製品用等)",
       "nameKana": "ばってりー(こがたでんきせいひんようなど)",
-      "nameRoman": "batterii(kogatadenkiseihinyounado)",
       "categoryId": "uncollectible",
       "note": "家電店等のリサイクルボックスをご利用ください。回収協力店は一般社団法人JBRCのサイトよりご確認ください。https://www.jbrc.com/general/recycle_kensaku/"
     },
     {
       "name": "バット(野球用品)",
       "nameKana": "ばっと(やきゅうようひん)",
-      "nameRoman": "batto(yakyuuyouhin)",
       "categoryId": "oversized"
     },
     {
       "name": "はっぴ",
       "nameKana": "はっぴ",
-      "nameRoman": "happi",
       "categoryId": "burnable"
     },
     {
       "name": "発泡スチロール",
       "nameKana": "はっぽうすちろーる",
-      "nameRoman": "happousuchirooru",
       "categoryId": "burnable",
       "note": "白色トレーの網袋に入れないでください。"
     },
     {
       "name": "花火(玩具花火)",
       "nameKana": "はなび(がんぐはなび)",
-      "nameRoman": "hanabi(ganguhanabi)",
       "categoryId": "burnable",
       "note": "湿らせて着火しないようにしてください。"
     },
     {
       "name": "歯ブラシ",
       "nameKana": "はぶらし",
-      "nameRoman": "haburashi",
       "categoryId": "burnable",
       "note": "電動歯ブラシは不燃ごみ。"
     },
     {
       "name": "刃物",
       "nameKana": "はもの",
-      "nameRoman": "hamono",
       "categoryId": "unburnable",
       "note": "刃物は金属製でも不燃ごみです。紙に包んでください。"
     },
     {
       "name": "針",
       "nameKana": "はり",
-      "nameRoman": "hari",
       "categoryId": "recyclable",
       "note": "金属製の缶に入れるなど散乱しないようにしてください。"
     },
     {
       "name": "針金",
       "nameKana": "はりがね",
-      "nameRoman": "harigane",
       "categoryId": "recyclable"
     },
     {
       "name": "ハロゲンヒーター",
       "nameKana": "はろげんひーたー",
-      "nameRoman": "harogenhiitaa",
       "categoryId": "oversized"
     },
     {
       "name": "ハンガー(針金ハンガー)",
       "nameKana": "はんがー(はりがねはんがー)",
-      "nameRoman": "hangaa(hariganehangaa)",
       "categoryId": "recyclable",
       "note": "プラスチック製、木製は可燃ごみ。"
     },
     {
       "name": "はんてん",
       "nameKana": "はんてん",
-      "nameRoman": "hanten",
       "categoryId": "recyclable"
     },
     {
       "name": "BSアンテナ",
       "nameKana": "びーえすあんてな",
-      "nameRoman": "bsantena",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "ピアノ",
       "nameKana": "ぴあの",
-      "nameRoman": "piano",
       "categoryId": "uncollectible",
       "note": "販売店等に相談してください。"
     },
     {
       "name": "ビー玉",
       "nameKana": "びーたま",
-      "nameRoman": "biitama",
       "categoryId": "unburnable"
     },
     {
       "name": "ビーチパラソル",
       "nameKana": "びーちぱらそる",
-      "nameRoman": "biichiparasoru",
       "categoryId": "oversized"
     },
     {
       "name": "ビーチボール",
       "nameKana": "びーちぼーる",
-      "nameRoman": "biichibooru",
       "categoryId": "burnable",
       "note": "空気は抜いてください。"
     },
     {
       "name": "ひしゃく",
       "nameKana": "ひしゃく",
-      "nameRoman": "hishaku",
       "categoryId": "burnable",
       "note": "金属部品使用のものは不燃ごみ。"
     },
     {
       "name": "ピッケル(登山用品)",
       "nameKana": "ぴっける(とざんようひん)",
-      "nameRoman": "pikkeru(tozanyouhin)",
       "categoryId": "unburnable"
     },
     {
       "name": "ビデオカメラ",
       "nameKana": "びでおかめら",
-      "nameRoman": "bideokamera",
       "categoryId": "unburnable"
     },
     {
       "name": "ビデオテープ(ディスク)",
       "nameKana": "びでおてーぷ(でぃすく)",
-      "nameRoman": "bideoteepu(disuku)",
       "categoryId": "burnable"
     },
     {
       "name": "ビデオデッキ",
       "nameKana": "びでおでっき",
-      "nameRoman": "bideodekki",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "雛人形",
       "nameKana": "ひなにんぎょう",
-      "nameRoman": "hinaningyou",
       "categoryId": "burnable"
     },
     {
       "name": "雛段",
       "nameKana": "ひなだん",
-      "nameRoman": "hinadan",
       "categoryId": "oversized"
     },
     {
       "name": "ビニール(農業用は除く)",
       "nameKana": "びにーる(のうぎょうようはのぞく)",
-      "nameRoman": "biniiru(nougyouyouhanozoku)",
       "categoryId": "burnable",
       "note": "大きいものは１m角以内に切断してください。"
     },
     {
       "name": "ビニールコート紙",
       "nameKana": "びにーるこーとかみ",
-      "nameRoman": "biniirukootokami",
       "categoryId": "burnable"
     },
     {
       "name": "ビニールシート",
       "nameKana": "びにーるしーと",
-      "nameRoman": "biniirushiito",
       "categoryId": "burnable",
       "note": "１ｍ角以内に切断してください。"
     },
     {
       "name": "ビニールプール",
       "nameKana": "びにーるぷーる",
-      "nameRoman": "biniirupuuru",
       "categoryId": "burnable",
       "note": "空気は抜いてください。"
     },
     {
       "name": "火鉢",
       "nameKana": "ひばち",
-      "nameRoman": "hibachi",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "百科事典",
       "nameKana": "ひゃっかじてん",
-      "nameRoman": "hyakkajiten",
       "categoryId": "recyclable",
       "note": "布表紙部分は可燃ごみ。"
     },
     {
       "name": "肥料袋",
       "nameKana": "ひりょうふくろ",
-      "nameRoman": "hiryoufukuro",
       "categoryId": "burnable",
       "note": "家庭菜園用に限ります。"
     },
     {
       "name": "ピンセット(金属製)",
       "nameKana": "ぴんせっと(きんぞくせい)",
-      "nameRoman": "pinsetto(kinzokusei)",
       "categoryId": "recyclable"
     },
     {
       "name": "ビン(飲食料を詰めた状態で販売している容器)",
       "nameKana": "びん(いんしょくりょうをつめたじょうたいではんばいしているようき)",
-      "nameRoman": "bin(inshokuryouwotsumetajoutaidehanbaishiteiruyouki)",
       "categoryId": "recyclable",
       "note": "水ですすいでから出してください。"
     },
     {
       "name": "ビン(上記以外)",
       "nameKana": "びん(じょうきいがい)",
-      "nameRoman": "bin(joukiigai)",
       "categoryId": "unburnable",
       "note": "飲食料以外のガラス製品は不燃ごみ。"
     },
     {
       "name": "ファイル(紙製)",
       "nameKana": "ふぁいる(かみせい)",
-      "nameRoman": "fairu(kamisei)",
       "categoryId": "recyclable",
       "note": "プラスチック製は可燃ごみ。金属留具は資源、プラスチック留具は可燃ごみに分けてください。"
     },
     {
       "name": "ファックス",
       "nameKana": "ふぁっくす",
-      "nameRoman": "fakkusu",
       "categoryId": "unburnable",
       "note": "家庭用のものに限ります。指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "ファックス用紙",
       "nameKana": "ふぁっくすようし",
-      "nameRoman": "fakkusuyoushi",
       "categoryId": "recyclable",
       "note": "感熱紙は資源になりません。可燃ごみ。"
     },
     {
       "name": "ファンヒーター",
       "nameKana": "ふぁんひーたー",
-      "nameRoman": "fanhiitaa",
       "categoryId": "oversized",
       "note": "燃料使用のものは燃料を抜いてください。"
     },
     {
       "name": "ふすま",
       "nameKana": "ふすま",
-      "nameRoman": "fusuma",
       "categoryId": "oversized",
       "note": "建築、解体工事で発生したものは廃棄物処理業者に相談してください。"
     },
     {
       "name": "筆",
       "nameKana": "ふで",
-      "nameRoman": "fude",
       "categoryId": "burnable"
     },
     {
       "name": "筆箱(金属製)",
       "nameKana": "ふでばこ(きんぞくせい)",
-      "nameRoman": "fudebako(kinzokusei)",
       "categoryId": "recyclable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "布団",
       "nameKana": "ふとん",
-      "nameRoman": "futon",
       "categoryId": "oversized"
     },
     {
       "name": "布団カバー",
       "nameKana": "ふとんかばー",
-      "nameRoman": "futonkabaa",
       "categoryId": "oversized",
       "note": "１ｍ角以内に切断すれば可燃ごみ。"
     },
     {
       "name": "布団乾燥機",
       "nameKana": "ふとんかんそうき",
-      "nameRoman": "futonkansouki",
       "categoryId": "unburnable"
     },
     {
       "name": "布団バサミ",
       "nameKana": "ふとんばさみ",
-      "nameRoman": "futonbasami",
       "categoryId": "burnable"
     },
     {
       "name": "フライパン",
       "nameKana": "ふらいぱん",
-      "nameRoman": "furaipan",
       "categoryId": "recyclable",
       "note": "汚れを落としてください。汚れが落ちないものは不燃ごみ。"
     },
     {
       "name": "ブラインド",
       "nameKana": "ぶらいんど",
-      "nameRoman": "buraindo",
       "categoryId": "oversized"
     },
     {
       "name": "プラモデル",
       "nameKana": "ぷらもでる",
-      "nameRoman": "puramoderu",
       "categoryId": "burnable",
       "note": "モーターやゼンマイ使用のものは不燃ごみ。"
     },
     {
       "name": "プランター(プラスチック製)",
       "nameKana": "ぷらんたー(ぷらすちっくせい)",
-      "nameRoman": "purantaa(purasuchikkusei)",
       "categoryId": "burnable",
       "note": "陶器製は不燃ごみ。指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "プリンター(複合機)",
       "nameKana": "ぷりんたー(ふくごうき)",
-      "nameRoman": "purintaa(fukugouki)",
       "categoryId": "oversized",
       "note": "家庭用のものに限ります。指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "プリンタートナー",
       "nameKana": "ぷりんたーとなー",
-      "nameRoman": "purintaatonaa",
       "categoryId": "burnable",
       "note": "できるだけ販売店の回収ボックスを利用して再利用に協力してください。"
     },
     {
       "name": "ブルーシート",
       "nameKana": "ぶるーしーと",
-      "nameRoman": "buruushiito",
       "categoryId": "oversized",
       "note": "１m角以内に切断すれば可燃ごみ。"
     },
     {
       "name": "フロッピーディスク",
       "nameKana": "ふろっぴーでぃすく",
-      "nameRoman": "furoppiidisuku",
       "categoryId": "burnable"
     },
     {
       "name": "風呂おけ",
       "nameKana": "ふろおけ",
-      "nameRoman": "furooke",
       "categoryId": "burnable",
       "note": "金属製は資源。"
     },
     {
       "name": "風呂の蓋、マット",
       "nameKana": "ふろのふた、まっと",
-      "nameRoman": "furonofuta、matto",
       "categoryId": "oversized"
     },
     {
       "name": "風呂敷",
       "nameKana": "ふろしき",
-      "nameRoman": "furoshiki",
       "categoryId": "burnable"
     },
     {
       "name": "プロパンガスボンベ",
       "nameKana": "ぷろぱんがすぼんべ",
-      "nameRoman": "puropangasubonbe",
       "categoryId": "uncollectible",
       "note": "販売店等に相談してください。"
     },
     {
       "name": "文鎮(金属製)",
       "nameKana": "ぶんちん(きんぞくせい)",
-      "nameRoman": "bunchin(kinzokusei)",
       "categoryId": "recyclable"
     },
     {
       "name": "ヘアースプレー",
       "nameKana": "へあーすぷれー",
-      "nameRoman": "heaasupuree",
       "categoryId": "hazardous",
       "note": "中身を使い切って出してください。"
     },
     {
       "name": "ヘアーブラシ",
       "nameKana": "へあーぶらし",
-      "nameRoman": "heaaburashi",
       "categoryId": "burnable"
     },
     {
       "name": "ヘアピン",
       "nameKana": "へあぴん",
-      "nameRoman": "heapin",
       "categoryId": "recyclable",
       "note": "金属製の缶に入れるなど散乱しないようにしてください。"
     },
     {
       "name": "ペーパータオル",
       "nameKana": "ぺーぱーたおる",
-      "nameRoman": "peepaataoru",
       "categoryId": "burnable"
     },
     {
       "name": "ベッド",
       "nameKana": "べっど",
-      "nameRoman": "beddo",
       "categoryId": "oversized"
     },
     {
       "name": "ペットのトイレ紙製品",
       "nameKana": "ぺっとのといれかみせいひん",
-      "nameRoman": "pettonotoirekamiseihin",
       "categoryId": "burnable"
     },
     {
       "name": "ペットのトイレ用砂",
       "nameKana": "ぺっとのといれようすな",
-      "nameRoman": "pettonotoireyousuna",
       "categoryId": "burnable"
     },
     {
       "name": "ペットフードの缶",
       "nameKana": "ぺっとふーどのかん",
-      "nameRoman": "pettofuudonokan",
       "categoryId": "recyclable",
       "note": "水ですすいでから出してください。"
     },
     {
       "name": "ペットのふん",
       "nameKana": "ぺっとのふん",
-      "nameRoman": "pettonofun",
       "categoryId": "burnable"
     },
     {
       "name": "ペットボトル(飲料、しょうゆ用)",
       "nameKana": "ぺっとぼとる(いんりょう、しょうゆよう)",
-      "nameRoman": "pettobotoru(inryou、shouyuyou)",
       "categoryId": "recyclable",
       "note": "ふたを取り、水ですすいでつぶしてください。"
     },
     {
       "name": "ペットボトル(上記以外のもの)",
       "nameKana": "ぺっとぼとる(じょうきいがいのもの)",
-      "nameRoman": "pettobotoru(joukiigainomono)",
       "categoryId": "burnable"
     },
     {
       "name": "ペットボトルキャップ",
       "nameKana": "ぺっとぼとるきゃっぷ",
-      "nameRoman": "pettobotorukyappu",
       "categoryId": "burnable"
     },
     {
       "name": "ヘッドホン",
       "nameKana": "へっどほん",
-      "nameRoman": "heddohon",
       "categoryId": "unburnable"
     },
     {
       "name": "ベニヤ板",
       "nameKana": "べにやいた",
-      "nameRoman": "beniyaita",
       "categoryId": "oversized",
       "note": "建築、解体工事で発生したものは廃棄物処理業者に相談してください。"
     },
     {
       "name": "ベビーカー(乳母車)",
       "nameKana": "べびーかー(うばぐるま)",
-      "nameRoman": "bebiikaa(ubaguruma)",
       "categoryId": "oversized"
     },
     {
       "name": "ベビーバス",
       "nameKana": "べびーばす",
-      "nameRoman": "bebiibasu",
       "categoryId": "oversized"
     },
     {
       "name": "ベビー布団",
       "nameKana": "べびーふとん",
-      "nameRoman": "bebiifuton",
       "categoryId": "oversized"
     },
     {
       "name": "ベビーベッド",
       "nameKana": "べびーべっど",
-      "nameRoman": "bebiibeddo",
       "categoryId": "oversized"
     },
     {
       "name": "ベルト",
       "nameKana": "べると",
-      "nameRoman": "beruto",
       "categoryId": "burnable",
       "note": "金属部品で外せるものは資源。"
     },
     {
       "name": "ヘルメット",
       "nameKana": "へるめっと",
-      "nameRoman": "herumetto",
       "categoryId": "unburnable",
       "note": "小中学生の通学用ヘルメットは可燃ごみ。"
     },
     {
       "name": "ペンキ(塗料)",
       "nameKana": "ぺんき(とりょう)",
-      "nameRoman": "penki(toryou)",
       "categoryId": "uncollectible",
       "note": "販売店や廃棄物処理業者に相談してください。"
     },
     {
       "name": "便座",
       "nameKana": "べんざ",
-      "nameRoman": "benza",
       "categoryId": "oversized",
       "note": "家庭で使用者が自分で外した場合に限ります。"
     },
     {
       "name": "ペンチ(工具)",
       "nameKana": "ぺんち(こうぐ)",
-      "nameRoman": "penchi(kougu)",
       "categoryId": "recyclable"
     },
     {
       "name": "ベンチコート(防寒着)",
       "nameKana": "べんちこーと(ぼうかんぎ)",
-      "nameRoman": "benchikooto(boukangi)",
       "categoryId": "recyclable"
     },
     {
       "name": "弁当箱(プラスチック製)",
       "nameKana": "べんとうばこ(ぷらすちっくせい)",
-      "nameRoman": "bentoubako(purasuchikkusei)",
       "categoryId": "burnable",
       "note": "金属製は資源。"
     },
     {
       "name": "ホイール(自動車用)",
       "nameKana": "ほいーる(じどうしゃよう)",
-      "nameRoman": "hoiiru(jidoushayou)",
       "categoryId": "uncollectible",
       "note": "自動車販売、修理店に相談してください。"
     },
     {
       "name": "望遠鏡",
       "nameKana": "ぼうえんきょう",
-      "nameRoman": "bouenkyou",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "ほうき",
       "nameKana": "ほうき",
-      "nameRoman": "houki",
       "categoryId": "burnable",
       "note": "指定袋に入れて口がしばれないもの（竹箒など）は粗大ごみ。"
     },
     {
       "name": "芳香剤(プラスチック容器)",
       "nameKana": "ほうこうざい(ぷらすちっくようき)",
-      "nameRoman": "houkouzai(purasuchikkuyouki)",
       "categoryId": "burnable",
       "note": "ガラス、陶器製容器は不燃ごみ。"
     },
     {
       "name": "芳香剤(スプレー缶タイプ)",
       "nameKana": "ほうこうざい(すぷれーかんたいぷ)",
-      "nameRoman": "houkouzai(supureekantaipu)",
       "categoryId": "hazardous",
       "note": "中身を使い切って出してください。"
     },
     {
       "name": "帽子",
       "nameKana": "ぼうし",
-      "nameRoman": "boushi",
       "categoryId": "burnable"
     },
     {
       "name": "包丁",
       "nameKana": "ほうちょう",
-      "nameRoman": "houchou",
       "categoryId": "unburnable",
       "note": "刃物は金属製でも不燃ごみです。紙に包んでください。"
     },
     {
       "name": "防犯ブザー",
       "nameKana": "ぼうはんぶざー",
-      "nameRoman": "bouhanbuzaa",
       "categoryId": "unburnable"
     },
     {
       "name": "ホース(ゴム製・ビニール製)",
       "nameKana": "ほーす(ごむせい・びにーるせい)",
-      "nameRoman": "hoosu(gomusei.biniirusei)",
       "categoryId": "oversized",
       "note": "１ｍ以内に切断すれば可燃ごみ。"
     },
     {
       "name": "ホースリール(ホース無し)",
       "nameKana": "ほーすりーる(ほーすなし)",
-      "nameRoman": "hoosuriiru(hoosunashi)",
       "categoryId": "burnable",
       "note": "金属製の物は不燃ごみ。指定袋に入れて口がしばれないものは粗大ごみ。ホース付きは粗大ごみ。"
     },
     {
       "name": "ポータブルトイレ",
       "nameKana": "ぽーたぶるといれ",
-      "nameRoman": "pootaburutoire",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "ボウリング球",
       "nameKana": "ぼうりんぐたま",
-      "nameRoman": "bouringutama",
       "categoryId": "oversized",
       "note": "指定袋に入りますが、粗大ごみです。"
     },
     {
       "name": "ボール(野球、サッカー、ゴルフ等)",
       "nameKana": "ぼーる(やきゅう、さっかー、ごるふなど)",
-      "nameRoman": "booru(yakyuu、sakkaa、gorufunado)",
       "categoryId": "burnable",
       "note": "空気の抜けるボールは空気を抜いてください。"
     },
     {
       "name": "木刀",
       "nameKana": "ぼくとう",
-      "nameRoman": "bokutou",
       "categoryId": "oversized"
     },
     {
       "name": "歩行器",
       "nameKana": "ほこううつわ",
-      "nameRoman": "hokouutsuwa",
       "categoryId": "oversized"
     },
     {
       "name": "ボタン電池",
       "nameKana": "ぼたんでんち",
-      "nameRoman": "botandenchi",
       "categoryId": "uncollectible",
       "note": "販売店などの店頭回収を利用してください。【注意】回収の対象にならない電池があります（リチウムコイン電池など）詳しくは一般社団法人電池工業会ボタン電池回収サイト（http://www.botankaishu.jp/m/top.php）をご確認ください。回収対象外の電池は危険ごみとして出してください。ただし、電池のみを取り外すことができない場合は不燃ごみとして出してください。"
     },
     {
       "name": "補聴器",
       "nameKana": "ほちょうき",
-      "nameRoman": "hochouki",
       "categoryId": "unburnable"
     },
     {
       "name": "ホッチキス",
       "nameKana": "ほっちきす",
-      "nameRoman": "hotchikisu",
       "categoryId": "unburnable"
     },
     {
       "name": "ホットカーペット",
       "nameKana": "ほっとかーぺっと",
-      "nameRoman": "hottokaapetto",
       "categoryId": "oversized"
     },
     {
       "name": "ホットプレート",
       "nameKana": "ほっとぷれーと",
-      "nameRoman": "hottopureeto",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "ポット(電気ポットも含む)",
       "nameKana": "ぽっと(でんきぽっともふくむ)",
-      "nameRoman": "potto(denkipottomofukumu)",
       "categoryId": "unburnable"
     },
     {
       "name": "ほ乳ビン(プラスチック製)",
       "nameKana": "ほちちびん(ぷらすちっくせい)",
-      "nameRoman": "hochichibin(purasuchikkusei)",
       "categoryId": "burnable",
       "note": "ガラス製は不燃ごみ。資源になりません。"
     },
     {
       "name": "ポリタンク・ポリ容器",
       "nameKana": "ぽりたんく・ぽりようき",
-      "nameRoman": "poritanku.poriyouki",
       "categoryId": "burnable",
       "note": "中身は空にしてください。指定袋に入らないものは粗大ごみ。"
     },
     {
       "name": "ポリバケツ",
       "nameKana": "ぽりばけつ",
-      "nameRoman": "poribaketsu",
       "categoryId": "burnable",
       "note": "指定袋に入らないものは粗大ごみ。"
     },
     {
       "name": "ボルト",
       "nameKana": "ぼると",
-      "nameRoman": "boruto",
       "categoryId": "recyclable",
       "note": "金属製の缶に入れるなど散乱しないようにしてください。"
     },
     {
       "name": "保冷剤",
       "nameKana": "ほれいざい",
-      "nameRoman": "horeizai",
       "categoryId": "burnable"
     },
     {
       "name": "ホワイトボード",
       "nameKana": "ほわいとぼーど",
-      "nameRoman": "howaitoboodo",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "麻雀牌(プラスチック製)",
       "nameKana": "まーじゃんぱい(ぷらすちっくせい)",
-      "nameRoman": "majanpai(purasuchikkusei)",
       "categoryId": "burnable"
     },
     {
       "name": "麻雀マット",
       "nameKana": "まーじゃんまっと",
-      "nameRoman": "majanmatto",
       "categoryId": "oversized"
     },
     {
       "name": "マイク",
       "nameKana": "まいく",
-      "nameRoman": "maiku",
       "categoryId": "unburnable",
       "note": "電池は抜いて出してください。"
     },
     {
       "name": "マグネット、マグネットシート",
       "nameKana": "まぐねっと、まぐねっとしーと",
-      "nameRoman": "magunetto、magunettoshiito",
       "categoryId": "unburnable"
     },
     {
       "name": "枕",
       "nameKana": "まくら",
-      "nameRoman": "makura",
       "categoryId": "burnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "枕カバー",
       "nameKana": "まくらかばー",
-      "nameRoman": "makurakabaa",
       "categoryId": "burnable"
     },
     {
       "name": "マジックペン(金属製)",
       "nameKana": "まじっくぺん(きんぞくせい)",
-      "nameRoman": "majikkupen(kinzokusei)",
       "categoryId": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "マッサージ機(いす型)",
       "nameKana": "まっさーじき(いすかた)",
-      "nameRoman": "massaajiki(isukata)",
       "categoryId": "oversized",
       "note": "ハンディ型は不燃ごみ。"
     },
     {
       "name": "マッチ",
       "nameKana": "まっち",
-      "nameRoman": "matchi",
       "categoryId": "burnable",
       "note": "湿らせて着火しないようにしてください。"
     },
     {
       "name": "マットレス",
       "nameKana": "まっとれす",
-      "nameRoman": "mattoresu",
       "categoryId": "oversized"
     },
     {
       "name": "窓付き封筒",
       "nameKana": "まどつきふうとう",
-      "nameRoman": "madotsukifuutou",
       "categoryId": "recyclable",
       "note": "窓部分がビニールのものはその部分を取り除いてください。ビニールは可燃ごみ。"
     },
     {
       "name": "まな板",
       "nameKana": "まないた",
-      "nameRoman": "manaita",
       "categoryId": "burnable"
     },
     {
       "name": "マフラー(衣料品)",
       "nameKana": "まふらー(いりょうひん)",
-      "nameRoman": "mafuraa(iryouhin)",
       "categoryId": "burnable",
       "note": "１m以内に切断してください。"
     },
     {
       "name": "マフラー(自動車部品)",
       "nameKana": "まふらー(じどうしゃぶひん)",
-      "nameRoman": "mafuraa(jidoushabuhin)",
       "categoryId": "uncollectible",
       "note": "自動車販売、修理店に相談してください。"
     },
     {
       "name": "万年筆",
       "nameKana": "まんねんひつ",
-      "nameRoman": "mannenhitsu",
       "categoryId": "unburnable"
     },
     {
       "name": "万歩計",
       "nameKana": "まんぽけい",
-      "nameRoman": "manpokei",
       "categoryId": "unburnable"
     },
     {
       "name": "ミキサー",
       "nameKana": "みきさー",
-      "nameRoman": "mikisaa",
       "categoryId": "unburnable"
     },
     {
       "name": "ミシン",
       "nameKana": "みしん",
-      "nameRoman": "mishin",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "水着",
       "nameKana": "みずぎ",
-      "nameRoman": "mizugi",
       "categoryId": "burnable"
     },
     {
       "name": "水差し",
       "nameKana": "みずさし",
-      "nameRoman": "mizusashi",
       "categoryId": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "ミニカー(金属製)",
       "nameKana": "みにかー(きんぞくせい)",
-      "nameRoman": "minikaa(kinzokusei)",
       "categoryId": "recyclable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "ミニコンポ",
       "nameKana": "みにこんぽ",
-      "nameRoman": "minikonpo",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "耳かき(金属製)",
       "nameKana": "みみかき(きんぞくせい)",
-      "nameRoman": "mimikaki(kinzokusei)",
       "categoryId": "recyclable",
       "note": "木製、プラスチック製は可燃ごみ。"
     },
     {
       "name": "ミルクの缶",
       "nameKana": "みるくのかん",
-      "nameRoman": "mirukunokan",
       "categoryId": "recyclable",
       "note": "水ですすいでから出してください。"
     },
     {
       "name": "蒸し器(金属製)",
       "nameKana": "むしうつわ(きんぞくせい)",
-      "nameRoman": "mushiutsuwa(kinzokusei)",
       "categoryId": "recyclable",
       "note": "木製、プラスチック製は可燃ごみ。"
     },
     {
       "name": "虫取り網",
       "nameKana": "むしとりあみ",
-      "nameRoman": "mushitoriami",
       "categoryId": "oversized"
     },
     {
       "name": "虫取りかご(金属製)",
       "nameKana": "むしとりかご(きんぞくせい)",
-      "nameRoman": "mushitorikago(kinzokusei)",
       "categoryId": "recyclable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "虫めがね(ガラス製)",
       "nameKana": "むしめがね(がらすせい)",
-      "nameRoman": "mushimegane(garasusei)",
       "categoryId": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "虫除けスプレー",
       "nameKana": "むしのぞけすぷれー",
-      "nameRoman": "mushinozokesupuree",
       "categoryId": "hazardous",
       "note": "中身を使い切って出してください。ポンプ式は可燃ごみ。"
     },
     {
       "name": "めがね",
       "nameKana": "めがね",
-      "nameRoman": "megane",
       "categoryId": "unburnable",
       "note": "レンズがプラスチック製なら可燃ごみ。"
     },
     {
       "name": "めがねケース",
       "nameKana": "めがねけーす",
-      "nameRoman": "meganekeesu",
       "categoryId": "burnable"
     },
     {
       "name": "メガホン",
       "nameKana": "めがほん",
-      "nameRoman": "megahon",
       "categoryId": "burnable"
     },
     {
       "name": "目薬の容器",
       "nameKana": "めぐすりのようき",
-      "nameRoman": "megusurinoyouki",
       "categoryId": "burnable"
     },
     {
       "name": "メジャー(金属製)",
       "nameKana": "めじゃー(きんぞくせい)",
-      "nameRoman": "mejaa(kinzokusei)",
       "categoryId": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "毛布",
       "nameKana": "もうふ",
-      "nameRoman": "moufu",
       "categoryId": "oversized",
       "note": "１m角以内に切断すれば可燃ごみ。"
     },
     {
       "name": "モーター(玩具用)",
       "nameKana": "もーたー(がんぐよう)",
-      "nameRoman": "mootaa(ganguyou)",
       "categoryId": "unburnable"
     },
     {
       "name": "燃え殻",
       "nameKana": "もえから",
-      "nameRoman": "moekara",
       "categoryId": "burnable",
       "note": "飛散防止のため湿らせてください。"
     },
     {
       "name": "木炭",
       "nameKana": "もくたん",
-      "nameRoman": "mokutan",
       "categoryId": "burnable"
     },
     {
       "name": "餅つき機",
       "nameKana": "もちつきき",
-      "nameRoman": "mochitsukiki",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "モップ",
       "nameKana": "もっぷ",
-      "nameRoman": "moppu",
       "categoryId": "oversized",
       "note": "ハンディタイプのものは可燃ごみ。"
     },
     {
       "name": "モニター(パソコン用)",
       "nameKana": "もにたー(ぱそこんよう)",
-      "nameRoman": "monitaa(pasokonyou)",
       "categoryId": "uncollectible",
       "note": "リサイクル制度があります。メーカーへ問い合わせてください。"
     },
     {
       "name": "物置(スチール製の簡易物置)",
       "nameKana": "ものおき(すちーるせいのかんいものおき)",
-      "nameRoman": "monooki(suchiiruseinokan'imonooki)",
       "categoryId": "oversized",
       "note": "解体して搬入してください。基礎のブロックは廃棄物処理業者に相談してください。"
     },
     {
       "name": "物干し(プラスチック製)",
       "nameKana": "ものほし(ぷらすちっくせい)",
-      "nameRoman": "monohoshi(purasuchikkusei)",
       "categoryId": "burnable",
       "note": "金属製は資源。"
     },
     {
       "name": "物干し竿・物干し台",
       "nameKana": "ものほしさお・ものほしだい",
-      "nameRoman": "monohoshisao.monohoshidai",
       "categoryId": "oversized"
     },
     {
       "name": "やかん",
       "nameKana": "やかん",
-      "nameRoman": "yakan",
       "categoryId": "recyclable"
     },
     {
       "name": "野菜類の結束ひも",
       "nameKana": "やさいるいのけっそくひも",
-      "nameRoman": "yasairuinokessokuhimo",
       "categoryId": "burnable"
     },
     {
       "name": "ヤスリ",
       "nameKana": "やすり",
-      "nameRoman": "yasuri",
       "categoryId": "unburnable"
     },
     {
       "name": "破れた衣類",
       "nameKana": "やぶれたいるい",
-      "nameRoman": "yaburetairui",
       "categoryId": "burnable"
     },
     {
       "name": "浴衣",
       "nameKana": "ゆかた",
-      "nameRoman": "yukata",
       "categoryId": "burnable",
       "note": "１m角以内に切断してください。"
     },
     {
       "name": "湯たんぽ(プラスチック製)",
       "nameKana": "ゆたんぽ(ぷらすちっくせい)",
-      "nameRoman": "yutanpo(purasuchikkusei)",
       "categoryId": "burnable",
       "note": "金属製は資源。陶器製は不燃ごみ。"
     },
     {
       "name": "ユニホーム(スポーツ用)",
       "nameKana": "ゆにほーむ(すぽーつよう)",
-      "nameRoman": "yunihoomu(supootsuyou)",
       "categoryId": "recyclable"
     },
     {
       "name": "指輪(金属製)",
       "nameKana": "ゆびわ(きんぞくせい)",
-      "nameRoman": "yubiwa(kinzokusei)",
       "categoryId": "recyclable",
       "note": "金属製の缶に入れるなど散乱しないようにしてください。"
     },
     {
       "name": "ゆりかご",
       "nameKana": "ゆりかご",
-      "nameRoman": "yurikago",
       "categoryId": "oversized"
     },
     {
       "name": "湯沸し器",
       "nameKana": "ゆわかしうつわ",
-      "nameRoman": "yuwakashiutsuwa",
       "categoryId": "oversized"
     },
     {
       "name": "幼児用自転車、乗り物",
       "nameKana": "ようじようじてんしゃ、のりもの",
-      "nameRoman": "youjiyoujitensha、norimono",
       "categoryId": "oversized"
     },
     {
       "name": "浴槽",
       "nameKana": "よくそう",
-      "nameRoman": "yokusou",
       "categoryId": "oversized",
       "note": "建築、解体工事で発生したものやＦＲＰ製は廃棄物処理業者に相談してください。"
     },
     {
       "name": "よしず",
       "nameKana": "よしず",
-      "nameRoman": "yoshizu",
       "categoryId": "oversized"
     },
     {
       "name": "ライター(使い捨て)",
       "nameKana": "らいたー(つかいすて)",
-      "nameRoman": "raitaa(tsukaisute)",
       "categoryId": "hazardous",
       "note": "中身を使い切って出してください。"
     },
     {
       "name": "ライター(オイルライター、ガスライター等の充填式のもの)",
       "nameKana": "らいたー(おいるらいたー、がすらいたーなどのじゅうてんしきのもの)",
-      "nameRoman": "raitaa(oiruraitaa、gasuraitaanadonojuutenshikinomono)",
       "categoryId": "unburnable",
       "note": "燃料を抜いてください。"
     },
     {
       "name": "ラグマット",
       "nameKana": "らぐまっと",
-      "nameRoman": "ragumatto",
       "categoryId": "oversized",
       "note": "１m角以内に切断すれば可燃ごみ。"
     },
     {
       "name": "ラジオ",
       "nameKana": "らじお",
-      "nameRoman": "rajio",
       "categoryId": "unburnable",
       "note": "電池は抜いて出してください。"
     },
     {
       "name": "ラジコン",
       "nameKana": "らじこん",
-      "nameRoman": "rajikon",
       "categoryId": "unburnable",
       "note": "電池は抜いて出してください。指定袋に入らないものは粗大ごみ。"
     },
     {
       "name": "ラップ・ラップの芯",
       "nameKana": "らっぷ・らっぷのしん",
-      "nameRoman": "rappu.rappunoshin",
       "categoryId": "burnable"
     },
     {
       "name": "ラップの外箱",
       "nameKana": "らっぷのそとばこ",
-      "nameRoman": "rappunosotobako",
       "categoryId": "recyclable",
       "note": "刃は取り除いてください。"
     },
     {
       "name": "ラップの刃(金属製)",
       "nameKana": "らっぷのは(きんぞくせい)",
-      "nameRoman": "rappunoha(kinzokusei)",
       "categoryId": "unburnable",
       "note": "プラスチック製、紙製は可燃ごみ。"
     },
     {
       "name": "ランチジャー(金属部分含む)",
       "nameKana": "らんちじゃー(きんぞくぶぶんふくむ)",
-      "nameRoman": "ranchijaa(kinzokububunfukumu)",
       "categoryId": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "ランドセル",
       "nameKana": "らんどせる",
-      "nameRoman": "randoseru",
       "categoryId": "burnable",
       "note": "金属部品で外せるものは資源。"
     },
     {
       "name": "ランプ",
       "nameKana": "らんぷ",
-      "nameRoman": "ranpu",
       "categoryId": "unburnable",
       "note": "燃料を抜いてください。"
     },
     {
       "name": "リール(釣具)",
       "nameKana": "りーる(つりぐ)",
-      "nameRoman": "riiru(tsurigu)",
       "categoryId": "unburnable",
       "note": "釣り糸は可燃ごみ。"
     },
     {
       "name": "リコーダー",
       "nameKana": "りこーだー",
-      "nameRoman": "rikoodaa",
       "categoryId": "burnable"
     },
     {
       "name": "リチウムイオン電池",
       "nameKana": "りちうむいおんでんち",
-      "nameRoman": "richiumuiondenchi",
       "categoryId": "uncollectible",
       "note": "販売店などの店頭回収を利用してください。"
     },
     {
       "name": "リモコン",
       "nameKana": "りもこん",
-      "nameRoman": "rimokon",
       "categoryId": "unburnable",
       "note": "電池は抜いて出してください。"
     },
     {
       "name": "リヤカー",
       "nameKana": "りやかー",
-      "nameRoman": "riyakaa",
       "categoryId": "oversized"
     },
     {
       "name": "リュックサック",
       "nameKana": "りゅっくさっく",
-      "nameRoman": "ryukkusakku",
       "categoryId": "burnable"
     },
     {
       "name": "ルアー(釣具)",
       "nameKana": "るあー(つりぐ)",
-      "nameRoman": "ruaa(tsurigu)",
       "categoryId": "unburnable"
     },
     {
       "name": "ルーズリーフ",
       "nameKana": "るーずりーふ",
-      "nameRoman": "ruuzuriifu",
       "categoryId": "recyclable",
       "note": "バインダーは可燃ごみ。"
     },
     {
       "name": "ルーペ",
       "nameKana": "るーぺ",
-      "nameRoman": "ruupe",
       "categoryId": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
     },
     {
       "name": "冷蔵庫・冷凍庫",
       "nameKana": "れいぞうこ・れいとうこ",
-      "nameRoman": "reizouko.reitouko",
       "categoryId": "legalrecycling"
     },
     {
       "name": "冷風機",
       "nameKana": "れいふうき",
-      "nameRoman": "reifuuki",
       "categoryId": "oversized"
     },
     {
       "name": "レコード",
       "nameKana": "れこーど",
-      "nameRoman": "rekoodo",
       "categoryId": "burnable"
     },
     {
       "name": "レジャーシート",
       "nameKana": "れじゃーしーと",
-      "nameRoman": "rejaashiito",
       "categoryId": "oversized",
       "note": "１m角以内に切断すれば可燃ごみ。"
     },
     {
       "name": "レトルトパックの袋",
       "nameKana": "れとるとぱっくのふくろ",
-      "nameRoman": "retorutopakkunofukuro",
       "categoryId": "burnable"
     },
     {
       "name": "レンガ",
       "nameKana": "れんが",
-      "nameRoman": "renga",
       "categoryId": "uncollectible",
       "note": "廃棄物処理業者に相談してください。"
     },
     {
       "name": "レンジ(ガス、オーブンレンジ)",
       "nameKana": "れんじ(がす、おーぶんれんじ)",
-      "nameRoman": "renji(gasu、oobunrenji)",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるものは不燃ごみ。"
     },
     {
       "name": "レンジ台",
       "nameKana": "れんじだい",
-      "nameRoman": "renjidai",
       "categoryId": "oversized"
     },
     {
       "name": "ローソク",
       "nameKana": "ろーそく",
-      "nameRoman": "roosoku",
       "categoryId": "burnable"
     },
     {
       "name": "ロープ",
       "nameKana": "ろーぷ",
-      "nameRoman": "roopu",
       "categoryId": "burnable",
       "note": "１ｍ以内に切断してください。"
     },
     {
       "name": "ローラースケート、ローラーブレード",
       "nameKana": "ろーらーすけーと、ろーらーぶれーど",
-      "nameRoman": "rooraasukeeto、rooraabureedo",
       "categoryId": "unburnable"
     },
     {
       "name": "ロッカー",
       "nameKana": "ろっかー",
-      "nameRoman": "rokkaa",
       "categoryId": "oversized",
       "note": "一般家庭で使用したものに限ります。"
     },
     {
       "name": "ワープロ(専用機で、パソコンでないもの)",
       "nameKana": "わーぷろ(せんようきで、ぱそこんでないもの)",
-      "nameRoman": "waapuro(senyoukide、pasokondenaimono)",
       "categoryId": "unburnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
     },
     {
       "name": "ワイシャツ",
       "nameKana": "わいしゃつ",
-      "nameRoman": "waishatsu",
       "categoryId": "recyclable"
     },
     {
       "name": "ワインセラー",
       "nameKana": "わいんせらー",
-      "nameRoman": "wainseraa",
       "categoryId": "legalrecycling"
     },
     {
       "name": "和紙",
       "nameKana": "わし",
-      "nameRoman": "washi",
       "categoryId": "recyclable"
     },
     {
       "name": "綿(わた)",
       "nameKana": "めん(わた)",
-      "nameRoman": "men(wata)",
       "categoryId": "burnable"
     },
     {
       "name": "綿(わた)入りの衣類",
       "nameKana": "めん(わた)いりのいるい",
-      "nameRoman": "men(wata)irinoirui",
       "categoryId": "recyclable"
     },
     {
       "name": "ワックス加工紙",
       "nameKana": "わっくすかこうし",
-      "nameRoman": "wakkusukakoushi",
       "categoryId": "burnable"
     },
     {
       "name": "ワックスの容器(金属製)",
       "nameKana": "わっくすのようき(きんぞくせい)",
-      "nameRoman": "wakkusunoyouki(kinzokusei)",
       "categoryId": "recyclable",
       "note": "プラスチック製は可燃ごみ。中身を使い切って出してください。"
     },
     {
       "name": "和服",
       "nameKana": "わふく",
-      "nameRoman": "wafuku",
       "categoryId": "burnable",
       "note": "衣類でも資源になりません。１m角以内に切断してください。"
     },
     {
       "name": "割り箸",
       "nameKana": "わりばし",
-      "nameRoman": "waribashi",
       "categoryId": "burnable"
     },
     {
       "name": "割れたビン",
       "nameKana": "われたびん",
-      "nameRoman": "waretabin",
       "categoryId": "unburnable",
       "note": "紙に包んで出してください。"
     }

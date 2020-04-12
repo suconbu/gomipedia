@@ -25,9 +25,9 @@ const ARTICLE_TRANSFER_UNIT = 50;
 
 // 自治体
 const SUPPORTED_MUNICS = [
-    { id: "aichi_toyokawa_shi", name: "豊川市", file: "data/gomidata_aichi_toyokawa_shi.json" },
-    { id: "aichi_nagoya_shi", name: "名古屋市", file: "data/gomidata_aichi_nagoya_shi.json" },
-    { id: "aichi_okazaki_shi", name: "岡崎市", file: "data/gomidata_aichi_okazaki_shi.json" }
+    { id: "aichi_toyokawa", name: "豊川市", file: "data/gomidata_aichi_toyokawa.json" },
+    { id: "aichi_nagoya", name: "名古屋市", file: "data/gomidata_aichi_nagoya.json" },
+    { id: "aichi_okazaki", name: "岡崎市", file: "data/gomidata_aichi_okazaki.json" }
 ];
 
 // 共通分類

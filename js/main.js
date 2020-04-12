@@ -20,33 +20,40 @@ Vue.component("legend-list-item", {
     `
 });
 
-// 凡例にはこの順番で表示します
-const commonCategories = [
-    { "id": "burnable", "name": "可燃ごみ", "image": "img/burnable.png" },
-    { "id": "unburnable", "name": "不燃ごみ", "image": "img/unburnable.png" },
-    { "id": "hazardous", "name": "危険ごみ", "image": "img/hazardous.png" },
-    { "id": "oversized", "name": "粗大ごみ", "image": "img/oversized.png" },
-    { "id": "recyclable", "name": "資源", "image": "img/recyclable.png" },
-    { "id": "legalrecycling", "name": "家電リサイクル法対象", "image": "img/legalrecycling.png" },
-    { "id": "pointcollection", "name": "拠点回収", "image": "img/pointcollection.png" },
-    { "id": "localcollection", "name": "集団回収", "image": "img/localcollection.png" },
-    { "id": "uncollectible", "name": "回収できません", "image": "img/uncollectible.png" },
-    { "id": "unknown", "name": "その他", "image": "img/unknown.png" }
+// 品目リスト更新時の一回分の増加数(0なら一回で全部表示)
+const ARTICLE_TRANSFER_UNIT = 50;
+
+// 自治体
+const SUPPORTED_MUNICS = [
+    { id: "aichi_toyokawa_shi", name: "豊川市", file: "data/gomidata_aichi_toyokawa_shi.json" },
+    { id: "aichi_nagoya_shi", name: "名古屋市", file: "data/gomidata_aichi_nagoya_shi.json" },
+    { id: "aichi_okazaki_shi", name: "岡崎市", file: "data/gomidata_aichi_okazaki_shi.json" }
 ];
-const commonCategoryMap = {};
-commonCategories.forEach(category => commonCategoryMap[category.id] = { "name": category.name, "image": category.image });
 
-let app = null;
-const data = {};
+// 共通分類
+// 凡例にはこの順番で表示します
+const COMMON_CATEGORIES = [
+    { id: "burnable", name: "可燃ごみ", image: "img/burnable.png" },
+    { id: "unburnable", name: "不燃ごみ", image: "img/unburnable.png" },
+    { id: "hazardous", name: "危険ごみ", image: "img/hazardous.png" },
+    { id: "oversized", name: "粗大ごみ", image: "img/oversized.png" },
+    { id: "recyclable", name: "資源", image: "img/recyclable.png" },
+    { id: "legalrecycling", name: "家電リサイクル法対象", image: "img/legalrecycling.png" },
+    { id: "pointcollection", name: "拠点回収", image: "img/pointcollection.png" },
+    { id: "localcollection", name: "集団回収", image: "img/localcollection.png" },
+    { id: "uncollectible", name: "回収できません", image: "img/uncollectible.png" },
+    { id: "unknown", name: "その他", image: "img/unknown.png" }
+];
 
-data.currentMunicipalityId = "aichi_toyokawa_shi";
-
-//TODO: 外部ファイル化
-data.allMunicipalities = {
-    "aichi_toyokawa_shi": { name: "豊川市", file: "data/gomidata_aichi_toyokawa_shi.json" },
-    "aichi_nagoya_shi": { name: "名古屋市", file: "data/gomidata_aichi_nagoya_shi.json" },
-    "aichi_okazaki_shi": { name: "岡崎市", file: "data/gomidata_aichi_okazaki_shi.json" }
-};
+function getQueryVars() {
+    const vars = {}
+    uri = decodeURI(window.location.search);
+    for (let entry of uri.slice(1).split("&")) {
+        keyValue = entry.split("=");
+        vars[keyValue[0]] = keyValue[1]
+    }
+    return vars;
+}
 
 function getIndex(articles, article, offset, wraparound) {
     let index = articles.findIndex(a => a === article);
@@ -100,110 +107,137 @@ function request(filename) {
     request.responseType = 'json';
     request.send();
     request.onload = function() {
-        loadGomiData(request.response);
-        if (app == null) {
-            app = createApp();
+        appState.load(request.response);
+        app = app || createApp(appState);
+        if (appState.initialArticleKeyword) {
+            app.$data.articleKeyword = appState.initialArticleKeyword;
+            appState.initialArticleKeyword = null;
         }
     }
 }
 
-function loadGomiData(gomidata) {
-    data.dataSourceUrl = gomidata.dataSourceUrl;
-    data.updatedAt = gomidata.updatedAt;
-    data.allArticles = gomidata.articles;
-    data.allArticles.forEach((article, index) => article.no = index);
-    data.categoryMap = {};
-    for (let article of data.allArticles) {
-        if (!(article.categoryId in data.categoryMap)) {
-            data.categoryMap[article.categoryId] = Object.assign({}, commonCategoryMap[article.categoryId]);
-        }
+class AppState {
+    constructor() {
+        this.allMunicMap = {}
+        SUPPORTED_MUNICS.forEach(munic => this.allMunicMap[munic.id] = munic);
+        this.commonCategoryMap = {};
+        COMMON_CATEGORIES.forEach(category => this.commonCategoryMap[category.id] = { "name": category.name, "image": category.image });
+        this.selectedMunic = null;
+        this.municPopupVisible = false;
+        this.initialArticleKeyword = null;
+        this.reset();
     }
-    if (gomidata.localCategoryDefinition) {
-        for (let categoryId of Object.keys(gomidata.localCategoryDefinition)) {
-            if (!(categoryId in commonCategoryMap)) {
-                console.error(`Invalid categoryId: ${categoryId} in localCategoryDefinition`);
-                continue;
+    reset() {
+        this.timeoutId = 0;
+        this.articleKeyword = "";
+        this.municKeyword = "";
+        this.placeholder = "";
+        this.categoryMap = {};
+        this.allArticles = [];
+        this.waitingArticles = [];
+        this.visibleArticles = [];
+        this.selectedArticle = null;
+        this.legendCategoryIds = [];
+        this.dataSourceUrl = null;
+        this.updatedAt = null;
+    }
+    load(gomidata) {
+        this.reset();
+        this.dataSourceUrl = gomidata.dataSourceUrl;
+        this.updatedAt = gomidata.updatedAt;
+        this.allArticles = gomidata.articles;
+        this.allArticles.forEach((article, index) => article.no = index);
+        this.categoryMap = {};
+        for (let article of this.allArticles) {
+            if (!(article.categoryId in this.categoryMap)) {
+                this.categoryMap[article.categoryId] = Object.assign({}, this.commonCategoryMap[article.categoryId]);
             }
-            entry = gomidata.localCategoryDefinition[categoryId];
-            if (!(categoryId in data.categoryMap)) {
-                // 凡例表示で使うので設定
-                data.categoryMap[categoryId] = Object.assign({}, commonCategoryMap[categoryId]);
-            }
-            parentCategory = data.categoryMap[categoryId];
-            if (entry.name) {
-                // 表示名上書き
-                parentCategory.name = entry.name;
-            }
-            if (entry.subCategories) {
-                for (let subCategoryId of Object.keys(entry.subCategories)) {
-                    subCategory = entry.subCategories[subCategoryId];
-                    if (subCategory.name) {
-                        name = subCategory.name.replace("{categoryName}", parentCategory.name)
-                    } else {
-                        name = parentCategory.name
-                    }
-                    data.categoryMap[subCategoryId] = {
-                        name: name,
-                        image: parentCategory.image
+        }
+        if (gomidata.localCategoryDefinition) {
+            for (let categoryId of Object.keys(gomidata.localCategoryDefinition)) {
+                if (!(categoryId in this.commonCategoryMap)) {
+                    console.error(`Invalid categoryId: ${categoryId} in localCategoryDefinition`);
+                    continue;
+                }
+                const entry = gomidata.localCategoryDefinition[categoryId];
+                if (!(categoryId in this.categoryMap)) {
+                    // 凡例表示で使うので設定
+                    this.categoryMap[categoryId] = Object.assign({}, this.commonCategoryMap[categoryId]);
+                }
+                const parentCategory = this.categoryMap[categoryId];
+                if (entry.name) {
+                    // 表示名上書き
+                    parentCategory.name = entry.name;
+                }
+                if (entry.subCategories) {
+                    for (let subCategoryId of Object.keys(entry.subCategories)) {
+                        const subCategory = entry.subCategories[subCategoryId];
+                        let name = parentCategory.name;
+                        if (subCategory.name) {
+                            name = subCategory.name.replace("{categoryName}", parentCategory.name)
+                        }
+                        this.categoryMap[subCategoryId] = {
+                            name: name,
+                            image: parentCategory.image
+                        }
                     }
                 }
             }
         }
-    }
-    data.legendCategoryIds = [];
-    for (let commonCategory of commonCategories) {
-        if (commonCategory.id in data.categoryMap) {
-            data.legendCategoryIds.push(commonCategory.id);
+        this.legendCategoryIds = [];
+        for (let commonCategory of COMMON_CATEGORIES) {
+            if (commonCategory.id in this.categoryMap) {
+                this.legendCategoryIds.push(commonCategory.id);
+            }
         }
+    
+        const index = Math.floor(Math.random() * this.allArticles.length);
+        this.placeholder = "例：" + this.allArticles[index].name;
     }
-
-    const index = Math.floor(Math.random() * data.allArticles.length);
-    data.placeholder = "例：" + data.allArticles[index].name;
-
-    data.keyword = "";
-    data.selectedArticle = null;
-    data.waitingArticles = [];
-    data.appearedArticles = [];
-    data.timeoutId = 0;
-    data.municipalityPopupVisible = false;
 }
 
-function createApp(response) {
+function createApp(data) {
     return new Vue({
         el: "#app",
         data: data,
         watch: {
-            keyword: function(newValue, oldValue) {
-                this.keyword = newValue;
+            articleKeyword: function(newValue, oldValue) {
+                this.articleKeyword = newValue;
                 // https://s8a.jp/javascript-escape-regexp
-                escaped = this.keyword.replace(/[\\^$.*+?()[\]{}|]/g, '\\$&');
-                this.keywordRegex = new RegExp(escaped, "ig");
-                this.updateAppearedArticles(getMatchedArticles(this.allArticles, this.keyword));
+                escaped = this.articleKeyword.replace(/[\\^$.*+?()[\]{}|]/g, '\\$&');
+                this.articleKeywordRegex = new RegExp(escaped, "ig");
+                this.changeArticles(getMatchedArticles(this.allArticles, this.articleKeyword));
+                this.updateQueryString();
             },
             allArticles: function(newValue, oldValue) {
-                this.updateAppearedArticles(this.allArticles)
+                this.changeArticles(this.allArticles)
+            }
+        },
+        computed: {
+            gomidataAvailable() {
+                return 0 < this.allArticles.length;
             }
         },
         created() {
-            this.updateAppearedArticles(this.allArticles);
+            this.changeArticles(this.allArticles);
         },
         methods: {
-            updateAppearedArticles(articles) {
-                this.waitingArticles = articles;
-                this.appearedArticles = [];
+            changeArticles(articles) {
+                this.waitingArticles = articles.slice();
+                this.visibleArticles = [];
                 if (this.timeoutId) {
                     clearTimeout(this.timeoutId);
                 }
-                this.transferAppearedArticles(0, 50);
+                this.transferArticles(ARTICLE_TRANSFER_UNIT);
             },
-            transferAppearedArticles(start, count) {
-                if (start < this.waitingArticles.length) {
-                    const articles = this.waitingArticles.slice(start, start + count);
-                    this.appearedArticles = this.appearedArticles.concat(articles);
-                    this.timeoutId = setTimeout(() => this.transferAppearedArticles(start + articles.length, count), 10)
+            transferArticles(count) {
+                count = (count <= 0) ? this.waitingArticles.length : count;
+                const articles = this.waitingArticles.splice(0, count);
+                this.visibleArticles = this.visibleArticles.concat(articles);
+                if (0 < this.waitingArticles.length) {
+                    this.timeoutId = setTimeout(() => this.transferArticles(count), 10)
                 } else {
                     this.timeoutId = 0;
-                    this.waitingArticles = [];
                 }
             },
             articleClicked(article) {
@@ -212,7 +246,7 @@ function createApp(response) {
                     this.$refs.popupWindow.focus();
                 })
             },
-            popupKeydown(e) {
+            articlePopupKeydown(e) {
                 if (e.key == "ArrowUp" || e.key == "ArrowLeft") {
                     this.moveArticleSelection(-1, true);
                 } else if (e.key == "ArrowDown" || e.key == "ArrowRight") {
@@ -226,40 +260,71 @@ function createApp(response) {
                 } else if (e.key == "End") {
                     this.moveArticleSelection(+this.allArticles.length, false);
                 } else if (e.key == "Enter" || e.key == "Escape") {
-                    this.closePopup();
+                    this.closeArticlePopup();
                 }
             },
             moveArticleSelection(offset, wraparound) {
-                const nextIndex = getIndex(this.appearedArticles, this.selectedArticle, offset, wraparound);
-                if (nextIndex !== -1) {
-                    this.selectedArticle = this.appearedArticles[nextIndex];
-                    this.$refs.article[nextIndex].$el.scrollIntoView(false);
-                }
+                if (0 < this.visibleArticles.length) {
+                    const nextIndex = getIndex(this.visibleArticles, this.selectedArticle, offset, wraparound);
+                    if (nextIndex !== -1) {
+                        this.selectedArticle = this.visibleArticles[nextIndex];
+                        this.$refs.article[nextIndex].$el.scrollIntoView(false);
+                    }
+                }                    
             },
-            closePopup() {
+            closeArticlePopup() {
                 this.selectedArticle = null;
             },
             dummy(e) {
                 e.stopPropagation();
             },
             getKeywordHighlighted(text) {
-                return this.keyword ? text.replace(this.keywordRegex, match => "<span class='keyword-highlight'>" + match + "</span>") : text;
+                return this.articleKeyword ? text.replace(this.articleKeywordRegex, match => "<span class='keyword-highlight'>" + match + "</span>") : text;
             },
-            openMunicipalityPopup() {
-                this.municipalityPopupVisible = true;
+            openMunicPopup() {
+                this.municPopupVisible = true;
             },
-            closeMunicipalityPopup() {
-                this.municipalityPopupVisible = false;
+            closeMunicPopup() {
+                if (this.selectedMunic) {
+                    this.municPopupVisible = false;
+                }
             },
-            municipalityClicked(municipalityId) {
-                this.municipalityPopupVisible = false;
-                this.currentMunicipalityId = municipalityId;
-                request(data.allMunicipalities[data.currentMunicipalityId].file)
+            popupMunicClicked(munic) {
+                this.municPopupVisible = false;
+                this.selectedMunic = munic;
+                request(munic.file);
+                this.updateQueryString();
+            },
+            updateQueryString() {
+                q = [];
+                if (this.selectedMunic) {
+                    q.push(`munic=${this.selectedMunic.id}`);
+                }
+                if (this.articleKeyword) {
+                    q.push(`keyword=${this.articleKeyword}`);
+                }
+                history.replaceState("", "", "?" + q.join("&"));
             }
         }
     });
 }
 
-request(data.allMunicipalities[data.currentMunicipalityId].file);
+let app = null;
+const appState = new AppState();
+
+const vars = getQueryVars();
+if (vars.munic) {
+    appState.selectedMunic = appState.allMunicMap[vars.munic];
+}
+if (vars.keyword) {
+    appState.initialArticleKeyword = vars.keyword;
+}
+
+if (appState.selectedMunic) {
+    request(appState.selectedMunic.file);
+} else {
+    app = createApp(appState);
+    appState.municPopupVisible = true;
+}
 
 })();

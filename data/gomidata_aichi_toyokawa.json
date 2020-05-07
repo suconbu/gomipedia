@@ -1,8 +1,31 @@
 {
-  "prefectureName": "愛知県",
-  "municipalityName": "豊川市",
-  "dataSourceUrl": "https://www.city.toyokawa.lg.jp/smph/kurashi/gomirecycle/gomihayamihyo/",
+  "municipalityId": "232076",
+  "municipalityName": "愛知県豊川市",
+  "datasourceUrl": "https://www.city.toyokawa.lg.jp/smph/kurashi/gomirecycle/gomihayamihyo/",
   "updatedAt": "2019-12-16",
+  "categoryDefinitions": {
+    "burnable": {
+      "name": "可燃ごみ"
+    },
+    "unburnable": {
+      "name": "不燃ごみ"
+    },
+    "recyclable": {
+      "name": "資源"
+    },
+    "hazardous": {
+      "name": "危険ごみ"
+    },
+    "oversized": {
+      "name": "粗大ごみ"
+    },
+    "legalrecycling": {
+      "name": "家電リサイクル法対象"
+    },
+    "uncollectible": {
+      "name": "回収できません"
+    }
+  },
   "articles": [
     {
       "name": "アイスピック",

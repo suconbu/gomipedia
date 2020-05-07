@@ -1,48 +1,56 @@
 {
-  "prefectureName": "愛知県",
-  "municipalityName": "名古屋市",
-  "dataSourceUrl": "http://www.city.nagoya.jp/kurashi/category/5-6-22-0-0-0-0-0-0-0.html",
+  "municipalityId": "231002",
+  "municipalityName": "愛知県名古屋市",
+  "datasourceUrl": "http://www.city.nagoya.jp/kurashi/category/5-6-22-0-0-0-0-0-0-0.html",
   "updatedAt": "2020-02-26",
-  "localCategoryDefinition": {
-    "hazardous": {
-      "subCategories": {
-        "hazardous.ignitable": {
-          "name": "発火性危険物"
-        }
-      }
+  "categoryDefinitions": {
+    "burnable": {
+      "name": "可燃ごみ"
     },
-    "recyclable": {
-      "subCategories": {
-        "recyclable.paperpackaging": {
-          "name": "紙製容器包装"
-        },
-        "recyclable.petbottle": {
-          "name": "ペットボトル"
-        },
-        "recyclable.plasticpackaging": {
-          "name": "プラ容器包装"
-        },
-        "recyclable.grassbottole": {
-          "name": "空きびん"
-        },
-        "recyclable.can": {
-          "name": "空き缶"
-        }
-      }
+    "unburnable": {
+      "name": "不燃ごみ"
+    },
+    "oversized": {
+      "name": "粗大ごみ"
+    },
+    "hazardous": {
+      "name": "発火性危険物"
+    },
+    "paperpackaging": {
+      "name": "紙製容器包装"
+    },
+    "plasticpackaging": {
+      "name": "プラ容器包装"
+    },
+    "beveragepack": {
+      "name": "紙パック"
+    },
+    "petbottle": {
+      "name": "ペットボトル"
+    },
+    "grassbottle": {
+      "name": "空きびん"
+    },
+    "can": {
+      "name": "空き缶"
+    },
+    "legalrecycling": {
+      "name": "家電リサイクル法対象"
     },
     "pointcollection": {
-      "name": "回収ボックス",
-      "subCategories": {
-        "pointcollection.beveragepack": {
-          "name": "紙パック({categoryName}})"
-        },
-        "pointcollection.edibleoil": {
-          "name": "食用油({categoryName})"
-        },
-        "pointcollection.smallappliances": {
-          "name": "小型家電({categoryName})"
-        }
-      }
+      "name": "回収ボックス"
+    },
+    "pointcollection.edibleoil": {
+      "name": "回収ボックス(食用油)"
+    },
+    "pointcollection.smallappliances": {
+      "name": "回収ボックス(小型家電)"
+    },
+    "localcollection": {
+      "name": "集団資源回収"
+    },
+    "uncollectible": {
+      "name": "回収できません"
     }
   },
   "articles": [
@@ -55,13 +63,13 @@
     {
       "name": "アイスクリームのカップ・フタ(紙製)",
       "nameKana": "あいすくりーむのかっぷ・ふた(かみせい)",
-      "categoryId": "recyclable.paperpackaging",
+      "categoryId": "paperpackaging",
       "note": "さっとゆすいで"
     },
     {
       "name": "アイスクリームの外袋・容器・フタ(プラスチック製)",
       "nameKana": "あいすくりーむのそとふくろ・ようき・ふた(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "容器・フタはさっとゆすいで"
     },
     {
@@ -88,13 +96,13 @@
     {
       "name": "空き缶(飲料・食品用)",
       "nameKana": "あきかん(いんりょう・しょくひんよう)",
-      "categoryId": "recyclable.can",
+      "categoryId": "can",
       "note": "飲料・食品用以外は不燃ごみへ"
     },
     {
       "name": "空きびん(飲料・食品・化粧品用)",
       "nameKana": "あきびん(いんりょう・しょくひん・けしょうひんよう)",
-      "categoryId": "recyclable.grassbottole",
+      "categoryId": "grassbottle",
       "note": "飲料・食品・化粧品用以外は不燃ごみへ"
     },
     {
@@ -160,13 +168,13 @@
     {
       "name": "油(食用)の缶",
       "nameKana": "あぶら(しょくよう)のかん",
-      "categoryId": "recyclable.can",
+      "categoryId": "can",
       "note": "食用以外は不燃ごみへ"
     },
     {
       "name": "油(食用)のびん",
       "nameKana": "あぶら(しょくよう)のびん",
-      "categoryId": "recyclable.grassbottole",
+      "categoryId": "grassbottle",
       "note": "食用以外は不燃ごみへ"
     },
     {
@@ -203,12 +211,12 @@
     {
       "name": "あめの外袋・個包装(紙製)",
       "nameKana": "あめのそとふくろ・こほうそう(かみせい)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "あめの外袋・個包装(プラスチック製)",
       "nameKana": "あめのそとふくろ・こほうそう(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "アルバム",
@@ -218,13 +226,13 @@
     {
       "name": "アルミ缶(飲料・食品用)",
       "nameKana": "あるみかん(いんりょう・しょくひんよう)",
-      "categoryId": "recyclable.can",
+      "categoryId": "can",
       "note": "飲料・食品用以外は不燃ごみへ"
     },
     {
       "name": "アルミコーティング袋(菓子・レトルト食品など)",
       "nameKana": "あるみこーてぃんぐふくろ(かし・れとるとしょくひんなど)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "アルミサッシ",
@@ -250,7 +258,7 @@
     {
       "name": "アルミホイルの外箱",
       "nameKana": "あるみほいるのそとばこ",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "アルミホイルの外箱の刃(金属製)",
@@ -304,13 +312,13 @@
     {
       "name": "一升瓶",
       "nameKana": "いっしょうびん",
-      "categoryId": "recyclable.grassbottole",
+      "categoryId": "grassbottle",
       "note": "さっとゆすいでなるべくお店に返しましょう"
     },
     {
       "name": "一斗缶(食品・飲料用)",
       "nameKana": "いっとかん(しょくひん・いんりょうよう)",
-      "categoryId": "recyclable.can",
+      "categoryId": "can",
       "note": "食品・飲料用以外は不燃ごみへ"
     },
     {
@@ -359,19 +367,19 @@
     {
       "name": "インクカートリッジ(パソコンプリンター用)",
       "nameKana": "いんくかーとりっじ(ぱそこんぷりんたーよう)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "販売店回収を利用しましょう"
     },
     {
       "name": "インスタントコーヒーのびん",
       "nameKana": "いんすたんとこーひーのびん",
-      "categoryId": "recyclable.grassbottole",
+      "categoryId": "grassbottle",
       "note": "フタはプラ容器包装へ"
     },
     {
       "name": "インスタント食品の外袋・容器・フタ(プラスチック製)",
       "nameKana": "いんすたんとしょくひんのそとふくろ・ようき・ふた(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "インターフォン",
@@ -530,13 +538,13 @@
     {
       "name": "絵の具のチューブ(プラスチック製)",
       "nameKana": "えのぐのちゅーぶ(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "中身を使い切って"
     },
     {
       "name": "絵の具の箱(紙製)",
       "nameKana": "えのぐのはこ(かみせい)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "絵の具の筆・パレット",
@@ -619,7 +627,7 @@
     {
       "name": "鉛筆・色鉛筆のケース(紙製)",
       "nameKana": "えんぴつ・いろえんぴつのけーす(かみせい)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "鉛筆・色鉛筆のケース(金属製)",
@@ -629,7 +637,7 @@
     {
       "name": "鉛筆・色鉛筆のケース(プラスチック製)",
       "nameKana": "えんぴつ・いろえんぴつのけーす(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "鉛筆削り器(電動・金属製)",
@@ -700,17 +708,17 @@
     {
       "name": "お菓子の空き箱・中仕切り(紙製)",
       "nameKana": "おかしのあきはこ・なかしきり(かみせい)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "お菓子の缶(金属製)",
       "nameKana": "おかしのかん(きんぞくせい)",
-      "categoryId": "recyclable.can"
+      "categoryId": "can"
     },
     {
       "name": "お菓子の袋・箱の中仕切り(プラスチック製)",
       "nameKana": "おかしのふくろ・はこのなかしきり(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "置時計(金属製)",
@@ -781,7 +789,7 @@
     {
       "name": "お手拭きの外袋",
       "nameKana": "おてふきのそとふくろ",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "紙製は紙製容器包装へ"
     },
     {
@@ -831,7 +839,7 @@
     {
       "name": "おもちゃの空き箱",
       "nameKana": "おもちゃのあきはこ",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "オルガン",
@@ -942,7 +950,7 @@
     {
       "name": "カイロ(使い捨て) の外袋",
       "nameKana": "かいろ(つかいすて) のそとふくろ",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "鏡",
@@ -1046,7 +1054,7 @@
     {
       "name": "カセット式ガスボンベのキャップ(プラスチック製)",
       "nameKana": "かせっとしきがすぼんべのきゃっぷ(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "カセットテープ・ケースを含む",
@@ -1085,24 +1093,24 @@
     {
       "name": "カップ麺の具(かやく)・スープの袋",
       "nameKana": "かっぷめんのぐ(かやく)・すーぷのふくろ",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "中身を残さないように"
     },
     {
       "name": "カップ麺の外包装フィルム",
       "nameKana": "かっぷめんのそとほうそうふぃるむ",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "カップ麺の容器・フタ(紙製)",
       "nameKana": "かっぷめんのようき・ふた(かみせい)",
-      "categoryId": "recyclable.paperpackaging",
+      "categoryId": "paperpackaging",
       "note": "さっとゆすいで"
     },
     {
       "name": "カップ麺の容器・フタ(プラスチック製)",
       "nameKana": "かっぷめんのようき・ふた(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "さっとゆすいで"
     },
     {
@@ -1163,7 +1171,7 @@
     {
       "name": "紙コップ(コーヒー等の飲料容器)",
       "nameKana": "かみこっぷ(こーひーなどのいんりょうようき)",
-      "categoryId": "recyclable.paperpackaging",
+      "categoryId": "paperpackaging",
       "note": "中をさっとゆすいで"
     },
     {
@@ -1174,7 +1182,7 @@
     {
       "name": "紙皿(食品等に付いていたもの)",
       "nameKana": "かみさら(しょくひんなどについていたもの)",
-      "categoryId": "recyclable.paperpackaging",
+      "categoryId": "paperpackaging",
       "note": "さっとゆすいで"
     },
     {
@@ -1207,13 +1215,13 @@
     {
       "name": "紙パック(内側が白いもの)",
       "nameKana": "かみぱっく(うちがわがしろいもの)",
-      "categoryId": "pointcollection.beveragepack",
+      "categoryId": "beveragepack",
       "note": "スーパーなどの回収ボックスまたは、集団資源回収などへ"
     },
     {
       "name": "紙パック(内側が銀色のもの)",
       "nameKana": "かみぱっく(うちがわがぎんいろのもの)",
-      "categoryId": "recyclable.paperpackaging",
+      "categoryId": "paperpackaging",
       "note": "中をさっとゆすいで"
     },
     {
@@ -1224,7 +1232,7 @@
     {
       "name": "紙袋(お店で商品を入れた袋)",
       "nameKana": "かみぶくろ(おみせでしょうひんをいれたふくろ)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "紙袋(購入したもの)",
@@ -1245,7 +1253,7 @@
     {
       "name": "ガムの紙製の包装(外包・個包装)",
       "nameKana": "がむのかみせいのほうそう(そとつつみ・こほうそう)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "ガムテープ",
@@ -1277,7 +1285,7 @@
     {
       "name": "からしのチューブ・フタ",
       "nameKana": "からしのちゅーぶ・ふた",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "箱は紙製容器包装へ"
     },
     {
@@ -1295,7 +1303,7 @@
     {
       "name": "ガラスクリーナー(ポンプ式)の容器",
       "nameKana": "がらすくりーなー(ぽんぷしき)のようき",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "軽石",
@@ -1343,7 +1351,7 @@
     {
       "name": "缶(飲料・食品用)",
       "nameKana": "かん(いんりょう・しょくひんよう)",
-      "categoryId": "recyclable.can",
+      "categoryId": "can",
       "note": "飲料用・食品用以外は不燃ごみへ"
     },
     {
@@ -1359,7 +1367,7 @@
     {
       "name": "緩衝材(発泡スチロール・気泡緩衝材)",
       "nameKana": "かんしょうざい(はっぽうすちろーる・きほうかんしょうざい)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "商品以外の梱包に使用されたものは可燃ごみへ"
     },
     {
@@ -1376,7 +1384,7 @@
     {
       "name": "缶詰・フタ(飲料・食品用)",
       "nameKana": "かんづめ・ふた(いんりょう・しょくひんよう)",
-      "categoryId": "recyclable.can",
+      "categoryId": "can",
       "note": "中をさっとゆすいで"
     },
     {
@@ -1490,7 +1498,7 @@
     {
       "name": "キャップ・ふた(プラスチック製)",
       "nameKana": "きゃっぷ・ふた(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "キャビネット",
@@ -1526,25 +1534,25 @@
     {
       "name": "牛乳パック(内側が白いもの)",
       "nameKana": "ぎゅうにゅうぱっく(うちがわがしろいもの)",
-      "categoryId": "pointcollection.beveragepack",
+      "categoryId": "beveragepack",
       "note": "スーパーなどの回収ボックスまたは、集団資源回収・リサイクルステーションなどへ"
     },
     {
       "name": "牛乳びん",
       "nameKana": "ぎゅうにゅうびん",
-      "categoryId": "recyclable.grassbottole",
+      "categoryId": "grassbottle",
       "note": "なるべく販売店回収を利用しましょう"
     },
     {
       "name": "牛乳びんのフタ(紙製)",
       "nameKana": "ぎゅうにゅうびんのふた(かみせい)",
-      "categoryId": "recyclable.paperpackaging",
+      "categoryId": "paperpackaging",
       "note": "さっとゆすいで"
     },
     {
       "name": "牛乳びんのフタ(プラスチック製)",
       "nameKana": "ぎゅうにゅうびんのふた(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "さっとゆすいで"
     },
     {
@@ -1667,12 +1675,12 @@
     {
       "name": "薬(錠剤、カプセル等)の包装シート",
       "nameKana": "くすり(じょうざい、かぷせるなど)のほうそうしーと",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "薬のびん(飲み薬用)",
       "nameKana": "くすりのびん(のみやくよう)",
-      "categoryId": "recyclable.grassbottole",
+      "categoryId": "grassbottle",
       "note": "中身を残さないように、中をさっとゆすいで"
     },
     {
@@ -1683,7 +1691,7 @@
     {
       "name": "薬の容器・フタ(プラスチック製)",
       "nameKana": "くすりのようき・ふた(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "薬箱・救急箱(木・プラスチック製)",
@@ -1694,7 +1702,7 @@
     {
       "name": "薬袋(薬局で薬を入れた袋)",
       "nameKana": "くすりふくろ(やっきょくでくすりをいれたふくろ)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "薬袋(病院・診療所で薬を入れた袋)",
@@ -1710,7 +1718,7 @@
     {
       "name": "くだものパック・ラップ・ネット",
       "nameKana": "くだものぱっく・らっぷ・ねっと",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "口紅の容器(金属製)",
@@ -1720,7 +1728,7 @@
     {
       "name": "口紅の容器(プラスチック製)",
       "nameKana": "くちべにのようき(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "中身を使い切って"
     },
     {
@@ -1731,12 +1739,12 @@
     {
       "name": "靴の空き箱・紙製のつめもの",
       "nameKana": "くつのあきはこ・かみせいのつめもの",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "靴の中に入れてあるプラスチック製のつめもの",
       "nameKana": "くつのなかにいれてあるぷらすちっくせいのつめもの",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "クッキングヒーター・電磁調理器",
@@ -1827,12 +1835,12 @@
     {
       "name": "クレヨンケース・中敷(紙製)",
       "nameKana": "くれよんけーす・なかしき(かみせい)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "クレヨンケース・中敷(プラスチック製)",
       "nameKana": "くれよんけーす・なかしき(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "グローブ",
@@ -1863,7 +1871,7 @@
     {
       "name": "蛍光管(直管型・環型・電球型)の外箱",
       "nameKana": "けいこうかん(ちょっかんかた・かんかた・でんきゅうかた)のそとばこ",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "蛍光ペン",
@@ -1927,18 +1935,18 @@
     {
       "name": "化粧品の紙箱",
       "nameKana": "けしょうひんのかみばこ",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "化粧品のびん",
       "nameKana": "けしょうひんのびん",
-      "categoryId": "recyclable.grassbottole",
+      "categoryId": "grassbottle",
       "note": "使いきり、中をさっとゆすいで"
     },
     {
       "name": "化粧品のびんのフタ(プラスチック製)",
       "nameKana": "けしょうひんのびんのふた(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "さっとゆすいで金属製は不燃ごみへ"
     },
     {
@@ -1959,13 +1967,13 @@
     {
       "name": "ケチャップの容器・フタ",
       "nameKana": "けちゃっぷのようき・ふた",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "使い切り、中をさっとゆすいで"
     },
     {
       "name": "ケチャップの外袋",
       "nameKana": "けちゃっぷのそとふくろ",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "血圧計",
@@ -2044,12 +2052,12 @@
     {
       "name": "紅茶(ティーバッグ)の個包装紙",
       "nameKana": "こうちゃ(てぃーばっぐ)のこほうそうし",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "紅茶(ティーバッグ)の外箱",
       "nameKana": "こうちゃ(てぃーばっぐ)のそとばこ",
-      "categoryId": "recyclable.paperpackaging",
+      "categoryId": "paperpackaging",
       "note": "プラスチック製はプラ容器包装へ"
     },
     {
@@ -2104,18 +2112,18 @@
     {
       "name": "コーヒーのびん(インスタント)",
       "nameKana": "こーひーのびん(いんすたんと)",
-      "categoryId": "recyclable.grassbottole",
+      "categoryId": "grassbottle",
       "note": "使い切り、中をさっとゆすいで"
     },
     {
       "name": "コーヒーのびんのフタ(プラスチック製)",
       "nameKana": "こーひーのびんのふた(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "コーヒーのびんの内ブタ (紙製)",
       "nameKana": "こーひーのびんのないぶた (かみせい)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "コーヒーメーカー",
@@ -2176,13 +2184,13 @@
     {
       "name": "粉ミルクの缶",
       "nameKana": "こなみるくのかん",
-      "categoryId": "recyclable.can",
+      "categoryId": "can",
       "note": "使い切り、中をさっとゆすいでフタも金属なら空き缶へ"
     },
     {
       "name": "粉ミルクの缶のフタ(プラスチック製)",
       "nameKana": "こなみるくのかんのふた(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "碁盤",
@@ -2198,7 +2206,7 @@
     {
       "name": "コピー用紙の包装紙",
       "nameKana": "こぴーようしのほうそうし",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "ごみ箱(金属・陶器製)",
@@ -2236,12 +2244,12 @@
     {
       "name": "米袋(紙製)",
       "nameKana": "こめぶくろ(かみせい)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "米袋(プラスチック製)",
       "nameKana": "こめぶくろ(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "コルク栓",
@@ -2282,7 +2290,7 @@
     {
       "name": "コンタクトレンズの容器",
       "nameKana": "こんたくとれんずのようき",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "使い捨てタイプのもの"
     },
     {
@@ -2293,7 +2301,7 @@
     {
       "name": "コンパクト(プラスチック製)",
       "nameKana": "こんぱくと(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "コンパス(文房具)",
@@ -2304,7 +2312,7 @@
     {
       "name": "コンビニ弁当などの容器(プラスチック製)",
       "nameKana": "こんびにべんとうなどのようき(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "コンポ",
@@ -2369,13 +2377,13 @@
     {
       "name": "酒パック(内側がアルミ箔)",
       "nameKana": "さけぱっく(うちがわがあるみはく)",
-      "categoryId": "recyclable.paperpackaging",
+      "categoryId": "paperpackaging",
       "note": "キャップを取り、中をさっとゆすいで内側が白いものは紙パックへ"
     },
     {
       "name": "酒パック(内側がアルミ箔)のキャップ",
       "nameKana": "さけぱっく(うちがわがあるみはく)のきゃっぷ",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "サッカーボール",
@@ -2525,7 +2533,7 @@
     {
       "name": "湿布剤の外袋・外箱(紙製)",
       "nameKana": "しっぷざいのそとふくろ・そとばこ(かみせい)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "湿布剤の表面に貼られた薄いフィルム",
@@ -2604,7 +2612,7 @@
     {
       "name": "シャンプーのボトル",
       "nameKana": "しゃんぷーのぼとる",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "使い切り、中をさっとゆすいで"
     },
     {
@@ -2708,7 +2716,7 @@
     {
       "name": "錠剤用シート",
       "nameKana": "じょうざいようしーと",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "障子戸",
@@ -2724,7 +2732,7 @@
     {
       "name": "消臭剤の容器(プラスチック製)",
       "nameKana": "しょうしゅうざいのようき(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "浄水器(蛇口取付タイプ)",
@@ -2761,19 +2769,19 @@
     {
       "name": "食用油の缶",
       "nameKana": "しょくようあぶらのかん",
-      "categoryId": "recyclable.can",
+      "categoryId": "can",
       "note": "使い切り、中をさっとゆすいで"
     },
     {
       "name": "食用油のびん",
       "nameKana": "しょくようあぶらのびん",
-      "categoryId": "recyclable.grassbottole",
+      "categoryId": "grassbottle",
       "note": "使い切り、中をさっとゆすいで"
     },
     {
       "name": "食用油のプラスチックボトル",
       "nameKana": "しょくようあぶらのぷらすちっくぼとる",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "使い切り、中をさっとゆすいで"
     },
     {
@@ -2821,12 +2829,12 @@
     {
       "name": "食品トレー(紙製)",
       "nameKana": "しょくひんとれー(かみせい)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "食品トレー(プラスチック製)",
       "nameKana": "しょくひんとれー(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "店頭回収も利用しましょう"
     },
     {
@@ -2977,7 +2985,7 @@
     {
       "name": "スチール缶(飲料・食品用)",
       "nameKana": "すちーるかん(いんりょう・しょくひんよう)",
-      "categoryId": "recyclable.can",
+      "categoryId": "can",
       "note": "飲料・食用品以外は不燃ごみへ"
     },
     {
@@ -3010,7 +3018,7 @@
     {
       "name": "ストッキングの中の台紙",
       "nameKana": "すとっきんぐのなかのだいし",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "ストラップ(金属製)",
@@ -3030,12 +3038,12 @@
     {
       "name": "ストローの袋(紙製)",
       "nameKana": "すとろーのふくろ(かみせい)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "ストローの袋(プラスチック製)",
       "nameKana": "すとろーのふくろ(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "スニーカー",
@@ -3103,7 +3111,7 @@
     {
       "name": "スプレー缶のキャップ(プラスチック製)",
       "nameKana": "すぷれーかんのきゃっぷ(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "すべり台(子供用遊具)",
@@ -3167,12 +3175,12 @@
     {
       "name": "整髪料の容器(ガラス製)",
       "nameKana": "せいはつりょうのようき(がらすせい)",
-      "categoryId": "recyclable.grassbottole"
+      "categoryId": "grassbottle"
     },
     {
       "name": "整髪料の容器(プラスチック製)",
       "nameKana": "せいはつりょうのようき(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "生理用品",
@@ -3199,12 +3207,12 @@
     {
       "name": "石鹸の個袋(プラスチック製)",
       "nameKana": "せっけんのこふくろ(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "石鹸の外箱・個袋(紙製)",
       "nameKana": "せっけんのそとばこ・こふくろ(かみせい)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "接着剤",
@@ -3214,7 +3222,7 @@
     {
       "name": "接着剤の紙箱",
       "nameKana": "せっちゃくざいのかみばこ",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "接着剤のチューブ(金属製)",
@@ -3225,7 +3233,7 @@
     {
       "name": "接着剤のチューブ(プラスチック製)",
       "nameKana": "せっちゃくざいのちゅーぶ(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "中身を使い切って"
     },
     {
@@ -3259,13 +3267,13 @@
     {
       "name": "洗顔料のチューブ",
       "nameKana": "せんがんりょうのちゅーぶ",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "中身を使い切って"
     },
     {
       "name": "洗剤の紙箱",
       "nameKana": "せんざいのかみばこ",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "洗剤の計量カップ・スプーン",
@@ -3275,12 +3283,12 @@
     {
       "name": "洗剤の詰め替え用外袋",
       "nameKana": "せんざいのつめかえようそとふくろ",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "洗剤の容器(プラスチック製)",
       "nameKana": "せんざいのようき(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "使い切り、中をさっとゆすいで"
     },
     {
@@ -3386,7 +3394,7 @@
     {
       "name": "ソースの容器・フタ",
       "nameKana": "そーすのようき・ふた",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "中をさっとゆすいで"
     },
     {
@@ -3419,7 +3427,7 @@
     {
       "name": "台紙(紙製で商品の保護・固定用)",
       "nameKana": "だいし(かみせいでしょうひんのほご・こていよう)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "体脂肪計",
@@ -3519,7 +3527,7 @@
     {
       "name": "脱臭剤の容器",
       "nameKana": "だっしゅうざいのようき",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "タッパー",
@@ -3534,7 +3542,7 @@
     {
       "name": "タバコの空き箱・銀紙",
       "nameKana": "たばこのあきはこ・ぎんがみ",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "タバコの吸殻",
@@ -3544,7 +3552,7 @@
     {
       "name": "タバコの外包装フィルム",
       "nameKana": "たばこのそとほうそうふぃるむ",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "足袋(たび)",
@@ -3559,12 +3567,12 @@
     {
       "name": "卵パック(紙製)",
       "nameKana": "たまごぱっく(かみせい)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "卵パック(プラスチック製)",
       "nameKana": "たまごぱっく(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "たわし(金属製)",
@@ -3760,12 +3768,12 @@
     {
       "name": "ティシューボックス(紙箱)",
       "nameKana": "てぃしゅーぼっくす(かみばこ)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "ティシューボックス(紙箱)の取出口のフィルム",
       "nameKana": "てぃしゅーぼっくす(かみばこ)のしゅでぐちのふぃるむ",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "DVD・ケースを含む",
@@ -3874,7 +3882,7 @@
     {
       "name": "電化製品の緩衝材(発泡スチロール)",
       "nameKana": "でんかせいひんのかんしょうざい(はっぽうすちろーる)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "粒形状のものは可燃ごみへ"
     },
     {
@@ -4128,7 +4136,7 @@
     {
       "name": "豆腐のパック・フタ",
       "nameKana": "とうふのぱっく・ふた",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "さっとゆすいで"
     },
     {
@@ -4211,7 +4219,7 @@
     {
       "name": "塗料容器(プラスチック製)",
       "nameKana": "とりょうようき(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "ドリル(電動)",
@@ -4233,18 +4241,18 @@
     {
       "name": "トレー(食品用:プラスチック製)",
       "nameKana": "とれー(しょくひんよう:ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "店頭回収も利用しましょう"
     },
     {
       "name": "トレー(食品用:紙製)",
       "nameKana": "とれー(しょくひんよう:かみせい)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "トレー(食品用)についていたラップ",
       "nameKana": "とれー(しょくひんよう)についていたらっぷ",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "トレーナー",
@@ -4260,13 +4268,13 @@
     {
       "name": "ドレッシング(ノンオイル)の入ったペットボトル",
       "nameKana": "どれっしんぐ(のんおいる)のいっったぺっとぼとる",
-      "categoryId": "recyclable.petbottle",
+      "categoryId": "petbottle",
       "note": "油脂を使っているドレッシングの容器は、プラ容器包装へ"
     },
     {
       "name": "ドレッシングのびん",
       "nameKana": "どれっしんぐのびん",
-      "categoryId": "recyclable.grassbottole",
+      "categoryId": "grassbottle",
       "note": "中をさっとゆすいで"
     },
     {
@@ -4283,7 +4291,7 @@
     {
       "name": "苗木のポット(プラスチック製)",
       "nameKana": "なえぎのぽっと(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "長靴",
@@ -4299,13 +4307,13 @@
     {
       "name": "納豆の容器(紙製)",
       "nameKana": "なっとうのようき(かみせい)",
-      "categoryId": "recyclable.paperpackaging",
+      "categoryId": "paperpackaging",
       "note": "さっとゆすいで"
     },
     {
       "name": "納豆の容器(プラスチック製)",
       "nameKana": "なっとうのようき(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "さっとゆすいで"
     },
     {
@@ -4389,7 +4397,7 @@
     {
       "name": "ネット(果物などが入っていたもの)",
       "nameKana": "ねっと(くだものなどがいっっていたもの)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "寝袋",
@@ -4506,7 +4514,7 @@
     {
       "name": "廃油",
       "nameKana": "はいゆ",
-      "categoryId": "unknown",
+      "categoryId": "burnable",
       "note": "布・紙・廃油処理キットで処理して可燃ごみへ"
     },
     {
@@ -4631,13 +4639,13 @@
     {
       "name": "発泡スチロール(緩衝材)",
       "nameKana": "はっぽうすちろーる(かんしょうざい)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "商品以外の梱包に使用されたものは可燃ごみへ"
     },
     {
       "name": "発泡スチロール(食品トレー)",
       "nameKana": "はっぽうすちろーる(しょくひんとれー)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "なるべく店頭回収を利用しましょう"
     },
     {
@@ -4674,17 +4682,17 @@
     {
       "name": "歯ブラシの包装パック",
       "nameKana": "はぶらしのほうそうぱっく",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "歯ブラシの包装パックの台紙",
       "nameKana": "はぶらしのほうそうぱっくのだいし",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "歯磨き粉のチューブ",
       "nameKana": "はみがきこのちゅーぶ",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "中身を使い切って"
     },
     {
@@ -4833,7 +4841,7 @@
     {
       "name": "ビールびん",
       "nameKana": "びーるびん",
-      "categoryId": "recyclable.grassbottole",
+      "categoryId": "grassbottle",
       "note": "中をさっとゆすいでなるべくお店に返しましょう"
     },
     {
@@ -4892,7 +4900,7 @@
     {
       "name": "びん(飲料・食品・化粧品用)",
       "nameKana": "びん(いんりょう・しょくひん・けしょうひんよう)",
-      "categoryId": "recyclable.grassbottole",
+      "categoryId": "grassbottle",
       "note": "飲料・食品・化粧品用以外は、不燃ごみに"
     },
     {
@@ -4989,7 +4997,7 @@
     {
       "name": "フタ・キャップ(紙製)",
       "nameKana": "ふた・きゃっぷ(かみせい)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "フタ・キャップ(金属製)",
@@ -5000,7 +5008,7 @@
     {
       "name": "フタ・キャップ(プラスチック製)",
       "nameKana": "ふた・きゃっぷ(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "ブックエンド(金属製)",
@@ -5026,7 +5034,7 @@
     {
       "name": "ブックカバー(本屋で付けられたもの)",
       "nameKana": "ぶっくかばー(ほんやでつけられたもの)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "仏壇",
@@ -5234,7 +5242,7 @@
     {
       "name": "ヘアースプレーのキャップ(プラスチック製)",
       "nameKana": "へあーすぷれーのきゃっぷ(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "ヘアアイロン",
@@ -5286,7 +5294,7 @@
     {
       "name": "ペットフードの缶・フタ",
       "nameKana": "ぺっとふーどのかん・ふた",
-      "categoryId": "recyclable.can",
+      "categoryId": "can",
       "note": "中をさっとゆすいで"
     },
     {
@@ -5298,13 +5306,13 @@
     {
       "name": "ペットボトル(飲料、酒、 みりん類、しょうゆ用・めんつゆ・ノンオイルドレッシング・酢などのペットボトル)",
       "nameKana": "ぺっとぼとる(いんりょう、さけ、 みりんるい、しょうゆよう・めんつゆ・のんおいるどれっしんぐ・すなどのぺっとぼとる)",
-      "categoryId": "recyclable.petbottle",
+      "categoryId": "petbottle",
       "note": "キャップを取り、中をさっとゆすぎ、なるべくつぶして出してください「プラスチック製容器包装マーク」がついた、ソース、食用油のペットボトルはプラ容器包装へ"
     },
     {
       "name": "ペットボトルのフタ(プラスチック製)",
       "nameKana": "ぺっとぼとるのふた(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "さっとゆすいで"
     },
     {
@@ -5391,13 +5399,13 @@
     {
       "name": "弁当容器(コンビニ等)",
       "nameKana": "べんとうようき(こんびになど)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "中をさっとゆすいで"
     },
     {
       "name": "弁当容器(コンビニ等)の外包装フィルム",
       "nameKana": "べんとうようき(こんびになど)のそとほうそうふぃるむ",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "望遠鏡",
@@ -5418,7 +5426,7 @@
     {
       "name": "芳香剤の容器",
       "nameKana": "ほうこうざいのようき",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "帽子",
@@ -5429,7 +5437,7 @@
     {
       "name": "包装紙",
       "nameKana": "ほうそうし",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "包帯",
@@ -5617,7 +5625,7 @@
     {
       "name": "ポリ袋(商品を入れたもの)",
       "nameKana": "ぽりふくろ(しょうひんをいれたもの)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "保冷庫",
@@ -5720,7 +5728,7 @@
     {
       "name": "マッチ箱",
       "nameKana": "まっちはこ",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "マットレス",
@@ -5740,13 +5748,13 @@
     {
       "name": "マニキュアのびん",
       "nameKana": "まにきゅあのびん",
-      "categoryId": "recyclable.grassbottole",
+      "categoryId": "grassbottle",
       "note": "中身を使い切って"
     },
     {
       "name": "マニキュアのびんのフタ",
       "nameKana": "まにきゅあのびんのふた",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "金属製は不燃ごみへ"
     },
     {
@@ -5769,12 +5777,12 @@
     {
       "name": "マヨネーズの外袋",
       "nameKana": "まよねーずのそとふくろ",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "マヨネーズの容器・フタ",
       "nameKana": "まよねーずのようき・ふた",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "使い切り、中をさっとゆすいで"
     },
     {
@@ -5908,7 +5916,7 @@
     {
       "name": "目薬の容器(ボトル)",
       "nameKana": "めぐすりのようき(ぼとる)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "中身を使い切って"
     },
     {
@@ -6026,12 +6034,12 @@
     {
       "name": "野菜の外袋(プラスチック製)",
       "nameKana": "やさいのそとふくろ(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "野菜を包んだネット",
       "nameKana": "やさいをつつんだねっと",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "やすり(金属製)",
@@ -6103,7 +6111,7 @@
     {
       "name": "ラップ(お店で包装されたもの)",
       "nameKana": "らっぷ(おみせでほうそうされたもの)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "ラップ(購入品・家庭で使用したもの)",
@@ -6124,7 +6132,7 @@
     {
       "name": "ラップの外箱(紙刃を含む)",
       "nameKana": "らっぷのそとばこ(かみはをふくむ)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "ランドセル",
@@ -6255,7 +6263,7 @@
     {
       "name": "レジ袋",
       "nameKana": "れじふくろ",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "なるべくマイバッグを持参しましょう"
     },
     {
@@ -6266,13 +6274,13 @@
     {
       "name": "レトルトパック(カレー等)",
       "nameKana": "れとるとぱっく(かれーなど)",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "使い切り、中をさっとゆすいで"
     },
     {
       "name": "レトルトパック(カレー等)の外箱",
       "nameKana": "れとるとぱっく(かれーなど)のそとばこ",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "れんが",
@@ -6346,13 +6354,13 @@
     {
       "name": "ワイシャツの外袋",
       "nameKana": "わいしゃつのそとふくろ",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "プラスチックのとめ具も含む"
     },
     {
       "name": "ワイシャツの中の台紙",
       "nameKana": "わいしゃつのなかのだいし",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "ワイヤー",
@@ -6373,12 +6381,12 @@
     {
       "name": "輪ゴムの外箱",
       "nameKana": "わごむのそとばこ",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "わさびのチューブ・ふた",
       "nameKana": "わさびのちゅーぶ・ふた",
-      "categoryId": "recyclable.plasticpackaging",
+      "categoryId": "plasticpackaging",
       "note": "箱は紙製容器包装へ"
     },
     {
@@ -6400,12 +6408,12 @@
     {
       "name": "割りばしの個袋(紙製)",
       "nameKana": "わりばしのこふくろ(かみせい)",
-      "categoryId": "recyclable.paperpackaging"
+      "categoryId": "paperpackaging"
     },
     {
       "name": "割りばしの個袋(プラスチック製)",
       "nameKana": "わりばしのこふくろ(ぷらすちっくせい)",
-      "categoryId": "recyclable.plasticpackaging"
+      "categoryId": "plasticpackaging"
     }
   ]
 }

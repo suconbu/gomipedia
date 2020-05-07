@@ -1,0 +1,3274 @@
+{
+  "municipalityId": "232033",
+  "municipalityName": "愛知県一宮市",
+  "datasourceUrl": "https://www.city.ichinomiya.aichi.jp/kurashi/gomi/1000388/1000167/index.html",
+  "categoryDefinitions": {
+    "burnable": {
+      "name": "可燃ごみ"
+    },
+    "unburnable": {
+      "name": "不燃ごみ"
+    },
+    "oversized": {
+      "name": "粗大ごみ"
+    },
+    "metal": {
+      "name": "金属ごみ"
+    },
+    "plasticpackaging": {
+      "name": "プラ容器包装"
+    },
+    "petbottle": {
+      "name": "ペットボトル"
+    },
+    "localcollection": {
+      "name": "町内回収資源"
+    },
+    "housecollection": {
+      "name": "戸別回収"
+    },
+    "legalrecycling": {
+      "name": "家電リサイクル法対象品"
+    },
+    "uncollectible": {
+      "name": "回収できません"
+    }
+  },
+  "articles": [
+    {
+      "name": "アイロン",
+      "nameKana": "あいろん",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "アイロン台",
+      "nameKana": "あいろんだい",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "アイロン転写紙",
+      "nameKana": "あいろんてんしゃかみ",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "アコーディオンカーテン",
+      "nameKana": "あこーでぃおんかーてん",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "圧着はがき",
+      "nameKana": "あっちゃくはがき",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "油(食用油)",
+      "nameKana": "あぶら(しょくようあぶら)",
+      "categoryId": "burnable",
+      "note": "布や紙に染み込ませるか固化剤で固めて、紙に包む。資源の拠点回収に持ち込むこともできます（植物性に限る）。"
+    },
+    {
+      "name": "油(その他)",
+      "nameKana": "あぶら(そのほか)",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください"
+    },
+    {
+      "name": "雨戸",
+      "nameKana": "あまど",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "網戸",
+      "nameKana": "あみど",
+      "categoryId": "oversized",
+      "note": "はずした網は不燃ごみへ。"
+    },
+    {
+      "name": "油紙",
+      "nameKana": "あぶらかみ",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "アルバム",
+      "nameKana": "あるばむ",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "アルミガード(ガスレンジ用)",
+      "nameKana": "あるみがーど(がすれんじよう)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "アルミ缶",
+      "nameKana": "あるみかん",
+      "categoryId": "metal",
+      "note": "中を軽く水洗いしてください。"
+    },
+    {
+      "name": "アルミホイル(ホイル)",
+      "nameKana": "あるみほいる(ほいる)",
+      "categoryId": "unburnable",
+      "note": "刃は取り除いて、金属性の刃は不燃ごみへ、紙製の刃は可燃ごみへ。"
+    },
+    {
+      "name": "アルミホイル(紙箱)",
+      "nameKana": "あるみほいる(かみばこ)",
+      "categoryId": "localcollection"
+    },
+    {
+      "name": "アルミホイル(芯)",
+      "nameKana": "あるみほいる(しん)",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "石",
+      "nameKana": "いし",
+      "categoryId": "uncollectible",
+      "note": "自然に戻すことを原則とします。ただし、少量の小石（45リットルの袋で5袋まで）や、石製品（石うす・とうろうなど）であれば、直接環境センターに持ち込んでください（有料：計量表示10キログラムごと200円）。"
+    },
+    {
+      "name": "衣装ケース(紙製)",
+      "nameKana": "いしょうけーす(かみせい)",
+      "categoryId": "localcollection",
+      "note": "取っ手や金具は取り外す。平らにのばしてひもで十文字にしばる。"
+    },
+    {
+      "name": "衣装ケース(金属製)",
+      "nameKana": "いしょうけーす(きんぞくせい)",
+      "categoryId": "metal",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "衣装ケース(プラ製)",
+      "nameKana": "いしょうけーす(ぷらせい)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "いす",
+      "nameKana": "いす",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "一輪車",
+      "nameKana": "いちりんくるま",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "一升瓶(ビン)",
+      "nameKana": "いっしょうびん(びん)",
+      "categoryId": "localcollection",
+      "note": "軽く水洗いしてください。できるだけ販売店に返却してください。"
+    },
+    {
+      "name": "一升瓶(ふた・中栓)",
+      "nameKana": "いっしょうびん(ふた・なかせん)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "一斗缶",
+      "nameKana": "いっとかん",
+      "categoryId": "metal",
+      "note": "中身を使い切り、軽く水洗いしてください。"
+    },
+    {
+      "name": "犬・猫等のトイレ用砂・シート",
+      "nameKana": "いぬ・ねこなどのといれようすな・しーと",
+      "categoryId": "burnable",
+      "note": "ふんは取り除いてください。"
+    },
+    {
+      "name": "犬・猫のふん",
+      "nameKana": "いぬ・ねこのふん",
+      "categoryId": "uncollectible",
+      "note": "庭に埋めるかトイレに流してください。"
+    },
+    {
+      "name": "イヤホン",
+      "nameKana": "いやほん",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "衣類",
+      "nameKana": "いるい",
+      "categoryId": "localcollection",
+      "note": "ひもでしばるか袋に入れる。汚れたり破れたものは可燃ごみへ。"
+    },
+    {
+      "name": "衣類乾燥機(乾燥機能のみのもの)",
+      "nameKana": "いるいかんそうき(かんそうきのうのみのもの)",
+      "categoryId": "legalrecycling",
+      "note": "家電リサイクル法対象品目"
+    },
+    {
+      "name": "インクカートリッジ",
+      "nameKana": "いんくかーとりっじ",
+      "categoryId": "unburnable",
+      "note": "できるだけ販売店に返却してください"
+    },
+    {
+      "name": "インスタントコーヒーの容器(ビン)",
+      "nameKana": "いんすたんとこーひーのようき(びん)",
+      "categoryId": "localcollection",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "インスタントコーヒーの容器(紙製容器)",
+      "nameKana": "いんすたんとこーひーのようき(かみせいようき)",
+      "categoryId": "burnable",
+      "note": "匂いがついているのでリサイクルできません。"
+    },
+    {
+      "name": "インスタントコーヒーの容器(プラ製ふた)",
+      "nameKana": "いんすたんとこーひーのようき(ぷらせいふた)",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "植木鉢",
+      "nameKana": "うえきばち",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "ウォーターサーバー",
+      "nameKana": "うぉーたーさーばー",
+      "categoryId": "uncollectible",
+      "note": "フロンを使用している場合は市では処理できません。販売店に相談してください。"
+    },
+    {
+      "name": "ウォーターベッド",
+      "nameKana": "うぉーたーべっど",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "裏カーボン紙",
+      "nameKana": "うらかーぼんかみ",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "エアコン(室外機含む)",
+      "nameKana": "えあこん(しつがいきふくむ)",
+      "categoryId": "legalrecycling",
+      "note": "家電リサイクル法対象品目"
+    },
+    {
+      "name": "ACアダプタ",
+      "nameKana": "えーしーあだぷた",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "枝木・剪定枝",
+      "nameKana": "えだき・せんていえだ",
+      "categoryId": "burnable",
+      "note": "長さ60センチメートル以内、太さ15センチメートル以内に切ってください。一度に多量（3袋を越える量）に出す場合や指定ごみ袋に入らない長さの場合は直接環境センターへ持ち込んでください（有料：計量表示10キログラムごと200円）。ただし、持ち込みの場合も長さ2メートル以内、太さ15センチメートル以内に切ってください。"
+    },
+    {
+      "name": "絵の具のチューブ(金属製)",
+      "nameKana": "えのぐのちゅーぶ(きんぞくせい)",
+      "categoryId": "unburnable",
+      "note": "中身を使い切ってください。"
+    },
+    {
+      "name": "絵の具のチューブ(プラ製)",
+      "nameKana": "えのぐのちゅーぶ(ぷらせい)",
+      "categoryId": "burnable",
+      "note": "中身を使い切ってください。"
+    },
+    {
+      "name": "エンジンオイル",
+      "nameKana": "えんじんおいる",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "延長コード",
+      "nameKana": "えんちょうこーど",
+      "categoryId": "unburnable",
+      "note": "2メートル以内に切ってください。"
+    },
+    {
+      "name": "オイルヒーター",
+      "nameKana": "おいるひーたー",
+      "categoryId": "oversized",
+      "note": "袋に入る大きさ・重さでも不燃ごみで出さないでください。"
+    },
+    {
+      "name": "応接セット",
+      "nameKana": "おうせつせっと",
+      "categoryId": "oversized",
+      "note": "テーブル・いす各1点扱い"
+    },
+    {
+      "name": "オートバイ",
+      "nameKana": "おーとばい",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "オーブンレンジ",
+      "nameKana": "おーぶんれんじ",
+      "categoryId": "oversized",
+      "note": "施工業者が取り外したものは収集・処理できません。"
+    },
+    {
+      "name": "落ち葉",
+      "nameKana": "おちば",
+      "categoryId": "burnable",
+      "note": "一度に多量（3袋を超える量）に出す場合は直接環境センターへ持ち込んでください（有料：計量表示10キログラムごと200円）。"
+    },
+    {
+      "name": "おもちゃ(金属製・プラスチック製)",
+      "nameKana": "おもちゃ(きんぞくせい・ぷらすちっくせい)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ。電池は外して下さい。"
+    },
+    {
+      "name": "おもちゃ(木製)",
+      "nameKana": "おもちゃ(もくせい)",
+      "categoryId": "burnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ。"
+    },
+    {
+      "name": "折込チラシ",
+      "nameKana": "おりこみちらし",
+      "categoryId": "localcollection",
+      "note": "ひもで十文字にしばってください。"
+    },
+    {
+      "name": "オルガン",
+      "nameKana": "おるがん",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "温水器(ガス・太陽熱・電気)",
+      "nameKana": "おんすいうつわ(がす・たいようねつ・でんき)",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "カーテン",
+      "nameKana": "かーてん",
+      "categoryId": "localcollection",
+      "note": "ひもで十文字にしばるか袋に入れる。汚れたり破れたものは可燃ごみへ。"
+    },
+    {
+      "name": "カーペット",
+      "nameKana": "かーぺっと",
+      "categoryId": "burnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "カーボン紙",
+      "nameKana": "かーぼんかみ",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "貝がら",
+      "nameKana": "かいがら",
+      "categoryId": "burnable",
+      "note": "衛生上の理由から焼却処理します。"
+    },
+    {
+      "name": "懐中電灯",
+      "nameKana": "かいちゅうでんとう",
+      "categoryId": "unburnable",
+      "note": "電池は外してください。"
+    },
+    {
+      "name": "カイロ(使い捨て)",
+      "nameKana": "かいろ(つかいすて)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "鏡",
+      "nameKana": "かがみ",
+      "categoryId": "localcollection",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ。割れたものは丈夫な紙などに包み、中身を表示して不燃ごみへ。"
+    },
+    {
+      "name": "家具",
+      "nameKana": "かぐ",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "傘",
+      "nameKana": "かさ",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "加湿器",
+      "nameKana": "かしつき",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "菓子の容器(紙箱)",
+      "nameKana": "かしのようき(かみばこ)",
+      "categoryId": "localcollection",
+      "note": "紙袋に入れる。もしくは、紙で包んだ後、ひもで十文字にしばる。"
+    },
+    {
+      "name": "菓子の容器(缶)",
+      "nameKana": "かしのようき(かん)",
+      "categoryId": "metal"
+    },
+    {
+      "name": "菓子の容器(プラ製)",
+      "nameKana": "かしのようき(ぷらせい)",
+      "categoryId": "plasticpackaging",
+      "note": "汚れは取り除いてください。"
+    },
+    {
+      "name": "ガスコンロ・レンジ(家庭用)",
+      "nameKana": "がすこんろ・れんじ(かていよう)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ。施工業者が取り外したものは収集・処理できません。"
+    },
+    {
+      "name": "ガステーブル",
+      "nameKana": "がすてーぶる",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ。施工業者が取り外したものは収集・処理できません。"
+    },
+    {
+      "name": "カセット式ガスボンベ(本体)",
+      "nameKana": "かせっとしきがすぼんべ(ほんたい)",
+      "categoryId": "metal",
+      "note": "中身を使い切り、必ず穴をあけてください。穴をあける際は風通しの良い屋外で専用の穴あけ機を用いて行ってください。どうしても使い切れない場合や穴があけられない場合は市ウェブサイト内検索で1001769と入力。"
+    },
+    {
+      "name": "カセット式ガスボンベ(キャップ)",
+      "nameKana": "かせっとしきがすぼんべ(きゃっぷ)",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "カセットテープ",
+      "nameKana": "かせっとてーぷ",
+      "categoryId": "burnable",
+      "note": "ケースは不燃ごみへ。"
+    },
+    {
+      "name": "カタログ",
+      "nameKana": "かたろぐ",
+      "categoryId": "localcollection",
+      "note": "ひもで十文字にしばってください。"
+    },
+    {
+      "name": "カッターナイフ(刃)",
+      "nameKana": "かったーないふ(は)",
+      "categoryId": "unburnable",
+      "note": "丈夫な紙などに包み、中身を表示してください。"
+    },
+    {
+      "name": "カッターナイフ(本体)",
+      "nameKana": "かったーないふ(ほんたい)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "合羽",
+      "nameKana": "かっぱ",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "カップめん(外装フィルム)",
+      "nameKana": "かっぷめん(がいそうふぃるむ)",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "カップめん(ふた・紙製)",
+      "nameKana": "かっぷめん(ふた・かみせい)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "カップめん(ふた・プラ製)",
+      "nameKana": "かっぷめん(ふた・ぷらせい)",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "カップめん(容器・紙製)",
+      "nameKana": "かっぷめん(ようき・かみせい)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "カップめん(容器・プラ製)",
+      "nameKana": "かっぷめん(ようき・ぷらせい)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "カップめん(かやく・スープの袋)",
+      "nameKana": "かっぷめん(かやく・すーぷのふくろ)",
+      "categoryId": "burnable",
+      "note": "汚れを取ればプラスチック製容器包装へ。"
+    },
+    {
+      "name": "かばん(皮革製・布製)",
+      "nameKana": "かばん(ひかくせい・ぬのせい)",
+      "categoryId": "burnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "かばん(皮革製・布製以外)",
+      "nameKana": "かばん(ひかくせい・ぬのせいいがい)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "画びょう",
+      "nameKana": "がびょう",
+      "categoryId": "unburnable",
+      "note": "丈夫な紙などに包み、中身を表示してください。"
+    },
+    {
+      "name": "紙おむつ",
+      "nameKana": "かみおむつ",
+      "categoryId": "burnable",
+      "note": "汚物はトイレに流してください。"
+    },
+    {
+      "name": "紙コップ・紙皿",
+      "nameKana": "かみこっぷ・かみさら",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "カミソリ",
+      "nameKana": "かみそり",
+      "categoryId": "unburnable",
+      "note": "丈夫な紙などに包み、中身を表示してください。"
+    },
+    {
+      "name": "紙パック(内側が銀色)",
+      "nameKana": "かみぱっく(うちがわがぎんいろ)",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "紙パック(内側が白色)",
+      "nameKana": "かみぱっく(うちがわがはくしょく)",
+      "categoryId": "localcollection",
+      "note": "水洗いし、乾かしてから切り開き十文字にしばる。プラスチック部分（キャップなど）がある場合は切り取ってください。"
+    },
+    {
+      "name": "紙袋",
+      "nameKana": "かみぶくろ",
+      "categoryId": "localcollection",
+      "note": "雑がみと合わせてひもで十文字にしばってください。"
+    },
+    {
+      "name": "カメラ(デジタルカメラ)",
+      "nameKana": "かめら(でじたるかめら)",
+      "categoryId": "unburnable",
+      "note": "電池は外してください。"
+    },
+    {
+      "name": "カメラ(フィルムカメラ)",
+      "nameKana": "かめら(ふぃるむかめら)",
+      "categoryId": "unburnable",
+      "note": "電池は外してください。"
+    },
+    {
+      "name": "ガラス製品",
+      "nameKana": "がらすせいひん",
+      "categoryId": "unburnable",
+      "note": "割れたものは丈夫な紙などに包み、中身を表示してください。"
+    },
+    {
+      "name": "ガレキ",
+      "nameKana": "がれき",
+      "categoryId": "housecollection",
+      "note": "50キログラムにつき800円で、100キログラムまで戸別収集します。（申し込み先：一宮市環境センター0586-45-7004）施工業者が取り外したものは収集・処理できません。"
+    },
+    {
+      "name": "革製品",
+      "nameKana": "かわせいひん",
+      "categoryId": "burnable",
+      "note": "容易に外せる金具は不燃ごみへ。"
+    },
+    {
+      "name": "瓦",
+      "nameKana": "かわら",
+      "categoryId": "housecollection",
+      "note": "50キログラムにつき800円で、100キログラムまで戸別収集します。（申し込み先：一宮市環境センター0586-45-7004）施工業者が取り外したものは収集・処理できません。"
+    },
+    {
+      "name": "緩衝材(紙製)",
+      "nameKana": "かんしょうざい(かみせい)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "緩衝材(発泡スチロール製)",
+      "nameKana": "かんしょうざい(はっぽうすちろーるせい)",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "乾燥剤(シリカゲル)",
+      "nameKana": "かんそうざい(しりかげる)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "乾電池・ボタン電池",
+      "nameKana": "かんでんち・ぼたんでんち",
+      "categoryId": "localcollection",
+      "note": "充電式電池は販売店へ返却してください。"
+    },
+    {
+      "name": "感熱紙",
+      "nameKana": "かんねつし",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "感熱性発泡紙(立体コピー紙)",
+      "nameKana": "かんねつせいはっぽうかみ(りったいこぴーかみ)",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "缶類(アルミ缶・スチール缶)",
+      "nameKana": "かんるい(あるみかん・すちーるかん)",
+      "categoryId": "metal",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "缶類(缶詰)",
+      "nameKana": "かんるい(かんづめ)",
+      "categoryId": "metal",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "缶類(食用油)",
+      "nameKana": "かんるい(しょくようあぶら)",
+      "categoryId": "metal",
+      "note": "中身を使い切り、軽く水洗いしてください。"
+    },
+    {
+      "name": "缶類(スプレー缶)",
+      "nameKana": "かんるい(すぷれーかん)",
+      "categoryId": "metal",
+      "note": "中身を使い切り、必ず穴をあけてください。"
+    },
+    {
+      "name": "缶類(ペンキ缶)",
+      "nameKana": "かんるい(ぺんきかん)",
+      "categoryId": "metal",
+      "note": "中身は使い切ってください。"
+    },
+    {
+      "name": "キーボード(楽器用)",
+      "nameKana": "きーぼーど(がっきよう)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "キーボード(パソコン用)",
+      "nameKana": "きーぼーど(ぱそこんよう)",
+      "categoryId": "unburnable",
+      "note": "購入時に添付されていたものは、パソコン本体と一緒にメーカーが回収します。"
+    },
+    {
+      "name": "ギター",
+      "nameKana": "ぎたー",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "キッチンマット",
+      "nameKana": "きっちんまっと",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "着物",
+      "nameKana": "きもの",
+      "categoryId": "localcollection",
+      "note": "ひもで十文字にしばるか袋に入れる。汚れたり破れたものは可燃ごみへ。"
+    },
+    {
+      "name": "着物の帯",
+      "nameKana": "きもののおび",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。2メートル以内に切ってください。"
+    },
+    {
+      "name": "脚立(金属製)",
+      "nameKana": "きゃたつ(きんぞくせい)",
+      "categoryId": "metal",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "キャリア(自家用車用)",
+      "nameKana": "きゃりあ(じかようしゃよう)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "キャリーバック・スーツケース",
+      "nameKana": "きゃりーばっく・すーつけーす",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "牛乳パック",
+      "nameKana": "ぎゅうにゅうぱっく",
+      "categoryId": "localcollection",
+      "note": "水洗いし、乾かしてから切り開き十文字にしばる。"
+    },
+    {
+      "name": "牛乳ビン",
+      "nameKana": "ぎゅうにゅうびん",
+      "categoryId": "localcollection",
+      "note": "出来るだけ販売店に返却してください。"
+    },
+    {
+      "name": "金庫(耐火)",
+      "nameKana": "きんこ(たいか)",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "金庫(手提げ)",
+      "nameKana": "きんこ(てていげ)",
+      "categoryId": "metal",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "空気入れ",
+      "nameKana": "くうきいれ",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "空気清浄機",
+      "nameKana": "くうきせいじょうき",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "クーラー(エアコン)",
+      "nameKana": "くーらー(えあこん)",
+      "categoryId": "legalrecycling",
+      "note": "家電リサイクル法対象品目"
+    },
+    {
+      "name": "クーラーボックス",
+      "nameKana": "くーらーぼっくす",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "くぎ",
+      "nameKana": "くぎ",
+      "categoryId": "unburnable",
+      "note": "丈夫な紙などに包み、中身を表示してください。"
+    },
+    {
+      "name": "草",
+      "nameKana": "くさ",
+      "categoryId": "burnable",
+      "note": "土をよく落とす。一度に多量（3袋を超える量）に出す場合は直接環境センターへ持ち込んでください（有料：計量表示10キログラムごと200円）。"
+    },
+    {
+      "name": "薬の容器(紙製外箱)",
+      "nameKana": "くすりのようき(かみせいそとばこ)",
+      "categoryId": "localcollection"
+    },
+    {
+      "name": "薬の容器(紙製個別包装)",
+      "nameKana": "くすりのようき(かみせいこべつほうそう)",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "薬の容器(プラ製個別包装)",
+      "nameKana": "くすりのようき(ぷらせいこべつほうそう)",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "薬の容器(錠剤・カプセル等の包装シート)",
+      "nameKana": "くすりのようき(じょうざい・かぷせるなどのほうそうしーと)",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "薬の容器(ビン)",
+      "nameKana": "くすりのようき(びん)",
+      "categoryId": "localcollection",
+      "note": "軽く水洗いする。消毒薬の容器は不燃ごみへ。"
+    },
+    {
+      "name": "薬の容器(プラ製容器)",
+      "nameKana": "くすりのようき(ぷらせいようき)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いする。消毒薬の容器は不燃ごみへ。"
+    },
+    {
+      "name": "果物などの保護用ネット",
+      "nameKana": "くだものなどのほごようねっと",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "果物や野菜のパック・ラップフィルム",
+      "nameKana": "くだものややさいのぱっく・らっぷふぃるむ",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "口紅(ケース)",
+      "nameKana": "くちべに(けーす)",
+      "categoryId": "unburnable",
+      "note": "中身を使い切ってください。"
+    },
+    {
+      "name": "靴(皮革製・布製・ゴム製・木製)",
+      "nameKana": "くつ(ひかくせい・ぬのせい・ごむせい・もくせい)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "靴(ビニール製)",
+      "nameKana": "くつ(びにーるせい)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "クッション(中身がスポンジ)",
+      "nameKana": "くっしょん(なかみがすぽんじ)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "クッション(中身が綿)",
+      "nameKana": "くっしょん(なかみがめん)",
+      "categoryId": "burnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "クッション(中身がビーズ)",
+      "nameKana": "くっしょん(なかみがびーず)",
+      "categoryId": "unburnable",
+      "note": "ビーズ飛散防止のため、軽く水で湿らせてください。"
+    },
+    {
+      "name": "クリーニングの袋",
+      "nameKana": "くりーにんぐのふくろ",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "車の部品(自家用車用シート)",
+      "nameKana": "くるまのぶひん(じかようしゃようしーと)",
+      "categoryId": "oversized",
+      "note": "エアバック内臓のシートは収集・処理しません。"
+    },
+    {
+      "name": "車の部品(自家用車用ステアリング)",
+      "nameKana": "くるまのぶひん(じかようしゃようすてありんぐ)",
+      "categoryId": "unburnable",
+      "note": "エアバック内臓のステアリングは収集・処理しません。"
+    },
+    {
+      "name": "車の部品(自家用車用ホイール)",
+      "nameKana": "くるまのぶひん(じかようしゃようほいーる)",
+      "categoryId": "metal",
+      "note": "タイヤは収集・処理できません。販売店に相談してください。指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "車の部品(自家用車用マフラー)",
+      "nameKana": "くるまのぶひん(じかようしゃようまふらー)",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "車の部品(自家用車用その他外装品)",
+      "nameKana": "くるまのぶひん(じかようしゃようそのほかがいそうひん)",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "車椅子・電動車椅子",
+      "nameKana": "くるまいす・でんどうしゃいす",
+      "categoryId": "oversized",
+      "note": "電動車椅子のバッテリーは外してください。"
+    },
+    {
+      "name": "クレヨン",
+      "nameKana": "くれよん",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "グローブ",
+      "nameKana": "ぐろーぶ",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "蛍光管",
+      "nameKana": "けいこうかん",
+      "categoryId": "localcollection",
+      "note": "割れたものは丈夫な紙などに包み、中身を表示して不燃ごみへ。"
+    },
+    {
+      "name": "携帯音楽プレーヤー",
+      "nameKana": "けいたいおんがくぷれーやー",
+      "categoryId": "unburnable",
+      "note": "電池は外してください。"
+    },
+    {
+      "name": "携帯電話",
+      "nameKana": "けいたいでんわ",
+      "categoryId": "unburnable",
+      "note": "電池は外してください。"
+    },
+    {
+      "name": "ケーブル(電気機器用)",
+      "nameKana": "けーぶる(でんきききよう)",
+      "categoryId": "unburnable",
+      "note": "2メートル以内に切ってください。"
+    },
+    {
+      "name": "ゲーム機本体・電子ゲーム機器",
+      "nameKana": "げーむきほんたい・でんしげーむきき",
+      "categoryId": "unburnable",
+      "note": "電池は外してください。"
+    },
+    {
+      "name": "ゲームソフト",
+      "nameKana": "げーむそふと",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "化粧品の容器(チューブ)",
+      "nameKana": "けしょうひんのようき(ちゅーぶ)",
+      "categoryId": "burnable",
+      "note": "中身を使い切ってください。汚れを取ればプラスチック製容器包装へ。"
+    },
+    {
+      "name": "化粧品の容器(ビン)",
+      "nameKana": "けしょうひんのようき(びん)",
+      "categoryId": "localcollection",
+      "note": "中身を使い切り、軽く水洗いしてください。乳白色のビンは不燃ごみへ。"
+    },
+    {
+      "name": "化粧品の容器(プラ製容器)",
+      "nameKana": "けしょうひんのようき(ぷらせいようき)",
+      "categoryId": "plasticpackaging",
+      "note": "中身を使い切り、軽く水洗いしてください。"
+    },
+    {
+      "name": "化粧品の容器(コンパクトケース)",
+      "nameKana": "けしょうひんのようき(こんぱくとけーす)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "化粧品の容器(プラ製キャップ)",
+      "nameKana": "けしょうひんのようき(ぷらせいきゃっぷ)",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "結束バンド",
+      "nameKana": "けっそくばんど",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "血圧計(水銀式)",
+      "nameKana": "けつあつけい(すいぎんしき)",
+      "categoryId": "localcollection",
+      "note": "割れたものは丈夫な紙などに包み、中身を表示して不燃ごみへ。"
+    },
+    {
+      "name": "血圧計(電子式)",
+      "nameKana": "けつあつけい(でんししき)",
+      "categoryId": "unburnable",
+      "note": "電池は外してください。"
+    },
+    {
+      "name": "ケチャップのチューブ",
+      "nameKana": "けちゃっぷのちゅーぶ",
+      "categoryId": "burnable",
+      "note": "汚れを取ればプラスチック製容器包装へ。"
+    },
+    {
+      "name": "玄関マット",
+      "nameKana": "げんかんまっと",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "建築廃材",
+      "nameKana": "けんちくはいざい",
+      "categoryId": "uncollectible",
+      "note": "施工業者に相談してください。"
+    },
+    {
+      "name": "原動機付自転車(スクーター)",
+      "nameKana": "げんどうきつきじてんしゃ(すくーたー)",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "工業用ミシン",
+      "nameKana": "こうぎょうようみしん",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "コードリール(本体)",
+      "nameKana": "こーどりーる(ほんたい)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "コードリール(ケーブル)",
+      "nameKana": "こーどりーる(けーぶる)",
+      "categoryId": "unburnable",
+      "note": "2メートル以内に切ってください。"
+    },
+    {
+      "name": "ござ(い草製)",
+      "nameKana": "ござ(いくさせい)",
+      "categoryId": "burnable",
+      "note": "切って指定ごみ袋に入れてください。"
+    },
+    {
+      "name": "ござ(ビニール製)",
+      "nameKana": "ござ(びにーるせい)",
+      "categoryId": "unburnable",
+      "note": "切って指定ごみ袋に入れてください。"
+    },
+    {
+      "name": "こたつ",
+      "nameKana": "こたつ",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "コップ・グラス",
+      "nameKana": "こっぷ・ぐらす",
+      "categoryId": "unburnable",
+      "note": "割れたものは丈夫な紙などに包み、中身を表示してください。"
+    },
+    {
+      "name": "粉ミルクの容器(缶)",
+      "nameKana": "こなみるくのようき(かん)",
+      "categoryId": "metal",
+      "note": "中身を使い切り、軽く水洗いしてください。"
+    },
+    {
+      "name": "粉ミルクの容器(プラ製ふた)",
+      "nameKana": "こなみるくのようき(ぷらせいふた)",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "粉ミルクの容器(計量スプーン)",
+      "nameKana": "こなみるくのようき(けいりょうすぷーん)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "ゴム手袋",
+      "nameKana": "ごむてぶくろ",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "コルク栓",
+      "nameKana": "こるくせん",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "ゴルフ用品(クラブ)",
+      "nameKana": "ごるふようひん(くらぶ)",
+      "categoryId": "oversized",
+      "note": "ゴルフクラブとゴルフバッグで1点扱い。"
+    },
+    {
+      "name": "ゴルフ用品(バッグ)",
+      "nameKana": "ごるふようひん(ばっぐ)",
+      "categoryId": "oversized",
+      "note": "ゴルフクラブとゴルフバッグで1点扱い。"
+    },
+    {
+      "name": "ゴルフ用品(ボール)",
+      "nameKana": "ごるふようひん(ぼーる)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "コンクリート製品",
+      "nameKana": "こんくりーとせいひん",
+      "categoryId": "housecollection",
+      "note": "50キログラムにつき800円で、100キログラムまで戸別収集します。（申し込み先：一宮市環境センター0586-45-7004）施工業者が取り外したものは収集・処理できません。"
+    },
+    {
+      "name": "コンビニ弁当の容器(外装フィルム)",
+      "nameKana": "こんびにべんとうのようき(がいそうふぃるむ)",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "コンビニ弁当の容器(プラ製容器)",
+      "nameKana": "こんびにべんとうのようき(ぷらせいようき)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "コンビニ弁当の容器(スプーン・フォーク)",
+      "nameKana": "こんびにべんとうのようき(すぷーん・ふぉーく)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "コンビニ弁当の容器(はし)",
+      "nameKana": "こんびにべんとうのようき(はし)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "サーフボード",
+      "nameKana": "さーふぼーど",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "座椅子(木製)",
+      "nameKana": "ざいす(もくせい)",
+      "categoryId": "burnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "座椅子(木製以外)",
+      "nameKana": "ざいす(もくせいいがい)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "サインペン",
+      "nameKana": "さいんぺん",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "酒の容器(ビン・ガラスカップ)",
+      "nameKana": "さけのようき(びん・がらすかっぷ)",
+      "categoryId": "localcollection",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "酒の容器(紙パック)",
+      "nameKana": "さけのようき(かみぱっく)",
+      "categoryId": "burnable",
+      "note": "内側が銀色のものはリサイクルできないので可燃ごみへ。"
+    },
+    {
+      "name": "酒の容器(プラ製容器)",
+      "nameKana": "さけのようき(ぷらせいようき)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "酒の容器(ペットボトル)",
+      "nameKana": "さけのようき(ぺっとぼとる)",
+      "categoryId": "petbottle",
+      "note": "キャップは外してください。"
+    },
+    {
+      "name": "酒の容器(金属製キャップ)",
+      "nameKana": "さけのようき(きんぞくせいきゃっぷ)",
+      "categoryId": "metal",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "酒の容器(プラ製キャップ)",
+      "nameKana": "さけのようき(ぷらせいきゃっぷ)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "雑がみ",
+      "nameKana": "ざつがみ",
+      "categoryId": "localcollection",
+      "note": "紙袋に入れる。もしくは、紙で包んだ後、ひもで十文字にしばる。"
+    },
+    {
+      "name": "雑誌",
+      "nameKana": "ざっし",
+      "categoryId": "localcollection",
+      "note": "ひもで十文字にしばってください。"
+    },
+    {
+      "name": "座布団(中身がスポンジ)",
+      "nameKana": "ざぶとん(なかみがすぽんじ)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "座布団(中身がわた)",
+      "nameKana": "ざぶとん(なかみがわた)",
+      "categoryId": "burnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "サンダル(皮革製・ゴム製)",
+      "nameKana": "さんだる(ひかくせい・ごむせい)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "サンダル(ビニール製)",
+      "nameKana": "さんだる(びにーるせい)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "三輪車",
+      "nameKana": "さんりんしゃ",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "シーツ",
+      "nameKana": "しーつ",
+      "categoryId": "localcollection",
+      "note": "ひもで十文字にしばるか袋に入れる。汚れたり破れたものは可燃ごみへ。"
+    },
+    {
+      "name": "CD",
+      "nameKana": "しーでぃー",
+      "categoryId": "unburnable",
+      "note": "ケース含む。レーベルなどの紙類は町内回収資源へ。"
+    },
+    {
+      "name": "CDプレーヤー",
+      "nameKana": "しーでぃーぷれーやー",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "磁気カード",
+      "nameKana": "じきかーど",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "磁石",
+      "nameKana": "じしゃく",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "システムキッチン",
+      "nameKana": "しすてむきっちん",
+      "categoryId": "uncollectible",
+      "note": "施工業者に相談してください。"
+    },
+    {
+      "name": "下着",
+      "nameKana": "したぎ",
+      "categoryId": "localcollection",
+      "note": "他の衣類と一緒にひもで十文字にしばるか袋に入れる。汚れたり破れたものは可燃ごみへ。"
+    },
+    {
+      "name": "湿布薬(本体)",
+      "nameKana": "しっぷくすり(ほんたい)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "湿布薬(フィルム)",
+      "nameKana": "しっぷくすり(ふぃるむ)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "自転車",
+      "nameKana": "じてんしゃ",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "自転車の部品(タイヤ・チューブ)",
+      "nameKana": "じてんしゃのぶひん(たいや・ちゅーぶ)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "自転車の部品(金属製のホイール)",
+      "nameKana": "じてんしゃのぶひん(きんぞくせいのほいーる)",
+      "categoryId": "metal",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ。"
+    },
+    {
+      "name": "自転車の部品(金属製以外のホイール)",
+      "nameKana": "じてんしゃのぶひん(きんぞくせいいがいのほいーる)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ。"
+    },
+    {
+      "name": "シニアカー(電動車椅子)",
+      "nameKana": "しにあかー(でんどうしゃいす)",
+      "categoryId": "oversized",
+      "note": "バッテリーは外してください。"
+    },
+    {
+      "name": "写真",
+      "nameKana": "しゃしん",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "ジャムの容器(ビン)",
+      "nameKana": "じゃむのようき(びん)",
+      "categoryId": "localcollection",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "ジャムの容器(紙製)",
+      "nameKana": "じゃむのようき(かみせい)",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "ジャムの容器(金属製ふた)",
+      "nameKana": "じゃむのようき(きんぞくせいふた)",
+      "categoryId": "metal",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "ジャムの容器(紙製ふた)",
+      "nameKana": "じゃむのようき(かみせいふた)",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "シャンプー・リンスの容器(ボトル)",
+      "nameKana": "しゃんぷー・りんすのようき(ぼとる)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "シャンプー・リンスの容器(詰め替え用パック)",
+      "nameKana": "しゃんぷー・りんすのようき(つめかえようぱっく)",
+      "categoryId": "burnable",
+      "note": "汚れを取ればプラスチック製容器包装へ。"
+    },
+    {
+      "name": "じゅうたん",
+      "nameKana": "じゅうたん",
+      "categoryId": "burnable",
+      "note": "切って指定ごみ袋に入れてください。入らないものは粗大ごみへ。"
+    },
+    {
+      "name": "充電式電池",
+      "nameKana": "じゅうでんしきでんち",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "シュレッダー紙ごみ",
+      "nameKana": "しゅれっだーかみごみ",
+      "categoryId": "burnable",
+      "note": "軽く水で湿らせてください。"
+    },
+    {
+      "name": "消火器",
+      "nameKana": "しょうかき",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "照明器具",
+      "nameKana": "しょうめいきぐ",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ。蛍光管は外してください。"
+    },
+    {
+      "name": "しょうゆの容器(ペットボトル)",
+      "nameKana": "しょうゆのようき(ぺっとぼとる)",
+      "categoryId": "petbottle",
+      "note": "軽く水洗いし、つぶしてください。"
+    },
+    {
+      "name": "しょうゆの容器(ビン)",
+      "nameKana": "しょうゆのようき(びん)",
+      "categoryId": "localcollection",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "しょうゆの容器(プラ製容器)",
+      "nameKana": "しょうゆのようき(ぷらせいようき)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "しょうゆの容器(プラ製キャップ)",
+      "nameKana": "しょうゆのようき(ぷらせいきゃっぷ)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "食品トレイ",
+      "nameKana": "しょくひんとれい",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。回収している店舗もあります。"
+    },
+    {
+      "name": "食品の袋(プラ製)",
+      "nameKana": "しょくひんのふくろ(ぷらせい)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "食用油",
+      "nameKana": "しょくようあぶら",
+      "categoryId": "burnable",
+      "note": "布や紙に染み込ませるか固化剤で固めて、紙に包んでください。資源の拠点回収に持ち込むこともできます（植物性に限る）。"
+    },
+    {
+      "name": "食用油の容器(缶)",
+      "nameKana": "しょくようあぶらのようき(かん)",
+      "categoryId": "metal",
+      "note": "中身を使い切り、軽く水洗いしてください。"
+    },
+    {
+      "name": "食用油の容器(ビン)",
+      "nameKana": "しょくようあぶらのようき(びん)",
+      "categoryId": "localcollection",
+      "note": "中身を使い切り、軽く水洗いしてください。"
+    },
+    {
+      "name": "食用油の容器(プラ製容器)",
+      "nameKana": "しょくようあぶらのようき(ぷらせいようき)",
+      "categoryId": "plasticpackaging",
+      "note": "中身を使い切り、軽く水洗いしてください。"
+    },
+    {
+      "name": "食用油の容器(プラ製キャップ)",
+      "nameKana": "しょくようあぶらのようき(ぷらせいきゃっぷ)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "食器(紙・木製)",
+      "nameKana": "しょっき(かみ・もくせい)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "食器(陶器・ガラス・プラ製)",
+      "nameKana": "しょっき(とうき・がらす・ぷらせい)",
+      "categoryId": "unburnable",
+      "note": "割れたものは丈夫な紙などに包み、中身を表示してください。"
+    },
+    {
+      "name": "食器(金属製)",
+      "nameKana": "しょっき(きんぞくせい)",
+      "categoryId": "metal"
+    },
+    {
+      "name": "食器洗い乾燥機",
+      "nameKana": "しょっきあらいかんそうき",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "食器乾燥機",
+      "nameKana": "しょっきかんそうき",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ。"
+    },
+    {
+      "name": "食器棚・書棚",
+      "nameKana": "しょっきだな・しょだな",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "除湿機",
+      "nameKana": "じょしつき",
+      "categoryId": "uncollectible",
+      "note": "フロンを使用している場合は市では処理できません。販売店に相談してください。"
+    },
+    {
+      "name": "除湿剤",
+      "nameKana": "じょしつざい",
+      "categoryId": "unburnable",
+      "note": "水は抜いてください。プラマークがあればプラスチック製容器包装へ。"
+    },
+    {
+      "name": "新聞紙",
+      "nameKana": "しんぶんし",
+      "categoryId": "localcollection",
+      "note": "折込チラシとあわせてひもで十文字にしばる。"
+    },
+    {
+      "name": "水槽",
+      "nameKana": "すいそう",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "水筒(プラ製)",
+      "nameKana": "すいとう(ぷらせい)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "水筒(金属製)",
+      "nameKana": "すいとう(きんぞくせい)",
+      "categoryId": "metal",
+      "note": "プラスチック製のキャップは不燃ごみへ。"
+    },
+    {
+      "name": "炊飯器(金属製釜)",
+      "nameKana": "すいはんき(きんぞくせいかま)",
+      "categoryId": "metal"
+    },
+    {
+      "name": "炊飯器(金属製以外の釜)",
+      "nameKana": "すいはんき(きんぞくせいいがいのかま)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "炊飯器(本体)",
+      "nameKana": "すいはんき(ほんたい)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "スーツケース",
+      "nameKana": "すーつけーす",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "スキャナー",
+      "nameKana": "すきゃなー",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "スキー・スノーボード用品(板・ストック)",
+      "nameKana": "すきー・すのーぼーどようひん(いた・すとっく)",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "スキー・スノーボード用品(靴)",
+      "nameKana": "すきー・すのーぼーどようひん(くつ)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "スキー・スノーボード用品(ウエア)",
+      "nameKana": "すきー・すのーぼーどようひん(うえあ)",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "スキー・スノーボード用品(ゴーグル)",
+      "nameKana": "すきー・すのーぼーどようひん(ごーぐる)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "スチール缶(飲料用)",
+      "nameKana": "すちーるかん(いんりょうよう)",
+      "categoryId": "metal",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "ステレオセット",
+      "nameKana": "すてれおせっと",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "ストーブ(電気・ガス・石油)",
+      "nameKana": "すとーぶ(でんき・がす・せきゆ)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ。燃料は使い切り、電池は外してください。"
+    },
+    {
+      "name": "ストロー",
+      "nameKana": "すとろー",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "すのこ(木製)",
+      "nameKana": "すのこ(もくせい)",
+      "categoryId": "burnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "すのこ(プラ製)",
+      "nameKana": "すのこ(ぷらせい)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "スプーン・フォーク(金属製)",
+      "nameKana": "すぷーん・ふぉーく(きんぞくせい)",
+      "categoryId": "metal",
+      "note": "取っ手は取り外さなくて可。"
+    },
+    {
+      "name": "スプーン・フォーク(プラ製)",
+      "nameKana": "すぷーん・ふぉーく(ぷらせい)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "スプレー缶",
+      "nameKana": "すぷれーかん",
+      "categoryId": "metal",
+      "note": "中身を使い切り、穴をあけずにお出しください。どうしても使い切れない場合は、ページ内検索で「1001769」と入力。"
+    },
+    {
+      "name": "滑り台(家庭用玩具)",
+      "nameKana": "すべりだい(かていようがんぐ)",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "スポンジ",
+      "nameKana": "すぽんじ",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "ズボンプレッサー",
+      "nameKana": "ずぼんぷれっさー",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "スリッパ",
+      "nameKana": "すりっぱ",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "生理用品",
+      "nameKana": "せいりようひん",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "セーター",
+      "nameKana": "せーたー",
+      "categoryId": "localcollection",
+      "note": "ひもで十文字にしばるか袋に入れる。汚れたり破れたものは可燃ごみへ。"
+    },
+    {
+      "name": "石けんの紙箱",
+      "nameKana": "いしけんのかみばこ",
+      "categoryId": "burnable",
+      "note": "匂いがついているのでリサイクルできません。"
+    },
+    {
+      "name": "接着剤のチューブ(金属製)",
+      "nameKana": "せっちゃくざいのちゅーぶ(きんぞくせい)",
+      "categoryId": "unburnable",
+      "note": "中身を使い切ってください。"
+    },
+    {
+      "name": "接着剤のチューブ(プラ製)",
+      "nameKana": "せっちゃくざいのちゅーぶ(ぷらせい)",
+      "categoryId": "burnable",
+      "note": "中身を使い切ってください。"
+    },
+    {
+      "name": "せともの・焼き物",
+      "nameKana": "せともの・やきもの",
+      "categoryId": "unburnable",
+      "note": "割れたものは丈夫な紙などに包み、中身を表示してください。"
+    },
+    {
+      "name": "背広",
+      "nameKana": "せびろ",
+      "categoryId": "localcollection",
+      "note": "ひもで十文字にしばるか袋に入れる。汚れたり破れたものは可燃ごみへ。"
+    },
+    {
+      "name": "セロハン紙",
+      "nameKana": "せろはんかみ",
+      "categoryId": "unburnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "線香の紙箱",
+      "nameKana": "せんこうのかみばこ",
+      "categoryId": "burnable",
+      "note": "匂いがついているのでリサイクルできません。"
+    },
+    {
+      "name": "洗剤の容器(紙製)",
+      "nameKana": "せんざいのようき(かみせい)",
+      "categoryId": "burnable",
+      "note": "匂いがついているのでリサイクルできません。"
+    },
+    {
+      "name": "洗剤の容器(プラ製)",
+      "nameKana": "せんざいのようき(ぷらせい)",
+      "categoryId": "plasticpackaging",
+      "note": "中身を使い切り、軽く水洗いしてください。"
+    },
+    {
+      "name": "洗剤の容器(プラ製キャップ)",
+      "nameKana": "せんざいのようき(ぷらせいきゃっぷ)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "洗剤の容器(計量スプーン)",
+      "nameKana": "せんざいのようき(けいりょうすぷーん)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "洗濯機",
+      "nameKana": "せんたくき",
+      "categoryId": "legalrecycling",
+      "note": "家電リサイクル法対象品目"
+    },
+    {
+      "name": "扇風機",
+      "nameKana": "せんぷうき",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "洗面台",
+      "nameKana": "せんめんだい",
+      "categoryId": "oversized",
+      "note": "施工業者が取り外したものは収集・処理できません。"
+    },
+    {
+      "name": "造花",
+      "nameKana": "ぞうか",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "掃除機",
+      "nameKana": "そうじき",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ。電池は外してください。"
+    },
+    {
+      "name": "ソースの容器(ビン)",
+      "nameKana": "そーすのようき(びん)",
+      "categoryId": "localcollection",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "ソースの容器(プラ製容器)",
+      "nameKana": "そーすのようき(ぷらせいようき)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "ソースの容器(プラ製キャップ)",
+      "nameKana": "そーすのようき(ぷらせいきゃっぷ)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "ソファー",
+      "nameKana": "そふぁー",
+      "categoryId": "oversized",
+      "note": "分割できるものは各1点扱い。"
+    },
+    {
+      "name": "ソファーベッド",
+      "nameKana": "そふぁーべっど",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "体温計(水銀式)",
+      "nameKana": "たいおんけい(すいぎんしき)",
+      "categoryId": "localcollection",
+      "note": "割れたものは丈夫な紙などに包み、中身を表示して不燃ごみへ。"
+    },
+    {
+      "name": "体温計(電子式)",
+      "nameKana": "たいおんけい(でんししき)",
+      "categoryId": "unburnable",
+      "note": "電池は外してください。"
+    },
+    {
+      "name": "体重計、ヘルスメーター",
+      "nameKana": "たいじゅうけい、へるすめーたー",
+      "categoryId": "unburnable",
+      "note": "電池は外してください。"
+    },
+    {
+      "name": "台所ごみ(生ごみ)",
+      "nameKana": "だいどころごみ(なまごみ)",
+      "categoryId": "burnable",
+      "note": "しっかり水切りしてください。"
+    },
+    {
+      "name": "ダイニングセット",
+      "nameKana": "だいにんぐせっと",
+      "categoryId": "oversized",
+      "note": "テーブル・いす各1点扱い"
+    },
+    {
+      "name": "耐熱ガラス製品",
+      "nameKana": "たいねつがらすせいひん",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "タイヤ(自動車・バイク用)",
+      "nameKana": "たいや(じどうしゃ・ばいくよう)",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "タイヤ(自転車用)",
+      "nameKana": "たいや(じてんしゃよう)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "タイヤチェーン(金属製)",
+      "nameKana": "たいやちぇーん(きんぞくせい)",
+      "categoryId": "metal",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "タイヤチェーン(金属製以外)",
+      "nameKana": "たいやちぇーん(きんぞくせいいがい)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "ダウンジャケット",
+      "nameKana": "だうんじゃけっと",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "タオル・タオルケット",
+      "nameKana": "たおる・たおるけっと",
+      "categoryId": "localcollection",
+      "note": "ひもで十文字にしばるか袋に入れる。汚れたり破れたものは可燃ごみへ。"
+    },
+    {
+      "name": "竹串",
+      "nameKana": "たけくし",
+      "categoryId": "burnable",
+      "note": "丈夫な紙などに包み中身を表示してください。"
+    },
+    {
+      "name": "畳",
+      "nameKana": "たたみ",
+      "categoryId": "oversized",
+      "note": "施工業者が取り外したものは収集・処理できません。"
+    },
+    {
+      "name": "脱酸素剤",
+      "nameKana": "だつさんそざい",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "タバコ(空き箱)",
+      "nameKana": "たばこ(あきはこ)",
+      "categoryId": "localcollection"
+    },
+    {
+      "name": "タバコ(吸いがら・銀紙)",
+      "nameKana": "たばこ(すいがら・ぎんがみ)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "タバコ(外装フィルム)",
+      "nameKana": "たばこ(がいそうふぃるむ)",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "タブレット端末",
+      "nameKana": "たぶれっとたんまつ",
+      "categoryId": "unburnable",
+      "note": "PCマークがある場合はメーカーが回収します。"
+    },
+    {
+      "name": "卵のから",
+      "nameKana": "たまごのから",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "卵のパック(紙製)",
+      "nameKana": "たまごのぱっく(かみせい)",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "卵のパック(プラスチック製)",
+      "nameKana": "たまごのぱっく(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "たわし(金属製)",
+      "nameKana": "たわし(きんぞくせい)",
+      "categoryId": "metal"
+    },
+    {
+      "name": "たわし(しゅろ製)",
+      "nameKana": "たわし(しゅろせい)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "たわし(プラスチック製、スポンジ製)",
+      "nameKana": "たわし(ぷらすちっくせい、すぽんじせい)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "タンス",
+      "nameKana": "たんす",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "ダンベル(金属製)",
+      "nameKana": "だんべる(きんぞくせい)",
+      "categoryId": "metal",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "ダンボール",
+      "nameKana": "だんぼーる",
+      "categoryId": "localcollection",
+      "note": "平らにのばして、ひもで十文字にしばってください。"
+    },
+    {
+      "name": "反物",
+      "nameKana": "たんもの",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。2メートル以内に切ってください。"
+    },
+    {
+      "name": "チャイルドシート・ジュニアシート",
+      "nameKana": "ちゃいるどしーと・じゅにあしーと",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "茶碗",
+      "nameKana": "ちゃわん",
+      "categoryId": "unburnable",
+      "note": "割れたものは丈夫な紙などに包み、中身を表示してください。"
+    },
+    {
+      "name": "注射器・注射針(在宅医療用)",
+      "nameKana": "ちゅうしゃき・ちゅうしゃばり(ざいたくいりょうよう)",
+      "categoryId": "uncollectible",
+      "note": "かかりつけの医療機関に返却してください。"
+    },
+    {
+      "name": "チューブ類(練りわさび等)",
+      "nameKana": "ちゅーぶるい(ねりわさびなど)",
+      "categoryId": "burnable",
+      "note": "汚れを取ればプラスチック製容器包装へ。"
+    },
+    {
+      "name": "チラシ",
+      "nameKana": "ちらし",
+      "categoryId": "localcollection",
+      "note": "ひもで十文字にしばってください。"
+    },
+    {
+      "name": "机",
+      "nameKana": "つくえ",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "土",
+      "nameKana": "つち",
+      "categoryId": "uncollectible",
+      "note": "自然に戻すことを原則とします。ただし、少量(45リットルの袋で5袋まで)であれば、直接環境センターに持ち込んでください。(有料：計量表示10kgごとに200円)。"
+    },
+    {
+      "name": "釣り糸",
+      "nameKana": "つりいと",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "釣り竿(竹・木製)",
+      "nameKana": "つりさお(たけ・もくせい)",
+      "categoryId": "burnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "釣り竿(竹・木製以外)",
+      "nameKana": "つりさお(たけ・もくせいいがい)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "釣り道具(釣り針・ルアー)",
+      "nameKana": "つりどうぐ(つりはり・るあー)",
+      "categoryId": "unburnable",
+      "note": "丈夫な紙などに包み、中身を表示してください。"
+    },
+    {
+      "name": "釣り道具(リール・浮き・おもり)",
+      "nameKana": "つりどうぐ(りーる・うき・おもり)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "DVD・ブルーレイディスク",
+      "nameKana": "でぃーぶいでぃー・ぶるーれいでぃすく",
+      "categoryId": "unburnable",
+      "note": "ケースを含む。レーベルなどの紙類は町内回収資源へ。"
+    },
+    {
+      "name": "DVD・ブルーレイディスクプレーヤー",
+      "nameKana": "でぃーぶいでぃー・ぶるーれいでぃすくぷれーやー",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "ティッシュペーパー(紙箱)",
+      "nameKana": "てぃっしゅぺーぱー(かみばこ)",
+      "categoryId": "localcollection"
+    },
+    {
+      "name": "ティッシュペーパー(中身)",
+      "nameKana": "てぃっしゅぺーぱー(なかみ)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "ティッシュパーパー(フィルム部分)",
+      "nameKana": "てぃっしゅぱーぱー(ふぃるむぶぶん)",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "ディスプレイ(パソコン用)",
+      "nameKana": "でぃすぷれい(ぱそこんよう)",
+      "categoryId": "uncollectible",
+      "note": "メーカーが回収します。"
+    },
+    {
+      "name": "テーブル",
+      "nameKana": "てーぶる",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "デジタルカメラ",
+      "nameKana": "でじたるかめら",
+      "categoryId": "unburnable",
+      "note": "電池は外してください。"
+    },
+    {
+      "name": "鉄アレイ",
+      "nameKana": "てつあれい",
+      "categoryId": "metal",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "テレビ",
+      "nameKana": "てれび",
+      "categoryId": "legalrecycling",
+      "note": "家電リサイクル法対象品目。プロジェクションテレビは対象外です。"
+    },
+    {
+      "name": "テレビ台",
+      "nameKana": "てれびだい",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "電子オルガン・電子ピアノ",
+      "nameKana": "でんしおるがん・でんしぴあの",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "電子辞書",
+      "nameKana": "でんしじしょ",
+      "categoryId": "unburnable",
+      "note": "電池は外してください。"
+    },
+    {
+      "name": "電気アンカ",
+      "nameKana": "でんきあんか",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "電気コード",
+      "nameKana": "でんきこーど",
+      "categoryId": "unburnable",
+      "note": "2メートル以内に切ってください。"
+    },
+    {
+      "name": "電気シェーバー(電動髪剃り)",
+      "nameKana": "でんきしぇーばー(でんどうかみそり)",
+      "categoryId": "unburnable",
+      "note": "充電式バッテリーは販売店へ返却してください。"
+    },
+    {
+      "name": "電気毛布",
+      "nameKana": "でんきもうふ",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "電球、LED電球・ランプ",
+      "nameKana": "でんきゅう、えるいーでぃーでんきゅう・らんぷ",
+      "categoryId": "unburnable",
+      "note": "電球型蛍光管は町内回収資源へ。"
+    },
+    {
+      "name": "電源ケーブル",
+      "nameKana": "でんげんけーぶる",
+      "categoryId": "unburnable",
+      "note": "2m以内に切ってください。"
+    },
+    {
+      "name": "電卓",
+      "nameKana": "でんたく",
+      "categoryId": "unburnable",
+      "note": "電池は外してください。"
+    },
+    {
+      "name": "電子レンジ",
+      "nameKana": "でんしれんじ",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "点滴パック・チューブ(在宅医療用)",
+      "nameKana": "てんてきぱっく・ちゅーぶ(ざいたくいりょうよう)",
+      "categoryId": "burnable",
+      "note": "衛生上の理由から焼却処理します。"
+    },
+    {
+      "name": "テント支柱(金属製)",
+      "nameKana": "てんとしちゅう(きんぞくせい)",
+      "categoryId": "metal",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "テント支柱(金属製以外)",
+      "nameKana": "てんとしちゅう(きんぞくせいいがい)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "テント布",
+      "nameKana": "てんとぬの",
+      "categoryId": "unburnable",
+      "note": "2メートル四方以内に切ってください。"
+    },
+    {
+      "name": "点灯管(グローランプ)",
+      "nameKana": "てんとうかん(ぐろーらんぷ)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "電話機",
+      "nameKana": "でんわき",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "トイレットペーパーの芯",
+      "nameKana": "といれっとぺーぱーのしん",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "トイレットペーパーの外装パック",
+      "nameKana": "といれっとぺーぱーのがいそうぱっく",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "陶磁器",
+      "nameKana": "とうじき",
+      "categoryId": "unburnable",
+      "note": "割れたものは丈夫な紙などに包み、中身を表示してください。"
+    },
+    {
+      "name": "豆腐のパック",
+      "nameKana": "とうふのぱっく",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "灯油用ポリ容器",
+      "nameKana": "とうゆようぽりようき",
+      "categoryId": "unburnable",
+      "note": "中身は使い切ってください。指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "トースター",
+      "nameKana": "とーすたー",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "時計",
+      "nameKana": "とけい",
+      "categoryId": "unburnable",
+      "note": "電池は外してください。"
+    },
+    {
+      "name": "トタン(金属製)",
+      "nameKana": "とたん(きんぞくせい)",
+      "categoryId": "metal",
+      "note": "建築工事に伴うものは収集・処理できません。指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "トタン(プラスチック製)",
+      "nameKana": "とたん(ぷらすちっくせい)",
+      "categoryId": "unburnable",
+      "note": "建築工事に伴うものは収集・処理できません。指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "ドライヤー",
+      "nameKana": "どらいやー",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "塗料",
+      "nameKana": "とりょう",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "トレイ(食品用)",
+      "nameKana": "とれい(しょくひんよう)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。回収している店舗もあります。"
+    },
+    {
+      "name": "長靴(ゴム製)",
+      "nameKana": "ながぐつ(ごむせい)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "長靴(ビニール製)",
+      "nameKana": "ながぐつ(びにーるせい)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "流し台",
+      "nameKana": "ながしだい",
+      "categoryId": "oversized",
+      "note": "施工業者が取り外したものは収集・処理できません。"
+    },
+    {
+      "name": "納豆の容器(紙製・わら)",
+      "nameKana": "なっとうのようき(かみせい・わら)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "納豆の容器(発泡スチロール製)",
+      "nameKana": "なっとうのようき(はっぽうすちろーるせい)",
+      "categoryId": "burnable",
+      "note": "汚れを取ればプラスチック製容器包装へ。"
+    },
+    {
+      "name": "納豆の容器(たれ・からしの袋)",
+      "nameKana": "なっとうのようき(たれ・からしのふくろ)",
+      "categoryId": "burnable",
+      "note": "汚れを取ればプラスチック製容器包装へ。"
+    },
+    {
+      "name": "なべ(金属製)",
+      "nameKana": "なべ(きんぞくせい)",
+      "categoryId": "metal",
+      "note": "取っ手は取り外さなくて可。"
+    },
+    {
+      "name": "なべ(陶器製)",
+      "nameKana": "なべ(とうきせい)",
+      "categoryId": "unburnable",
+      "note": "割れたものは丈夫な紙などに包み、中身を表示してください。"
+    },
+    {
+      "name": "鍋焼きうどん等のアルミ鍋",
+      "nameKana": "なべやきうどんなどのあるみなべ",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "生ごみ",
+      "nameKana": "なまごみ",
+      "categoryId": "burnable",
+      "note": "しっかり水切りしてください。"
+    },
+    {
+      "name": "ぬいぐるみ(中身がスポンジ)",
+      "nameKana": "ぬいぐるみ(なかみがすぽんじ)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの、6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "ぬいぐるみ(中身が綿)",
+      "nameKana": "ぬいぐるみ(なかみがめん)",
+      "categoryId": "burnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの、6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "ぬいぐるみ(中身がビーズ)",
+      "nameKana": "ぬいぐるみ(なかみがびーず)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの、6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "縫い針",
+      "nameKana": "ぬいはり",
+      "categoryId": "unburnable",
+      "note": "丈夫な紙などに包み、中身を表示してください。"
+    },
+    {
+      "name": "布",
+      "nameKana": "ぬの",
+      "categoryId": "burnable",
+      "note": "2メートル以内に切ってください。"
+    },
+    {
+      "name": "猫・犬等のトイレ用砂・シート",
+      "nameKana": "ねこ・いぬなどのといれようすな・しーと",
+      "categoryId": "burnable",
+      "note": "ふんは取り除いてください。"
+    },
+    {
+      "name": "ねじ",
+      "nameKana": "ねじ",
+      "categoryId": "unburnable",
+      "note": "丈夫な紙などに包み、中身を表示してください。"
+    },
+    {
+      "name": "紙製粘土(工作用)",
+      "nameKana": "かみせいねんど(こうさくよう)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "紙製以外の粘土(工作用)",
+      "nameKana": "かみせいいがいのねんど(こうさくよう)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "農業用機械",
+      "nameKana": "のうぎょうようきかい",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "農業用ビニール",
+      "nameKana": "のうぎょうようびにーる",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "農薬",
+      "nameKana": "のうやく",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "農薬ビン",
+      "nameKana": "のうやくびん",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "ノート",
+      "nameKana": "のーと",
+      "categoryId": "localcollection",
+      "note": "ヒモで十文字にしばってください。"
+    },
+    {
+      "name": "ノートブックパソコン",
+      "nameKana": "のーとぶっくぱそこん",
+      "categoryId": "uncollectible",
+      "note": "メーカーが回収します。"
+    },
+    {
+      "name": "ノンカーボン紙",
+      "nameKana": "のんかーぼんかみ",
+      "categoryId": "localcollection"
+    },
+    {
+      "name": "廃油(オイル類)",
+      "nameKana": "はいゆ(おいるるい)",
+      "categoryId": "uncollectible",
+      "note": "販売店に返却してください。"
+    },
+    {
+      "name": "バインダー(プラスチック製)",
+      "nameKana": "ばいんだー(ぷらすちっくせい)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "はがき",
+      "nameKana": "はがき",
+      "categoryId": "localcollection"
+    },
+    {
+      "name": "バケツ(金属製)",
+      "nameKana": "ばけつ(きんぞくせい)",
+      "categoryId": "metal",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの、6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "バケツ(プラスチック製)",
+      "nameKana": "ばけつ(ぷらすちっくせい)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの、6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "はさみ",
+      "nameKana": "はさみ",
+      "categoryId": "unburnable",
+      "note": "丈夫な紙などに包み、中身を表示してください。"
+    },
+    {
+      "name": "パソコン",
+      "nameKana": "ぱそこん",
+      "categoryId": "uncollectible",
+      "note": "メーカーが回収します。"
+    },
+    {
+      "name": "バッテリー",
+      "nameKana": "ばってりー",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "発泡スチロール(緩衝材)",
+      "nameKana": "はっぽうすちろーる(かんしょうざい)",
+      "categoryId": "plasticpackaging",
+      "note": "発泡スチロール製品は不燃ごみへ。"
+    },
+    {
+      "name": "花苗ポット",
+      "nameKana": "はななえぽっと",
+      "categoryId": "plasticpackaging",
+      "note": "土などの汚れを落としてください。"
+    },
+    {
+      "name": "花火",
+      "nameKana": "はなび",
+      "categoryId": "burnable",
+      "note": "発火しないように、水で湿らせてください。"
+    },
+    {
+      "name": "花用給水スポンジ",
+      "nameKana": "はなようきゅうすいすぽんじ",
+      "categoryId": "plasticpackaging",
+      "note": "よく水を切ってください。製品として購入されたものは不燃ごみへ。"
+    },
+    {
+      "name": "歯ブラシ",
+      "nameKana": "はぶらし",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "歯磨き粉のチューブ",
+      "nameKana": "はみがきこのちゅーぶ",
+      "categoryId": "burnable",
+      "note": "中身は使い切ってください。汚れを取ればプラスチック製容器包装へ。"
+    },
+    {
+      "name": "針",
+      "nameKana": "はり",
+      "categoryId": "unburnable",
+      "note": "丈夫な紙などに包み、中身を表示してください。"
+    },
+    {
+      "name": "針金",
+      "nameKana": "はりがね",
+      "categoryId": "metal"
+    },
+    {
+      "name": "ハンガー",
+      "nameKana": "はんがー",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "ハンドバック・ショルダーバック(布製・皮革製)",
+      "nameKana": "はんどばっく・しょるだーばっく(ぬのせい・ひかくせい)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "ハンドバック・ショルダーバック(布製・皮革製以外)",
+      "nameKana": "はんどばっく・しょるだーばっく(ぬのせい・ひかくせいいがい)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "パンフレット",
+      "nameKana": "ぱんふれっと",
+      "categoryId": "localcollection",
+      "note": "ひもで十文字にしばってください。"
+    },
+    {
+      "name": "ピアノ",
+      "nameKana": "ぴあの",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "PPバンド",
+      "nameKana": "ぴーぴーばんど",
+      "categoryId": "unburnable",
+      "note": "2m以内に切ってください。"
+    },
+    {
+      "name": "ビールケース",
+      "nameKana": "びーるけーす",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "ビールの容器(缶・プルタブ)",
+      "nameKana": "びーるのようき(かん・ぷるたぶ)",
+      "categoryId": "metal",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "ビールの容器(ビン)",
+      "nameKana": "びーるのようき(びん)",
+      "categoryId": "localcollection",
+      "note": "軽く水洗いする。リターナブルビンは販売店に返却してください。"
+    },
+    {
+      "name": "ビールの容器(ビールビンのふた)",
+      "nameKana": "びーるのようき(びーるびんのふた)",
+      "categoryId": "metal"
+    },
+    {
+      "name": "ビデオカメラ",
+      "nameKana": "びでおかめら",
+      "categoryId": "unburnable",
+      "note": "電池は外してください。"
+    },
+    {
+      "name": "ビデオテープ",
+      "nameKana": "びでおてーぷ",
+      "categoryId": "burnable",
+      "note": "ケースは不燃ごみへ"
+    },
+    {
+      "name": "ビデオデッキ",
+      "nameKana": "びでおでっき",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "ビニールコート紙",
+      "nameKana": "びにーるこーとかみ",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "ビニールシート",
+      "nameKana": "びにーるしーと",
+      "categoryId": "unburnable",
+      "note": "2メートル四方以内に切ってください。"
+    },
+    {
+      "name": "ひも(ビニール製)",
+      "nameKana": "ひも(びにーるせい)",
+      "categoryId": "unburnable",
+      "note": "2メートル以内に切ってください。"
+    },
+    {
+      "name": "ひも(ビニール製以外)",
+      "nameKana": "ひも(びにーるせいいがい)",
+      "categoryId": "burnable",
+      "note": "2メートル以内に切ってください。"
+    },
+    {
+      "name": "ビン類(化粧品・食用油・調味料・酒等)",
+      "nameKana": "びんるい(けしょうひん・しょくようあぶら・ちょうみりょう・さけなど)",
+      "categoryId": "localcollection",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "ビン類(乳白色のもの)",
+      "nameKana": "びんるい(にゅうはくしょくのもの)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "ビン類(ビールビン)",
+      "nameKana": "びんるい(びーるびん)",
+      "categoryId": "localcollection",
+      "note": "軽く水洗いする。リターナブルビンは販売店に返却してください。"
+    },
+    {
+      "name": "ビン類(金属製ビンのふた)",
+      "nameKana": "びんるい(きんぞくせいびんのふた)",
+      "categoryId": "metal"
+    },
+    {
+      "name": "ビン類(プラ製ビンのふた)",
+      "nameKana": "びんるい(ぷらせいびんのふた)",
+      "categoryId": "plasticpackaging",
+      "note": "汚れていたら軽く水洗いしてください。"
+    },
+    {
+      "name": "ファンヒーター(石油・ガス)",
+      "nameKana": "ふぁんひーたー(せきゆ・がす)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ。燃料は使い切ってください。"
+    },
+    {
+      "name": "フィルム(写真のネガ・フィルム)",
+      "nameKana": "ふぃるむ(しゃしんのねが・ふぃるむ)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "フィルム(写真のプラスチック製フィルムケース)",
+      "nameKana": "ふぃるむ(しゃしんのぷらすちっくせいふぃるむけーす)",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "フィルム(写真のフィルム用紙箱)",
+      "nameKana": "ふぃるむ(しゃしんのふぃるむようしはこ)",
+      "categoryId": "localcollection"
+    },
+    {
+      "name": "封筒(紙製)",
+      "nameKana": "ふうとう(かみせい)",
+      "categoryId": "localcollection"
+    },
+    {
+      "name": "封筒(ビニール製)",
+      "nameKana": "ふうとう(びにーるせい)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "ふすま",
+      "nameKana": "ふすま",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "ふとん",
+      "nameKana": "ふとん",
+      "categoryId": "oversized",
+      "note": "指定ごみ袋に入れば可燃ごみへ。"
+    },
+    {
+      "name": "布団乾燥機",
+      "nameKana": "ふとんかんそうき",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "フライパン",
+      "nameKana": "ふらいぱん",
+      "categoryId": "metal",
+      "note": "取っては取り外さなくて可。"
+    },
+    {
+      "name": "プラスチック製保存容器",
+      "nameKana": "ぷらすちっくせいほぞんようき",
+      "categoryId": "unburnable",
+      "note": "プラスチック製容器包装でないもの。指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "プラモデル",
+      "nameKana": "ぷらもでる",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "ブランコ(家庭用玩具)",
+      "nameKana": "ぶらんこ(かていようがんぐ)",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "プランター",
+      "nameKana": "ぷらんたー",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "プリンタ",
+      "nameKana": "ぷりんた",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "プリンの容器(プラスチック製容器)",
+      "nameKana": "ぷりんのようき(ぷらすちっくせいようき)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "プリンの容器(紙製ふた)",
+      "nameKana": "ぷりんのようき(かみせいふた)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "プリンの容器(アルミ製ふた)",
+      "nameKana": "ぷりんのようき(あるみせいふた)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "プリンの容器(プラスチック製ふた)",
+      "nameKana": "ぷりんのようき(ぷらすちっくせいふた)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "風呂(木製ふた)",
+      "nameKana": "ふろ(もくせいふた)",
+      "categoryId": "burnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "風呂(木製以外のふた)",
+      "nameKana": "ふろ(もくせいいがいのふた)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "風呂(木製浴室用マット)",
+      "nameKana": "ふろ(もくせいよくしつようまっと)",
+      "categoryId": "burnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "風呂(木製以外の浴室用マット)",
+      "nameKana": "ふろ(もくせいいがいのよくしつようまっと)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "風呂(浴槽)",
+      "nameKana": "ふろ(よくそう)",
+      "categoryId": "oversized",
+      "note": "施工業者が取り外したものは収集・処理できません。"
+    },
+    {
+      "name": "ブロック(コンクリート製)",
+      "nameKana": "ぶろっく(こんくりーとせい)",
+      "categoryId": "housecollection",
+      "note": "50キログラムにつき800円で、100キログラムまで戸別収集します。（申し込み先：一宮市環境センター0586-45-7004）施工業者が取り外したものは収集・処理できません。"
+    },
+    {
+      "name": "プロパンガスボンベ",
+      "nameKana": "ぷろぱんがすぼんべ",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "フロンを使用した製品",
+      "nameKana": "ふろんをしようしたせいひん",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "ヘアーブラシ(プラスチック製)",
+      "nameKana": "へあーぶらし(ぷらすちっくせい)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "ヘアーブラシ(木製)",
+      "nameKana": "へあーぶらし(もくせい)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "ヘアスプレー(外装フィルム)",
+      "nameKana": "へあすぷれー(がいそうふぃるむ)",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "ヘアスプレー(缶)",
+      "nameKana": "へあすぷれー(かん)",
+      "categoryId": "metal",
+      "note": "中身を使い切り、穴をあけずにお出しください。どうしても使い切れない場合はページ内検索で「1001769」と入力。"
+    },
+    {
+      "name": "ヘアスプレー(プラスチック製キャップ)",
+      "nameKana": "へあすぷれー(ぷらすちっくせいきゃっぷ)",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "ベッド(電動・介護用)",
+      "nameKana": "べっど(でんどう・かいごよう)",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "ペットのふん",
+      "nameKana": "ぺっとのふん",
+      "categoryId": "uncollectible",
+      "note": "飼い主はふんを放置せずに回収し、庭に埋めるかトイレに流してください。"
+    },
+    {
+      "name": "ペットボトル(本体)",
+      "nameKana": "ぺっとぼとる(ほんたい)",
+      "categoryId": "petbottle",
+      "note": "軽く水洗いし、できるだけつぶしてください。キャップは必ず外してプラスチック製容器包装へ。ラベルはできる限りはがしてプラスチック製容器包装へ。"
+    },
+    {
+      "name": "ペットボトル(キャップ)",
+      "nameKana": "ぺっとぼとる(きゃっぷ)",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "ペットボトル(ラベル)",
+      "nameKana": "ぺっとぼとる(らべる)",
+      "categoryId": "plasticpackaging",
+      "note": "はがしにくいラベルは無理にはがす必要はありません。"
+    },
+    {
+      "name": "ヘッドホン",
+      "nameKana": "へっどほん",
+      "categoryId": "unburnable",
+      "note": "電池は外してください。"
+    },
+    {
+      "name": "ベビーカー",
+      "nameKana": "べびーかー",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "ベービーバス",
+      "nameKana": "べーびーばす",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "ヘルメット",
+      "nameKana": "へるめっと",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "ペンキ",
+      "nameKana": "ぺんき",
+      "categoryId": "uncollectible",
+      "note": "販売店に相談してください。"
+    },
+    {
+      "name": "弁当箱(家庭用・アルミ製)",
+      "nameKana": "べんとうばこ(かていよう・あるみせい)",
+      "categoryId": "metal"
+    },
+    {
+      "name": "弁当箱(家庭用・紙・木製)",
+      "nameKana": "べんとうばこ(かていよう・かみ・もくせい)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "弁当箱(家庭用・プラスチック製)",
+      "nameKana": "べんとうばこ(かていよう・ぷらすちっくせい)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "防水加工紙",
+      "nameKana": "ぼうすいかこうかみ",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "包装紙",
+      "nameKana": "ほうそうし",
+      "categoryId": "localcollection"
+    },
+    {
+      "name": "包丁",
+      "nameKana": "ほうちょう",
+      "categoryId": "unburnable",
+      "note": "丈夫な紙などに包み、中身を表示してください。"
+    },
+    {
+      "name": "ホース(ゴム製)",
+      "nameKana": "ほーす(ごむせい)",
+      "categoryId": "burnable",
+      "note": "2メートル以内に切ってください。"
+    },
+    {
+      "name": "ホース(ビニール製)",
+      "nameKana": "ほーす(びにーるせい)",
+      "categoryId": "unburnable",
+      "note": "2メートル以内に切ってください。"
+    },
+    {
+      "name": "ポータブルカーナビ",
+      "nameKana": "ぽーたぶるかーなび",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "ボウリングの玉",
+      "nameKana": "ぼうりんぐのたま",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "ボール(野球・サッカー・テニスなど)",
+      "nameKana": "ぼーる(やきゅう・さっかー・てにすなど)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "ボールペン",
+      "nameKana": "ぼーるぺん",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "ホーロー製品",
+      "nameKana": "ほーろーせいひん",
+      "categoryId": "metal",
+      "note": "取っ手は取り外さなくて可。焦げたものは不燃ごみへ。"
+    },
+    {
+      "name": "ホッチキスの芯",
+      "nameKana": "ほっちきすのしん",
+      "categoryId": "unburnable",
+      "note": "丈夫な紙などに包み、中身を表示してください。"
+    },
+    {
+      "name": "ポット",
+      "nameKana": "ぽっと",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "ホットカーペット",
+      "nameKana": "ほっとかーぺっと",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "ホットプレート(プレート部分)",
+      "nameKana": "ほっとぷれーと(ぷれーとぶぶん)",
+      "categoryId": "metal",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "ホットプレート(本体)",
+      "nameKana": "ほっとぷれーと(ほんたい)",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "ほ乳ビン",
+      "nameKana": "ほちちびん",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "ポリ袋、チャック付きポリ袋",
+      "nameKana": "ぽりふくろ、ちゃっくつきぽりふくろ",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "保冷剤(箱型)",
+      "nameKana": "ほれいざい(はこがた)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "保冷剤(袋タイプ)",
+      "nameKana": "ほれいざい(ふくろたいぷ)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "本(書籍)",
+      "nameKana": "ほん(しょせき)",
+      "categoryId": "localcollection",
+      "note": "ひもで十文字にしばってください。"
+    },
+    {
+      "name": "マーガリンのプラスチック製容器",
+      "nameKana": "まーがりんのぷらすちっくせいようき",
+      "categoryId": "plasticpackaging",
+      "note": "中身を使い切り、軽く水洗いするか拭き取ってください。"
+    },
+    {
+      "name": "マウス(パソコン用)",
+      "nameKana": "まうす(ぱそこんよう)",
+      "categoryId": "unburnable",
+      "note": "購入時に添付されていたものは、パソコン本体と一緒にメーカーで回収。"
+    },
+    {
+      "name": "マグネット",
+      "nameKana": "まぐねっと",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "まくら(ウレタン・プラスチック製等)",
+      "nameKana": "まくら(うれたん・ぷらすちっくせいなど)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "まくら(そばがら製等)",
+      "nameKana": "まくら(そばがらせいなど)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "マジック(油性マーカー)",
+      "nameKana": "まじっく(ゆせいまーかー)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "マッサージチェア",
+      "nameKana": "まっさーじちぇあ",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "マッチ",
+      "nameKana": "まっち",
+      "categoryId": "burnable",
+      "note": "発火しないように、水で湿らせてください。"
+    },
+    {
+      "name": "マットレス",
+      "nameKana": "まっとれす",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "まな板(木製)",
+      "nameKana": "まないた(もくせい)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "まな板(プラスチック製)",
+      "nameKana": "まないた(ぷらすちっくせい)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "マヨネーズのチューブ",
+      "nameKana": "まよねーずのちゅーぶ",
+      "categoryId": "burnable",
+      "note": "汚れを取ればプラスチック製容器包装へ。"
+    },
+    {
+      "name": "ミシン(足踏み式)",
+      "nameKana": "みしん(あしふみしき)",
+      "categoryId": "oversized",
+      "note": "工業用ミシンは市では収集処理できません。指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "ミシン(ポータブル)",
+      "nameKana": "みしん(ぽーたぶる)",
+      "categoryId": "unburnable",
+      "note": "工業用ミシンは市では収集処理できません。指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "水着",
+      "nameKana": "みずぎ",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "ミニコンポ",
+      "nameKana": "みにこんぽ",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ"
+    },
+    {
+      "name": "みりんの容器(ビン)",
+      "nameKana": "みりんのようき(びん)",
+      "categoryId": "localcollection",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "みりんの容器(ペットボトル)",
+      "nameKana": "みりんのようき(ぺっとぼとる)",
+      "categoryId": "petbottle",
+      "note": "軽く水洗いし、できるだけつぶしてください。キャップは必ず外してプラスチック製容器包装へ。ラベルはできる限りはがしてプラスチック製容器包装へ。"
+    },
+    {
+      "name": "みりんの容器(プラスチック製キャップ)",
+      "nameKana": "みりんのようき(ぷらすちっくせいきゃっぷ)",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "名刺",
+      "nameKana": "めいし",
+      "categoryId": "localcollection"
+    },
+    {
+      "name": "めがね",
+      "nameKana": "めがね",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "毛布",
+      "nameKana": "もうふ",
+      "categoryId": "localcollection",
+      "note": "ひもで十文字にしばるか、袋に入れる。汚れたり、破れたものは可燃ごみへ。"
+    },
+    {
+      "name": "物干しざお",
+      "nameKana": "ものほしざお",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "物干し台(コンクリート部分)",
+      "nameKana": "ものほしだい(こんくりーとぶぶん)",
+      "categoryId": "housecollection",
+      "note": "50キログラムにつき800円で、100キログラムまで戸別収集します。（申し込み先：一宮市環境センター0586-45-7004）"
+    },
+    {
+      "name": "やかん",
+      "nameKana": "やかん",
+      "categoryId": "metal",
+      "note": "取っ手は取り外さなくて可。"
+    },
+    {
+      "name": "野菜くず",
+      "nameKana": "やさいくず",
+      "categoryId": "burnable",
+      "note": "しっかり水切りしてください。"
+    },
+    {
+      "name": "湯たんぽ(金属製)",
+      "nameKana": "ゆたんぽ(きんぞくせい)",
+      "categoryId": "metal"
+    },
+    {
+      "name": "湯たんぽ(プラスチック製・陶器製)",
+      "nameKana": "ゆたんぽ(ぷらすちっくせい・とうきせい)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "ヨーグルトの容器(紙製)",
+      "nameKana": "よーぐるとのようき(かみせい)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "ヨーグルトの容器(プラスチック製)",
+      "nameKana": "よーぐるとのようき(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "ヨーグルトの容器(紙製ふた)",
+      "nameKana": "よーぐるとのようき(かみせいふた)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "ヨーグルトの容器(アルミ製ふた)",
+      "nameKana": "よーぐるとのようき(あるみせいふた)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "ヨーグルトの容器(プラスチック製ふた)",
+      "nameKana": "よーぐるとのようき(ぷらすちっくせいふた)",
+      "categoryId": "plasticpackaging",
+      "note": "軽く水洗いしてください。"
+    },
+    {
+      "name": "ライター",
+      "nameKana": "らいたー",
+      "categoryId": "unburnable",
+      "note": "中身を使い切ってください"
+    },
+    {
+      "name": "ラジオ・ラジカセ",
+      "nameKana": "らじお・らじかせ",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ。"
+    },
+    {
+      "name": "ラップ(販売されている商品等を包装しているもの)",
+      "nameKana": "らっぷ(はんばいされているしょうひんなどをほうそうしているもの)",
+      "categoryId": "plasticpackaging",
+      "note": "汚れは取り除いてください。"
+    },
+    {
+      "name": "ラップ(家庭で使用するもの)",
+      "nameKana": "らっぷ(かていでしようするもの)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "ラップ(芯)",
+      "nameKana": "らっぷ(しん)",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "ラップ(紙箱)",
+      "nameKana": "らっぷ(かみばこ)",
+      "categoryId": "localcollection",
+      "note": "刃は取り除いて、金属性の刃は不燃ごみへ、紙製の刃は可燃ごみへ。"
+    },
+    {
+      "name": "ランドセル",
+      "nameKana": "らんどせる",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "リモコン",
+      "nameKana": "りもこん",
+      "categoryId": "unburnable",
+      "note": "電池は外してください。"
+    },
+    {
+      "name": "リュックサック・ナップサック(布製・皮革製)",
+      "nameKana": "りゅっくさっく・なっぷさっく(ぬのせい・ひかくせい)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "リュックサック・ナップサック(布製・皮革製以外)",
+      "nameKana": "りゅっくさっく・なっぷさっく(ぬのせい・ひかくせいいがい)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "ルーフボックス(自家用車用)",
+      "nameKana": "るーふぼっくす(じかようしゃよう)",
+      "categoryId": "oversized",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ。"
+    },
+    {
+      "name": "冷蔵庫・冷凍庫",
+      "nameKana": "れいぞうこ・れいとうこ",
+      "categoryId": "legalrecycling",
+      "note": "家電リサイクル法対象品目"
+    },
+    {
+      "name": "レインコート",
+      "nameKana": "れいんこーと",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "レコード(盤)",
+      "nameKana": "れこーど(ばん)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "レコード(紙製ジャケット)",
+      "nameKana": "れこーど(かみせいじゃけっと)",
+      "categoryId": "localcollection",
+      "note": "ひもで十文字にしばってください。"
+    },
+    {
+      "name": "レコードプレーヤー",
+      "nameKana": "れこーどぷれーやー",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ。電池は外してください。"
+    },
+    {
+      "name": "レシート(感熱紙)",
+      "nameKana": "れしーと(かんねつし)",
+      "categoryId": "burnable",
+      "note": "リサイクルできません。"
+    },
+    {
+      "name": "レシート(感熱紙以外)",
+      "nameKana": "れしーと(かんねつしいがい)",
+      "categoryId": "localcollection"
+    },
+    {
+      "name": "レジ袋",
+      "nameKana": "れじふくろ",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "レジャーシート",
+      "nameKana": "れじゃーしーと",
+      "categoryId": "unburnable",
+      "note": "2メートル四方以内に切ってください。"
+    },
+    {
+      "name": "レトルトパック",
+      "nameKana": "れとるとぱっく",
+      "categoryId": "burnable",
+      "note": "汚れを取ればプラスチック製容器包装へ。"
+    },
+    {
+      "name": "レンガ",
+      "nameKana": "れんが",
+      "categoryId": "housecollection",
+      "note": "50キログラムにつき800円で、100キログラムまで戸別収集します。施工業者が取り外したものは収集・処理できません。（申し込み先：一宮市環境センター0586-45-7004）"
+    },
+    {
+      "name": "ローソク",
+      "nameKana": "ろーそく",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "ワープロ",
+      "nameKana": "わーぷろ",
+      "categoryId": "unburnable",
+      "note": "指定ごみ袋に入らない・60センチメートル以上のもの・6キログラム以上のものは粗大ごみ。"
+    },
+    {
+      "name": "ワイシャツ",
+      "nameKana": "わいしゃつ",
+      "categoryId": "localcollection",
+      "note": "ひもで十文字にしばるか袋に入れる。汚れたり破れたものは可燃ごみへ。"
+    },
+    {
+      "name": "ワインセラー",
+      "nameKana": "わいんせらー",
+      "categoryId": "legalrecycling",
+      "note": "家電リサイクル法対象品目"
+    },
+    {
+      "name": "輪ゴム",
+      "nameKana": "わごむ",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "割りばし",
+      "nameKana": "わりばし",
+      "categoryId": "burnable"
+    }
+  ]
+}

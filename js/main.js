@@ -24,7 +24,7 @@ Vue.component("legend-list-item", {
 const ARTICLE_TRANSFER_UNIT = 50;
 
 // 自治体
-const SUPPORTED_MUNICS = [
+const SUPPORTED_CITIES = [
     { id: "aichi_toyokawa", name: "豊川市", file: "data/gomidata_aichi_toyokawa.json" },
     { id: "aichi_nagoya", name: "名古屋市", file: "data/gomidata_aichi_nagoya.json" },
     { id: "aichi_okazaki", name: "岡崎市", file: "data/gomidata_aichi_okazaki.json" },
@@ -33,28 +33,28 @@ const SUPPORTED_MUNICS = [
     { id: "aichi_toyohashi", name: "豊橋市", file: "data/gomidata_aichi_toyohashi.json" }
 ];
 
-// 共通分類
-// 凡例にはこの順番で表示します
-const COMMON_CATEGORIES = [
-    { id: "burnable", name: "可燃ごみ" },
-    { id: "unburnable", name: "不燃ごみ" },
-    { id: "hazardous", name: "危険ごみ" },
-    { id: "oversized", name: "粗大ごみ" },
-    { id: "recyclable", name: "資源" },
-    { id: "can", name: "資源" },
-    { id: "metal", name: "金属" },
-    { id: "petbottle", name: "ペットボトル" },
-    { id: "grassbottle", name: "空きびん" },
-    { id: "reusebottle", name: "再利用びん" },
-    { id: "beveragepack", name: "紙パック" },
-    { id: "paperpackaging", name: "紙製容器包装" },
-    { id: "plasticpackaging", name: "プラ製容器包装" },
-    { id: "legalrecycling", name: "家電リサイクル法対象" },
-    { id: "pointcollection", name: "拠点回収" },
-    { id: "localcollection", name: "集団回収" },
-    { id: "uncollectible", name: "回収できません" },
-    { id: "unknown", name: "その他" }
-];
+// // 共通分類
+// // 凡例にはこの順番で表示します
+// const COMMON_CATEGORIES = [
+//     { id: "burnable", name: "可燃ごみ" },
+//     { id: "unburnable", name: "不燃ごみ" },
+//     { id: "hazardous", name: "危険ごみ" },
+//     { id: "oversized", name: "粗大ごみ" },
+//     { id: "recyclable", name: "資源" },
+//     { id: "can", name: "資源" },
+//     { id: "metal", name: "金属" },
+//     { id: "petbottle", name: "ペットボトル" },
+//     { id: "grassbottle", name: "空きびん" },
+//     { id: "reusebottle", name: "再利用びん" },
+//     { id: "beveragepack", name: "紙パック" },
+//     { id: "paperpackaging", name: "紙製容器包装" },
+//     { id: "plasticpackaging", name: "プラ製容器包装" },
+//     { id: "legalrecycling", name: "家電リサイクル法対象" },
+//     { id: "pointcollection", name: "拠点回収" },
+//     { id: "localcollection", name: "集団回収" },
+//     { id: "uncollectible", name: "回収できません" },
+//     { id: "unknown", name: "その他" }
+// ];
 
 function getQueryVars() {
     const vars = {}
@@ -129,21 +129,21 @@ function request(filename) {
 
 class AppState {
     constructor() {
-        this.allMunicsById = {}
-        SUPPORTED_MUNICS.forEach(munic => this.allMunicsById[munic.id] = munic);
-        this.commonCategoriesById = {};
-        for (let commonCategory of COMMON_CATEGORIES) {
-            this.commonCategoriesById[commonCategory.id] = Object.assign({}, commonCategory);
-        }
-        this.selectedMunic = null;
-        this.municPopupVisible = false;
+        this.allCitiesById = {}
+        SUPPORTED_CITIES.forEach(city => this.allCitiesById[city.id] = city);
+        // this.commonCategoriesById = {};
+        // for (let commonCategory of COMMON_CATEGORIES) {
+        //     this.commonCategoriesById[commonCategory.id] = Object.assign({}, commonCategory);
+        // }
+        this.selectedCity = null;
+        this.cityPopupVisible = false;
         this.initialArticleKeyword = null;
         this.reset();
     }
     reset() {
         this.timeoutId = 0;
         this.articleKeyword = "";
-        this.municKeyword = "";
+        this.cityKeyword = "";
         this.placeholder = "";
         this.categoriesById = {};
         this.allArticles = [];
@@ -167,19 +167,20 @@ class AppState {
         this.categoriesById = {};
         for (let categoryId of Object.keys(gomidata.categoryDefinitions)) {
             const periodIndex = categoryId.indexOf(".");
-            const commonCategoryId = (0 <= periodIndex) ? categoryId.slice(0, periodIndex) : categoryId;
-            const entry = Object.assign({},
-                this.commonCategoriesById[commonCategoryId] ||
-                this.commonCategoriesById.unknown);
-            entry.id = categoryId;
+            const topLevelCategoryId = (0 <= periodIndex) ? categoryId.slice(0, periodIndex) : categoryId;
+            // const entry = Object.assign({},
+            //     this.commonCategoriesById[commonCategoryId] ||
+            //     this.commonCategoriesById.unknown);
+            const entry = { id: categoryId, name: "その他" };
             const def = gomidata.categoryDefinitions[categoryId];
             // 独自定義値あればそれで上書き
             entry.name = def.name || entry.name;
+            entry.note = def.note || entry.note;
             entry.icon = def.icon || entry.icon;
             if (!entry.icon) {
-                entry.icon = `img/${commonCategoryId}.png`;
+                entry.icon = `img/${topLevelCategoryId}.png`;
             }
-            entry.isParent = (categoryId == commonCategoryId);
+            entry.isTopLevel = (categoryId == topLevelCategoryId);
             this.categoriesById[categoryId] = entry;
         }
 
@@ -209,9 +210,9 @@ function createApp(data) {
             gomidataAvailable() {
                 return 0 < this.allArticles.length;
             },
-            parentCategories() {
+            topLevelCategories() {
                 return Object.keys(this.categoriesById).
-                    filter(id => this.categoriesById[id].isParent).
+                    filter(id => this.categoriesById[id].isTopLevel).
                     map(id => this.categoriesById[id]);
             }
         },
@@ -281,24 +282,24 @@ function createApp(data) {
             getKeywordHighlighted(text) {
                 return this.articleKeyword ? text.replace(this.articleKeywordRegex, match => "<span class='keyword-highlight'>" + match + "</span>") : text;
             },
-            openMunicPopup() {
-                this.municPopupVisible = true;
+            openCityPopup() {
+                this.cityPopupVisible = true;
             },
-            closeMunicPopup() {
-                if (this.selectedMunic) {
-                    this.municPopupVisible = false;
+            closeCityPopup() {
+                if (this.selectedCity) {
+                    this.cityPopupVisible = false;
                 }
             },
-            popupMunicClicked(munic) {
-                this.municPopupVisible = false;
-                this.selectedMunic = munic;
-                request(munic.file);
+            popupCityClicked(city) {
+                this.cityPopupVisible = false;
+                this.selectedCity = city;
+                request(city.file);
                 this.updateQueryString();
             },
             updateQueryString() {
                 q = [];
-                if (this.selectedMunic) {
-                    q.push(`munic=${this.selectedMunic.id}`);
+                if (this.selectedCity) {
+                    q.push(`city=${this.selectedCity.id}`);
                 }
                 if (this.articleKeyword) {
                     q.push(`keyword=${this.articleKeyword}`);
@@ -313,18 +314,18 @@ let app = null;
 const appState = new AppState();
 
 const vars = getQueryVars();
-if (vars.munic) {
-    appState.selectedMunic = appState.allMunicsById[vars.munic];
+if (vars.city) {
+    appState.selectedCity = appState.allCitiesById[vars.city];
 }
 if (vars.keyword) {
     appState.initialArticleKeyword = vars.keyword;
 }
 
-if (appState.selectedMunic) {
-    request(appState.selectedMunic.file);
+if (appState.selectedCity) {
+    request(appState.selectedCity.file);
 } else {
     app = createApp(appState);
-    appState.municPopupVisible = true;
+    appState.cityPopupVisible = true;
 }
 
 })();

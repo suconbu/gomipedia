@@ -21,7 +21,7 @@
 
 <main>
   <h1 class="title">
-    <label v-if="selectedMunic"><a href="javascript:void(0)" @click="openMunicPopup">{{selectedMunic.name}}</a>の</label>ごみ分別検索
+    <label v-if="selectedCity"><a href="javascript:void(0)" @click="openCityPopup">{{selectedCity.name}}</a>の</label>ごみ分別検索
   </h1>
   <input class="keyword-input" :placeholder="placeholder" v-model="articleKeyword">
   <ul class="normal-list">
@@ -40,7 +40,7 @@
   </ul>
   <ul class="legend-list" v-if="gomidataAvailable">
     <legend-list-item
-      v-for="category in parentCategories"
+      v-for="category in topLevelCategories"
       :key="category.id"
       :text="category.name"
       :icon="category.icon">
@@ -52,23 +52,23 @@
 </main>
 
 <transition name="popup">
-  <div class="popup-fill" v-if="municPopupVisible" @click="closeMunicPopup">
+  <div class="popup-fill" v-if="cityPopupVisible" @click="closeCityPopup">
     <div class="popup-window" tabindex="0" ref="popupWindow" @click="dummy" @keydown="articlePopupKeydown">
       <div class="popup-title">自治体を選びましょう</div>
-      <div class="popup-close-box" v-if="gomidataAvailable" @click="closeMunicPopup">
+      <div class="popup-close-box" v-if="gomidataAvailable" @click="closeCityPopup">
         <div class="popup-close">✖</div>
       </div>
       <div class="popup-content-box">
-        <!-- <input class="munic-input" v-model="municKeyword"> -->
+        <!-- <input class="city-input" v-model="cityKeyword"> -->
         <ul class="normal-list-horizontal">
           <list-item
             class="normal-list-item-horizontal"
-            v-for="id in Object.keys(allMunicsById)"
+            v-for="id in Object.keys(allCitiesById)"
             ref="id"
             :key="id"
-            :data="allMunicsById[id]"
-            :text="allMunicsById[id].name"
-            :click="popupMunicClicked">
+            :data="allCitiesById[id]"
+            :text="allCitiesById[id].name"
+            :click="popupCityClicked">
           </list-item>
         </ul>
       </div>

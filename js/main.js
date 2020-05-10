@@ -30,7 +30,8 @@ const SUPPORTED_CITIES = [
     { id: "aichi_okazaki", name: "岡崎市", file: "data/gomidata_aichi_okazaki.json" },
     { id: "aichi_toyota", name: "豊田市", file: "data/gomidata_aichi_toyota.json" },
     { id: "aichi_ichinomiya", name: "一宮市", file: "data/gomidata_aichi_ichinomiya.json" },
-    { id: "aichi_toyohashi", name: "豊橋市", file: "data/gomidata_aichi_toyohashi.json" }
+    { id: "aichi_toyohashi", name: "豊橋市", file: "data/gomidata_aichi_toyohashi.json" },
+    { id: "aichi_anjo", name: "安城市", file: "data/gomidata_aichi_anjo.json" }
 ];
 
 // // 共通分類

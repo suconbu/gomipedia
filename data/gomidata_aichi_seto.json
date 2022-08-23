@@ -151,7 +151,7 @@
     },
     {
       "name": "油紙",
-      "nameKana": "あぶらがみ",
+      "nameKana": "あぶらかみ",
       "categoryId": "burnable"
     },
     {
@@ -191,13 +191,13 @@
     },
     {
       "name": "飴の個包装(紙製)",
-      "nameKana": "あめのこづつみそう(かみせい)",
+      "nameKana": "あめのこほうそう(かみせい)",
       "categoryId": "paper",
       "note": "ミックスペーパーとして袋に入れて出してください。汚れたものは、燃えるごみ。"
     },
     {
       "name": "飴の個包装(プラスチック製)",
-      "nameKana": "あめのこづつみそう(ぷらすちっくせい)",
+      "nameKana": "あめのこほうそう(ぷらすちっくせい)",
       "categoryId": "burnable"
     },
     {
@@ -409,7 +409,7 @@
     },
     {
       "name": "臼(石製・木製)",
-      "nameKana": "うす(せきせい・もくせい)",
+      "nameKana": "うす(いしせい・もくせい)",
       "categoryId": "uncollectible",
       "note": "一般廃棄物収集運搬業許可業者に相談してください。"
     },
@@ -663,12 +663,12 @@
     },
     {
       "name": "お手拭き",
-      "nameKana": "おてぬぐいき",
+      "nameKana": "おてふき",
       "categoryId": "burnable"
     },
     {
       "name": "お手拭きの袋(プラスチック製)",
-      "nameKana": "おてぬぐいきのふくろ(ぷらすちっくせい)",
+      "nameKana": "おてふきのふくろ(ぷらすちっくせい)",
       "categoryId": "burnable"
     },
     {
@@ -792,7 +792,7 @@
     },
     {
       "name": "カーキャリア(車の上につけるもの)",
-      "nameKana": "かーきゃりあ(くるまのうえにつけるもの)",
+      "nameKana": "かーきゃりあ(くるまのじょうにつけるもの)",
       "categoryId": "oversized"
     },
     {
@@ -1097,7 +1097,7 @@
     },
     {
       "name": "紙おむつの外袋",
-      "nameKana": "かみおむつのそとぶくろ",
+      "nameKana": "かみおむつのそとふくろ",
       "categoryId": "burnable"
     },
     {
@@ -1195,12 +1195,12 @@
     },
     {
       "name": "ガラス瓶(化粧瓶・薬瓶)",
-      "nameKana": "がらすかめ(けしょうかめ・くすりびん)",
+      "nameKana": "がらすかめ(けしょうかめ・くすりかめ)",
       "categoryId": "unburnable"
     },
     {
       "name": "軽石",
-      "nameKana": "かるいし",
+      "nameKana": "けいいし",
       "categoryId": "unburnable"
     },
     {
@@ -1369,7 +1369,7 @@
     },
     {
       "name": "急須・土瓶",
-      "nameKana": "きゅうす・どびん",
+      "nameKana": "きゅうす・つちかめ",
       "categoryId": "unburnable"
     },
     {
@@ -1530,7 +1530,7 @@
     },
     {
       "name": "クリーニングの中台紙",
-      "nameKana": "くりーにんぐのちゅうたいかみ",
+      "nameKana": "くりーにんぐのなかだいし",
       "categoryId": "paper",
       "note": "ミックスペーパーとして袋に入れて出してください。"
     },
@@ -2838,7 +2838,7 @@
     },
     {
       "name": "栓抜き",
-      "nameKana": "せんぬきき",
+      "nameKana": "せんぬき",
       "categoryId": "unburnable"
     },
     {
@@ -3133,7 +3133,7 @@
     },
     {
       "name": "茶殻",
-      "nameKana": "ちゃがら",
+      "nameKana": "ちゃから",
       "categoryId": "burnable"
     },
     {
@@ -3209,7 +3209,7 @@
     },
     {
       "name": "衝立(ついたて)",
-      "nameKana": "ついたて(ついたて)",
+      "nameKana": "しょうりつ(ついたて)",
       "categoryId": "oversized"
     },
     {
@@ -3225,7 +3225,7 @@
     },
     {
       "name": "使い捨てカイロの外袋",
-      "nameKana": "つかいすてかいろのそとぶくろ",
+      "nameKana": "つかいすてかいろのそとふくろ",
       "categoryId": "burnable"
     },
     {
@@ -3334,7 +3334,7 @@
     },
     {
       "name": "手押し車",
-      "nameKana": "ておししくるま",
+      "nameKana": "ておしくるま",
       "categoryId": "oversized"
     },
     {
@@ -3831,7 +3831,7 @@
     },
     {
       "name": "中台紙(菓子箱等 紙製)",
-      "nameKana": "ちゅうたいかみ(かしはこなど かみせい)",
+      "nameKana": "なかだいし(かしはこなど かみせい)",
       "categoryId": "paper",
       "note": "ミックスペーパーとして袋に入れて出してください。汚れたものは、燃えるごみ。"
     },
@@ -3881,12 +3881,12 @@
     },
     {
       "name": "人形(陶器・金属・石製)",
-      "nameKana": "にんぎょう(とうき・きんぞく・せきせい)",
+      "nameKana": "にんぎょう(とうき・きんぞく・いしせい)",
       "categoryId": "unburnable"
     },
     {
       "name": "人形(陶器・金属・石製以外)",
-      "nameKana": "にんぎょう(とうき・きんぞく・せきせいいがい)",
+      "nameKana": "にんぎょう(とうき・きんぞく・いしせいいがい)",
       "categoryId": "burnable"
     },
     {
@@ -4032,7 +4032,7 @@
     },
     {
       "name": "バーベキュー用金網・鉄板",
-      "nameKana": "ばーべきゅーようきんあみ・てっぱん",
+      "nameKana": "ばーべきゅーようかなあみ・てっぱん",
       "categoryId": "unburnable",
       "note": "燃えないごみ袋の口が縛れない大きさのものは粗大ごみ。"
     },
@@ -4314,7 +4314,7 @@
     },
     {
       "name": "パンの外袋",
-      "nameKana": "ぱんのそとぶくろ",
+      "nameKana": "ぱんのそとふくろ",
       "categoryId": "burnable"
     },
     {
@@ -4699,7 +4699,7 @@
     },
     {
       "name": "風呂釜(ガスバランス式)",
-      "nameKana": "ふろがま(がすばらんすしき)",
+      "nameKana": "ふろかま(がすばらんすしき)",
       "categoryId": "oversized",
       "note": "燃えないごみ袋の口が縛れる大きさのものは燃えないごみ。"
     },
@@ -5020,7 +5020,7 @@
     },
     {
       "name": "ポテトチップスの紙缶(筒型)",
-      "nameKana": "ぽてとちっぷすのかみかん(つつがた)",
+      "nameKana": "ぽてとちっぷすのかみかん(つつかた)",
       "categoryId": "paper",
       "note": "ミックスペーパーとして袋に入れて出してください。アルミコーティングされていても可。"
     },
@@ -5491,7 +5491,7 @@
     },
     {
       "name": "湯呑み茶碗",
-      "nameKana": "ゆのみみちゃわん",
+      "nameKana": "ゆのみちゃわん",
       "categoryId": "unburnable"
     },
     {

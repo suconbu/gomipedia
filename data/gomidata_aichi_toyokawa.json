@@ -2,7 +2,7 @@
   "municipalityId": "232076",
   "municipalityName": "愛知県豊川市",
   "datasourceUrl": "https://www.city.toyokawa.lg.jp/smph/kurashi/gomirecycle/gomihayamihyo/",
-  "updatedAt": "2019-12-16",
+  "updatedAt": "2022-07-06",
   "categoryDefinitions": {
     "burnable": {
       "name": "可燃ごみ"
@@ -834,7 +834,7 @@
       "name": "乾電池",
       "nameKana": "かんでんち",
       "categoryId": "hazardous",
-      "note": "ボタン電池、充電式電池は市では回収できません。家電店等のリサイクルボックスをご利用ください。"
+      "note": "錆びているものや、液漏れしているものはビニール袋等に入れて出してください。ボタン電池、充電式電池は市では回収できません。家電店等のリサイクルボックスをご利用ください。"
     },
     {
       "name": "感熱紙",
@@ -999,7 +999,8 @@
     {
       "name": "薬(錠剤、粉末)",
       "nameKana": "くすり(じょうざい、ふんまつ)",
-      "categoryId": "burnable"
+      "categoryId": "burnable",
+      "note": "農薬は市で処理できません。廃棄物処理業者に相談してください。"
     },
     {
       "name": "薬の金属製チューブ(塗り薬)",
@@ -1220,6 +1221,12 @@
       "note": "ガラス製は不燃ごみ。"
     },
     {
+      "name": "広告(チラシ)",
+      "nameKana": "こうこく(ちらし)",
+      "categoryId": "recyclable",
+      "note": "ひもで十字に縛る。"
+    },
+    {
       "name": "コート",
       "nameKana": "こーと",
       "categoryId": "recyclable"
@@ -1338,6 +1345,18 @@
       "name": "座卓",
       "nameKana": "ざたく",
       "categoryId": "oversized"
+    },
+    {
+      "name": "雑がみ",
+      "nameKana": "ざつがみ",
+      "categoryId": "recyclable",
+      "note": "ひもで十字に縛る。※小さな紙類は、紙袋や封筒などに入れてひもで縛る。"
+    },
+    {
+      "name": "雑誌",
+      "nameKana": "ざっし",
+      "categoryId": "recyclable",
+      "note": "ひもで十字に縛る。"
     },
     {
       "name": "殺虫剤スプレー缶",
@@ -1585,6 +1604,12 @@
       "note": "水を捨ててください。"
     },
     {
+      "name": "書籍",
+      "nameKana": "しょせき",
+      "categoryId": "recyclable",
+      "note": "ひもで十字に縛る。"
+    },
+    {
       "name": "食器洗い乾燥機",
       "nameKana": "しょっきあらいかんそうき",
       "categoryId": "oversized"
@@ -1605,6 +1630,12 @@
       "nameKana": "じんこうしば",
       "categoryId": "burnable",
       "note": "指定袋に入れて口がしばれないものは粗大ごみ。"
+    },
+    {
+      "name": "新聞紙",
+      "nameKana": "しんぶんし",
+      "categoryId": "recyclable",
+      "note": "ひもで十字に縛る。"
     },
     {
       "name": "シンナー",
@@ -1997,6 +2028,12 @@
       "note": "１０kg以上のものは粗大ごみ。プラスチック製は可燃ごみ。"
     },
     {
+      "name": "段ボール",
+      "nameKana": "だんぼーる",
+      "categoryId": "recyclable",
+      "note": "ひもで十字に縛る。"
+    },
+    {
       "name": "地球儀",
       "nameKana": "ちきゅうぎ",
       "categoryId": "burnable"
@@ -2044,6 +2081,12 @@
       "categoryId": "oversized"
     },
     {
+      "name": "チラシ(広告)",
+      "nameKana": "ちらし(こうこく)",
+      "categoryId": "recyclable",
+      "note": "ひもで十字に縛る。"
+    },
+    {
       "name": "ちりとり(プラスチック製)",
       "nameKana": "ちりとり(ぷらすちっくせい)",
       "categoryId": "burnable",
@@ -2052,6 +2095,12 @@
     {
       "name": "杖",
       "nameKana": "つえ",
+      "categoryId": "oversized",
+      "note": "指定袋に入れて口がしばれるもので木・プラ製は可燃ごみ。金属製は不燃ごみ。"
+    },
+    {
+      "name": "机",
+      "nameKana": "つくえ",
       "categoryId": "oversized",
       "note": "指定袋に入れて口がしばれるもので木・プラ製は可燃ごみ。金属製は不燃ごみ。"
     },
@@ -3011,15 +3060,16 @@
       "categoryId": "burnable"
     },
     {
-      "name": "ペットボトル(飲料、しょうゆ用)",
-      "nameKana": "ぺっとぼとる(いんりょう、しょうゆよう)",
+      "name": "ペットボトル(飲料、特定調味料)",
+      "nameKana": "ぺっとぼとる(いんりょう、とくていちょうみりょう)",
       "categoryId": "recyclable",
-      "note": "ふたを取り、水ですすいでつぶしてください。"
+      "note": "「ＰＥＴボトルの識別表示マーク」のみ、キャップとラベルを取り、水ですすいでつぶしてください。"
     },
     {
-      "name": "ペットボトル(上記以外のもの)",
-      "nameKana": "ぺっとぼとる(じょうきいがいのもの)",
-      "categoryId": "burnable"
+      "name": "ペットボトル(飲料、特定調味料以外のもの)",
+      "nameKana": "ぺっとぼとる(いんりょう、とくていちょうみりょういがいのもの)",
+      "categoryId": "burnable",
+      "note": "食物油脂を含むものやソース、焼肉のタレなどの香辛料の強いものが入っていたペットボトルは可燃ごみ。"
     },
     {
       "name": "ペットボトルキャップ",

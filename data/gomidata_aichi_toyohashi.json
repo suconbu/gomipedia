@@ -1,7 +1,7 @@
 {
   "municipalityId": "232017",
   "municipalityName": "愛知県豊橋市",
-  "datasourceUrl": "http://www2.city.toyohashi.aichi.jp/kankyo/dictionary/index.html",
+  "datasourceUrl": "https://www.city.toyohashi.lg.jp/36806.htm",
   "categoryDefinitions": {
     "burnable": {
       "name": "もやすごみ",
@@ -50,7 +50,7 @@
       "note": "戸別有料収集又は資源化センターへの自己搬入"
     },
     "legalrecycling": {
-      "name": "家電４品目"
+      "name": "家電4品目"
     },
     "uncollectible": {
       "name": "収集しません"
@@ -92,8 +92,7 @@
     {
       "name": "厚紙(ボール紙)",
       "nameKana": "あつがみ(ぼーるかみ)",
-      "categoryId": "localcollection.paper",
-      "note": "地域資源回収又は環境センター、リサイクルステーション、古紙リサイクルヤードへ"
+      "categoryId": "localcollection.paper"
     },
     {
       "name": "雨戸",
@@ -195,15 +194,15 @@
       "categoryId": "plasticpackaging"
     },
     {
-      "name": "一輪車(子供用)",
-      "nameKana": "いちりんくるま(こどもよう)",
+      "name": "一輪車",
+      "nameKana": "いちりんくるま",
       "categoryId": "crushable"
     },
     {
       "name": "一升瓶",
       "nameKana": "いっしょうびん",
       "categoryId": "grassbottle",
-      "note": "販売店等での回収もご利用ください。キャップはこわすごみへ"
+      "note": "販売店等に引き取ってもらいましょう。"
     },
     {
       "name": "一升瓶のふた",
@@ -220,7 +219,12 @@
       "name": "犬小屋",
       "nameKana": "いぬこや",
       "categoryId": "crushable",
-      "note": "90ｃｍ以上は大きなごみ（家具と同じ扱い）へ"
+      "note": "90cm以上は大きなごみ（家具と同じ扱い）へ"
+    },
+    {
+      "name": "鋳物",
+      "nameKana": "いもの",
+      "categoryId": "crushable"
     },
     {
       "name": "衣類",
@@ -233,6 +237,11 @@
       "nameKana": "いるいかんそうき",
       "categoryId": "legalrecycling",
       "note": "家電4品目は販売店等に引き取ってもらいましょう。"
+    },
+    {
+      "name": "入れ歯",
+      "nameKana": "いれば",
+      "categoryId": "crushable"
     },
     {
       "name": "印鑑",
@@ -271,7 +280,18 @@
       "name": "植木鉢(陶磁器製)",
       "nameKana": "うえきばち(とうじきせい)",
       "categoryId": "unburnable",
-      "note": "プラスチック製はこわすごみへ"
+      "note": "プラスチック製はこわすごみへ。根や土は取り除いてください。"
+    },
+    {
+      "name": "ウェットスーツ",
+      "nameKana": "うぇっとすーつ",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "ウォーターサーバー",
+      "nameKana": "うぉーたーさーばー",
+      "categoryId": "uncollectible",
+      "note": "販売店等に引き取ってもらいましょう。"
     },
     {
       "name": "ウッドデッキ",
@@ -307,8 +327,8 @@
       "categoryId": "foodscraps"
     },
     {
-      "name": "運動靴(スニーカー)",
-      "nameKana": "うんどうぐつ(すにーかー)",
+      "name": "運動靴 (スニーカー)",
+      "nameKana": "うんどうぐつ (すにーかー)",
       "categoryId": "burnable"
     },
     {
@@ -316,6 +336,11 @@
       "nameKana": "えあこん",
       "categoryId": "legalrecycling",
       "note": "家電4品目は販売店等に引き取ってもらいましょう。"
+    },
+    {
+      "name": "ACアダプタ",
+      "nameKana": "えーしーあだぷた",
+      "categoryId": "crushable"
     },
     {
       "name": "液晶テレビ",
@@ -347,8 +372,7 @@
     {
       "name": "絵本",
       "nameKana": "えほん",
-      "categoryId": "localcollection.paper",
-      "note": "地域資源回収又は環境センター、リサイクルステーション、古紙リサイクルヤードへ"
+      "categoryId": "localcollection.paper"
     },
     {
       "name": "MD",
@@ -408,24 +432,8 @@
       "categoryId": "crushable"
     },
     {
-      "name": "オーディオプレイヤー",
-      "nameKana": "おーでぃおぷれいやー",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "オートバイ",
-      "nameKana": "おーとばい",
-      "categoryId": "uncollectible",
-      "note": "販売店等に引き取ってもらいましょう。"
-    },
-    {
-      "name": "オーブントースター",
-      "nameKana": "おーぶんとーすたー",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "オイル缶(食用油)",
-      "nameKana": "おいるかん(しょくようあぶら)",
+      "name": "オイル缶 (食用油)",
+      "nameKana": "おいるかん (しょくようあぶら)",
       "categoryId": "crushable",
       "note": "中身はリサイクルステーションへ"
     },
@@ -446,9 +454,30 @@
       "categoryId": "oversized"
     },
     {
+      "name": "オーディオプレイヤー",
+      "nameKana": "おーでぃおぷれいやー",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "オートバイ",
+      "nameKana": "おーとばい",
+      "categoryId": "uncollectible",
+      "note": "販売店等に引き取ってもらいましょう。"
+    },
+    {
+      "name": "オーブントースター",
+      "nameKana": "おーぶんとーすたー",
+      "categoryId": "crushable"
+    },
+    {
       "name": "お菓子",
       "nameKana": "おかし",
       "categoryId": "foodscraps"
+    },
+    {
+      "name": "お菓子の空き箱",
+      "nameKana": "おかしのあきはこ",
+      "categoryId": "localcollection.paper"
     },
     {
       "name": "おかゆ",
@@ -464,7 +493,7 @@
       "name": "置物(ガラス製・陶磁器製)",
       "nameKana": "おきもの(がらすせい・とうじきせい)",
       "categoryId": "unburnable",
-      "note": "木製はもやすごみへ。プラスチック製はこわすごみへ"
+      "note": "木製はもやすごみへ 。プラスチック製はこわすごみへ"
     },
     {
       "name": "落ち葉",
@@ -472,16 +501,16 @@
       "categoryId": "burnable"
     },
     {
-      "name": "おもちゃ(木製)",
-      "nameKana": "おもちゃ(もくせい)",
+      "name": "おむつ",
+      "nameKana": "おむつ",
       "categoryId": "burnable",
-      "note": "120ｃｍ以上は大きなごみへ"
+      "note": "汚物を取り除いてください。"
     },
     {
-      "name": "おもちゃ(木製以外)",
-      "nameKana": "おもちゃ(もくせいいがい)",
+      "name": "おもちゃ",
+      "nameKana": "おもちゃ",
       "categoryId": "crushable",
-      "note": "120ｃｍ以上は大きなごみへ"
+      "note": "木製はこわすごみへ。120ｃｍ以上は大きなごみへ"
     },
     {
       "name": "オルガン",
@@ -489,14 +518,10 @@
       "categoryId": "oversized"
     },
     {
-      "name": "温度計(水銀使用)",
-      "nameKana": "おんどけい(すいぎんしよう)",
-      "categoryId": "hazardous"
-    },
-    {
       "name": "温度計(水銀0使用)",
       "nameKana": "おんどけい(すいぎん0しよう)",
-      "categoryId": "crushable"
+      "categoryId": "crushable",
+      "note": "水銀使用は危険ごみへ"
     },
     {
       "name": "カーテン",
@@ -508,7 +533,7 @@
       "name": "カーテンレール",
       "nameKana": "かーてんれーる",
       "categoryId": "crushable",
-      "note": "建設工事に伴い出たものは市では受け付けません。120ｃｍ以上は大きなごみへ"
+      "note": "建設工事に伴い出たものは市では受け付けません。120cm以上は大きなごみへ"
     },
     {
       "name": "カーナビ",
@@ -542,6 +567,12 @@
       "note": "120ｃｍ以上は大きなごみへ"
     },
     {
+      "name": "額縁",
+      "nameKana": "がくぶち",
+      "categoryId": "crushable",
+      "note": "120ｃｍ以上は大きなごみへ"
+    },
+    {
       "name": "掛け時計",
       "nameKana": "かけとけい",
       "categoryId": "crushable",
@@ -551,212 +582,6 @@
       "name": "傘",
       "nameKana": "かさ",
       "categoryId": "crushable"
-    },
-    {
-      "name": "菓子の空き箱",
-      "nameKana": "かしのあきはこ",
-      "categoryId": "localcollection.paper",
-      "note": "地域資源回収又は環境センター、リサイクルステーション、古紙リサイクルヤードへ"
-    },
-    {
-      "name": "カセットコンロ",
-      "nameKana": "かせっとこんろ",
-      "categoryId": "crushable",
-      "note": "カセット式ガスボンベは外してください。"
-    },
-    {
-      "name": "カセット式ガスボンベ",
-      "nameKana": "かせっとしきがすぼんべ",
-      "categoryId": "hazardous",
-      "note": "中身は使いきってください。穴あけは不要です。"
-    },
-    {
-      "name": "カセットテープ",
-      "nameKana": "かせっとてーぷ",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "片栗粉",
-      "nameKana": "かたくりこ",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "カタログ",
-      "nameKana": "かたろぐ",
-      "categoryId": "localcollection.paper",
-      "note": "地域資源回収又は環境センター、リサイクルステーション、古紙リサイクルヤードへ"
-    },
-    {
-      "name": "カッターナイフ",
-      "nameKana": "かったーないふ",
-      "categoryId": "hazardous",
-      "note": "刃を紙等に包んでください。"
-    },
-    {
-      "name": "合羽",
-      "nameKana": "かっぱ",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "かつお節",
-      "nameKana": "かつおふし",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "金網",
-      "nameKana": "かなあみ",
-      "categoryId": "crushable",
-      "note": "建設工事に伴い出たものは市では受け付けません。120ｃｍ以上は大きなごみへ"
-    },
-    {
-      "name": "金づち",
-      "nameKana": "きんづち",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "かに甲羅・殻",
-      "nameKana": "かにこうら・から",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "かばん",
-      "nameKana": "かばん",
-      "categoryId": "burnable"
-    },
-    {
-      "name": "カビのついた食べ物",
-      "nameKana": "かびのついたたべもの",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "花瓶(ガラス製・陶磁器製)",
-      "nameKana": "かびん(がらすせい・とうじきせい)",
-      "categoryId": "unburnable"
-    },
-    {
-      "name": "花瓶(ガラス製・陶磁器製以外)",
-      "nameKana": "かびん(がらすせい・とうじきせいいがい)",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "鎌",
-      "nameKana": "かま",
-      "categoryId": "hazardous",
-      "note": "刃を紙等に包んでください。"
-    },
-    {
-      "name": "紙おむつ",
-      "nameKana": "かみおむつ",
-      "categoryId": "burnable",
-      "note": "汚物は取り除いてください。"
-    },
-    {
-      "name": "紙コップ",
-      "nameKana": "かみこっぷ",
-      "categoryId": "burnable"
-    },
-    {
-      "name": "カミソリ",
-      "nameKana": "かみそり",
-      "categoryId": "hazardous",
-      "note": "容器に入れてください。"
-    },
-    {
-      "name": "紙箱(お菓子、おもちゃ等)",
-      "nameKana": "かみばこ(おかし、おもちゃなど)",
-      "categoryId": "localcollection.paper",
-      "note": "地域資源回収又は環境センター、リサイクルステーション、古紙リサイクルヤードへ"
-    },
-    {
-      "name": "紙パック(内側が銀色)",
-      "nameKana": "かみぱっく(うちがわがぎんいろ)",
-      "categoryId": "burnable"
-    },
-    {
-      "name": "紙パック(内側が白色)",
-      "nameKana": "かみぱっく(うちがわがはくしょく)",
-      "categoryId": "localcollection.paper",
-      "note": "地域資源回収又は環境センター、リサイクルステーション、古紙リサイクルヤードへ"
-    },
-    {
-      "name": "カメラ",
-      "nameKana": "かめら",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "カラーボックス",
-      "nameKana": "からーぼっくす",
-      "categoryId": "crushable",
-      "note": "120ｃｍ以上は大きなごみへ"
-    },
-    {
-      "name": "からし",
-      "nameKana": "からし",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "カレーのルー",
-      "nameKana": "かれーのるー",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "革製品",
-      "nameKana": "かわせいひん",
-      "categoryId": "burnable"
-    },
-    {
-      "name": "瓦",
-      "nameKana": "かわら",
-      "categoryId": "unburnable",
-      "note": "建設工事に伴い出たものは市では受け付けません。"
-    },
-    {
-      "name": "換気扇",
-      "nameKana": "かんきせん",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "乾燥剤",
-      "nameKana": "かんそうざい",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "缶詰の缶",
-      "nameKana": "かんづめのかん",
-      "categoryId": "grassbottle"
-    },
-    {
-      "name": "寒天",
-      "nameKana": "かんてん",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "乾電池(水銀使用)",
-      "nameKana": "かんでんち(すいぎんしよう)",
-      "categoryId": "hazardous",
-      "note": "充電式電池は販売店等へ。"
-    },
-    {
-      "name": "乾電池(水銀0使用)",
-      "nameKana": "かんでんち(すいぎん0しよう)",
-      "categoryId": "crushable",
-      "note": "充電式電池は販売店等へ。"
-    },
-    {
-      "name": "感熱紙",
-      "nameKana": "かんねつし",
-      "categoryId": "burnable"
-    },
-    {
-      "name": "乾物類",
-      "nameKana": "かんぶつるい",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "額縁",
-      "nameKana": "がくぶち",
-      "categoryId": "crushable",
-      "note": "120ｃｍ以上は大きなごみへ"
     },
     {
       "name": "ガスオーブン",
@@ -769,18 +594,6 @@
       "nameKana": "がすおーぶんれんじ",
       "categoryId": "oversized",
       "note": "60ｃｍ未満で電子レンジ機能のないものはこわすごみへ"
-    },
-    {
-      "name": "ガラスクリーナー(スプレー式)",
-      "nameKana": "がらすくりーなー(すぷれーしき)",
-      "categoryId": "hazardous",
-      "note": "中身は使いきってください。穴あけは不要です。"
-    },
-    {
-      "name": "ガラスクリーナー(ポンプ式)",
-      "nameKana": "がらすくりーなー(ぽんぷしき)",
-      "categoryId": "plasticpackaging",
-      "note": "ポンプ部分は取り外してこわすごみへ"
     },
     {
       "name": "ガスコンロ",
@@ -809,7 +622,7 @@
       "name": "ガスボンベ(プロパンガスボンベ)",
       "nameKana": "がすぼんべ(ぷろぱんがすぼんべ)",
       "categoryId": "uncollectible",
-      "note": "販売店等に引き取ってもらいましょう"
+      "note": "販売店等に引き取ってもらいましょう。"
     },
     {
       "name": "ガスライター",
@@ -817,15 +630,162 @@
       "categoryId": "hazardous"
     },
     {
+      "name": "カセット式ガスボンベ",
+      "nameKana": "かせっとしきがすぼんべ",
+      "categoryId": "hazardous",
+      "note": "中身は使い切ってください。穴あけは不要です。"
+    },
+    {
+      "name": "カセットテープ",
+      "nameKana": "かせっとてーぷ",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "カセットコンロ",
+      "nameKana": "かせっとこんろ",
+      "categoryId": "crushable",
+      "note": "カセット式ガスボンベは外してください。"
+    },
+    {
+      "name": "片栗粉",
+      "nameKana": "かたくりこ",
+      "categoryId": "foodscraps"
+    },
+    {
+      "name": "カタログ",
+      "nameKana": "かたろぐ",
+      "categoryId": "localcollection.paper"
+    },
+    {
+      "name": "かつお節",
+      "nameKana": "かつおふし",
+      "categoryId": "foodscraps"
+    },
+    {
+      "name": "カッターナイフ",
+      "nameKana": "かったーないふ",
+      "categoryId": "hazardous",
+      "note": "刃を紙等に包んでください。"
+    },
+    {
+      "name": "合羽",
+      "nameKana": "かっぱ",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "金網",
+      "nameKana": "かなあみ",
+      "categoryId": "crushable",
+      "note": "建設工事に伴い出たものは市では受け付けません。120cm以上は大きなごみへ"
+    },
+    {
+      "name": "金づち",
+      "nameKana": "きんづち",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "かに甲羅・殻",
+      "nameKana": "かにこうら・から",
+      "categoryId": "foodscraps"
+    },
+    {
+      "name": "かばん",
+      "nameKana": "かばん",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "カビのついた食べ物",
+      "nameKana": "かびのついたたべもの",
+      "categoryId": "foodscraps"
+    },
+    {
+      "name": "花瓶(ガラス製・陶磁器製)",
+      "nameKana": "かびん(がらすせい・とうじきせい)",
+      "categoryId": "unburnable",
+      "note": "ガラス製・陶磁器製以外はこわすごみへ"
+    },
+    {
+      "name": "鎌",
+      "nameKana": "かま",
+      "categoryId": "hazardous",
+      "note": "刃を紙等に包んでください。"
+    },
+    {
+      "name": "紙おむつ",
+      "nameKana": "かみおむつ",
+      "categoryId": "burnable",
+      "note": "汚物は取り除いてください。"
+    },
+    {
+      "name": "紙コップ",
+      "nameKana": "かみこっぷ",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "カミソリ",
+      "nameKana": "かみそり",
+      "categoryId": "hazardous",
+      "note": "容器に入れてください。"
+    },
+    {
+      "name": "紙箱(お菓子、おもちゃ等)",
+      "nameKana": "かみばこ(おかし、おもちゃなど)",
+      "categoryId": "localcollection.paper"
+    },
+    {
+      "name": "紙パック(内側が白色)",
+      "nameKana": "かみぱっく(うちがわがはくしょく)",
+      "categoryId": "localcollection.paper",
+      "note": "内側が銀色のものはもやすごみへ"
+    },
+    {
+      "name": "紙袋",
+      "nameKana": "かみぶくろ",
+      "categoryId": "localcollection.paper"
+    },
+    {
       "name": "ガム",
       "nameKana": "がむ",
       "categoryId": "burnable"
+    },
+    {
+      "name": "カメラ",
+      "nameKana": "かめら",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "カラーボックス",
+      "nameKana": "からーぼっくす",
+      "categoryId": "crushable",
+      "note": "120ｃｍ以上は大きなごみへ"
+    },
+    {
+      "name": "からし",
+      "nameKana": "からし",
+      "categoryId": "foodscraps"
     },
     {
       "name": "ガラス板",
       "nameKana": "がらすいた",
       "categoryId": "unburnable",
       "note": "120ｃｍ以上は大きなごみへ"
+    },
+    {
+      "name": "ガラスクリーナー(スプレー式)",
+      "nameKana": "がらすくりーなー(すぷれーしき)",
+      "categoryId": "hazardous",
+      "note": "中身は使い切ってください。穴あけは不要です。"
+    },
+    {
+      "name": "ガラスクリーナー(ポンプ式)",
+      "nameKana": "がらすくりーなー(ぽんぷしき)",
+      "categoryId": "plasticpackaging",
+      "note": "ポンプ部分は取り外してこわすごみへ"
+    },
+    {
+      "name": "ガラス製品",
+      "nameKana": "がらすせいひん",
+      "categoryId": "unburnable"
     },
     {
       "name": "ガラス戸",
@@ -839,9 +799,67 @@
       "categoryId": "grassbottle"
     },
     {
+      "name": "カレーのルー",
+      "nameKana": "かれーのるー",
+      "categoryId": "foodscraps"
+    },
+    {
+      "name": "革製品",
+      "nameKana": "かわせいひん",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "瓦",
+      "nameKana": "かわら",
+      "categoryId": "unburnable",
+      "note": "建設・解体工事に伴い出たものは市では受け付けません。"
+    },
+    {
+      "name": "換気扇",
+      "nameKana": "かんきせん",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "乾燥剤",
+      "nameKana": "かんそうざい",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "缶詰の缶",
+      "nameKana": "かんづめのかん",
+      "categoryId": "grassbottle"
+    },
+    {
+      "name": "寒天",
+      "nameKana": "かんてん",
+      "categoryId": "foodscraps"
+    },
+    {
+      "name": "乾電池(水銀0使用)",
+      "nameKana": "かんでんち(すいぎん0しよう)",
+      "categoryId": "crushable",
+      "note": "充電式電池は販売店等へ。水銀使用は危険ごみへ"
+    },
+    {
+      "name": "感熱紙",
+      "nameKana": "かんねつし",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "乾物類",
+      "nameKana": "かんぶつるい",
+      "categoryId": "foodscraps"
+    },
+    {
       "name": "キーボード(パソコン)",
       "nameKana": "きーぼーど(ぱそこん)",
       "categoryId": "crushable"
+    },
+    {
+      "name": "ギター",
+      "nameKana": "ぎたー",
+      "categoryId": "crushable",
+      "note": "120ｃｍ以上は大きなごみへ"
     },
     {
       "name": "キッチンマット",
@@ -855,8 +873,8 @@
       "categoryId": "foodscraps"
     },
     {
-      "name": "木の枝・木くず類",
-      "nameKana": "きのえだ・きくずるい",
+      "name": "木の板・木の枝・木くず類",
+      "nameKana": "きのいた・きのえだ・きくずるい",
       "categoryId": "burnable",
       "note": "60ｃｍ以下にして束ねてください。直接持ち込み時は120ｃｍ以下"
     },
@@ -894,16 +912,25 @@
       "note": "建設工事に伴い出たものは市では受け付けません。"
     },
     {
+      "name": "牛乳パック",
+      "nameKana": "ぎゅうにゅうぱっく",
+      "categoryId": "localcollection.paper"
+    },
+    {
       "name": "教科書",
       "nameKana": "きょうかしょ",
-      "categoryId": "localcollection.paper",
-      "note": "地域資源回収又は環境センター、リサイクルステーション、古紙リサイクルヤードへ"
+      "categoryId": "localcollection.paper"
+    },
+    {
+      "name": "凝固食用油",
+      "nameKana": "ぎょうこしょくようあぶら",
+      "categoryId": "burnable"
     },
     {
       "name": "鏡台",
       "nameKana": "きょうだい",
       "categoryId": "crushable",
-      "note": "90ｃｍ以上は大きなごみへ"
+      "note": "90cm以上は大きなごみへ"
     },
     {
       "name": "切り花",
@@ -923,21 +950,15 @@
       "note": "戸別収集は20リットル未満です。"
     },
     {
-      "name": "ギター",
-      "nameKana": "ぎたー",
+      "name": "空気入れ",
+      "nameKana": "くうきいれ",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "空気清浄機",
+      "nameKana": "くうきせいじょうき",
       "categoryId": "crushable",
-      "note": "120ｃｍ以上は大きなごみへ"
-    },
-    {
-      "name": "牛乳パック",
-      "nameKana": "ぎゅうにゅうぱっく",
-      "categoryId": "localcollection.paper",
-      "note": "地域資源回収又は環境センター、リサイクルステーション、古紙リサイクルヤードへ"
-    },
-    {
-      "name": "凝固食用油",
-      "nameKana": "ぎょうこしょくようあぶら",
-      "categoryId": "burnable"
+      "note": "60ｃｍ以上は大きなごみへ"
     },
     {
       "name": "クーラー",
@@ -949,17 +970,6 @@
       "name": "クーラーボックス",
       "nameKana": "くーらーぼっくす",
       "categoryId": "crushable"
-    },
-    {
-      "name": "空気入れ",
-      "nameKana": "くうきいれ",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "空気清浄機",
-      "nameKana": "くうきせいじょうき",
-      "categoryId": "crushable",
-      "note": "60ｃｍ以上は大きなごみへ"
     },
     {
       "name": "釘",
@@ -989,6 +999,11 @@
       "categoryId": "crushable"
     },
     {
+      "name": "くず繊維(裁断くず、反物)",
+      "nameKana": "くずせんい(さいだんくず、たんもの)",
+      "categoryId": "burnable"
+    },
+    {
       "name": "薬",
       "nameKana": "くすり",
       "categoryId": "burnable",
@@ -998,7 +1013,7 @@
       "name": "薬(カプセルの包装)",
       "nameKana": "くすり(かぷせるのほうそう)",
       "categoryId": "crushable",
-      "note": "プラスマークのついたものは、プラマークごみへ"
+      "note": "プラマークのついたものは、プラマークごみへ"
     },
     {
       "name": "薬の瓶",
@@ -1006,8 +1021,8 @@
       "categoryId": "grassbottle"
     },
     {
-      "name": "くず繊維(裁断くず、反物)",
-      "nameKana": "くずせんい(さいだんくず、たんもの)",
+      "name": "くすり類",
+      "nameKana": "くすりるい",
       "categoryId": "burnable"
     },
     {
@@ -1026,15 +1041,21 @@
       "categoryId": "crushable"
     },
     {
+      "name": "靴",
+      "nameKana": "くつ",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "靴(スパイク)",
+      "nameKana": "くつ(すぱいく)",
+      "categoryId": "crushable",
+      "note": "金属が付いていなければもやすごみへ"
+    },
+    {
       "name": "クッション",
       "nameKana": "くっしょん",
       "categoryId": "crushable",
       "note": "120ｃｍ以上は大きなごみへ"
-    },
-    {
-      "name": "靴",
-      "nameKana": "くつ",
-      "categoryId": "burnable"
     },
     {
       "name": "車椅子",
@@ -1045,6 +1066,12 @@
       "name": "くるみの殻",
       "nameKana": "くるみのから",
       "categoryId": "foodscraps"
+    },
+    {
+      "name": "グラスウール",
+      "nameKana": "ぐらすうーる",
+      "categoryId": "unburnable",
+      "note": "建設・解体工事に伴い出たものは市では受け付けません。"
     },
     {
       "name": "クレヨン",
@@ -1062,19 +1089,15 @@
       "categoryId": "crushable"
     },
     {
+      "name": "くん煙剤",
+      "nameKana": "くんけむりざい",
+      "categoryId": "crushable",
+      "note": "ものによっては安全に処理する方法が記載されているので、それに従って下処理した後に出してください。"
+    },
+    {
       "name": "軍手",
       "nameKana": "ぐんて",
       "categoryId": "burnable"
-    },
-    {
-      "name": "ゲーム機",
-      "nameKana": "げーむき",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "ゲームソフト",
-      "nameKana": "げーむそふと",
-      "categoryId": "crushable"
     },
     {
       "name": "蛍光管",
@@ -1085,6 +1108,12 @@
       "name": "蛍光ペン",
       "nameKana": "けいこうぺん",
       "categoryId": "crushable"
+    },
+    {
+      "name": "珪藻土製品",
+      "nameKana": "けいそうつちせいひん",
+      "categoryId": "unburnable",
+      "note": "アスベストを含む製品はメーカーによる回収をお願いいたします。"
     },
     {
       "name": "携帯電話",
@@ -1099,32 +1128,19 @@
       "note": "毛糸のセーターは布類へ"
     },
     {
-      "name": "化粧品のチューブ",
-      "nameKana": "けしょうひんのちゅーぶ",
+      "name": "ケーブル",
+      "nameKana": "けーぶる",
       "categoryId": "crushable"
     },
     {
-      "name": "化粧品の瓶",
-      "nameKana": "けしょうひんのかめ",
-      "categoryId": "grassbottle",
-      "note": "中身は使いきってください。中身が残っているものはこわすごみへ"
+      "name": "ゲーム機",
+      "nameKana": "げーむき",
+      "categoryId": "crushable"
     },
     {
-      "name": "ケチャップの容器",
-      "nameKana": "けちゃっぷのようき",
-      "categoryId": "burnable",
-      "note": "中身は使いきってください。びんの場合はびん・カンへ"
-    },
-    {
-      "name": "健康器具",
-      "nameKana": "けんこうきぐ",
-      "categoryId": "crushable",
-      "note": "120ｃｍ以上（電動式は60ｃｍ以上）は大きなごみへ"
-    },
-    {
-      "name": "剱山",
-      "nameKana": "けんざん",
-      "categoryId": "hazardous"
+      "name": "ゲームソフト",
+      "nameKana": "げーむそふと",
+      "categoryId": "crushable"
     },
     {
       "name": "劇薬",
@@ -1133,10 +1149,27 @@
       "note": "販売店等に引き取ってもらいましょう。"
     },
     {
+      "name": "化粧品のチューブ",
+      "nameKana": "けしょうひんのちゅーぶ",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "化粧品の瓶",
+      "nameKana": "けしょうひんのかめ",
+      "categoryId": "grassbottle",
+      "note": "中身は使い切ってください。中身が残っているものはこわすごみへ"
+    },
+    {
       "name": "下駄箱",
       "nameKana": "げたばこ",
       "categoryId": "oversized",
-      "note": "90ｃｍ未満はこわすごみへ"
+      "note": "90cm未満はこわすごみへ"
+    },
+    {
+      "name": "ケチャップの容器",
+      "nameKana": "けちゃっぷのようき",
+      "categoryId": "burnable",
+      "note": "中身は使い切ってください。"
     },
     {
       "name": "玄関マット",
@@ -1145,10 +1178,27 @@
       "note": "120ｃｍ以上は大きなごみへ"
     },
     {
+      "name": "健康器具",
+      "nameKana": "けんこうきぐ",
+      "categoryId": "crushable",
+      "note": "120ｃｍ以上（電動式は60ｃｍ以上）は大きなごみへ"
+    },
+    {
+      "name": "剣山",
+      "nameKana": "けんざん",
+      "categoryId": "hazardous"
+    },
+    {
       "name": "原動機付自転車",
       "nameKana": "げんどうきつきじてんしゃ",
       "categoryId": "uncollectible",
       "note": "販売店等に引き取ってもらいましょう。"
+    },
+    {
+      "name": "香水のビン",
+      "nameKana": "こうすいのびん",
+      "categoryId": "grassbottle",
+      "note": "中身は使い切ってください。"
     },
     {
       "name": "コード",
@@ -1159,7 +1209,7 @@
       "name": "コーヒーかす・殻",
       "nameKana": "こーひーかす・から",
       "categoryId": "foodscraps",
-      "note": "コーヒーフィルター付きで出せます。"
+      "note": "コーヒーフィルター付きで出せます"
     },
     {
       "name": "コーヒーの瓶",
@@ -1168,10 +1218,9 @@
       "note": "プラスチック製のふたはプラマークごみへ"
     },
     {
-      "name": "香水の瓶",
-      "nameKana": "こうすいのかめ",
-      "categoryId": "grassbottle",
-      "note": "中身は使いきってください。"
+      "name": "ござ",
+      "nameKana": "ござ",
+      "categoryId": "oversized"
     },
     {
       "name": "こたつ",
@@ -1195,6 +1244,11 @@
       "note": "ガラス製・陶磁器製以外はこわすごみへ"
     },
     {
+      "name": "琴",
+      "nameKana": "こん",
+      "categoryId": "oversized"
+    },
+    {
       "name": "粉チーズ",
       "nameKana": "こなちーず",
       "categoryId": "foodscraps"
@@ -1211,50 +1265,24 @@
       "note": "プラスチック製のふたはプラマークごみへ"
     },
     {
+      "name": "ごはん",
+      "nameKana": "ごはん",
+      "categoryId": "foodscraps"
+    },
+    {
       "name": "コピー機",
       "nameKana": "こぴーき",
       "categoryId": "crushable",
       "note": "60ｃｍ以上は大きなごみへ"
     },
     {
-      "name": "小麦粉",
-      "nameKana": "こむぎこ",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "米ぬか",
-      "nameKana": "こめぬか",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "コンクリートブロック",
-      "nameKana": "こんくりーとぶろっく",
-      "categoryId": "unburnable",
-      "note": "50cm以下に砕いて。建設工事に伴い出たものは市では受け付けません。"
-    },
-    {
-      "name": "こんにゃく",
-      "nameKana": "こんにゃく",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "昆布",
-      "nameKana": "こんぶ",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "ござ",
-      "nameKana": "ござ",
-      "categoryId": "oversized"
-    },
-    {
-      "name": "ごはん",
-      "nameKana": "ごはん",
-      "categoryId": "foodscraps"
-    },
-    {
       "name": "ごま",
       "nameKana": "ごま",
+      "categoryId": "foodscraps"
+    },
+    {
+      "name": "小麦粉",
+      "nameKana": "こむぎこ",
       "categoryId": "foodscraps"
     },
     {
@@ -1276,7 +1304,12 @@
       "name": "ゴムボート",
       "nameKana": "ごむぼーと",
       "categoryId": "crushable",
-      "note": "FRPなどのボートは販売店等に引き取ってもらいましょう。"
+      "note": "ＦＲＰなどのボートは販売店等に引き取ってもらいましょう。"
+    },
+    {
+      "name": "米ぬか",
+      "nameKana": "こめぬか",
+      "categoryId": "foodscraps"
     },
     {
       "name": "ゴルフクラブ",
@@ -1285,9 +1318,42 @@
       "note": "120ｃｍ以上は大きなごみへ"
     },
     {
+      "name": "ゴルフバッグ",
+      "nameKana": "ごるふばっぐ",
+      "categoryId": "crushable",
+      "note": "120㎝以上は大きなごみへ"
+    },
+    {
+      "name": "ゴルフボール",
+      "nameKana": "ごるふぼーる",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "コンクリートブロック",
+      "nameKana": "こんくりーとぶろっく",
+      "categoryId": "unburnable",
+      "note": "建設・解体工事に伴い出たものは市では受け付けません。50cm以下に砕いて"
+    },
+    {
+      "name": "こんにゃく",
+      "nameKana": "こんにゃく",
+      "categoryId": "foodscraps"
+    },
+    {
+      "name": "昆布",
+      "nameKana": "こんぶ",
+      "categoryId": "foodscraps"
+    },
+    {
       "name": "サーフボード",
       "nameKana": "さーふぼーど",
       "categoryId": "oversized"
+    },
+    {
+      "name": "座いす",
+      "nameKana": "ざいす",
+      "categoryId": "crushable",
+      "note": "足のついたものは大きなごみへ"
     },
     {
       "name": "魚",
@@ -1300,16 +1366,26 @@
       "categoryId": "burnable"
     },
     {
-      "name": "殺虫剤(くん煙剤)",
-      "nameKana": "さっちゅうざい(くんけむりざい)",
-      "categoryId": "crushable",
-      "note": "未使用のものは危険ごみへ"
+      "name": "雑誌",
+      "nameKana": "ざっし",
+      "categoryId": "localcollection.paper"
+    },
+    {
+      "name": "雑草",
+      "nameKana": "ざっそう",
+      "categoryId": "burnable"
     },
     {
       "name": "殺虫剤(スプレー缶)",
       "nameKana": "さっちゅうざい(すぷれーかん)",
       "categoryId": "hazardous",
-      "note": "中身は使いきってください。穴あけは不要です。"
+      "note": "中身は使い切ってください。穴あけは不要です。"
+    },
+    {
+      "name": "殺虫剤(くん煙剤)",
+      "nameKana": "さっちゅうざい(くんけむりざい)",
+      "categoryId": "crushable",
+      "note": "未使用のものは危険ごみへ"
     },
     {
       "name": "砂糖",
@@ -1317,15 +1393,16 @@
       "categoryId": "foodscraps"
     },
     {
-      "name": "皿(ガラス製・陶磁器製)",
-      "nameKana": "さら(がらすせい・とうじきせい)",
-      "categoryId": "unburnable"
+      "name": "座布団(綿入り座敷用)",
+      "nameKana": "ざぶとん(めんいりざしきよう)",
+      "categoryId": "oversized",
+      "note": "綿入り座敷用以外はこわすごみへ"
     },
     {
-      "name": "皿(ガラス製・陶磁器製以外)",
-      "nameKana": "さら(がらすせい・とうじきせいいがい)",
-      "categoryId": "crushable",
-      "note": "プラスチック製はこわすごみへ。木製はもやすごみへ。"
+      "name": "皿(ガラス製・陶磁器製)",
+      "nameKana": "さら(がらすせい・とうじきせい)",
+      "categoryId": "unburnable",
+      "note": "プラスチック製はこわすごみへ。木製はもやすごみへ"
     },
     {
       "name": "三脚",
@@ -1342,30 +1419,12 @@
       "name": "三面鏡",
       "nameKana": "さんめんかがみ",
       "categoryId": "crushable",
-      "note": "90ｃｍ以上は大きなごみへ"
+      "note": "90cm以上は大きなごみへ"
     },
     {
       "name": "三輪車",
       "nameKana": "さんりんしゃ",
       "categoryId": "crushable"
-    },
-    {
-      "name": "座いす",
-      "nameKana": "ざいす",
-      "categoryId": "crushable",
-      "note": "足のついたものは大きなごみへ"
-    },
-    {
-      "name": "雑誌",
-      "nameKana": "ざっし",
-      "categoryId": "localcollection.paper",
-      "note": "地域資源回収又は環境センター、リサイクルステーション、古紙リサイクルヤードへ"
-    },
-    {
-      "name": "座布団(綿入り座敷用)",
-      "nameKana": "ざぶとん(めんいりざしきよう)",
-      "categoryId": "oversized",
-      "note": "綿入り座敷用以外はこわすごみへ"
     },
     {
       "name": "シーツ",
@@ -1389,9 +1448,26 @@
       "categoryId": "crushable"
     },
     {
+      "name": "ジェットスキー",
+      "nameKana": "じぇっとすきー",
+      "categoryId": "uncollectible",
+      "note": "販売店等に引き取ってもらいましょう。"
+    },
+    {
       "name": "塩",
       "nameKana": "しお",
       "categoryId": "foodscraps"
+    },
+    {
+      "name": "敷きパッド",
+      "nameKana": "しきぱっど",
+      "categoryId": "oversized",
+      "note": "綿が入っていなければ、こわすごみへ"
+    },
+    {
+      "name": "磁石",
+      "nameKana": "じしゃく",
+      "categoryId": "crushable"
     },
     {
       "name": "下着(天然繊維・化学繊維)",
@@ -1412,6 +1488,27 @@
       "name": "湿布剤",
       "nameKana": "しっぷざい",
       "categoryId": "burnable"
+    },
+    {
+      "name": "自転車",
+      "nameKana": "じてんしゃ",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "自転車のタイヤ・チューブ",
+      "nameKana": "じてんしゃのたいや・ちゅーぶ",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "自動車",
+      "nameKana": "じどうしゃ",
+      "categoryId": "uncollectible",
+      "note": "販売店等に引き取ってもらいましょう。"
+    },
+    {
+      "name": "自動車用品",
+      "nameKana": "じどうしゃようひん",
+      "categoryId": "crushable"
     },
     {
       "name": "シニアカート(電動カート)",
@@ -1442,10 +1539,26 @@
       "note": "未使用品（ケース入り）はこわすごみへ"
     },
     {
+      "name": "ジャム",
+      "nameKana": "じゃむ",
+      "categoryId": "foodscraps"
+    },
+    {
       "name": "シャンプーのボトル",
       "nameKana": "しゃんぷーのぼとる",
       "categoryId": "plasticpackaging",
       "note": "ポンプ部分は取り外してこわすごみへ"
+    },
+    {
+      "name": "じゅうたん",
+      "nameKana": "じゅうたん",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "充電式電池",
+      "nameKana": "じゅうでんしきでんち",
+      "categoryId": "uncollectible",
+      "note": "19ページをご覧ください。"
     },
     {
       "name": "収納庫",
@@ -1454,15 +1567,31 @@
       "note": "サイズ、形状によっては戸別収集できない場合があります。"
     },
     {
+      "name": "ジュニアシート",
+      "nameKana": "じゅにあしーと",
+      "categoryId": "crushable"
+    },
+    {
       "name": "朱肉",
       "nameKana": "しゅにく",
+      "categoryId": "crushable",
+      "note": "水銀使用は危険ごみへ"
+    },
+    {
+      "name": "シュノーケル(潜水用具)",
+      "nameKana": "しゅのーける(せんすいようぐ)",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "ジョイントマット",
+      "nameKana": "じょいんとまっと",
       "categoryId": "crushable"
     },
     {
       "name": "消火器",
       "nameKana": "しょうかき",
       "categoryId": "uncollectible",
-      "note": "販売店または豊橋市消防本部予防課にお問い合わせください。"
+      "note": "19ページをご覧ください。"
     },
     {
       "name": "障子戸",
@@ -1484,29 +1613,35 @@
       "name": "食用油",
       "nameKana": "しょくようあぶら",
       "categoryId": "burnable",
-      "note": "布、紙に染み込ませるか固化剤で固めて。又は容器に入れてリサイクルステーションへ。"
+      "note": "布、紙に染み込ませるか固化剤で固めて。又は容器に入れてリサイクルステーションへ"
     },
     {
       "name": "食用油の容器(ガラス・金属製)",
       "nameKana": "しょくようあぶらのようき(がらす・きんぞくせい)",
       "categoryId": "grassbottle",
-      "note": "中身は使いきってください。"
+      "note": "中身は使い切ってください。汚れの取れないものはこわすごみへ"
     },
     {
       "name": "食用油の容器(プラスチック製)",
       "nameKana": "しょくようあぶらのようき(ぷらすちっくせい)",
       "categoryId": "plasticpackaging",
-      "note": "中身は使いきってください。汚れの取れないものはもやすごみへ"
+      "note": "中身は使い切ってください。汚れの取れないものはもやすごみへ"
+    },
+    {
+      "name": "除湿機(フロンガス入り)",
+      "nameKana": "じょしつき(ふろんがすいり)",
+      "categoryId": "uncollectible",
+      "note": "販売店等に引き取ってもらいましょう。"
+    },
+    {
+      "name": "除湿剤",
+      "nameKana": "じょしつざい",
+      "categoryId": "crushable"
     },
     {
       "name": "食器(ガラス製・陶磁器製)",
       "nameKana": "しょっき(がらすせい・とうじきせい)",
-      "categoryId": "unburnable"
-    },
-    {
-      "name": "食器(ガラス製・陶磁器製以外)",
-      "nameKana": "しょっき(がらすせい・とうじきせいいがい)",
-      "categoryId": "crushable",
+      "categoryId": "unburnable",
       "note": "プラスチック製はこわすごみへ。木製はもやすごみへ。"
     },
     {
@@ -1524,7 +1659,7 @@
       "name": "食器棚",
       "nameKana": "しょっきだな",
       "categoryId": "oversized",
-      "note": "90ｃｍ未満はこわすごみへ"
+      "note": "90cm未満はこわすごみへ"
     },
     {
       "name": "しらたき",
@@ -1537,80 +1672,20 @@
       "categoryId": "crushable"
     },
     {
-      "name": "新聞",
-      "nameKana": "しんぶん",
-      "categoryId": "localcollection.paper",
-      "note": "地域資源回収又は環境センター、リサイクルステーション、古紙リサイクルヤードへ"
-    },
-    {
-      "name": "ジェットスキー",
-      "nameKana": "じぇっとすきー",
-      "categoryId": "uncollectible",
-      "note": "販売店等に引き取ってもらいましょう。"
-    },
-    {
-      "name": "自転車",
-      "nameKana": "じてんしゃ",
-      "categoryId": "oversized"
-    },
-    {
-      "name": "自転車のタイヤ・チューブ",
-      "nameKana": "じてんしゃのたいや・ちゅーぶ",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "自動車",
-      "nameKana": "じどうしゃ",
-      "categoryId": "uncollectible",
-      "note": "販売店等に引き取ってもらいましょう。"
-    },
-    {
-      "name": "自動車部品",
-      "nameKana": "じどうしゃぶひん",
-      "categoryId": "uncollectible",
-      "note": "販売店等に引き取ってもらいましょう。"
-    },
-    {
-      "name": "自動車用品",
-      "nameKana": "じどうしゃようひん",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "ジャム",
-      "nameKana": "じゃむ",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "じゅうたん",
-      "nameKana": "じゅうたん",
-      "categoryId": "oversized"
-    },
-    {
-      "name": "充電式電池",
-      "nameKana": "じゅうでんしきでんち",
-      "categoryId": "uncollectible",
-      "note": "「リサイクル協力店」へお持ち込みください。"
-    },
-    {
-      "name": "ジュニアシート",
-      "nameKana": "じゅにあしーと",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "除湿剤",
-      "nameKana": "じょしつざい",
-      "categoryId": "crushable"
-    },
-    {
       "name": "人工芝(プラスチック製)",
       "nameKana": "じんこうしば(ぷらすちっくせい)",
       "categoryId": "crushable"
     },
     {
-      "name": "スーツケース",
-      "nameKana": "すーつけーす",
-      "categoryId": "crushable",
-      "note": "120ｃｍ以上は大きなごみへ"
+      "name": "シンナー",
+      "nameKana": "しんなー",
+      "categoryId": "uncollectible",
+      "note": "販売店等に引き取ってもらいましょう。"
+    },
+    {
+      "name": "新聞",
+      "nameKana": "しんぶん",
+      "categoryId": "localcollection.paper"
     },
     {
       "name": "水槽",
@@ -1627,6 +1702,12 @@
       "name": "炊飯器",
       "nameKana": "すいはんき",
       "categoryId": "crushable"
+    },
+    {
+      "name": "スーツケース",
+      "nameKana": "すーつけーす",
+      "categoryId": "crushable",
+      "note": "120ｃｍ以上は大きなごみへ"
     },
     {
       "name": "姿見",
@@ -1646,14 +1727,29 @@
       "categoryId": "crushable"
     },
     {
-      "name": "スケート靴",
-      "nameKana": "すけーとくつ",
+      "name": "スキャナー",
+      "nameKana": "すきゃなー",
       "categoryId": "crushable"
     },
     {
       "name": "スケートボード",
       "nameKana": "すけーとぼーど",
       "categoryId": "crushable"
+    },
+    {
+      "name": "スケート靴",
+      "nameKana": "すけーとくつ",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "スコップ",
+      "nameKana": "すこっぷ",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "硯",
+      "nameKana": "すずり",
+      "categoryId": "unburnable"
     },
     {
       "name": "すだれ(木製)",
@@ -1728,7 +1824,7 @@
       "name": "スプレー缶",
       "nameKana": "すぷれーかん",
       "categoryId": "hazardous",
-      "note": "中身は使いきってください。穴あけは不要です。"
+      "note": "中身は使い切ってください。穴あけは不要です。"
     },
     {
       "name": "スポンジ",
@@ -1741,10 +1837,10 @@
       "categoryId": "burnable"
     },
     {
-      "name": "セーター",
-      "nameKana": "せーたー",
-      "categoryId": "cloth",
-      "note": "環境センター、リサイクルステーションでも回収します。"
+      "name": "スレート",
+      "nameKana": "すれーと",
+      "categoryId": "unburnable",
+      "note": "建設・解体工事に伴い出たものは市では受け付けません。"
     },
     {
       "name": "精米機",
@@ -1756,6 +1852,12 @@
       "name": "生理用品",
       "nameKana": "せいりようひん",
       "categoryId": "burnable"
+    },
+    {
+      "name": "セーター",
+      "nameKana": "せーたー",
+      "categoryId": "cloth",
+      "note": "環境センター、リサイクルステーションでも回収します。"
     },
     {
       "name": "石油ストーブ",
@@ -1778,7 +1880,17 @@
       "name": "石膏ボード",
       "nameKana": "せっこうぼーど",
       "categoryId": "unburnable",
-      "note": "建設工事に伴い出たものは市では受け付けません。"
+      "note": "建設・解体工事に伴い出たものは市では受け付けません。"
+    },
+    {
+      "name": "ゼラチン",
+      "nameKana": "ぜらちん",
+      "categoryId": "foodscraps"
+    },
+    {
+      "name": "ゼリー",
+      "nameKana": "ぜりー",
+      "categoryId": "foodscraps"
     },
     {
       "name": "セロハン",
@@ -1789,7 +1901,7 @@
       "name": "洗剤容器(プラスチック製)",
       "nameKana": "せんざいようき(ぷらすちっくせい)",
       "categoryId": "plasticpackaging",
-      "note": "中身は使いきって軽く洗ってください。"
+      "note": "中身は使い切って軽く洗ってください。"
     },
     {
       "name": "洗濯機",
@@ -1804,7 +1916,7 @@
       "note": "60ｃｍ以上は大きなごみへ"
     },
     {
-      "name": "煎餅",
+      "name": "せんべい",
       "nameKana": "せんべい",
       "categoryId": "foodscraps"
     },
@@ -1814,20 +1926,10 @@
       "categoryId": "crushable"
     },
     {
-      "name": "ゼラチン",
-      "nameKana": "ぜらちん",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "ゼリー",
-      "nameKana": "ぜりー",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "ソースの容器(プラスチック製)",
-      "nameKana": "そーすのようき(ぷらすちっくせい)",
-      "categoryId": "plasticpackaging",
-      "note": "中身は使いきってください。汚れの取れないものはもやすごみへ"
+      "name": "ぞうきん",
+      "nameKana": "ぞうきん",
+      "categoryId": "burnable",
+      "note": "汚れのひどいものは資源ごみになりません。"
     },
     {
       "name": "掃除機",
@@ -1836,8 +1938,14 @@
       "note": "ホースは束ねてください。60ｃｍ以上は大きなごみへ"
     },
     {
-      "name": "そうめん",
-      "nameKana": "そうめん",
+      "name": "ソースの容器(プラスチック製)",
+      "nameKana": "そーすのようき(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging",
+      "note": "中身は使い切ってください。汚れの取れないものはもやすごみへ"
+    },
+    {
+      "name": "ソーメン",
+      "nameKana": "そーめん",
       "categoryId": "foodscraps"
     },
     {
@@ -1856,25 +1964,21 @@
       "categoryId": "oversized"
     },
     {
-      "name": "ぞうきん",
-      "nameKana": "ぞうきん",
-      "categoryId": "burnable",
-      "note": "汚れのひどいものは資源になりません。"
-    },
-    {
-      "name": "体温計(水銀使用)",
-      "nameKana": "たいおんけい(すいぎんしよう)",
-      "categoryId": "hazardous"
-    },
-    {
       "name": "体温計(デジタル式)",
       "nameKana": "たいおんけい(でじたるしき)",
-      "categoryId": "crushable"
+      "categoryId": "crushable",
+      "note": "水銀使用は危険ごみへ"
     },
     {
       "name": "体重計",
       "nameKana": "たいじゅうけい",
       "categoryId": "crushable"
+    },
+    {
+      "name": "台所マット(天然繊維・化学繊維)",
+      "nameKana": "だいどころまっと(てんねんせんい・かがくせんい)",
+      "categoryId": "crushable",
+      "note": "120ｃｍ以上は大きなごみへ"
     },
     {
       "name": "耐熱ガラス",
@@ -1907,10 +2011,10 @@
       "name": "竹",
       "nameKana": "たけ",
       "categoryId": "burnable",
-      "note": "60ｃｍ以下にして束ねてください。直接持込時は120ｃｍ以下"
+      "note": "60ｃｍ以下にして束ねてください。直接持ち込み時は120ｃｍ以下"
     },
     {
-      "name": "タケノコの皮",
+      "name": "たけのこの皮",
       "nameKana": "たけのこのかわ",
       "categoryId": "foodscraps"
     },
@@ -1921,13 +2025,18 @@
       "note": "業者による畳替えに伴い出たものは市では受け付けません。"
     },
     {
+      "name": "脱臭剤",
+      "nameKana": "だっしゅうざい",
+      "categoryId": "crushable"
+    },
+    {
       "name": "建具",
       "nameKana": "たてぐ",
       "categoryId": "oversized"
     },
     {
-      "name": "たね(野菜・果物)",
-      "nameKana": "たね(やさい・くだもの)",
+      "name": "たね",
+      "nameKana": "たね",
       "categoryId": "foodscraps"
     },
     {
@@ -1936,15 +2045,15 @@
       "categoryId": "burnable"
     },
     {
-      "name": "卵の殻",
-      "nameKana": "たまごのから",
-      "categoryId": "foodscraps"
-    },
-    {
       "name": "卵のパック",
       "nameKana": "たまごのぱっく",
       "categoryId": "plasticpackaging",
       "note": "紙製のものはもやすごみへ"
+    },
+    {
+      "name": "卵の殻",
+      "nameKana": "たまごのから",
+      "categoryId": "foodscraps"
     },
     {
       "name": "たまねぎの皮",
@@ -1965,24 +2074,12 @@
       "name": "タンス",
       "nameKana": "たんす",
       "categoryId": "oversized",
-      "note": "90ｃｍ未満はこわすごみへ"
-    },
-    {
-      "name": "台所マット(天然繊維・化学繊維)",
-      "nameKana": "だいどころまっと(てんねんせんい・かがくせんい)",
-      "categoryId": "crushable",
-      "note": "120ｃｍ以上は大きなごみへ"
-    },
-    {
-      "name": "脱臭剤",
-      "nameKana": "だっしゅうざい",
-      "categoryId": "crushable"
+      "note": "90cm未満はこわすごみへ"
     },
     {
       "name": "ダンボール",
       "nameKana": "だんぼーる",
-      "categoryId": "localcollection.paper",
-      "note": "地域資源回収又は環境センター、リサイクルステーション、古紙リサイクルヤードへ"
+      "categoryId": "localcollection.paper"
     },
     {
       "name": "チーズ",
@@ -2008,7 +2105,7 @@
       "name": "注射針",
       "nameKana": "ちゅうしゃばり",
       "categoryId": "hazardous",
-      "note": "中身が出ない容器へ入れ、中身を明記して出して下さい。"
+      "note": "中身が出ない容器へ入れ、中身を明記して出してください"
     },
     {
       "name": "調味料",
@@ -2016,8 +2113,8 @@
       "categoryId": "foodscraps"
     },
     {
-      "name": "調味料の瓶",
-      "nameKana": "ちょうみりょうのかめ",
+      "name": "調味料のびん",
+      "nameKana": "ちょうみりょうのびん",
       "categoryId": "grassbottle",
       "note": "中身は使いきって、フタはプラマークごみへ"
     },
@@ -2027,15 +2124,19 @@
       "categoryId": "foodscraps"
     },
     {
-      "name": "チラシ(新聞折り込み)",
-      "nameKana": "ちらし(しんぶんおりこみ)",
-      "categoryId": "localcollection.paper",
-      "note": "地域資源回収又は環境センター、リサイクルステーション、古紙リサイクルヤードへ"
+      "name": "チラシ",
+      "nameKana": "ちらし",
+      "categoryId": "localcollection.paper"
     },
     {
       "name": "ちり紙",
       "nameKana": "ちりかみ",
       "categoryId": "burnable"
+    },
+    {
+      "name": "着火剤",
+      "nameKana": "ちゃっかざい",
+      "categoryId": "hazardous"
     },
     {
       "name": "使い捨てカイロ",
@@ -2058,10 +2159,21 @@
       "categoryId": "foodscraps"
     },
     {
-      "name": "土(園芸用)",
-      "nameKana": "つち(えんげいよう)",
+      "name": "土",
+      "nameKana": "つち",
+      "categoryId": "uncollectible",
+      "note": "土はごみではありません。再利用してください。"
+    },
+    {
+      "name": "土(プランター・植木鉢から出た園芸のもの)",
+      "nameKana": "つち(ぷらんたー・うえきばちからでたえんげいのもの)",
       "categoryId": "uncollectible",
       "note": "根、茎、葉などを取り除き、環境センター、最終処分場へ。1袋は15kgまで、1日に5袋まで。"
+    },
+    {
+      "name": "爪切り",
+      "nameKana": "つめきり",
+      "categoryId": "hazardous"
     },
     {
       "name": "釣り糸",
@@ -2075,6 +2187,31 @@
       "note": "120ｃｍ以上は大きなごみへ"
     },
     {
+      "name": "ティーパック",
+      "nameKana": "てぃーぱっく",
+      "categoryId": "foodscraps"
+    },
+    {
+      "name": "DVD",
+      "nameKana": "でぃーぶいでぃー",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "DVDケース",
+      "nameKana": "でぃーぶいでぃーけーす",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "DVDプレーヤー",
+      "nameKana": "でぃーぶいでぃーぷれーやー",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "ティッシュ",
+      "nameKana": "てぃっしゅ",
+      "categoryId": "burnable"
+    },
+    {
       "name": "テーブル",
       "nameKana": "てーぶる",
       "categoryId": "oversized"
@@ -2083,23 +2220,24 @@
       "name": "テーブルクロス",
       "nameKana": "てーぶるくろす",
       "categoryId": "cloth",
-      "note": "環境センター、リサイクルステーションでも回収します。ビニール製はこわすごみへ"
+      "note": "環境センター、リサイクルステーションでも回収します。 ビニール製はこわすごみへ"
     },
     {
-      "name": "ティーバッグ",
-      "nameKana": "てぃーばっぐ",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "ティッシュ",
-      "nameKana": "てぃっしゅ",
-      "categoryId": "burnable"
+      "name": "デジタルカメラ",
+      "nameKana": "でじたるかめら",
+      "categoryId": "crushable"
     },
     {
       "name": "鉄くず",
       "nameKana": "てつくず",
       "categoryId": "crushable",
       "note": "120ｃｍ以上は大きなごみへ"
+    },
+    {
+      "name": "手筒花火(使用後)",
+      "nameKana": "てつつはなび(しようご)",
+      "categoryId": "burnable",
+      "note": "60㎝以下はもやすごみへ。120㎝以上は大きなごみへ。なお、分解し、縄は50cm以下、竹は60cm以下にして出してください。金属が使われている時はこわすごみへ"
     },
     {
       "name": "テニスラケット",
@@ -2129,32 +2267,6 @@
       "nameKana": "てれびだい",
       "categoryId": "crushable",
       "note": "90ｃｍ以上は大きなごみへ"
-    },
-    {
-      "name": "テント",
-      "nameKana": "てんと",
-      "categoryId": "crushable",
-      "note": "120ｃｍ以上は大きなごみへ"
-    },
-    {
-      "name": "天ぷら",
-      "nameKana": "てんぷら",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "DVD",
-      "nameKana": "でぃーぶいでぃー",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "DVDプレーヤー",
-      "nameKana": "でぃーぶいでぃーぷれーやー",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "デジタルカメラ",
-      "nameKana": "でじたるかめら",
-      "categoryId": "crushable"
     },
     {
       "name": "電気オルガン",
@@ -2196,8 +2308,7 @@
     {
       "name": "電気ピアノ",
       "nameKana": "でんきぴあの",
-      "categoryId": "uncollectible",
-      "note": "販売店等に引き取ってもらいましょう。"
+      "categoryId": "uncollectible"
     },
     {
       "name": "電気ポット",
@@ -2243,12 +2354,19 @@
     {
       "name": "電池(水銀使用)",
       "nameKana": "でんち(すいぎんしよう)",
-      "categoryId": "hazardous"
+      "categoryId": "hazardous",
+      "note": "充電式電池は販売店等に引き取ってもらいましょう。"
     },
     {
       "name": "電池(水銀0使用)",
       "nameKana": "でんち(すいぎん0しよう)",
       "categoryId": "crushable"
+    },
+    {
+      "name": "テント",
+      "nameKana": "てんと",
+      "categoryId": "crushable",
+      "note": "120ｃｍ以上は大きなごみへ"
     },
     {
       "name": "電動式自転車",
@@ -2257,10 +2375,15 @@
       "note": "バッテリーは販売店等に引き取ってもらいましょう。"
     },
     {
+      "name": "天ぷら",
+      "nameKana": "てんぷら",
+      "categoryId": "foodscraps"
+    },
+    {
       "name": "てんぷら油",
       "nameKana": "てんぷらあぶら",
       "categoryId": "burnable",
-      "note": "布、紙に染み込ませるか固化剤で固めて。又は容器に入れてリサイクルステーションへ。"
+      "note": "布、紙に染み込ませるか固化剤で固めて。又は容器に入れてリサイクルステーションへ"
     },
     {
       "name": "電話機",
@@ -2268,9 +2391,14 @@
       "categoryId": "crushable"
     },
     {
-      "name": "トースター",
-      "nameKana": "とーすたー",
-      "categoryId": "crushable"
+      "name": "ドア",
+      "nameKana": "どあ",
+      "categoryId": "oversized"
+    },
+    {
+      "name": "砥石",
+      "nameKana": "といし",
+      "categoryId": "unburnable"
     },
     {
       "name": "トイレマット",
@@ -2283,9 +2411,10 @@
       "categoryId": "unburnable"
     },
     {
-      "name": "透析チューブ・バッグ",
-      "nameKana": "とうせきちゅーぶ・ばっぐ",
-      "categoryId": "burnable"
+      "name": "透析チューブ・バック",
+      "nameKana": "とうせきちゅーぶ・ばっく",
+      "categoryId": "burnable",
+      "note": "針はとって危険ごみへ"
     },
     {
       "name": "とうふ",
@@ -2319,16 +2448,21 @@
       "categoryId": "crushable"
     },
     {
+      "name": "トースター",
+      "nameKana": "とーすたー",
+      "categoryId": "crushable"
+    },
+    {
       "name": "時計",
       "nameKana": "とけい",
       "categoryId": "crushable",
       "note": "120ｃｍ以上は大きなごみへ"
     },
     {
-      "name": "トタン板(金属製)",
-      "nameKana": "とたんいた(きんぞくせい)",
+      "name": "トタン板 (金属製)",
+      "nameKana": "とたんいた (きんぞくせい)",
       "categoryId": "oversized",
-      "note": "建設工事に伴い出たものは市では受け付けません。120ｃｍ以下はこわすごみへ"
+      "note": "建設工事に伴い出たものは市では受け付けません。"
     },
     {
       "name": "トナーカートリッジ",
@@ -2339,13 +2473,19 @@
     {
       "name": "トマトケチャップ",
       "nameKana": "とまとけちゃっぷ",
-      "categoryId": "foodscraps"
+      "categoryId": "foodscraps",
+      "note": "容器はもやすごみへ"
     },
     {
       "name": "トマトケチャップの容器",
       "nameKana": "とまとけちゃっぷのようき",
       "categoryId": "burnable",
-      "note": "中身は使いきってください。びんの場合はびん・カンへ"
+      "note": "中身は使いきってください。"
+    },
+    {
+      "name": "ドライヤー",
+      "nameKana": "どらいやー",
+      "categoryId": "crushable"
     },
     {
       "name": "トランク",
@@ -2356,12 +2496,8 @@
     {
       "name": "鳥かご(木製)",
       "nameKana": "とりかご(もくせい)",
-      "categoryId": "burnable"
-    },
-    {
-      "name": "鳥かご(木製以外)",
-      "nameKana": "とりかご(もくせいいがい)",
-      "categoryId": "crushable"
+      "categoryId": "burnable",
+      "note": "木製以外はこわすごみへ"
     },
     {
       "name": "塗料",
@@ -2373,7 +2509,7 @@
       "name": "塗料缶",
       "nameKana": "とりょうかん",
       "categoryId": "crushable",
-      "note": "中身は使いきってください。"
+      "note": "中身は使い切ってください。"
     },
     {
       "name": "トレイ(食品用プラスチック製)",
@@ -2381,20 +2517,10 @@
       "categoryId": "plasticpackaging"
     },
     {
-      "name": "ドア",
-      "nameKana": "どあ",
-      "categoryId": "oversized"
-    },
-    {
-      "name": "ドライヤー",
-      "nameKana": "どらいやー",
-      "categoryId": "crushable"
-    },
-    {
       "name": "ドレッシングの容器(プラスチック製)",
       "nameKana": "どれっしんぐのようき(ぷらすちっくせい)",
       "categoryId": "plasticpackaging",
-      "note": "PETマークのあるものはペットボトルです。汚れの取れないものはもやすごみへ"
+      "note": "PETマークのあるものはペットボトルです。汚れのとれないものはもやすごみへ"
     },
     {
       "name": "ナイフ",
@@ -2429,21 +2555,21 @@
       "categoryId": "foodscraps"
     },
     {
+      "name": "なわとび",
+      "nameKana": "なわとび",
+      "categoryId": "crushable"
+    },
+    {
       "name": "縄",
       "nameKana": "なわ",
       "categoryId": "crushable",
       "note": "天然素材のものはもやすごみへ"
     },
     {
-      "name": "なわとび",
-      "nameKana": "なわとび",
-      "categoryId": "crushable"
-    },
-    {
       "name": "ニカド電池",
       "nameKana": "にかどでんち",
       "categoryId": "uncollectible",
-      "note": "「リサイクル協力店」へお持ち込みください。"
+      "note": "19ページをご覧ください。"
     },
     {
       "name": "肉",
@@ -2459,6 +2585,12 @@
     {
       "name": "人形",
       "nameKana": "にんぎょう",
+      "categoryId": "crushable",
+      "note": "120ｃｍ以上は大きなごみへ"
+    },
+    {
+      "name": "人形ケース",
+      "nameKana": "にんぎょうけーす",
       "categoryId": "crushable",
       "note": "120ｃｍ以上は大きなごみへ"
     },
@@ -2491,21 +2623,15 @@
       "categoryId": "burnable"
     },
     {
+      "name": "寝袋",
+      "nameKana": "ねぶくろ",
+      "categoryId": "crushable",
+      "note": "120㎝以上は大きなごみへ。綿入りのものは大きなごみへ"
+    },
+    {
       "name": "ねんど",
       "nameKana": "ねんど",
       "categoryId": "crushable"
-    },
-    {
-      "name": "ノート",
-      "nameKana": "のーと",
-      "categoryId": "localcollection.paper",
-      "note": "地域資源回収又は環境センター、リサイクルステーション、古紙リサイクルヤードへ"
-    },
-    {
-      "name": "ノートパソコン",
-      "nameKana": "のーとぱそこん",
-      "categoryId": "uncollectible",
-      "note": "資源化センター・環境センターへ持ち込むか、各メーカー・小型家電リサイクル法の認定事業者へ依頼してください。"
     },
     {
       "name": "農機具(くわ、つるはし等)",
@@ -2520,21 +2646,32 @@
       "note": "販売店等に引き取ってもらいましょう。"
     },
     {
+      "name": "ノート",
+      "nameKana": "のーと",
+      "categoryId": "localcollection.paper"
+    },
+    {
+      "name": "ノートパソコン",
+      "nameKana": "のーとぱそこん",
+      "categoryId": "uncollectible",
+      "note": "処理方法が複数ありますので、18ページをご覧ください。"
+    },
+    {
       "name": "のこぎり",
       "nameKana": "のこぎり",
       "categoryId": "hazardous",
       "note": "刃を紙等に包んでください。"
     },
     {
-      "name": "海苔",
-      "nameKana": "のり",
+      "name": "のり(食用)",
+      "nameKana": "のり(しょくよう)",
       "categoryId": "foodscraps"
     },
     {
       "name": "のり(文房具)",
       "nameKana": "のり(ぶんぼうぐ)",
       "categoryId": "plasticpackaging",
-      "note": "汚れの取れないものはもやすごみへ"
+      "note": "汚れのとれないものはもやすごみへ"
     },
     {
       "name": "ハードディスク",
@@ -2548,16 +2685,33 @@
       "note": "水で湿らせてください。"
     },
     {
+      "name": "バイク",
+      "nameKana": "ばいく",
+      "categoryId": "uncollectible",
+      "note": "販売店等に引き取ってもらいましょう。"
+    },
+    {
       "name": "灰皿(ガラス製・陶磁器製)",
       "nameKana": "はいざら(がらすせい・とうじきせい)",
       "categoryId": "unburnable",
       "note": "金属製はこわすごみへ"
     },
     {
+      "name": "パイプハンガー・ハンガーラック",
+      "nameKana": "ぱいぷはんがー・はんがーらっく",
+      "categoryId": "crushable",
+      "note": "120ｃｍ以上は大きなごみへ"
+    },
+    {
       "name": "廃油",
       "nameKana": "はいゆ",
       "categoryId": "uncollectible",
       "note": "販売店等に引き取ってもらいましょう。"
+    },
+    {
+      "name": "はがき",
+      "nameKana": "はがき",
+      "categoryId": "localcollection.paper"
     },
     {
       "name": "はく製",
@@ -2571,6 +2725,11 @@
       "categoryId": "crushable"
     },
     {
+      "name": "バケツ",
+      "nameKana": "ばけつ",
+      "categoryId": "crushable"
+    },
+    {
       "name": "はさみ",
       "nameKana": "はさみ",
       "categoryId": "hazardous",
@@ -2579,12 +2738,8 @@
     {
       "name": "はし(木製)",
       "nameKana": "はし(もくせい)",
-      "categoryId": "burnable"
-    },
-    {
-      "name": "はし(木製以外)",
-      "nameKana": "はし(もくせいいがい)",
-      "categoryId": "crushable"
+      "categoryId": "burnable",
+      "note": "木製以外はこわすごみへ"
     },
     {
       "name": "はしご",
@@ -2592,14 +2747,66 @@
       "categoryId": "oversized"
     },
     {
+      "name": "バスマット(珪藻土)",
+      "nameKana": "ばすまっと(けいそうつち)",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "パソコン(デスクトップ)",
+      "nameKana": "ぱそこん(ですくとっぷ)",
+      "categoryId": "uncollectible",
+      "note": "処理方法が複数ありますので、18ページをご覧ください。"
+    },
+    {
+      "name": "パソコン台",
+      "nameKana": "ぱそこんだい",
+      "categoryId": "crushable",
+      "note": "90ｃｍ以上は大きなごみへ"
+    },
+    {
+      "name": "パソコン(モニターのみ)",
+      "nameKana": "ぱそこん(もにたーのみ)",
+      "categoryId": "uncollectible",
+      "note": "処理方法が複数ありますので、18ページをご覧ください。"
+    },
+    {
+      "name": "バター",
+      "nameKana": "ばたー",
+      "categoryId": "foodscraps"
+    },
+    {
+      "name": "肌着",
+      "nameKana": "はだぎ",
+      "categoryId": "cloth",
+      "note": "汚れや破れのあるものは、もやすごみへ。環境センター、リサイクルステーションでも回収します。"
+    },
+    {
       "name": "はちみつ",
       "nameKana": "はちみつ",
       "categoryId": "foodscraps"
     },
     {
+      "name": "バッグ",
+      "nameKana": "ばっぐ",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "バッテリー",
+      "nameKana": "ばってりー",
+      "categoryId": "uncollectible",
+      "note": "販売店等に引き取ってもらいましょう。"
+    },
+    {
+      "name": "バット(木製)",
+      "nameKana": "ばっと(もくせい)",
+      "categoryId": "burnable",
+      "note": "木製以外はこわすごみへ"
+    },
+    {
       "name": "発泡スチロール",
       "nameKana": "はっぽうすちろーる",
-      "categoryId": "crushable"
+      "categoryId": "crushable",
+      "note": "プラマークの有無にかかわらずこわすごみへ"
     },
     {
       "name": "花",
@@ -2610,7 +2817,7 @@
       "name": "花火",
       "nameKana": "はなび",
       "categoryId": "burnable",
-      "note": "使いきって水に浸してください。未使用品は販売店等へ返却"
+      "note": "使い切って水に浸してください。未使用品は販売店等へ返却"
     },
     {
       "name": "歯ブラシ",
@@ -2624,10 +2831,16 @@
       "categoryId": "burnable"
     },
     {
+      "name": "パラボラアンテナ",
+      "nameKana": "ぱらぼらあんてな",
+      "categoryId": "crushable",
+      "note": "建設・解体工事に伴い出たものは市では受け付けません。"
+    },
+    {
       "name": "針",
       "nameKana": "はり",
       "categoryId": "hazardous",
-      "note": "中身が出ない容器へ入れ、中身を明記して出して下さい。"
+      "note": "中身が出ない容器へ入れ、中身を明記して出してください"
     },
     {
       "name": "針金",
@@ -2641,82 +2854,21 @@
       "note": "60ｃｍ以上は大きなごみへ"
     },
     {
+      "name": "パン",
+      "nameKana": "ぱん",
+      "categoryId": "foodscraps"
+    },
+    {
+      "name": "ハンガー (プラスチック製)",
+      "nameKana": "はんがー (ぷらすちっくせい)",
+      "categoryId": "crushable",
+      "note": "クリーニングのものはなるべく店へ返却　木製はもやすごみへ"
+    },
+    {
       "name": "ハンカチ",
       "nameKana": "はんかち",
       "categoryId": "cloth",
       "note": "環境センター、リサイクルステーションでも回収します。"
-    },
-    {
-      "name": "ハンガー(プラスチック製)",
-      "nameKana": "はんがー(ぷらすちっくせい)",
-      "categoryId": "crushable",
-      "note": "クリーニングのものはなるべく店へ返却木製はもやすごみへ"
-    },
-    {
-      "name": "バイク",
-      "nameKana": "ばいく",
-      "categoryId": "uncollectible",
-      "note": "販売店等に引き取ってもらいましょう。"
-    },
-    {
-      "name": "バケツ",
-      "nameKana": "ばけつ",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "バター",
-      "nameKana": "ばたー",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "バッグ",
-      "nameKana": "ばっぐ",
-      "categoryId": "burnable"
-    },
-    {
-      "name": "バッテリー",
-      "nameKana": "ばってりー",
-      "categoryId": "uncollectible",
-      "note": "販売店等に引き取ってもらいましょう"
-    },
-    {
-      "name": "バット(木製)",
-      "nameKana": "ばっと(もくせい)",
-      "categoryId": "burnable"
-    },
-    {
-      "name": "バット(木製以外)",
-      "nameKana": "ばっと(もくせいいがい)",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "パイプハンガー・ハンガーラック",
-      "nameKana": "ぱいぷはんがー・はんがーらっく",
-      "categoryId": "crushable",
-      "note": "120ｃｍ以上は大きなごみへ"
-    },
-    {
-      "name": "パソコン(デスクトップ)",
-      "nameKana": "ぱそこん(ですくとっぷ)",
-      "categoryId": "uncollectible",
-      "note": "資源化センター・環境センターへ持ち込むか、各メーカー・小型家電リサイクル法の認定事業者へ依頼してください。"
-    },
-    {
-      "name": "パソコン(モニターのみ)",
-      "nameKana": "ぱそこん(もにたーのみ)",
-      "categoryId": "uncollectible",
-      "note": "資源化センター・環境センターへ持ち込むか、各メーカー・小型家電リサイクル法の認定事業者へ依頼してください。"
-    },
-    {
-      "name": "パソコン台",
-      "nameKana": "ぱそこんだい",
-      "categoryId": "crushable",
-      "note": "90ｃｍ以上は大きなごみへ"
-    },
-    {
-      "name": "パン",
-      "nameKana": "ぱん",
-      "categoryId": "foodscraps"
     },
     {
       "name": "パン生地・パン粉",
@@ -2724,15 +2876,25 @@
       "categoryId": "foodscraps"
     },
     {
-      "name": "肥料袋",
-      "nameKana": "ひりょうふくろ",
-      "categoryId": "burnable",
-      "note": "家庭菜園で使用したものに限る。"
+      "name": "パンフレット",
+      "nameKana": "ぱんふれっと",
+      "categoryId": "localcollection.paper"
+    },
+    {
+      "name": "ピアノ",
+      "nameKana": "ぴあの",
+      "categoryId": "uncollectible",
+      "note": "販売店等に引き取ってもらいましょう。"
     },
     {
       "name": "ビーズクッション",
       "nameKana": "びーずくっしょん",
       "categoryId": "crushable"
+    },
+    {
+      "name": "ピーナッツの殻",
+      "nameKana": "ぴーなっつのから",
+      "categoryId": "foodscraps"
     },
     {
       "name": "ビーフン",
@@ -2746,8 +2908,23 @@
       "note": "販売店等での回収もご利用ください。キャップはこわすごみへ"
     },
     {
+      "name": "ピザ",
+      "nameKana": "ぴざ",
+      "categoryId": "foodscraps"
+    },
+    {
+      "name": "ピスタチオの殻",
+      "nameKana": "ぴすたちおのから",
+      "categoryId": "foodscraps"
+    },
+    {
       "name": "ビデオカメラ",
       "nameKana": "びでおかめら",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "ビニールシート",
+      "nameKana": "びにーるしーと",
       "categoryId": "crushable"
     },
     {
@@ -2761,39 +2938,25 @@
       "categoryId": "crushable"
     },
     {
-      "name": "ビニールシート",
-      "nameKana": "びにーるしーと",
-      "categoryId": "crushable"
-    },
-    {
       "name": "ビニールひも",
       "nameKana": "びにーるひも",
       "categoryId": "crushable"
     },
     {
-      "name": "ピーナッツの殻",
-      "nameKana": "ぴーなっつのから",
-      "categoryId": "foodscraps"
+      "name": "肥料袋",
+      "nameKana": "ひりょうふくろ",
+      "categoryId": "burnable",
+      "note": "家庭菜園で使用したものに限る。"
     },
     {
-      "name": "ピアノ",
-      "nameKana": "ぴあの",
-      "categoryId": "uncollectible",
-      "note": "販売店等に引き取ってもらいましょう"
+      "name": "ファイル(紙製のもの)",
+      "nameKana": "ふぁいる(かみせいのもの)",
+      "categoryId": "localcollection.paper",
+      "note": "クリップ、止める部分（金属やプラスチック）は取り除き、こわすごみへ。取れない場合は、こわすごみへ"
     },
     {
-      "name": "ピザ",
-      "nameKana": "ぴざ",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "ピスタチオの殻",
-      "nameKana": "ぴすたちおのから",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "ファイル",
-      "nameKana": "ふぁいる",
+      "name": "ファイル(プラスチック製のもの)",
+      "nameKana": "ふぁいる(ぷらすちっくせいのもの)",
       "categoryId": "crushable"
     },
     {
@@ -2815,6 +2978,11 @@
       "note": "未使用品（ケース入り）はこわすごみへ"
     },
     {
+      "name": "封筒",
+      "nameKana": "ふうとう",
+      "categoryId": "localcollection.paper"
+    },
+    {
       "name": "フォーク",
       "nameKana": "ふぉーく",
       "categoryId": "crushable",
@@ -2824,6 +2992,11 @@
       "name": "ふすま",
       "nameKana": "ふすま",
       "categoryId": "oversized"
+    },
+    {
+      "name": "プチプチ(緩衝材)",
+      "nameKana": "ぷちぷち(かんしょうざい)",
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "布団",
@@ -2841,9 +3014,42 @@
       "categoryId": "crushable"
     },
     {
+      "name": "ブラインド",
+      "nameKana": "ぶらいんど",
+      "categoryId": "crushable",
+      "note": "120ｃｍ以上は大きなごみへ"
+    },
+    {
+      "name": "プラモデル",
+      "nameKana": "ぷらもでる",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "プランター(陶磁器製)",
+      "nameKana": "ぷらんたー(とうじきせい)",
+      "categoryId": "unburnable",
+      "note": "プラスチック製はこわすごみへ。根や土は取り除いてください。"
+    },
+    {
       "name": "ふりかけ",
       "nameKana": "ふりかけ",
       "categoryId": "foodscraps"
+    },
+    {
+      "name": "プリン",
+      "nameKana": "ぷりん",
+      "categoryId": "foodscraps"
+    },
+    {
+      "name": "プリンター",
+      "nameKana": "ぷりんたー",
+      "categoryId": "crushable",
+      "note": "60ｃｍ以上は大きなごみへ"
+    },
+    {
+      "name": "ブルーシート",
+      "nameKana": "ぶるーしーと",
+      "categoryId": "crushable"
     },
     {
       "name": "古着",
@@ -2863,10 +3069,22 @@
       "note": "建設工事に伴い出たものは市では受け付けません。"
     },
     {
+      "name": "プロジェクションテレビ",
+      "nameKana": "ぷろじぇくしょんてれび",
+      "categoryId": "crushable",
+      "note": "60ｃｍ以上は大きなごみへ"
+    },
+    {
       "name": "風呂敷",
       "nameKana": "ふろしき",
       "categoryId": "cloth",
       "note": "環境センター、リサイクルステーションでも回収します。"
+    },
+    {
+      "name": "ブロック(コンクリート)",
+      "nameKana": "ぶろっく(こんくりーと)",
+      "categoryId": "unburnable",
+      "note": "建設・解体工事に伴い出たものは市では受け付けません。50cm以下に砕いて"
     },
     {
       "name": "フロッピーディスク",
@@ -2874,14 +3092,14 @@
       "categoryId": "crushable"
     },
     {
-      "name": "風呂のふた(プラスチック製)",
-      "nameKana": "ふろのふた(ぷらすちっくせい)",
+      "name": "風呂のふた (プラスチック製)",
+      "nameKana": "ふろのふた (ぷらすちっくせい)",
       "categoryId": "crushable",
       "note": "120ｃｍ以上は大きなごみへ"
     },
     {
-      "name": "風呂のふた(木製)",
-      "nameKana": "ふろのふた(もくせい)",
+      "name": "風呂のふた (木製)",
+      "nameKana": "ふろのふた (もくせい)",
       "categoryId": "burnable",
       "note": "60ｃｍ以下にして束ねてください。120ｃｍ以上は大きなごみへ"
     },
@@ -2900,91 +3118,29 @@
     {
       "name": "風呂用いす(プラスチック製)",
       "nameKana": "ふろもちいす(ぷらすちっくせい)",
-      "categoryId": "crushable"
+      "categoryId": "crushable",
+      "note": "木製はもやすごみへ"
     },
     {
-      "name": "風呂用いす(木製)",
-      "nameKana": "ふろもちいす(もくせい)",
-      "categoryId": "burnable"
+      "name": "風呂用給湯器",
+      "nameKana": "ふろようきゅうとうき",
+      "categoryId": "oversized",
+      "note": "建設・解体工事に伴い出たものは市では受け付けません。"
     },
     {
-      "name": "粉末状の食品",
-      "nameKana": "ふんまつじょうのしょくひん",
+      "name": "粉末類(小麦粉、片栗粉)",
+      "nameKana": "ふんまつるい(こむぎこ、かたくりこ)",
       "categoryId": "foodscraps"
-    },
-    {
-      "name": "ブラインド",
-      "nameKana": "ぶらいんど",
-      "categoryId": "crushable",
-      "note": "120ｃｍ以上は大きなごみへ"
-    },
-    {
-      "name": "ブルーシート",
-      "nameKana": "ぶるーしーと",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "ブロック(コンクリート)",
-      "nameKana": "ぶろっく(こんくりーと)",
-      "categoryId": "unburnable",
-      "note": "建設工事に伴い出たものは市では受け付けません。50cm以下に砕いて"
-    },
-    {
-      "name": "プチプチ(緩衝材)",
-      "nameKana": "ぷちぷち(かんしょうざい)",
-      "categoryId": "plasticpackaging"
-    },
-    {
-      "name": "プラモデル",
-      "nameKana": "ぷらもでる",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "プランター(陶磁器製)",
-      "nameKana": "ぷらんたー(とうじきせい)",
-      "categoryId": "unburnable"
-    },
-    {
-      "name": "プランター(プラスチック製)",
-      "nameKana": "ぷらんたー(ぷらすちっくせい)",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "プリン",
-      "nameKana": "ぷりん",
-      "categoryId": "foodscraps"
-    },
-    {
-      "name": "プリンター",
-      "nameKana": "ぷりんたー",
-      "categoryId": "crushable",
-      "note": "60ｃｍ以上は大きなごみへ"
-    },
-    {
-      "name": "プロジェクションテレビ",
-      "nameKana": "ぷろじぇくしょんてれび",
-      "categoryId": "crushable",
-      "note": "60ｃｍ以上は大きなごみへ"
     },
     {
       "name": "ヘアスプレー",
       "nameKana": "へあすぷれー",
       "categoryId": "hazardous",
-      "note": "中身は使いきってください。穴あけは不要です。"
+      "note": "中身は使い切ってください。穴あけは不要です。"
     },
     {
       "name": "ヘアドライヤー",
       "nameKana": "へあどらいやー",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "ヘルスメーター",
-      "nameKana": "へるすめーたー",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "ヘルメット",
-      "nameKana": "へるめっと",
       "categoryId": "crushable"
     },
     {
@@ -2994,9 +3150,40 @@
       "note": "解体しておいてください。"
     },
     {
+      "name": "ペットフード",
+      "nameKana": "ぺっとふーど",
+      "categoryId": "foodscraps"
+    },
+    {
+      "name": "ペットボトル",
+      "nameKana": "ぺっとぼとる",
+      "categoryId": "petbottle",
+      "note": "キャップとラベルは、はずしてプラマークごみへ"
+    },
+    {
+      "name": "ペットボトルのキャップ",
+      "nameKana": "ぺっとぼとるのきゃっぷ",
+      "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "ペットボトルのラベル",
+      "nameKana": "ぺっとぼとるのらべる",
+      "categoryId": "plasticpackaging"
+    },
+    {
       "name": "ベッドマット",
       "nameKana": "べっどまっと",
       "categoryId": "oversized"
+    },
+    {
+      "name": "ペットの糞",
+      "nameKana": "ぺっとのふん",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "ペット用砂",
+      "nameKana": "ぺっとようすな",
+      "categoryId": "burnable"
     },
     {
       "name": "ベニヤ板",
@@ -3033,8 +3220,8 @@
       "note": "120ｃｍ以上は大きなごみへ"
     },
     {
-      "name": "ベビーベット",
-      "nameKana": "べびーべっと",
+      "name": "ベビーベッド",
+      "nameKana": "べびーべっど",
       "categoryId": "oversized"
     },
     {
@@ -3048,9 +3235,31 @@
       "categoryId": "crushable"
     },
     {
+      "name": "ヘルスメーター",
+      "nameKana": "へるすめーたー",
+      "categoryId": "crushable"
+    },
+    {
       "name": "ベルト",
       "nameKana": "べると",
       "categoryId": "burnable"
+    },
+    {
+      "name": "ヘルメット",
+      "nameKana": "へるめっと",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "ペンキ",
+      "nameKana": "ぺんき",
+      "categoryId": "uncollectible",
+      "note": "販売店等に引き取ってもらいましょう。"
+    },
+    {
+      "name": "ペンキ缶",
+      "nameKana": "ぺんきかん",
+      "categoryId": "crushable",
+      "note": "中身は使い切ってください。"
     },
     {
       "name": "便座",
@@ -3073,45 +3282,34 @@
       "name": "弁当や総菜の容器(プラスチック製)",
       "nameKana": "べんとうやそうなのようき(ぷらすちっくせい)",
       "categoryId": "plasticpackaging",
-      "note": "汚れをとってください。　食べ残しは生ごみへ"
+      "note": "汚れをとってください。食べ残しは生ごみへ"
     },
     {
-      "name": "ペットフード",
-      "nameKana": "ぺっとふーど",
-      "categoryId": "foodscraps"
+      "name": "芳香剤",
+      "nameKana": "ほうこうざい",
+      "categoryId": "crushable"
     },
     {
-      "name": "ペットボトル",
-      "nameKana": "ぺっとぼとる",
-      "categoryId": "petbottle",
-      "note": "キャップとラベルは、はずしてプラマークごみへ"
+      "name": "帽子",
+      "nameKana": "ぼうし",
+      "categoryId": "cloth",
+      "note": "環境センター、リサイクルステーションでも回収します。"
     },
     {
-      "name": "ペットボトルのキャップ",
-      "nameKana": "ぺっとぼとるのきゃっぷ",
-      "categoryId": "plasticpackaging"
+      "name": "包装紙",
+      "nameKana": "ほうそうし",
+      "categoryId": "localcollection.paper"
     },
     {
-      "name": "ペットボトルのラベル",
-      "nameKana": "ぺっとぼとるのらべる",
-      "categoryId": "plasticpackaging"
+      "name": "包丁",
+      "nameKana": "ほうちょう",
+      "categoryId": "hazardous",
+      "note": "刃を紙等に包んでください。"
     },
     {
-      "name": "ペット用砂",
-      "nameKana": "ぺっとようすな",
-      "categoryId": "burnable"
-    },
-    {
-      "name": "ペンキ",
-      "nameKana": "ぺんき",
-      "categoryId": "uncollectible",
-      "note": "販売店等に引き取ってもらいましょう。"
-    },
-    {
-      "name": "ペンキ缶",
-      "nameKana": "ぺんきかん",
-      "categoryId": "crushable",
-      "note": "中身は使いきってください。"
+      "name": "ボウリングの玉",
+      "nameKana": "ぼうりんぐのたま",
+      "categoryId": "unburnable"
     },
     {
       "name": "ホース",
@@ -3124,27 +3322,26 @@
       "categoryId": "crushable"
     },
     {
+      "name": "ボート",
+      "nameKana": "ぼーと",
+      "categoryId": "uncollectible",
+      "note": "販売店等に引き取ってもらいましょう。 ゴムボートはこわすごみへ"
+    },
+    {
       "name": "ホームベーカリー",
       "nameKana": "ほーむべーかりー",
       "categoryId": "crushable",
       "note": "60ｃｍ以上は大きなごみへ"
     },
     {
-      "name": "芳香剤",
-      "nameKana": "ほうこうざい",
+      "name": "ボール",
+      "nameKana": "ぼーる",
       "categoryId": "crushable"
     },
     {
-      "name": "包装紙",
-      "nameKana": "ほうそうし",
-      "categoryId": "localcollection.paper",
-      "note": "地域資源回収又は環境センター、リサイクルステーション、古紙リサイクルヤードへ"
-    },
-    {
-      "name": "包丁",
-      "nameKana": "ほうちょう",
-      "categoryId": "hazardous",
-      "note": "刃を紙等に包んでください。"
+      "name": "ボールペン",
+      "nameKana": "ぼーるぺん",
+      "categoryId": "crushable"
     },
     {
       "name": "干ししいたけ",
@@ -3159,6 +3356,11 @@
     {
       "name": "ホッチキス針",
       "nameKana": "ほっちきすはり",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "ポット",
+      "nameKana": "ぽっと",
       "categoryId": "crushable"
     },
     {
@@ -3183,61 +3385,6 @@
       "categoryId": "foodscraps"
     },
     {
-      "name": "保冷庫・冷温庫(電気を使用するもの)",
-      "nameKana": "ほれいこ・れいおんこ(でんきをしようするもの)",
-      "categoryId": "legalrecycling",
-      "note": "家電4品目に含まれます。販売店等に引き取ってもらいましょう。"
-    },
-    {
-      "name": "保冷剤",
-      "nameKana": "ほれいざい",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "本",
-      "nameKana": "ほん",
-      "categoryId": "localcollection.paper",
-      "note": "地域資源回収又は環境センター、リサイクルステーション、古紙リサイクルヤードへ"
-    },
-    {
-      "name": "本棚",
-      "nameKana": "ほんだな",
-      "categoryId": "oversized",
-      "note": "90cm未満はこわすごみへ"
-    },
-    {
-      "name": "ボート",
-      "nameKana": "ぼーと",
-      "categoryId": "uncollectible",
-      "note": "販売店等に引き取ってもらいましょう。ゴムボートはこわすごみへ"
-    },
-    {
-      "name": "ボール",
-      "nameKana": "ぼーる",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "ボールペン",
-      "nameKana": "ぼーるぺん",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "帽子",
-      "nameKana": "ぼうし",
-      "categoryId": "cloth",
-      "note": "環境センター、リサイクルステーションでも回収します。"
-    },
-    {
-      "name": "ボウリングの玉",
-      "nameKana": "ぼうりんぐのたま",
-      "categoryId": "unburnable"
-    },
-    {
-      "name": "ポット",
-      "nameKana": "ぽっと",
-      "categoryId": "crushable"
-    },
-    {
       "name": "ポラロイド写真",
       "nameKana": "ぽらろいどしゃしん",
       "categoryId": "burnable"
@@ -3251,6 +3398,28 @@
       "name": "ポリバケツ",
       "nameKana": "ぽりばけつ",
       "categoryId": "crushable"
+    },
+    {
+      "name": "保冷庫・冷温庫(電気を使用するもの)",
+      "nameKana": "ほれいこ・れいおんこ(でんきをしようするもの)",
+      "categoryId": "legalrecycling",
+      "note": "家電4品目に含まれます。販売店等に引き取ってもらいましょう。"
+    },
+    {
+      "name": "保冷剤",
+      "nameKana": "ほれいざい",
+      "categoryId": "crushable"
+    },
+    {
+      "name": "本",
+      "nameKana": "ほん",
+      "categoryId": "localcollection.paper"
+    },
+    {
+      "name": "本棚",
+      "nameKana": "ほんだな",
+      "categoryId": "oversized",
+      "note": "90cm未満はこわすごみへ"
     },
     {
       "name": "マーガリン",
@@ -3280,6 +3449,11 @@
       "note": "120ｃｍ以上は大きなごみへ"
     },
     {
+      "name": "マスク",
+      "nameKana": "ますく",
+      "categoryId": "burnable"
+    },
+    {
       "name": "マッサージ機(いす型)",
       "nameKana": "まっさーじき(いすかた)",
       "categoryId": "oversized",
@@ -3289,7 +3463,7 @@
       "name": "マッチ",
       "nameKana": "まっち",
       "categoryId": "burnable",
-      "note": "使いきって水に浸してください。"
+      "note": "使い切って水に浸してください。未使用品は販売店等へ返却"
     },
     {
       "name": "マットレス",
@@ -3299,18 +3473,14 @@
     {
       "name": "まな板(プラスチック製)",
       "nameKana": "まないた(ぷらすちっくせい)",
-      "categoryId": "crushable"
-    },
-    {
-      "name": "まな板(木製)",
-      "nameKana": "まないた(もくせい)",
-      "categoryId": "burnable"
+      "categoryId": "crushable",
+      "note": "木製はもやすごみへ"
     },
     {
       "name": "マニキュアの瓶",
       "nameKana": "まにきゅあのかめ",
       "categoryId": "grassbottle",
-      "note": "中身は使いきってください。中身が残っているものはこわすごみへ"
+      "note": "中身は使い切ってください。中身が残っているものはこわすごみへ"
     },
     {
       "name": "魔法瓶",
@@ -3320,13 +3490,14 @@
     {
       "name": "マヨネーズ",
       "nameKana": "まよねーず",
-      "categoryId": "foodscraps"
+      "categoryId": "foodscraps",
+      "note": "容器はプラマークごみへ"
     },
     {
       "name": "マヨネーズの容器",
       "nameKana": "まよねーずのようき",
       "categoryId": "burnable",
-      "note": "中身は使いきってください。びんの場合はびん・カンへ"
+      "note": "中身は使いきってください。"
     },
     {
       "name": "みかんを入れた網ネット",
@@ -3387,8 +3558,8 @@
       "categoryId": "burnable"
     },
     {
-      "name": "麺類(乾麺含む)",
-      "nameKana": "めんるい(かんめんふくむ)",
+      "name": "麺類(乾?含む)",
+      "nameKana": "めんるい(いぬい?ふくむ)",
       "categoryId": "foodscraps"
     },
     {
@@ -3397,10 +3568,10 @@
       "categoryId": "oversized"
     },
     {
-      "name": "燃え殻",
-      "nameKana": "もえから",
+      "name": "燃え殻(風呂のたき付けやバーベキュー等の燃えかす等)",
+      "nameKana": "もえから(ふろのたきつけやばーべきゅーなどのもえかすなど)",
       "categoryId": "burnable",
-      "note": "風呂のたき付けやバーベキュー等の燃えかす等。飛散しないように湿らせてください。"
+      "note": "飛散しないように湿らせてください。"
     },
     {
       "name": "もち",
@@ -3463,13 +3634,13 @@
       "note": "台所等、屋内設置のもの"
     },
     {
-      "name": "ヨーグルト",
-      "nameKana": "よーぐると",
+      "name": "ようかん",
+      "nameKana": "ようかん",
       "categoryId": "foodscraps"
     },
     {
-      "name": "ようかん",
-      "nameKana": "ようかん",
+      "name": "ヨーグルト",
+      "nameKana": "よーぐると",
       "categoryId": "foodscraps"
     },
     {
@@ -3545,7 +3716,12 @@
       "name": "リチウムイオン電池",
       "nameKana": "りちうむいおんでんち",
       "categoryId": "uncollectible",
-      "note": "「リサイクル協力店」へお持ち込みください。"
+      "note": "19ページをご覧ください。"
+    },
+    {
+      "name": "リップクリーム",
+      "nameKana": "りっぷくりーむ",
+      "categoryId": "crushable"
     },
     {
       "name": "リモコン",
@@ -3578,6 +3754,12 @@
       "name": "冷凍食品",
       "nameKana": "れいとうしょくひん",
       "categoryId": "foodscraps"
+    },
+    {
+      "name": "冷風機(フロンガス入り)",
+      "nameKana": "れいふうき(ふろんがすいり)",
+      "categoryId": "uncollectible",
+      "note": "販売店等に引き取ってもらいましょう。"
     },
     {
       "name": "レインコート・レインブーツ",
@@ -3614,7 +3796,7 @@
       "name": "レンガ",
       "nameKana": "れんが",
       "categoryId": "unburnable",
-      "note": "建設工事に伴い出たものは市では受け付けません。"
+      "note": "建設・解体工事に伴い出たものは市では受け付けません。"
     },
     {
       "name": "ローソク",
@@ -3678,8 +3860,7 @@
     {
       "name": "わら半紙",
       "nameKana": "わらはんし",
-      "categoryId": "localcollection.paper",
-      "note": "地域資源回収又は環境センター、リサイクルステーション、古紙リサイクルヤードへ"
+      "categoryId": "localcollection.paper"
     },
     {
       "name": "割りばし",

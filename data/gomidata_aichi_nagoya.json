@@ -2,7 +2,7 @@
   "municipalityId": "231002",
   "municipalityName": "愛知県名古屋市",
   "datasourceUrl": "http://www.city.nagoya.jp/kurashi/category/5-6-22-0-0-0-0-0-0-0.html",
-  "updatedAt": "2020-02-26",
+  "updatedAt": "2022-06-23",
   "categoryDefinitions": {
     "burnable": {
       "name": "可燃ごみ"
@@ -49,6 +49,9 @@
     "localcollection": {
       "name": "集団資源回収"
     },
+    "battery": {
+      "name": "電池類"
+    },
     "uncollectible": {
       "name": "回収できません"
     }
@@ -86,7 +89,8 @@
     {
       "name": "アイロン",
       "nameKana": "あいろん",
-      "categoryId": "unburnable"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "回収ボックスを利用できない場合は不燃ごみへ"
     },
     {
       "name": "アイロン台",
@@ -132,8 +136,8 @@
       "note": "30cm角以下のものは、金属製なら不燃ごみ、プラスチック製なら可燃ごみへ"
     },
     {
-      "name": "アダプター(電源用)",
-      "nameKana": "あだぷたー(でんげんよう)",
+      "name": "アダプター",
+      "nameKana": "あだぷたー",
       "categoryId": "pointcollection.smallappliances",
       "note": "回収ボックスを利用できない場合は不燃ごみへ"
     },
@@ -273,14 +277,14 @@
     {
       "name": "アンテナ",
       "nameKana": "あんてな",
-      "categoryId": "unburnable",
-      "note": "30cm角を超えるものは、粗大ごみへ"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "回収ボックスを利用できない場合は不燃ごみへ30cm角を超えるものは粗大ごみへ"
     },
     {
       "name": "アンプ",
       "nameKana": "あんぷ",
       "categoryId": "oversized",
-      "note": "概ね縦15cm×横40cm×奥行25cm以下のものは小型家電回収ボックスに出せます"
+      "note": "縦15cm×横40cm×奥行25cm以下のものは小型家電回収ボックスに出せます"
     },
     {
       "name": "衣装ケース",
@@ -642,7 +646,8 @@
     {
       "name": "鉛筆削り器(電動・金属製)",
       "nameKana": "えんぴつけずりうつわ(でんどう・きんぞくせい)",
-      "categoryId": "unburnable"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "回収ボックスを利用できない場合は不燃ごみへ"
     },
     {
       "name": "鉛筆削り器(手動・プラスチック製)",
@@ -698,7 +703,8 @@
     {
       "name": "オーブントースター",
       "nameKana": "おーぶんとーすたー",
-      "categoryId": "oversized"
+      "categoryId": "oversized",
+      "note": "縦15cm×横40cm×奥行25cm以下のものは小型家電回収ボックスに出せます"
     },
     {
       "name": "オーブンレンジ",
@@ -876,7 +882,7 @@
       "name": "温度計(ガラス製)",
       "nameKana": "おんどけい(がらすせい)",
       "categoryId": "unburnable",
-      "note": "電子式（プラスチック製）のものは、可燃ごみへ水銀式のものは、環境事業所へ"
+      "note": "電子式（プラスチック製）のものは、小型家電へ水銀式のものは、環境事業所へ"
     },
     {
       "name": "温風ヒーター",
@@ -995,7 +1001,8 @@
     {
       "name": "かさ",
       "nameKana": "かさ",
-      "categoryId": "unburnable"
+      "categoryId": "unburnable",
+      "note": "30cm角を超える場合も、不燃ごみへ"
     },
     {
       "name": "かさ立て",
@@ -1005,8 +1012,8 @@
     {
       "name": "加湿器",
       "nameKana": "かしつき",
-      "categoryId": "unburnable",
-      "note": "30cm角を超えるものは、粗大ごみへ"
+      "categoryId": "oversized",
+      "note": "縦15cm×横40cm×奥行25cm以下のものは小型家電回収ボックスに出せます"
     },
     {
       "name": "ガスコンロ・ガステーブル",
@@ -1065,7 +1072,7 @@
       "name": "カセットデッキ",
       "nameKana": "かせっとでっき",
       "categoryId": "oversized",
-      "note": "概ね縦15cm×横40cm×奥行25cm以下のものは小型家電回収ボックスに出せます"
+      "note": "縦15cm×横40cm×奥行25cm以下のものは小型家電回収ボックスに出せます"
     },
     {
       "name": "ガソリン",
@@ -1132,6 +1139,11 @@
       "name": "かなづち(とんかち)",
       "nameKana": "かなづち(とんかち)",
       "categoryId": "unburnable"
+    },
+    {
+      "name": "加熱式たばこ",
+      "nameKana": "かねつしきたばこ",
+      "categoryId": "hazardous"
     },
     {
       "name": "かばん(皮革・布製)",
@@ -1264,7 +1276,7 @@
       "name": "カメラ・デジタルカメラ",
       "nameKana": "かめら・でじたるかめら",
       "categoryId": "pointcollection.smallappliances",
-      "note": "回収ボックスを利用できない場合は不燃ごみへ"
+      "note": "回収ボックスを利用できない場合は不燃ごみへ不燃ごみに出す場合は、充電式電池を外して"
     },
     {
       "name": "カメラのケース(皮革・布製)",
@@ -1390,8 +1402,8 @@
     {
       "name": "乾電池",
       "nameKana": "かんでんち",
-      "categoryId": "unburnable",
-      "note": "・ボタン電池は、協力店の回収缶へ・小形充電池（リチウムイオン電池、ニッケルカドミウム電池、ニッケル水素電池、小型シール電池など）は、回収拠点（各区の環境事業所、電気店など）のリサイクルボックスへ・リチウム電池（充電できないもの）は、発火性危険物へ・くわしくは、市で収集しない電池類のページをご覧ください"
+      "categoryId": "battery",
+      "note": "セロハンテープなどで絶縁して"
     },
     {
       "name": "感熱紙",
@@ -1427,8 +1439,8 @@
     {
       "name": "キーボード(パソコン用)",
       "nameKana": "きーぼーど(ぱそこんよう)",
-      "categoryId": "oversized",
-      "note": "概ね縦15cm×横40cm×奥行25cm以下のものは小型家電回収ボックスに出せます"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "回収ボックスを利用できない場合は不燃ごみへ回収ボックスに入らないものは、粗大ごみへ"
     },
     {
       "name": "木くず",
@@ -1604,7 +1616,8 @@
     {
       "name": "空気清浄機",
       "nameKana": "くうきせいじょうき",
-      "categoryId": "oversized"
+      "categoryId": "oversized",
+      "note": "縦15cm×横40cm×奥行25cm以下のものは小型家電へ"
     },
     {
       "name": "クーラー",
@@ -1629,10 +1642,16 @@
       "categoryId": "burnable"
     },
     {
-      "name": "草刈り機・芝刈り機",
-      "nameKana": "くさかりき・しばかりりき",
+      "name": "草刈り機・芝刈り機(コンセント式)",
+      "nameKana": "くさかりき・しばかりりき(こんせんとしき)",
       "categoryId": "oversized",
-      "note": "バッテリーははずして販売店の回収ボックスへエンジン式は、お住まいの区の環境事業所にお問い合わせください。"
+      "note": "エンジン式は、お住まいの区の環境事業所にお問い合わせください"
+    },
+    {
+      "name": "草刈り機・芝刈り機(充電式)",
+      "nameKana": "くさかりき・しばかりりき(じゅうでんしき)",
+      "categoryId": "uncollectible",
+      "note": "エンジン式は、お住まいの区の環境事業所にお問い合わせください"
     },
     {
       "name": "鎖(金属製)",
@@ -1771,7 +1790,8 @@
     {
       "name": "クッションカバー",
       "nameKana": "くっしょんかばー",
-      "categoryId": "burnable"
+      "categoryId": "localcollection",
+      "note": "集団資源回収・リサイクルステーションなどへ利用できない場合は可燃ごみへ"
     },
     {
       "name": "靴べら(金属製)",
@@ -1882,13 +1902,13 @@
       "name": "携帯電話",
       "nameKana": "けいたいでんわ",
       "categoryId": "pointcollection.smallappliances",
-      "note": "販売店回収または小型家電回収ボックスを利用しましょう。利用できない場合は不燃ごみへ。販売店回収については「モバイル・リサイクル・ネットワーク」(外部リンク)のホームページをご覧ください。"
+      "note": "販売店回収または小型家電回収ボックスを利用しましょう。販売店回収については「モバイル・リサイクル・ネットワーク」(外部リンク)のホームページをご覧ください。"
     },
     {
       "name": "携帯電話のバッテリー",
       "nameKana": "けいたいでんわのばってりー",
       "categoryId": "uncollectible",
-      "note": "販売店の回収箱へ"
+      "note": "販売店の回収箱へ令和4年7月から「電池類」として収集します"
     },
     {
       "name": "毛糸・糸",
@@ -1919,7 +1939,8 @@
     {
       "name": "ゲームソフト",
       "nameKana": "げーむそふと",
-      "categoryId": "burnable"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "回収ボックスを利用できない場合は可燃ごみへ"
     },
     {
       "name": "消しゴム",
@@ -2137,10 +2158,10 @@
       "categoryId": "burnable"
     },
     {
-      "name": "小型充電池",
-      "nameKana": "こがたじゅうでんち",
-      "categoryId": "uncollectible",
-      "note": "回収拠点（各区の環境事業所、電気店など）にお持ち込みください。回収拠点は、一般社団法人JBRCのホームページ(外部リンク)で検索できます。"
+      "name": "小型充電式電池",
+      "nameKana": "こがたじゅうでんしきでんち",
+      "categoryId": "battery",
+      "note": "セロハンテープなどで絶縁して回収拠点もご利用いただけます。詳しくは、一般社団法人JBRCの　　ホームページ(外部リンク)をご覧ください。"
     },
     {
       "name": "小型船舶",
@@ -2318,7 +2339,7 @@
       "name": "コンポ",
       "nameKana": "こんぽ",
       "categoryId": "oversized",
-      "note": "概ね縦15cm×横40cm×奥行25cm以下のものは小型家電回収ボックスに出せます"
+      "note": "縦15cm×横40cm×奥行25cm以下のものは小型家電回収ボックスに出せます"
     },
     {
       "name": "梱包ひも",
@@ -2391,8 +2412,8 @@
       "categoryId": "burnable"
     },
     {
-      "name": "雑誌",
-      "nameKana": "ざっし",
+      "name": "雑誌・週刊誌",
+      "nameKana": "ざっし・しゅうかんし",
       "categoryId": "localcollection",
       "note": "集団資源回収・リサイクルステーションなどへ利用できない場合は可燃ごみへ"
     },
@@ -2405,27 +2426,32 @@
     {
       "name": "座布団",
       "nameKana": "ざぶとん",
-      "categoryId": "oversized"
+      "categoryId": "oversized",
+      "note": "30cm角以下のものは、可燃ごみへ"
     },
     {
       "name": "皿(ガラス・金属・陶器製)",
       "nameKana": "さら(がらす・きんぞく・とうきせい)",
-      "categoryId": "unburnable"
+      "categoryId": "unburnable",
+      "note": "30cm角を超える場合も、不燃ごみへ（装飾用の大皿を除く。）"
     },
     {
       "name": "皿(木・プラスチック製)",
       "nameKana": "さら(き・ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "burnable",
+      "note": "30cm角を超える場合も、可燃ごみへ（装飾用の大皿を除く。）"
     },
     {
       "name": "ざる(金属製)",
       "nameKana": "ざる(きんぞくせい)",
-      "categoryId": "unburnable"
+      "categoryId": "unburnable",
+      "note": "30cm角を超える場合も、不燃ごみへ"
     },
     {
       "name": "ざる(金属製以外)",
       "nameKana": "ざる(きんぞくせいいがい)",
-      "categoryId": "burnable"
+      "categoryId": "burnable",
+      "note": "30cm角を超える場合も、可燃ごみへ"
     },
     {
       "name": "三角コーナー(金属製)",
@@ -2441,13 +2467,13 @@
       "name": "三角コーン",
       "nameKana": "さんかくこーん",
       "categoryId": "oversized",
-      "note": "30cm角を以下のものは、可燃ごみへ"
+      "note": "30cm角以下のものは、可燃ごみへ"
     },
     {
       "name": "三脚",
       "nameKana": "さんきゃく",
       "categoryId": "oversized",
-      "note": "30cm角を以下のものは、不燃ごみへ"
+      "note": "30cm角以下のものは、不燃ごみへ"
     },
     {
       "name": "サングラス(プラスチック製)",
@@ -2485,7 +2511,7 @@
       "name": "CDプレーヤー",
       "nameKana": "しーでぃーぷれーやー",
       "categoryId": "pointcollection.smallappliances",
-      "note": "回収ボックスを利用できない場合は不燃ごみへ"
+      "note": "回収ボックスを利用できない場合は不燃ごみ（30cm角を超えるものは場合は粗大ごみ）へ"
     },
     {
       "name": "シールの台紙",
@@ -2543,7 +2569,8 @@
     {
       "name": "自転車",
       "nameKana": "じてんしゃ",
-      "categoryId": "oversized"
+      "categoryId": "oversized",
+      "note": "電動アシスト自転車のバッテリーは外して、協力店のリサイクルボックスへ"
     },
     {
       "name": "自転車のタイヤチューブ",
@@ -2591,7 +2618,7 @@
       "name": "シャベル",
       "nameKana": "しゃべる",
       "categoryId": "oversized",
-      "note": "30cm角を以下のものは、不燃ごみへ"
+      "note": "30cm角以下のものは、不燃ごみへ"
     },
     {
       "name": "しゃもじ",
@@ -2629,8 +2656,8 @@
     {
       "name": "ジューサー・ミキサー",
       "nameKana": "じゅーさー・みきさー",
-      "categoryId": "unburnable",
-      "note": "30cm角を超えるものは、粗大ごみへ"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "回収ボックスを利用できない場合は不燃ごみ（30cm角を超えるものは場合は粗大ごみ）へ"
     },
     {
       "name": "習字の紙(半紙)",
@@ -2652,8 +2679,8 @@
     {
       "name": "充電式電池",
       "nameKana": "じゅうでんしきでんち",
-      "categoryId": "uncollectible",
-      "note": "回収拠点（各区の環境事業所、電気店など）にお持ち込みください。回収拠点は、一般社団法人JBRCのホームページ(外部リンク)で検索できます。"
+      "categoryId": "battery",
+      "note": "セロハンテープなどで絶縁して回収拠点もご利用いただけます。詳しくは、一般社団法人JBRCのホームページ(外部リンク)をご覧ください。"
     },
     {
       "name": "朱肉",
@@ -2673,8 +2700,8 @@
     {
       "name": "シュレッダー(電動式)",
       "nameKana": "しゅれっだー(でんどうしき)",
-      "categoryId": "unburnable",
-      "note": "30cm角を超えるものは、粗大ごみへ"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "回収ボックスを利用できない場合は不燃ごみ（30cm角を超えるものは場合は粗大ごみ）へ"
     },
     {
       "name": "シュレッダー古紙",
@@ -2706,12 +2733,14 @@
     {
       "name": "定規(金属製)",
       "nameKana": "じょうぎ(きんぞくせい)",
-      "categoryId": "unburnable"
+      "categoryId": "unburnable",
+      "note": "30cm角を超えるものは、粗大ごみへ"
     },
     {
       "name": "定規(金属製以外)",
       "nameKana": "じょうぎ(きんぞくせいいがい)",
-      "categoryId": "burnable"
+      "categoryId": "burnable",
+      "note": "30cm角を超えるものは、粗大ごみへ"
     },
     {
       "name": "錠剤用シート",
@@ -2745,20 +2774,22 @@
       "categoryId": "burnable"
     },
     {
-      "name": "照明器具",
-      "nameKana": "しょうめいきぐ",
-      "categoryId": "unburnable",
-      "note": "30cm角を超えるものは、粗大ごみへ"
+      "name": "照明機器",
+      "nameKana": "しょうめいきき",
+      "categoryId": "pointcollection.smallappliances",
+      "note": "蛍光管・電球は外して回収ボックスを利用できない場合は不燃ごみ（30cm角を超えるものは場合は粗大ごみ）へ"
     },
     {
       "name": "じょうろ(金属製)",
       "nameKana": "じょうろ(きんぞくせい)",
-      "categoryId": "unburnable"
+      "categoryId": "unburnable",
+      "note": "30cm角を超える場合も、不燃ごみへ"
     },
     {
       "name": "じょうろ(プラスチック製)",
       "nameKana": "じょうろ(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "burnable",
+      "note": "30cm角を超える場合も、可燃ごみへ"
     },
     {
       "name": "食用油",
@@ -2809,12 +2840,14 @@
     {
       "name": "食器(ガラス・陶器・金属製)",
       "nameKana": "しょっき(がらす・とうき・きんぞくせい)",
-      "categoryId": "unburnable"
+      "categoryId": "unburnable",
+      "note": "30cm角を超える場合も、不燃ごみへ（装飾用の大皿を除く。）"
     },
     {
       "name": "食器(木・プラスチック製)",
       "nameKana": "しょっき(き・ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "burnable",
+      "note": "30cm角を超える場合も、可燃ごみへ（装飾用の大皿を除く。）"
     },
     {
       "name": "食器洗い乾燥機",
@@ -2896,7 +2929,7 @@
       "name": "炊飯器",
       "nameKana": "すいはんき",
       "categoryId": "oversized",
-      "note": "30cm角を以下のものは、不燃ごみへ"
+      "note": "縦15cm×横40cm×奥行25cm以下のものは小型家電へ30cm角以下のものは、不燃ごみへ"
     },
     {
       "name": "スーツ",
@@ -3382,9 +3415,16 @@
       "categoryId": "burnable"
     },
     {
-      "name": "掃除機",
-      "nameKana": "そうじき",
-      "categoryId": "oversized"
+      "name": "掃除機(充電式)",
+      "nameKana": "そうじき(じゅうでんしき)",
+      "categoryId": "pointcollection.smallappliances",
+      "note": "縦15cm×横40cm×奥行25cm以下のものは小型家電回収ボックスに出せます環境事業所まで持ち込めない場合は、充電式電池を外して粗大ごみへ"
+    },
+    {
+      "name": "掃除機(充電式でないもの)",
+      "nameKana": "そうじき(じゅうでんしきでないもの)",
+      "categoryId": "oversized",
+      "note": "縦15cm×横40cm×奥行25cm以下のものは小型家電へ"
     },
     {
       "name": "ぞうり",
@@ -3432,14 +3472,14 @@
     {
       "name": "体脂肪計",
       "nameKana": "たいしぼうけい",
-      "categoryId": "unburnable",
-      "note": "30cm角を超えるものは、粗大ごみへ"
+      "categoryId": "oversized",
+      "note": "縦15cm×横40cm×奥行25cm以下のものは小型家電に出せます"
     },
     {
       "name": "体重計",
       "nameKana": "たいじゅうけい",
-      "categoryId": "unburnable",
-      "note": "30cm角を超えるものは、粗大ごみへ"
+      "categoryId": "oversized",
+      "note": "縦15cm×横40cm×奥行25cm以下のものは小型家電に出せます"
     },
     {
       "name": "台所マット",
@@ -3640,8 +3680,8 @@
     {
       "name": "中華なべ",
       "nameKana": "ちゅうかなべ",
-      "categoryId": "unburnable",
-      "note": "リサイクルステーションも利用しましょう"
+      "categoryId": "oversized",
+      "note": "リサイクルステーションも利用しましょう30cm角以下のものは不燃ごみへ"
     },
     {
       "name": "注射針、注射器(在宅医療用)",
@@ -3690,27 +3730,37 @@
     {
       "name": "ちりとり(金属製)",
       "nameKana": "ちりとり(きんぞくせい)",
-      "categoryId": "unburnable"
+      "categoryId": "unburnable",
+      "note": "30cm角を超える場合も、不燃ごみへ（箕（み）を除く。）"
     },
     {
       "name": "ちりとり(プラスチック製)",
       "nameKana": "ちりとり(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "burnable",
+      "note": "30cm角を超える場合も、可燃ごみへ（箕（み）を除く。）"
     },
     {
       "name": "つえ(金属製)",
       "nameKana": "つえ(きんぞくせい)",
-      "categoryId": "unburnable"
+      "categoryId": "unburnable",
+      "note": "30cm角を超えるものは、粗大ごみへ"
     },
     {
       "name": "つえ(木製・プラスチック製)",
       "nameKana": "つえ(もくせい・ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "burnable",
+      "note": "30cm角を超えるものは、粗大ごみへ"
     },
     {
       "name": "机",
       "nameKana": "つくえ",
       "categoryId": "oversized"
+    },
+    {
+      "name": "土(プランターの土)",
+      "nameKana": "つち(ぷらんたーのつち)",
+      "categoryId": "uncollectible",
+      "note": "できるだけ自然に戻す、または造園業者などに引取りを依頼してください上記の方法が難しい場合は、可燃ごみへ（1度に出せる量は片手で持てる重さで、1袋まで）"
     },
     {
       "name": "つっぱり棒(プラスチック製)",
@@ -3867,7 +3917,8 @@
     {
       "name": "テレビゲームソフト",
       "nameKana": "てれびげーむそふと",
-      "categoryId": "burnable"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "回収ボックスを利用できない場合は可燃ごみへ"
     },
     {
       "name": "テレビ台",
@@ -3894,7 +3945,8 @@
     {
       "name": "電気あんか",
       "nameKana": "でんきあんか",
-      "categoryId": "unburnable"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "回収ボックスを利用できない場合は不燃ごみへ"
     },
     {
       "name": "電気カーペット",
@@ -3912,6 +3964,18 @@
       "nameKana": "でんきかみそりせんじょうき",
       "categoryId": "pointcollection.smallappliances",
       "note": "回収ボックスを利用できない場合は不燃ごみへ"
+    },
+    {
+      "name": "電気草刈り機(コンセント式)",
+      "nameKana": "でんきくさかりき(こんせんとしき)",
+      "categoryId": "oversized",
+      "note": "エンジン式は、お住まいの区の環境事業所にお問い合わせください"
+    },
+    {
+      "name": "電気草刈り機(充電式)",
+      "nameKana": "でんきくさかりき(じゅうでんしき)",
+      "categoryId": "uncollectible",
+      "note": "エンジン式は、お住まいの区の環境事業所にお問い合わせください"
     },
     {
       "name": "電気コード",
@@ -3934,8 +3998,8 @@
     {
       "name": "電気スタンド",
       "nameKana": "でんきすたんど",
-      "categoryId": "unburnable",
-      "note": "30cm角を超えるものは、粗大ごみへ"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "回収ボックスを利用できない場合は不燃ごみ（30cm角を超えるものは粗大ごみ）へ"
     },
     {
       "name": "電気ストーブ",
@@ -3943,9 +4007,16 @@
       "categoryId": "oversized"
     },
     {
-      "name": "電気掃除機",
-      "nameKana": "でんきそうじき",
-      "categoryId": "oversized"
+      "name": "電気掃除機(充電式)",
+      "nameKana": "でんきそうじき(じゅうでんしき)",
+      "categoryId": "uncollectible",
+      "note": "縦15cm×横40cm×奥行25cm以下のものは小型家電に出せます環境事業所まで持ち込めない場合は、充電式電池を外して粗大ごみへ"
+    },
+    {
+      "name": "電気掃除機(充電式でないもの)",
+      "nameKana": "でんきそうじき(じゅうでんしきでないもの)",
+      "categoryId": "oversized",
+      "note": "縦15cm×横40cm×奥行25cm以下のものは小型家電に出せます"
     },
     {
       "name": "電気バリカン",
@@ -3956,8 +4027,8 @@
     {
       "name": "電気ポット",
       "nameKana": "でんきぽっと",
-      "categoryId": "unburnable",
-      "note": "30cm角を超えるものは、粗大ごみへ"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "小型家電回収ボックスを利用できない場合は不燃ごみ（30cm角を超えるものは粗大ごみ）へ"
     },
     {
       "name": "電気毛布",
@@ -3965,10 +4036,10 @@
       "categoryId": "oversized"
     },
     {
-      "name": "電球型蛍光管",
-      "nameKana": "でんきゅうかたけいこうかん",
+      "name": "電球型蛍光管・蛍光管",
+      "nameKana": "でんきゅうかたけいこうかん・けいこうかん",
       "categoryId": "uncollectible",
-      "note": "環境事業所または蛍光管回収協力店舗へ白熱電球やLED製品は、不燃ごみへ割れた蛍光管は、丈夫な紙などに包み、「キケン」と表示し、不燃ごみへ"
+      "note": "環境事業所または蛍光管回収協力店舗へ白熱電球やLED製品は、不燃ごみへ割れた蛍光管は、丈夫な紙などに包み、袋に「キケン」と表示し、不燃ごみへ"
     },
     {
       "name": "電子オルガン・電子ピアノ",
@@ -3995,14 +4066,19 @@
       "note": "回収ボックスを利用できない場合は可燃ごみへ"
     },
     {
+      "name": "電子たばこ・加熱式たばこ",
+      "nameKana": "でんしたばこ・かねつしきたばこ",
+      "categoryId": "hazardous"
+    },
+    {
       "name": "点字用紙(エンボス製)",
       "nameKana": "てんじようかみ(えんぼすせい)",
       "categoryId": "localcollection",
       "note": "集団資源回収・リサイクルステーションなどへ利用できない場合は可燃ごみへ"
     },
     {
-      "name": "電子レンジ",
-      "nameKana": "でんしれんじ",
+      "name": "電子レンジ・オーブンレンジ",
+      "nameKana": "でんしれんじ・おーぶんれんじ",
       "categoryId": "oversized"
     },
     {
@@ -4024,24 +4100,26 @@
     {
       "name": "電池(小型充電式電池)",
       "nameKana": "でんち(こがたじゅうでんしきでんち)",
-      "categoryId": "uncollectible",
-      "note": "回収拠点（各区の環境事業所、電気店など）にお持ち込みください。回収拠点は、一般社団法人JBRCのホームページ(外部リンク)で検索できます。"
+      "categoryId": "battery",
+      "note": "セロハンテープなどで絶縁して回収拠点もご利用いただけます。詳しくは、一般社団法人JBRCのホームページ(外部リンク)をご覧ください"
     },
     {
       "name": "電池(ボタン型電池)",
       "nameKana": "でんち(ぼたんかたでんち)",
-      "categoryId": "uncollectible",
-      "note": "協力店のボタン電池回収缶へ。協力店については、「ボタン電池回収推進センター」のホームページ(外部リンク)をご覧ください。"
+      "categoryId": "battery",
+      "note": "セロハンテープなどで絶縁して回収協力店もご利用いただけます。詳しくは、「ボタン電池回収推進センター」のホームページ(外部リンク)をご覧ください。"
     },
     {
       "name": "電池(マンガン・アルカリ乾電池)",
       "nameKana": "でんち(まんがん・あるかりかんでんち)",
-      "categoryId": "unburnable"
+      "categoryId": "battery",
+      "note": "セロハンテープなどで絶縁して"
     },
     {
       "name": "電池(リチウム電池:充電式でないもの)",
       "nameKana": "でんち(りちうむでんち:じゅうでんしきでないもの)",
-      "categoryId": "hazardous"
+      "categoryId": "battery",
+      "note": "セロハンテープなどで絶縁して"
     },
     {
       "name": "点滴パック及びチューブ類(在宅医療用)",
@@ -4065,6 +4143,12 @@
       "nameKana": "でんどうしきべっど(かいごよう)",
       "categoryId": "oversized",
       "note": "100kg以上のものは、販売店等でご相談ください"
+    },
+    {
+      "name": "電動工具",
+      "nameKana": "でんどうこうぐ",
+      "categoryId": "pointcollection.smallappliances",
+      "note": "充電式で回収ボックスが入らないものは、充電式家電へ"
     },
     {
       "name": "電動歯ブラシ",
@@ -4148,7 +4232,8 @@
     {
       "name": "灯油給油ポンプ",
       "nameKana": "とうゆきゅうゆぽんぷ",
-      "categoryId": "burnable"
+      "categoryId": "burnable",
+      "note": "30cm角を超えるものは、粗大ごみへ"
     },
     {
       "name": "灯油ポリタンク",
@@ -4160,6 +4245,11 @@
       "nameKana": "とーすたー",
       "categoryId": "unburnable",
       "note": "30cm角を超えるものは、粗大ごみへ"
+    },
+    {
+      "name": "時計",
+      "nameKana": "とけい",
+      "categoryId": "pointcollection.smallappliances"
     },
     {
       "name": "戸棚",
@@ -4224,7 +4314,8 @@
     {
       "name": "ドリル(電動)",
       "nameKana": "どりる(でんどう)",
-      "categoryId": "unburnable"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "充電式で回収ボックスが入らないものは、充電式家電へ"
     },
     {
       "name": "トレイ(お盆などの製品:金属製)",
@@ -4320,7 +4411,7 @@
       "name": "鍋(金属製)",
       "nameKana": "なべ(きんぞくせい)",
       "categoryId": "unburnable",
-      "note": "リサイクルステーションも利用しましょう"
+      "note": "30cm角を超える場合も、不燃ごみへ（圧力鍋、中華鍋、ずん胴を除く。）リサイクルステーションも利用しましょう"
     },
     {
       "name": "鍋焼きうどんなどのアルミ容器",
@@ -4335,8 +4426,14 @@
     {
       "name": "ニカド電池",
       "nameKana": "にかどでんち",
-      "categoryId": "uncollectible",
-      "note": "回収拠点（各区の環境事業所、電気店など）にお持ち込みください。回収拠点は、一般社団法人JBRCのホームページ(外部リンク)で検索できます。"
+      "categoryId": "battery",
+      "note": "セロハンテープなどで絶縁して回収拠点もご利用いただけます。詳しくは、一般社団法人JBRCのホームページ(外部リンク)をご覧ください"
+    },
+    {
+      "name": "ニッケル水素電池",
+      "nameKana": "にっけるすいそでんち",
+      "categoryId": "battery",
+      "note": "セロハンテープなどで絶縁して回収拠点もご利用いただけます。詳しくは、一般社団法人JBRCのホームページ(外部リンク)をご覧ください"
     },
     {
       "name": "人形(陶器・ガラス製)",
@@ -4453,7 +4550,7 @@
       "name": "のこぎり",
       "nameKana": "のこぎり",
       "categoryId": "unburnable",
-      "note": "丈夫な紙等に包み、「キケン」と表示して"
+      "note": "丈夫な紙等に包み、「キケン」と表示して30cm角を超えるものは、粗大ごみへ"
     },
     {
       "name": "のみ",
@@ -4488,7 +4585,7 @@
       "name": "バイク",
       "nameKana": "ばいく",
       "categoryId": "uncollectible",
-      "note": "販売店等にご相談ください"
+      "note": "販売店・専門業者・二輪車リサイクルコールセンターにご相談ください"
     },
     {
       "name": "灰皿",
@@ -4548,12 +4645,14 @@
     {
       "name": "バケツ・洗面器(金属製)",
       "nameKana": "ばけつ・せんめんき(きんぞくせい)",
-      "categoryId": "unburnable"
+      "categoryId": "unburnable",
+      "note": "30cm角を超える場合も、不燃ごみへ（45リットル以上の大型バケツを除く。）"
     },
     {
       "name": "バケツ・洗面器(プラスチック製)",
       "nameKana": "ばけつ・せんめんき(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "burnable",
+      "note": "30cm角を超える場合も、可燃ごみへ（45リットル以上の大型バケツを除く。）"
     },
     {
       "name": "はさみ",
@@ -4585,7 +4684,7 @@
       "name": "パソコン(デスクトップ本体、ディスプレイ、ノートパソコン、ディスプレイ一体型パソコン)",
       "nameKana": "ぱそこん(ですくとっぷほんたい、でぃすぷれい、のーとぱそこん、でぃすぷれいいったいがたぱそこん)",
       "categoryId": "pointcollection.smallappliances",
-      "note": "各パソコンメーカーの回収にお出しください。概ね縦15cm×横40cm×奥行25cm以下のパソコンは小型家電回収ボックスに出すこともできますくわしくは、家庭用パソコンリサイクルのページをご覧ください"
+      "note": "各パソコンメーカーの回収にお出しください。縦15cm×横40cm×奥行25cm以下のパソコンは小型家電回収ボックスに出すこともできますくわしくは、家庭用パソコンリサイクルのページをご覧ください"
     },
     {
       "name": "パソコンラック",
@@ -4621,8 +4720,8 @@
       "note": "多少の金属が付いていても可燃ごみへ30cm角を超えるものは、粗大ごみへ"
     },
     {
-      "name": "バッテリー",
-      "nameKana": "ばってりー",
+      "name": "バッテリー(自動車用)",
+      "nameKana": "ばってりー(じどうしゃよう)",
       "categoryId": "uncollectible",
       "note": "販売店等にご相談ください"
     },
@@ -4690,8 +4789,8 @@
       "categoryId": "paperpackaging"
     },
     {
-      "name": "歯磨き粉のチューブ",
-      "nameKana": "はみがきこのちゅーぶ",
+      "name": "歯磨き粉のチューブ・フタ",
+      "nameKana": "はみがきこのちゅーぶ・ふた",
       "categoryId": "plasticpackaging",
       "note": "中身を使い切って"
     },
@@ -4868,8 +4967,8 @@
     {
       "name": "ビデオデッキ",
       "nameKana": "びでおでっき",
-      "categoryId": "oversized",
-      "note": "概ね縦15cm×横40cm×奥行25cm以下のものは小型家電回収ボックスに出せます"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "回収ボックスを利用できない場合は不燃ごみ（30cm角を超えるものは粗大ごみ）へ"
     },
     {
       "name": "ひな人形セット",
@@ -4884,7 +4983,8 @@
     {
       "name": "火バサミ",
       "nameKana": "ひばさみ",
-      "categoryId": "unburnable"
+      "categoryId": "unburnable",
+      "note": "30cm角を超える場合も、不燃ごみへ"
     },
     {
       "name": "火鉢",
@@ -4926,9 +5026,10 @@
       "note": "集団資源回収・リサイクルステーションなどへ利用できない場合は可燃ごみへ"
     },
     {
-      "name": "ファンヒーター",
-      "nameKana": "ふぁんひーたー",
-      "categoryId": "oversized"
+      "name": "ファンヒーター・石油ストーブ",
+      "nameKana": "ふぁんひーたー・せきゆすとーぶ",
+      "categoryId": "oversized",
+      "note": "灯油・電池は抜いて"
     },
     {
       "name": "フィルム(ネガ)、フィルムケース",
@@ -4954,8 +5055,8 @@
     {
       "name": "フードプロセッサー",
       "nameKana": "ふーどぷろせっさー",
-      "categoryId": "unburnable",
-      "note": "30cm角を超えるものは、粗大ごみへ"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "回収ボックスを利用できない場合は不燃ごみ（30cm角を超えるものは粗大ごみ）へ"
     },
     {
       "name": "プール(子供用遊具)",
@@ -5103,7 +5204,7 @@
       "name": "フライパン",
       "nameKana": "ふらいぱん",
       "categoryId": "unburnable",
-      "note": "リサイクルステーションも利用しましょう"
+      "note": "30cm角を超える場合も、不燃ごみへリサイクルステーションも利用しましょう"
     },
     {
       "name": "ブラインド",
@@ -5175,13 +5276,13 @@
       "name": "プリンター",
       "nameKana": "ぷりんたー",
       "categoryId": "oversized",
-      "note": "30cm角以下のものは、不燃ごみへ"
+      "note": "縦15cm×横40cm×奥行25cm以下のものは小型家電に出せます"
     },
     {
       "name": "ブルーシート",
       "nameKana": "ぶるーしーと",
       "categoryId": "burnable",
-      "note": "折りたたんで"
+      "note": "50cm以下になるように結束してください"
     },
     {
       "name": "古着・古布",
@@ -5310,8 +5411,8 @@
       "note": "キャップを取り、中をさっとゆすぎ、なるべくつぶして出してください「プラスチック製容器包装マーク」がついた、ソース、食用油のペットボトルはプラ容器包装へ"
     },
     {
-      "name": "ペットボトルのフタ(プラスチック製)",
-      "nameKana": "ぺっとぼとるのふた(ぷらすちっくせい)",
+      "name": "ペットボトルのフタ・ラベル(プラスチック製)",
+      "nameKana": "ぺっとぼとるのふた・らべる(ぷらすちっくせい)",
       "categoryId": "plasticpackaging",
       "note": "さっとゆすいで"
     },
@@ -5339,7 +5440,7 @@
       "name": "ヘリウムガスボンベ",
       "nameKana": "へりうむがすぼんべ",
       "categoryId": "oversized",
-      "note": "中身を使い切って　　　　　　　　　　　　　　　　　　　　　　　　　　30cm角以下のものは、不燃ごみへ"
+      "note": "中身を使い切って30cm角以下のものは、不燃ごみへ"
     },
     {
       "name": "ベルト",
@@ -5416,7 +5517,7 @@
       "name": "ほうき",
       "nameKana": "ほうき",
       "categoryId": "burnable",
-      "note": "竹ぼうき大のものは粗大ごみへ"
+      "note": "30cm角を超える場合も、可燃ごみへ（竹ぼうきを除く。）"
     },
     {
       "name": "芳香剤",
@@ -5480,12 +5581,14 @@
     {
       "name": "ボウル(台所用品:金属製)",
       "nameKana": "ぼうる(だいどころようひん:きんぞくせい)",
-      "categoryId": "unburnable"
+      "categoryId": "unburnable",
+      "note": "30cm角を超える場合も、不燃ごみへ"
     },
     {
       "name": "ボウル(台所用品:木・プラスチック製)",
       "nameKana": "ぼうる(だいどころようひん:き・ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "burnable",
+      "note": "30cm角を超える場合も、可燃ごみへ"
     },
     {
       "name": "ほうろう鍋(ホーロー鍋)",
@@ -5561,8 +5664,8 @@
     {
       "name": "ボタン電池",
       "nameKana": "ぼたんでんち",
-      "categoryId": "uncollectible",
-      "note": "協力店のボタン電池回収缶へ。協力店については、ボタン電池回収推進センターのホームページ(外部リンク)をご覧ください"
+      "categoryId": "battery",
+      "note": "セロハンテープなどで絶縁して回収協力店もご利用いただけます。詳しくは、ボタン電池回収推進センターのホームページ(外部リンク)をご覧ください。"
     },
     {
       "name": "補聴器",
@@ -5594,7 +5697,8 @@
     {
       "name": "ホットプレート",
       "nameKana": "ほっとぷれーと",
-      "categoryId": "oversized"
+      "categoryId": "oversized",
+      "note": "縦15cm×横40cm×奥行25cm以下のものは小型家電に出せます"
     },
     {
       "name": "ボディーブラシ",
@@ -5696,7 +5800,7 @@
       "name": "まくら",
       "nameKana": "まくら",
       "categoryId": "burnable",
-      "note": "抱きまくらを除く"
+      "note": "抱きまくらを除く30センチ角を超えるものは、粗大ごみへ"
     },
     {
       "name": "まくらカバー",
@@ -5743,7 +5847,8 @@
     {
       "name": "まな板",
       "nameKana": "まないた",
-      "categoryId": "burnable"
+      "categoryId": "burnable",
+      "note": "30センチ角を超える場合も、可燃ごみへ"
     },
     {
       "name": "マニキュアのびん",
@@ -5767,7 +5872,7 @@
       "name": "魔法瓶(ポット)",
       "nameKana": "まほうびん(ぽっと)",
       "categoryId": "unburnable",
-      "note": "30cm角を超えるものは、粗大ごみへ"
+      "note": "30センチ角を超えるものは、粗大ごみへ"
     },
     {
       "name": "豆電球",
@@ -5793,13 +5898,14 @@
     {
       "name": "万歩計",
       "nameKana": "まんぽけい",
-      "categoryId": "burnable"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "回収ボックスを利用できない場合は可燃ごみへ"
     },
     {
       "name": "ミキサー",
       "nameKana": "みきさー",
-      "categoryId": "unburnable",
-      "note": "30cm角を超えるものは、粗大ごみへ"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "回収ボックスを利用できない場合は不燃ごみ（30cm角を超えるものは粗大ごみ）へ"
     },
     {
       "name": "ミシン",
@@ -5816,7 +5922,7 @@
       "name": "ミニコンポ",
       "nameKana": "みにこんぽ",
       "categoryId": "oversized",
-      "note": "概ね縦15cm×横40cm×奥行25cm以下のものは小型家電回収ボックスに出せます"
+      "note": "縦15センチメートル×横40センチメートル×奥行25センチメートル以下のものは小型家電回収ボックスに出せます"
     },
     {
       "name": "ミニディスク(MD)・ケースを含む",
@@ -5862,7 +5968,8 @@
     {
       "name": "虫とりあみ",
       "nameKana": "むしとりあみ",
-      "categoryId": "burnable"
+      "categoryId": "burnable",
+      "note": "30センチ角を超えるものは、粗大ごみへ"
     },
     {
       "name": "虫ピン",
@@ -5961,14 +6068,14 @@
     {
       "name": "毛布",
       "nameKana": "もうふ",
-      "categoryId": "oversized",
-      "note": "集団資源回収・リサイクルステーションなども利用しましょう"
+      "categoryId": "localcollection",
+      "note": "集団資源回収・リサイクルステーションなども利用しましょう利用できない場合は粗大ごみへ"
     },
     {
       "name": "モップ",
       "nameKana": "もっぷ",
       "categoryId": "oversized",
-      "note": "30cm角以下のものは、可燃ごみへ"
+      "note": "30センチ角以下のものは、可燃ごみへ"
     },
     {
       "name": "物置",
@@ -5979,12 +6086,14 @@
     {
       "name": "ものさし(金属製)",
       "nameKana": "ものさし(きんぞくせい)",
-      "categoryId": "unburnable"
+      "categoryId": "unburnable",
+      "note": "30センチ角を超えるものは、粗大ごみへ"
     },
     {
       "name": "ものさし(木・プラスチック製)",
       "nameKana": "ものさし(き・ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "burnable",
+      "note": "30センチ角を超えるものは、粗大ごみへ"
     },
     {
       "name": "物干し竿",
@@ -6005,8 +6114,8 @@
     {
       "name": "モバイルバッテリー",
       "nameKana": "もばいるばってりー",
-      "categoryId": "uncollectible",
-      "note": "回収拠点（各区の環境事業所、電気店など）にお持ち込みください。回収拠点は、一般社団法人JBRCのホームページ(外部リンク)で検索できます。"
+      "categoryId": "battery",
+      "note": "セロハンテープなどで絶縁して回収拠点もご利用いただけます。詳しくは、一般社団法人JBRCのホームページ(外部リンク)をご覧ください"
     },
     {
       "name": "やかん",
@@ -6091,6 +6200,12 @@
       "categoryId": "oversized"
     },
     {
+      "name": "ライター(金属製)",
+      "nameKana": "らいたー(きんぞくせい)",
+      "categoryId": "unburnable",
+      "note": "オイルを抜いて"
+    },
+    {
       "name": "ライター(使い捨て)",
       "nameKana": "らいたー(つかいすて)",
       "categoryId": "hazardous",
@@ -6105,8 +6220,8 @@
     {
       "name": "ラジカセ",
       "nameKana": "らじかせ",
-      "categoryId": "oversized",
-      "note": "概ね縦15cm×横40cm×奥行25cm以下のものは小型家電回収ボックスに出せます"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "回収ボックスを利用できない場合は不燃ごみ（30cm角を超えるものは粗大ごみ）へ"
     },
     {
       "name": "ラップ(お店で包装されたもの)",
@@ -6162,13 +6277,14 @@
     {
       "name": "リチウムイオン電池(充電できるもの)",
       "nameKana": "りちうむいおんでんち(じゅうでんできるもの)",
-      "categoryId": "uncollectible",
-      "note": "協力店のリサイクルボックスへ。協力店については、一般社団法人JBRCのホームページ(外部リンク)をご覧ください"
+      "categoryId": "battery",
+      "note": "セロハンテープなどで絶縁して回収拠点もご利用いただけます。詳しくは、一般社団法人JBRCのホームページ(外部リンク)をご覧ください"
     },
     {
       "name": "リチウム電池(充電できないもの)",
       "nameKana": "りちうむでんち(じゅうでんできないもの)",
-      "categoryId": "hazardous"
+      "categoryId": "battery",
+      "note": "セロハンテープなどで絶縁して"
     },
     {
       "name": "リモコン",
@@ -6219,7 +6335,8 @@
     {
       "name": "冷風機",
       "nameKana": "れいふうき",
-      "categoryId": "oversized"
+      "categoryId": "oversized",
+      "note": "縦15cm×横40cm×奥行25cm以下のものは小型家電に出せます"
     },
     {
       "name": "レインコート(雨具)",
@@ -6236,7 +6353,8 @@
     {
       "name": "レーザーディスク(LD)プレーヤー",
       "nameKana": "れーざーでぃすく(えるでぃー)ぷれーやー",
-      "categoryId": "oversized"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "回収ボックスを利用できない場合は不燃ごみ（30cm角を超えるものは粗大ごみ）へ"
     },
     {
       "name": "レコード盤",
@@ -6247,7 +6365,8 @@
     {
       "name": "レコードプレーヤー",
       "nameKana": "れこーどぷれーやー",
-      "categoryId": "oversized"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "回収ボックスを利用できない場合は不燃ごみ（30cm角を超えるものは粗大ごみ）へ"
     },
     {
       "name": "レシート(感熱紙)",
@@ -6338,7 +6457,8 @@
     {
       "name": "ワープロ",
       "nameKana": "わーぷろ",
-      "categoryId": "oversized"
+      "categoryId": "pointcollection.smallappliances",
+      "note": "回収ボックスを利用できない場合は不燃ごみ（30cm角を超えるものは粗大ごみ）へ"
     },
     {
       "name": "ワープロのインクリボン",

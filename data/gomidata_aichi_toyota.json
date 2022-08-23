@@ -1006,8 +1006,8 @@
       "categoryId": "burnable"
     },
     {
-      "name": "クーラーボックス",
-      "nameKana": "くーらーぼっくす",
+      "name": "クーラーボックス(アイスボックス)",
+      "nameKana": "くーらーぼっくす(あいすぼっくす)",
       "categoryId": "oversized",
       "note": "指定ごみ袋に入ればプラ製のみは燃やすごみ、金属部品が使われているものは金属ごみに出せます"
     },
@@ -1431,16 +1431,10 @@
       "categoryId": "metal"
     },
     {
-      "name": "ゴルフクラブ(カーボンシャフト)",
-      "nameKana": "ごるふくらぶ(かーぼんしゃふと)",
+      "name": "ゴルフクラブ",
+      "nameKana": "ごるふくらぶ",
       "categoryId": "oversized",
-      "note": "指定ごみ袋に入れば埋めるごみに出せます"
-    },
-    {
-      "name": "ゴルフクラブ(スチールシャフト)",
-      "nameKana": "ごるふくらぶ(すちーるしゃふと)",
-      "categoryId": "oversized",
-      "note": "指定ごみ袋に入れば金属ごみに出せます"
+      "note": "指定ごみ袋に収まる長さであれば金属ごみに出せます"
     },
     {
       "name": "ゴルフシューズ",
@@ -3138,8 +3132,8 @@
       "note": "詳しくは資源・ごみの出し方のポイント「市では収集・処理しないもの＜パソコン・在宅医療廃棄物・販売店等に相談するもの＞」をご覧ください"
     },
     {
-      "name": "パソコンのパーツ",
-      "nameKana": "ぱそこんのぱーつ",
+      "name": "パソコンのパーツ(部品交換等したもの)",
+      "nameKana": "ぱそこんのぱーつ(ぶひんこうかんひとしたもの)",
       "categoryId": "metal"
     },
     {
@@ -3565,7 +3559,7 @@
       "name": "風呂マット",
       "nameKana": "ふろまっと",
       "categoryId": "burnable",
-      "note": "※珪藻土製は埋めるごみです"
+      "note": "※珪藻土製品は濡らして“単体で”指定ごみ袋に入れて埋めるごみ（メーカーの回収対象製品は店舗へ持ち込む）"
     },
     {
       "name": "プロパンガスボンベ",
@@ -3746,7 +3740,7 @@
       "name": "包丁",
       "nameKana": "ほうちょう",
       "categoryId": "metal",
-      "note": "刃は紙等に包んで出してください"
+      "note": "刃は紙等に包んで出してください。セラミック製は埋めるごみに出してください。"
     },
     {
       "name": "防腐剤",
@@ -4322,6 +4316,61 @@
       "name": "輪ゴム",
       "nameKana": "わごむ",
       "categoryId": "burnable"
+    },
+    {
+      "name": "缶詰",
+      "nameKana": "かんづめ",
+      "categoryId": "metal"
+    },
+    {
+      "name": "キャンプ用ガスボンベ",
+      "nameKana": "きゃんぷようがすぼんべ",
+      "categoryId": "recyclable",
+      "note": "（危険ごみ）中身を使いきって出してください。リサイクルステーションにも出せます。"
+    },
+    {
+      "name": "サッカーボール",
+      "nameKana": "さっかーぼーる",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "ケミカルライト(使い捨てペンライト)",
+      "nameKana": "けみかるらいと(つかいすてぺんらいと)",
+      "categoryId": "burnable"
+    },
+    {
+      "name": "サーキュレーター",
+      "nameKana": "さーきゅれーたー",
+      "categoryId": "oversized",
+      "note": "指定ごみ袋に入れば金属ごみに出せます"
+    },
+    {
+      "name": "BSアンテナ",
+      "nameKana": "びーえすあんてな",
+      "categoryId": "oversized",
+      "note": "指定ごみ袋に入れば金属ごみに出せます"
+    },
+    {
+      "name": "電気コード",
+      "nameKana": "でんきこーど",
+      "categoryId": "metal"
+    },
+    {
+      "name": "陶器",
+      "nameKana": "とうき",
+      "categoryId": "unburnable"
+    },
+    {
+      "name": "SDカード",
+      "nameKana": "えすでぃーかーど",
+      "categoryId": "metal",
+      "note": "データを消去して出す"
+    },
+    {
+      "name": "珪藻土製品",
+      "nameKana": "けいそうつちせいひん",
+      "categoryId": "unburnable",
+      "note": "濡らして“単体で”指定ごみ袋に入れて埋めるごみ※メーカーの回収対象製品は店舗へ持ち込む"
     }
   ]
 }

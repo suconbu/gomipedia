@@ -2,100 +2,96 @@
 <html lang="ja">
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<link rel="stylesheet"  href="css/sanitize.css">
-<link rel="stylesheet"  href="css/typography.css">
-<link rel="stylesheet"  href="css/style.css">
+<link rel="stylesheet" href="css/sanitize.css">
+<link rel="stylesheet" href="css/typography.css">
+<link rel="stylesheet" href="css/style.css">
 <script src="js/vue.js"></script>
 <script>
   // Adjust page height for mobile Chrome
-  let vh = window.innerHeight * 0.01; 
-  document.documentElement.style.setProperty('--vh', `${vh}px`); 
-  window.addEventListener('resize', () => { 
+  let vh = window.innerHeight * 0.01;
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+  window.addEventListener('resize', () => {
     vh = window.innerHeight * 0.01;
-    document.documentElement.style.setProperty('--vh', `${vh}px`); 
+    document.documentElement.style.setProperty('--vh', `${vh}px`);
   }); 
 </script>
 <title>Gomipedia</title>
 
 <div id="app" v-cloak>
 
-<main>
-  <h1 class="title">
-    <label v-if="selectedCity"><a href="javascript:void(0)" @click="openCityPopup">{{selectedCity.name}}</a>の</label>ごみ分別検索
-  </h1>
-  <input class="keyword-input" :placeholder="placeholder" v-model="articleKeyword">
-  <ul class="normal-list">
-    <list-item
-      class="normal-list-item"
-      v-for="article in visibleArticles"
-      ref="article"
-      :key="article.no"
-      :data="article"
-      :text="article.name"
-      :icon="getCategoryOrDefault(article.categoryId).icon"
-      :exclamation="article.note ? true : false"
-      :click="articleClicked"
-      :highlighter="getKeywordHighlighted">
-    </list-item>
-  </ul>
-  <ul class="legend-list" v-if="gomidataAvailable">
-    <legend-list-item
-      v-for="category in topLevelCategories"
-      :key="category.id"
-      :text="category.name"
-      :icon="category.icon">
-    </list-item-legend>
-  </ul>
-  <div class="datasource" v-if="gomidataAvailable">
-    <a :href="dataSourceUrl">分別データ取得元</a>
-  </div>
-</main>
+  <main>
+    <h1 class="title">
+      <label v-if="selectedCity"><a href="javascript:void(0)"
+          @click="openCityPopup">{{selectedCity.name}}</a>の</label>ごみ分別検索
+    </h1>
+    <input class="keyword-input" :placeholder="placeholder" v-model="articleKeyword">
+    <ul class="normal-list">
+      <list-item class="normal-list-item" v-for="article in visibleArticles" ref="article" :key="article.no"
+        :data="article" :text="article.name" :icon="getCategoryOrDefault(article.categoryId).icon"
+        :exclamation="article.note ? true : false" :click="articleClicked" :highlighter="getKeywordHighlighted">
+      </list-item>
+    </ul>
+    <ul class="legend-list" v-if="gomidataAvailable">
+      <legend-list-item v-for="category in topLevelCategories" :key="category.id" :text="category.name"
+        :icon="category.icon">
+        </list-item-legend>
+    </ul>
+    <div class="datasource" v-if="gomidataAvailable">
+      <a :href="dataSourceUrl">分別データ取得元</a>
+    </div>
+  </main>
 
-<transition name="popup">
-  <div class="popup-fill" v-if="cityPopupVisible" @click="closeCityPopup">
-    <div class="popup-window" tabindex="0" ref="popupWindow" @click="dummy" @keydown="articlePopupKeydown">
-      <div class="popup-title">自治体を選びましょう</div>
-      <div class="popup-close-box" v-if="gomidataAvailable" @click="closeCityPopup">
-        <div class="popup-close">✖</div>
-      </div>
-      <div class="popup-content-box">
-        <!-- <input class="city-input" v-model="cityKeyword"> -->
-        <ul class="normal-list-horizontal">
-          <list-item
-            class="normal-list-item-horizontal"
-            v-for="id in Object.keys(allCitiesById)"
-            ref="id"
-            :key="id"
-            :data="allCitiesById[id]"
-            :text="allCitiesById[id].name"
-            :click="popupCityClicked">
-          </list-item>
-        </ul>
+  <transition name="popup">
+    <div class="popup-fill" v-if="cityPopupVisible" @click="closeCityPopup">
+      <div class="popup-window" tabindex="0" ref="popupWindow" @click="dummy" @keydown="articlePopupKeydown">
+        <div class="popup-title">市町村を選びましょう</div>
+        <div class="popup-close-box" v-if="gomidataAvailable" @click="closeCityPopup">
+          <div class="popup-close">✖</div>
+        </div>
+        <div class="popup-content-box">
+          <!-- <input class="city-input" v-model="cityKeyword"> -->
+          <ul class="normal-list-horizontal">
+            <list-item class="normal-list-item-horizontal" v-for="id in Object.keys(allCitiesById)" ref="id" :key="id"
+              :data="allCitiesById[id]" :text="allCitiesById[id].name" :click="popupCityClicked">
+            </list-item>
+          </ul>
+        </div>
+        <br>
+        <div class="popup-content-box">
+          <div class="popup-attention-title">⚠利用に当たっての注意事項</div>
+        </div>
+        <div class="popup-attention-text">
+          <li>本ウェブアプリは個人が趣味で製作したものです。</li>
+          <li>本ウェブアプリの利用に起因するトラブルに関して一切の責任を負いません。</li>
+          <li>本ウェブアプリは予告なく公開を停止する場合があります。</li>
+          <li>お問い合わせは<a href="mailto:suconbu@gmail.com">suconbu@gmail.com</a> へお寄せください。
+          </li>
+        </div>
       </div>
     </div>
-  </div>
-</transition>
+  </transition>
 
-<transition name="popup">
-  <div class="popup-fill" v-if="selectedArticle" @click="closeArticlePopup">
-    <div class="popup-window" tabindex="0" ref="popupWindow" @click="dummy" @keydown="articlePopupKeydown">
-      <div class="popup-pager-box">
-        <div class="popup-prev" @click="moveArticleSelection(-1, true)">&lt;</div>
-        <div class="popup-next" @click="moveArticleSelection(+1, true)">&gt;</div>
-      </div>
-      <div class="popup-close-box" @click="closeArticlePopup">
-        <div class="popup-close">✖</div>
-      </div>
-      <div class="popup-content-box">
-        <div class="popup-category-text"><strong>{{selectedArticle.name}}</strong> は</div>
-        <img class="popup-category-icon" :src="getCategoryOrDefault(selectedArticle.categoryId).icon"/>
-        <div class="popup-category-text"><strong>{{getCategoryOrDefault(selectedArticle.categoryId).name}}</strong> です。</div>
-        <img class="popup-note-icon" src="img/note.png" v-if="selectedArticle.note"/>
-        <div class="popup-note-text" v-if="selectedArticle.note">{{selectedArticle.note}}</div>
+  <transition name="popup">
+    <div class="popup-fill" v-if="selectedArticle" @click="closeArticlePopup">
+      <div class="popup-window" tabindex="0" ref="popupWindow" @click="dummy" @keydown="articlePopupKeydown">
+        <div class="popup-pager-box">
+          <div class="popup-prev" @click="moveArticleSelection(-1, true)">&lt;</div>
+          <div class="popup-next" @click="moveArticleSelection(+1, true)">&gt;</div>
+        </div>
+        <div class="popup-close-box" @click="closeArticlePopup">
+          <div class="popup-close">✖</div>
+        </div>
+        <div class="popup-content-box">
+          <div class="popup-category-text"><strong>{{selectedArticle.name}}</strong> は</div>
+          <img class="popup-category-icon" :src="getCategoryOrDefault(selectedArticle.categoryId).icon" />
+          <div class="popup-category-text"><strong>{{getCategoryOrDefault(selectedArticle.categoryId).name}}</strong>
+            です。</div>
+          <img class="popup-note-icon" src="img/note.png" v-if="selectedArticle.note" />
+          <div class="popup-note-text" v-if="selectedArticle.note">{{selectedArticle.note}}</div>
+        </div>
       </div>
     </div>
-  </div>
-</transition>
+  </transition>
 
 </div>
 

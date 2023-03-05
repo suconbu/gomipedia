@@ -2,7 +2,7 @@
   "municipalityId": "232076",
   "municipalityName": "愛知県豊川市",
   "datasourceUrl": "https://www.city.toyokawa.lg.jp/smph/kurashi/gomirecycle/gomihayamihyo/",
-  "updatedAt": "2022-07-06",
+  "updatedAt": "2022-12-27",
   "categoryDefinitions": {
     "burnable": {
       "name": "可燃ごみ"
@@ -693,6 +693,11 @@
       "name": "かつら",
       "nameKana": "かつら",
       "categoryId": "burnable"
+    },
+    {
+      "name": "加熱式たばこ",
+      "nameKana": "かねつしきたばこ",
+      "categoryId": "hazardous"
     },
     {
       "name": "かばん",
@@ -2265,6 +2270,11 @@
       "categoryId": "unburnable"
     },
     {
+      "name": "電子たばこ",
+      "nameKana": "でんしたばこ",
+      "categoryId": "hazardous"
+    },
+    {
       "name": "電子ピアノ",
       "nameKana": "でんしぴあの",
       "categoryId": "oversized"
@@ -3730,6 +3740,11 @@
       "nameKana": "るーぺ",
       "categoryId": "unburnable",
       "note": "プラスチック製は可燃ごみ。"
+    },
+    {
+      "name": "冷温庫(車載式・バッテリー式含む)",
+      "nameKana": "れいおんこ(しゃさいしき・ばってりーしきふくむ)",
+      "categoryId": "legalrecycling"
     },
     {
       "name": "冷蔵庫・冷凍庫",

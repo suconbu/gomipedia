@@ -2,7 +2,7 @@
   "municipalityId": "232025",
   "municipalityName": "愛知県岡崎市",
   "datasourceUrl": "https://www.city.okazaki.lg.jp/1100/1108/1151/p003039.html",
-  "updatedAt": "2022-04-28",
+  "updatedAt": "2023-02-17",
   "categoryDefinitions": {
     "burnable": {
       "name": "可燃ごみ"
@@ -83,7 +83,7 @@
     {
       "name": "iPhone(携帯電話)",
       "nameKana": "あいぴーえいちおーえぬいー(けいたいでんわ)",
-      "categoryId": "uncollectible.makercollection"
+      "categoryId": "pointcollection.smallappliance"
     },
     {
       "name": "アイスクリームのカップ(紙製)",
@@ -141,7 +141,7 @@
       "name": "アースレッド(くん煙剤)",
       "nameKana": "あーすれっど(くんけむりざい)",
       "categoryId": "unburnable",
-      "note": "・湿らせて出してください。・取り出せる中身は取り出し、可燃ごみとして捨ててください。・未使用のものも同様です。"
+      "note": "・取り出せる中身は取り出し、可燃ごみとして捨ててください。・未使用のものも同様です。（メーカー推奨の処分方法もご確認ください。）"
     },
     {
       "name": "油(食用)",
@@ -299,6 +299,11 @@
       "categoryId": "burnable"
     },
     {
+      "name": "インスタントカメラ",
+      "nameKana": "いんすたんとかめら",
+      "categoryId": "pointcollection.smallappliance"
+    },
+    {
       "name": "インスタントコーヒーのびん",
       "nameKana": "いんすたんとこーひーのびん",
       "categoryId": "grassbottle"
@@ -326,13 +331,14 @@
     {
       "name": "ウォシュレット(電気便座)",
       "nameKana": "うぉしゅれっと(でんきべんざ)",
-      "categoryId": "pointcollection.smallappliance"
+      "categoryId": "pointcollection.smallappliance",
+      "note": "拠点回収に持っていく場合は、ビニール袋などに入れてください。"
     },
     {
       "name": "ウォーターサーバー",
       "nameKana": "うぉーたーさーばー",
       "categoryId": "oversized",
-      "note": "・事前にフロンガスを抜いてください。・フロン類回収業者にご相談ください。回収業者は、環境省のホームページでご確認ください。"
+      "note": "フロンガスが入っているものは、拠点回収には出せません。"
     },
     {
       "name": "ウォーターサーバーのタンク(ペットボトル製)",
@@ -640,7 +646,7 @@
     {
       "name": "カセットコンロ",
       "nameKana": "かせっとこんろ",
-      "categoryId": "pointcollection.smallappliance"
+      "categoryId": "unburnable"
     },
     {
       "name": "カセットテープ(ケース含む)",
@@ -906,10 +912,15 @@
       "categoryId": "burnable"
     },
     {
-      "name": "草刈り機(電動)",
-      "nameKana": "くさかりき(でんどう)",
+      "name": "草刈り機(原動機で動くもの)",
+      "nameKana": "くさかりき(げんどうきでうごくもの)",
       "categoryId": "uncollectible.difficult",
       "note": "購入業者にご相談ください。"
+    },
+    {
+      "name": "草刈り機(充電式のもの)",
+      "nameKana": "くさかりき(じゅうでんしきのもの)",
+      "categoryId": "pointcollection.smallappliance"
     },
     {
       "name": "串(木・竹製)",
@@ -1567,6 +1578,11 @@
       "categoryId": "burnable"
     },
     {
+      "name": "除湿剤(置き型)",
+      "nameKana": "じょしつざい(おきかた)",
+      "categoryId": "burnable"
+    },
+    {
       "name": "新聞紙",
       "nameKana": "しんぶんし",
       "categoryId": "localcollection"
@@ -1629,13 +1645,14 @@
     {
       "name": "ストーブ(電気)",
       "nameKana": "すとーぶ(でんき)",
-      "categoryId": "pointcollection.smallappliance"
+      "categoryId": "pointcollection.smallappliance",
+      "note": "灯油は空にして出してください。"
     },
     {
       "name": "ストーブ(灯油)",
       "nameKana": "すとーぶ(とうゆ)",
-      "categoryId": "pointcollection.smallappliance",
-      "note": "灯油は必ず抜いてください。"
+      "categoryId": "unburnable",
+      "note": "灯油は空にして出してください。※ ファンヒーター等、電気や電池を使うタイプは小型家電"
     },
     {
       "name": "ストッキング",
@@ -1767,7 +1784,8 @@
     {
       "name": "石油ファンヒーター",
       "nameKana": "せきゆふぁんひーたー",
-      "categoryId": "pointcollection.smallappliance"
+      "categoryId": "pointcollection.smallappliance",
+      "note": "灯油は空にして出してください。"
     },
     {
       "name": "せっけんの外箱(紙製)",
@@ -1896,7 +1914,7 @@
     {
       "name": "体温計(電子)",
       "nameKana": "たいおんけい(でんし)",
-      "categoryId": "unburnable"
+      "categoryId": "pointcollection.smallappliance"
     },
     {
       "name": "タイヤ(自家用車、自動二輪車)",
@@ -2147,7 +2165,8 @@
     {
       "name": "電気ストーブ",
       "nameKana": "でんきすとーぶ",
-      "categoryId": "pointcollection.smallappliance"
+      "categoryId": "pointcollection.smallappliance",
+      "note": "灯油は空にしてください。"
     },
     {
       "name": "電気毛布",
@@ -2187,6 +2206,11 @@
     {
       "name": "電子レンジ",
       "nameKana": "でんしれんじ",
+      "categoryId": "pointcollection.smallappliance"
+    },
+    {
+      "name": "電卓",
+      "nameKana": "でんたく",
       "categoryId": "pointcollection.smallappliance"
     },
     {
@@ -2273,6 +2297,11 @@
       "nameKana": "とのこな",
       "categoryId": "unburnable",
       "note": "・飛散防止のため、水で湿らせてください。・直接搬入の際には、北部一般廃棄物最終処分場へお持ち込みください。"
+    },
+    {
+      "name": "ドライヤー",
+      "nameKana": "どらいやー",
+      "categoryId": "pointcollection.smallappliance"
     },
     {
       "name": "ドリンクのびん",
@@ -2413,7 +2442,7 @@
       "name": "猫砂(鉱物系)",
       "nameKana": "ねこすな(こうぶつけい)",
       "categoryId": "unburnable",
-      "note": "汚物は取り除いてください。"
+      "note": "汚物や汚物で固まった猫砂は取り除き、可燃ごみで出してください。"
     },
     {
       "name": "ねじ",
@@ -2454,7 +2483,7 @@
     {
       "name": "ノートパソコン",
       "nameKana": "のーとぱそこん",
-      "categoryId": "uncollectible.makercollection"
+      "categoryId": "pointcollection.smallappliance"
     },
     {
       "name": "のこぎり",
@@ -2522,6 +2551,11 @@
       "name": "はがき",
       "nameKana": "はがき",
       "categoryId": "localcollection"
+    },
+    {
+      "name": "剥製",
+      "nameKana": "はくせい",
+      "categoryId": "burnable"
     },
     {
       "name": "白熱電球",
@@ -2633,7 +2667,7 @@
       "name": "バルサン(くん煙剤)",
       "nameKana": "ばるさん(くんけむりざい)",
       "categoryId": "unburnable",
-      "note": "・湿らせて出してください。・取り出せる中身は取り出し、可燃ごみとして捨ててください。・未使用のものも同様です。"
+      "note": "・取り出せる中身は取り出し、可燃ごみとして捨ててください。・未使用のものも同様です。"
     },
     {
       "name": "ハロゲンヒーター",
@@ -2670,6 +2704,12 @@
       "name": "ピアノ(電子ピアノ)",
       "nameKana": "ぴあの(でんしぴあの)",
       "categoryId": "oversized"
+    },
+    {
+      "name": "ビーズクッション",
+      "nameKana": "びーずくっしょん",
+      "categoryId": "burnable",
+      "note": "ビーズクッションが入っていることを袋に表示してください。"
     },
     {
       "name": "ビールケース",
@@ -2833,7 +2873,7 @@
       "name": "フューエルボトル",
       "nameKana": "ふゅーえるぼとる",
       "categoryId": "unburnable",
-      "note": "中を使いきって出してください。"
+      "note": "中を使い切って出してください。"
     },
     {
       "name": "フライパン",
@@ -3253,7 +3293,7 @@
     {
       "name": "モニター(パソコン用)",
       "nameKana": "もにたー(ぱそこんよう)",
-      "categoryId": "uncollectible.makercollection"
+      "categoryId": "pointcollection.smallappliance"
     },
     {
       "name": "物置",

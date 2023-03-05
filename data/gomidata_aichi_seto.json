@@ -19,6 +19,9 @@
     "grassbottle": {
       "name": "びん"
     },
+    "plasticpackaging": {
+      "name": "プラ容器"
+    },
     "petbottle": {
       "name": "ペットボトル"
     },
@@ -72,7 +75,8 @@
     {
       "name": "アイスクリームの容器・包装(プラスチック製)",
       "nameKana": "あいすくりーむのようき・ほうそう(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "アイスノン",
@@ -198,7 +202,8 @@
     {
       "name": "飴の個包装(プラスチック製)",
       "nameKana": "あめのこほうそう(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "アルバム",
@@ -215,7 +220,8 @@
     {
       "name": "アルミコーティング袋(菓子袋)",
       "nameKana": "あるみこーてぃんぐふくろ(かしふくろ)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "アルミサッシ",
@@ -558,7 +564,7 @@
       "name": "オイル缶(プラスチック製)",
       "nameKana": "おいるかん(ぷらすちっくせい)",
       "categoryId": "burnable",
-      "note": "中を空にしたものに限ります。"
+      "note": "中身を空にしたものに限ります。"
     },
     {
       "name": "オイルヒーター",
@@ -617,7 +623,8 @@
     {
       "name": "お菓子・パン等の袋(プラスチック製)",
       "nameKana": "おかし・ぱんなどのふくろ(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "お菓子の箱(紙製)",
@@ -633,7 +640,8 @@
     {
       "name": "お菓子の箱(プラスチック製)",
       "nameKana": "おかしのはこ(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "置時計",
@@ -659,7 +667,8 @@
     {
       "name": "お茶の袋(真空パック等プラスチック製)",
       "nameKana": "おちゃのふくろ(しんくうぱっくなどぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "お手拭き",
@@ -669,12 +678,13 @@
     {
       "name": "お手拭きの袋(プラスチック製)",
       "nameKana": "おてふきのふくろ(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "おにぎりの外装フィルム",
       "nameKana": "おにぎりのがいそうふぃるむ",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "斧",
@@ -915,7 +925,8 @@
     {
       "name": "菓子袋(アルミ蒸着製)",
       "nameKana": "かしふくろ(あるみじょうちゃくせい)",
-      "categoryId": "burnable"
+      "categoryId": "burnable",
+      "note": "プラマークが付いているものはプラスチック製容器包装。"
     },
     {
       "name": "菓子袋(紙製)",
@@ -926,7 +937,8 @@
     {
       "name": "菓子袋(プラスチック製)",
       "nameKana": "かしふくろ(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "ガス炊飯器",
@@ -1010,17 +1022,7 @@
     {
       "name": "カップラーメン等の包装フィルム",
       "nameKana": "かっぷらーめんなどのほうそうふぃるむ",
-      "categoryId": "burnable"
-    },
-    {
-      "name": "カップラーメンのかやくの袋",
-      "nameKana": "かっぷらーめんのかやくのふくろ",
-      "categoryId": "burnable"
-    },
-    {
-      "name": "カップラーメンのつゆの袋",
-      "nameKana": "かっぷらーめんのつゆのふくろ",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "カップラーメンの容器・蓋(紙製)",
@@ -1029,9 +1031,10 @@
       "note": "ミックスペーパーとして袋に入れて出してください。汚れたものは燃えるごみ。"
     },
     {
-      "name": "カップラーメンの容器・蓋(プラスチック製)",
-      "nameKana": "かっぷらーめんのようき・ふた(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "name": "カップラーメンの容器・蓋・かやくやつゆの袋(プラスチック製)",
+      "nameKana": "かっぷらーめんのようき・ふた・かやくやつゆのふくろ(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "かつら",
@@ -1109,7 +1112,7 @@
     {
       "name": "紙コップの入った袋",
       "nameKana": "かみこっぷのいっったふくろ",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "かみそりの刃(金属製の刃のみ)",
@@ -1227,8 +1230,8 @@
       "categoryId": "burnable"
     },
     {
-      "name": "革製品(バッグ、ジャンバー、靴)",
-      "nameKana": "かわせいひん(ばっぐ、じゃんばー、くつ)",
+      "name": "革製品(バッグ、ジャンバー,靴)",
+      "nameKana": "かわせいひん(ばっぐ、じゃんばー,くつ)",
       "categoryId": "burnable",
       "note": "資源リサイクルセンターへも持込可能。"
     },
@@ -1244,8 +1247,8 @@
       "categoryId": "unburnable"
     },
     {
-      "name": "玩具(合成樹脂・木製)",
-      "nameKana": "がんぐ(ごうせいじゅし・もくせい)",
+      "name": "玩具(プラスチック製・木製)",
+      "nameKana": "がんぐ(ぷらすちっくせい・もくせい)",
       "categoryId": "burnable",
       "note": "金属製は燃えないごみ。"
     },
@@ -1280,7 +1283,7 @@
     {
       "name": "乾電池の包装フィルム",
       "nameKana": "かんでんちのほうそうふぃるむ",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "感熱紙",
@@ -1354,7 +1357,7 @@
     {
       "name": "キャップ(プラスチック製)",
       "nameKana": "きゃっぷ(ぷらすちっくせい)",
-      "categoryId": "burnable",
+      "categoryId": "plasticpackaging",
       "note": "ペットボトルキャップは、資源リサイクルセンターへの持込可能。"
     },
     {
@@ -1460,8 +1463,8 @@
       "note": "エンジン・モーター付きでも収集可。燃料は抜き取ってください。"
     },
     {
-      "name": "串(木・竹・合成樹脂製)",
-      "nameKana": "くし(き・たけ・ごうせいじゅしせい)",
+      "name": "串(木・竹・プラスチック製)",
+      "nameKana": "くし(き・たけ・ぷらすちっくせい)",
       "categoryId": "burnable",
       "note": "危険防止のため半分に折ってください。"
     },
@@ -1480,13 +1483,13 @@
     {
       "name": "薬容器(プラスチック製)",
       "nameKana": "くすりようき(ぷらすちっくせい)",
-      "categoryId": "burnable",
+      "categoryId": "plasticpackaging",
       "note": "中が空のものに限ります。"
     },
     {
       "name": "果物等のネット袋",
       "nameKana": "くだものなどのねっとふくろ",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "靴",
@@ -1643,7 +1646,7 @@
     {
       "name": "化粧品の箱(プラスチック製)",
       "nameKana": "けしょうひんのはこ(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "化粧品の瓶",
@@ -1653,7 +1656,8 @@
     {
       "name": "化粧品のボトル(プラスチック製)",
       "nameKana": "けしょうひんのぼとる(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "下駄",
@@ -1674,7 +1678,8 @@
     {
       "name": "ケチャップの容器(プラスチック製)",
       "nameKana": "けちゃっぷのようき(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "血圧計",
@@ -1732,8 +1737,8 @@
       "note": "燃えないごみ袋の口が縛れる大きさのものは燃えないごみ。"
     },
     {
-      "name": "工具箱(合成樹脂製)",
-      "nameKana": "こうぐはこ(ごうせいじゅしせい)",
+      "name": "工具箱(プラスチック製)",
+      "nameKana": "こうぐはこ(ぷらすちっくせい)",
       "categoryId": "burnable",
       "note": "燃えるごみ袋の口が縛れない大きさのものは粗大ごみ。"
     },
@@ -1810,8 +1815,8 @@
       "categoryId": "unburnable"
     },
     {
-      "name": "コップ(合成樹脂製)",
-      "nameKana": "こっぷ(ごうせいじゅしせい)",
+      "name": "コップ(プラスチック製)",
+      "nameKana": "こっぷ(ぷらすちっくせい)",
       "categoryId": "burnable"
     },
     {
@@ -1832,8 +1837,8 @@
       "note": "厚さ１０㎝以上は粗大ごみ。"
     },
     {
-      "name": "ごみ箱・ごみバケツ(合成樹脂・木製)",
-      "nameKana": "ごみはこ・ごみばけつ(ごうせいじゅし・もくせい)",
+      "name": "ごみ箱・ごみバケツ(プラスチック製・木製)",
+      "nameKana": "ごみはこ・ごみばけつ(ぷらすちっくせい・もくせい)",
       "categoryId": "burnable",
       "note": "金属製は燃えないごみ。"
     },
@@ -2036,8 +2041,8 @@
     {
       "name": "サラダ油の容器(プラスチック製)",
       "nameKana": "さらだあぶらのようき(ぷらすちっくせい)",
-      "categoryId": "burnable",
-      "note": "中を空にして出してください。"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "ざる(プラスチック製・竹製)",
@@ -2195,9 +2200,10 @@
       "note": "中を洗浄してください。"
     },
     {
-      "name": "ジャムの容器(合成樹脂製)",
-      "nameKana": "じゃむのようき(ごうせいじゅしせい)",
-      "categoryId": "burnable"
+      "name": "ジャムの容器(プラスチック製)",
+      "nameKana": "じゃむのようき(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "週刊誌",
@@ -2210,6 +2216,12 @@
       "nameKana": "じゅーさー・みきさー",
       "categoryId": "unburnable",
       "note": "小型家電品として、資源リサイクルセンター、支所へも持込可能（壊れていても可能）。"
+    },
+    {
+      "name": "シャンプーの容器(プラスチック製)",
+      "nameKana": "しゃんぷーのようき(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "じゅうたん",
@@ -2316,19 +2328,20 @@
       "note": "中を洗浄してください。食卓用のしょうゆさしは燃えないごみ。"
     },
     {
-      "name": "しょうゆの容器(携帯用)",
-      "nameKana": "しょうゆのようき(けいたいよう)",
-      "categoryId": "burnable"
+      "name": "しょうゆの容器(プラスチック製)",
+      "nameKana": "しょうゆのようき(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
-      "name": "しょうゆの容器(ペット製)",
-      "nameKana": "しょうゆのようき(ぺっとせい)",
+      "name": "しょうゆの容器(ペットボトル)",
+      "nameKana": "しょうゆのようき(ぺっとぼとる)",
       "categoryId": "petbottle",
       "note": "中を洗浄し、ラベルを剥がしてください。"
     },
     {
-      "name": "ジョウロ(合成樹脂製)",
-      "nameKana": "じょうろ(ごうせいじゅしせい)",
+      "name": "ジョウロ(プラスチック製)",
+      "nameKana": "じょうろ(ぷらすちっくせい)",
       "categoryId": "burnable",
       "note": "金属製は燃えないごみ。"
     },
@@ -2340,8 +2353,8 @@
     {
       "name": "食品トレイ(発泡スチロール製)",
       "nameKana": "しょくひんとれい(はっぽうすちろーるせい)",
-      "categoryId": "burnable",
-      "note": "店頭回収を推奨。"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "食用油",
@@ -2350,9 +2363,10 @@
       "note": "紙・布に染み込ませるか薬品で固めてください。植物油であれば、資源リサイクルセンターへ持込可能。"
     },
     {
-      "name": "食用油の容器",
-      "nameKana": "しょくようあぶらのようき",
-      "categoryId": "burnable"
+      "name": "食用油の容器(プラスチック製)",
+      "nameKana": "しょくようあぶらのようき(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "除湿機",
@@ -2371,8 +2385,8 @@
       "categoryId": "unburnable"
     },
     {
-      "name": "食器(合成樹脂製)",
-      "nameKana": "しょっき(ごうせいじゅしせい)",
+      "name": "食器(プラスチック製)",
+      "nameKana": "しょっき(ぷらすちっくせい)",
       "categoryId": "burnable"
     },
     {
@@ -2619,7 +2633,7 @@
     {
       "name": "ストローの袋(プラスチック製)",
       "nameKana": "すとろーのふくろ(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "砂",
@@ -2735,8 +2749,8 @@
       "note": "灯油、電池は抜いて出してください。"
     },
     {
-      "name": "石油ポンプ(合成樹脂製)",
-      "nameKana": "せきゆぽんぷ(ごうせいじゅしせい)",
+      "name": "石油ポンプ(プラスチック製)",
+      "nameKana": "せきゆぽんぷ(ぷらすちっくせい)",
       "categoryId": "burnable",
       "note": "電動のものは電池を抜いて燃えないごみ。"
     },
@@ -2771,7 +2785,8 @@
     {
       "name": "ゼリーの容器(プラスチック製)",
       "nameKana": "ぜりーのようき(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "ゼリー容器の蓋(アルミ製)",
@@ -2782,7 +2797,8 @@
     {
       "name": "ゼリー容器の蓋(プラスチック製)",
       "nameKana": "ぜりーようきのふた(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "栓(金属製)",
@@ -2799,7 +2815,8 @@
     {
       "name": "洗剤の容器(プラスチック製)",
       "nameKana": "せんざいのようき(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "洗濯機",
@@ -2894,7 +2911,8 @@
     {
       "name": "ソースの容器(プラスチック製)",
       "nameKana": "そーすのようき(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "ソーラー発電機",
@@ -2904,7 +2922,8 @@
     {
       "name": "即席めんの袋(プラスチック製)",
       "nameKana": "そくせきめんのふくろ(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "側溝の蓋",
@@ -3056,7 +3075,7 @@
     {
       "name": "タバコの外装フィルム",
       "nameKana": "たばこのがいそうふぃるむ",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "タバコの紙箱",
@@ -3072,8 +3091,8 @@
     {
       "name": "卵のパック",
       "nameKana": "たまごのぱっく",
-      "categoryId": "burnable",
-      "note": "紙製はミックスペーパーで出してください。"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "たらい(プラスチック製・木製)",
@@ -3152,8 +3171,8 @@
       "categoryId": "unburnable"
     },
     {
-      "name": "茶碗(合成樹脂製)",
-      "nameKana": "ちゃわん(ごうせいじゅしせい)",
+      "name": "茶碗(プラスチック製)",
+      "nameKana": "ちゃわん(ぷらすちっくせい)",
       "categoryId": "burnable"
     },
     {
@@ -3171,7 +3190,8 @@
     {
       "name": "チューブ類(マヨネーズ等)",
       "nameKana": "ちゅーぶるい(まよねーずなど)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "彫刻刀",
@@ -3226,7 +3246,7 @@
     {
       "name": "使い捨てカイロの外袋",
       "nameKana": "つかいすてかいろのそとふくろ",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "使い捨てライター",
@@ -3248,7 +3268,8 @@
     {
       "name": "つけものの袋(プラスチック製)",
       "nameKana": "つけもののふくろ(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "土",
@@ -3262,14 +3283,15 @@
       "categoryId": "unburnable"
     },
     {
-      "name": "積み木(合成樹脂、木製)",
-      "nameKana": "つみき(ごうせいじゅし、もくせい)",
+      "name": "積み木(プラスチック製、木製)",
+      "nameKana": "つみき(ぷらすちっくせい、もくせい)",
       "categoryId": "burnable"
     },
     {
-      "name": "詰め替えパック",
-      "nameKana": "つめかえぱっく",
-      "categoryId": "burnable"
+      "name": "詰め替えパック(プラスチック製)",
+      "nameKana": "つめかえぱっく(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "釣り糸",
@@ -3514,10 +3536,10 @@
       "note": "小型家電品として、資源リサイクルセンター、支所へも持込可能（壊れていても可能）。"
     },
     {
-      "name": "点滴バッグ",
-      "nameKana": "てんてきばっぐ",
+      "name": "点滴バッグ(プラスチック製)",
+      "nameKana": "てんてきばっぐ(ぷらすちっくせい)",
       "categoryId": "burnable",
-      "note": "中身を捨ててポリ袋に入れて燃えるごみへ。"
+      "note": "中身使い切り、ポリ袋に入れてから燃えるごみへ。"
     },
     {
       "name": "テント(レジャー・キャンプ用)",
@@ -3638,7 +3660,8 @@
     {
       "name": "豆腐の容器(プラスチック製)",
       "nameKana": "とうふのようき(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "灯油",
@@ -3764,8 +3787,8 @@
     {
       "name": "トレイ(発泡スチロール製)",
       "nameKana": "とれい(はっぽうすちろーるせい)",
-      "categoryId": "burnable",
-      "note": "店頭回収を推奨。"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "トレーニング器具(金属製)",
@@ -3787,7 +3810,8 @@
     {
       "name": "ドレッシング等の容器(プラスチック製)",
       "nameKana": "どれっしんぐなどのようき(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "トロフィー(金属・ガラス・陶器製)",
@@ -3813,9 +3837,9 @@
       "note": "ミックスペーパーとして袋に入れて出してください。汚れたものは、燃えるごみ。"
     },
     {
-      "name": "中仕切り(菓子箱等 合成樹脂製)",
-      "nameKana": "なかしきり(かしはこなど ごうせいじゅしせい)",
-      "categoryId": "burnable"
+      "name": "中仕切り(菓子箱等 プラスチック製)",
+      "nameKana": "なかしきり(かしはこなど ぷらすちっくせい)",
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "流し台",
@@ -3846,6 +3870,12 @@
       "nameKana": "なべ",
       "categoryId": "unburnable",
       "note": "金属製調理器具として資源リサイクルセンターへも持込可能。"
+    },
+    {
+      "name": "納豆のパック",
+      "nameKana": "なっとうのぱっく",
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "鍋敷き(布・木製)",
@@ -3941,7 +3971,7 @@
     {
       "name": "ネット(果物等を包むもの)",
       "nameKana": "ねっと(くだものなどをつつむもの)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "ネット(水きり用等)",
@@ -3956,7 +3986,8 @@
     {
       "name": "練り物のチューブ",
       "nameKana": "ねりもののちゅーぶ",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "粘土",
@@ -4054,8 +4085,8 @@
       "note": "燃えないごみ袋の口が縛れない大きさのものは粗大ごみ。"
     },
     {
-      "name": "配管パイプ(合成樹脂製)",
-      "nameKana": "はいかんぱいぷ(ごうせいじゅしせい)",
+      "name": "配管パイプ(プラスチック製)",
+      "nameKana": "はいかんぱいぷ(ぷらすちっくせい)",
       "categoryId": "burnable",
       "note": "燃えるごみ袋の口が縛れない大きさのものは粗大ごみ。"
     },
@@ -4095,8 +4126,8 @@
       "note": "金属部分は燃えないごみ。"
     },
     {
-      "name": "バケツ(合成樹脂製)",
-      "nameKana": "ばけつ(ごうせいじゅしせい)",
+      "name": "バケツ(プラスチック製)",
+      "nameKana": "ばけつ(ぷらすちっくせい)",
       "categoryId": "burnable",
       "note": "金属部分、金属製は燃えないごみ。"
     },
@@ -4176,12 +4207,14 @@
     {
       "name": "バター等の容器の蓋(プラスチック製)",
       "nameKana": "ばたーなどのようきのふた(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "バターの容器(プラスチック製)",
       "nameKana": "ばたーのようき(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "バック(鞄)",
@@ -4190,9 +4223,10 @@
       "note": "硬質の物以外は、資源リサイクルセンターへ持込可能。金属製は燃えないごみ。"
     },
     {
-      "name": "バック等を覆ったフィルム",
-      "nameKana": "ばっくなどをおおったふぃるむ",
-      "categoryId": "burnable"
+      "name": "バック等を覆ったフィルム(プラスチック製)",
+      "nameKana": "ばっくなどをおおったふぃるむ(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "バッテリー",
@@ -4226,12 +4260,14 @@
     {
       "name": "発泡スチロール(梱包材等)",
       "nameKana": "はっぽうすちろーる(こんぽうざいなど)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "資源物の袋に入る大きさにしてから入れてください。"
     },
     {
       "name": "発泡スチロール製容器",
       "nameKana": "はっぽうすちろーるせいようき",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "資源物の袋に入る大きさにしてから入れてください。"
     },
     {
       "name": "バトミントンの羽根",
@@ -4259,7 +4295,7 @@
     {
       "name": "歯ブラシの入った容器(プラスチック製)",
       "nameKana": "はぶらしのいっったようき(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "歯ブラシの入った容器の台紙",
@@ -4270,7 +4306,8 @@
     {
       "name": "歯磨きのチューブ",
       "nameKana": "はみがきのちゅーぶ",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "刃物",
@@ -4315,7 +4352,8 @@
     {
       "name": "パンの外袋",
       "nameKana": "ぱんのそとふくろ",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "バンパー(自動車用)",
@@ -4425,7 +4463,7 @@
     {
       "name": "ビニール袋",
       "nameKana": "びにーるふくろ",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "ビニールホース",
@@ -4458,7 +4496,8 @@
     {
       "name": "瓶のキャップ(プラスチック製)",
       "nameKana": "かめのきゃっぷ(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "ファイル",
@@ -4501,9 +4540,9 @@
       "categoryId": "burnable"
     },
     {
-      "name": "フィルムのケース",
-      "nameKana": "ふぃるむのけーす",
-      "categoryId": "burnable"
+      "name": "フィルムのケース(プラスチック製)",
+      "nameKana": "ふぃるむのけーす(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "フィルムの外箱",
@@ -4617,7 +4656,7 @@
     {
       "name": "プラスチックフィルム(包装用)",
       "nameKana": "ぷらすちっくふぃるむ(ほうそうよう)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "プラズマテレビ",
@@ -4639,8 +4678,8 @@
     {
       "name": "フラワーポット(プラスチック製)",
       "nameKana": "ふらわーぽっと(ぷらすちっくせい)",
-      "categoryId": "burnable",
-      "note": "土は落としてください。陶磁器製は燃えないごみ。"
+      "categoryId": "plasticpackaging",
+      "note": "汚れや土は落としてください。陶磁器製は燃えないごみ。"
     },
     {
       "name": "ブランケット(毛布)",
@@ -4653,8 +4692,8 @@
       "categoryId": "oversized"
     },
     {
-      "name": "プランター(合成樹脂製)",
-      "nameKana": "ぷらんたー(ごうせいじゅしせい)",
+      "name": "プランター(プラスチック製)",
+      "nameKana": "ぷらんたー(ぷらすちっくせい)",
       "categoryId": "burnable",
       "note": "土は落としてください。陶磁器製は燃えないごみ。"
     },
@@ -4673,7 +4712,8 @@
     {
       "name": "プリンの容器(プラスチック製)",
       "nameKana": "ぷりんのようき(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "プリン容器の蓋(アルミ製)",
@@ -4684,7 +4724,8 @@
     {
       "name": "プリン容器の蓋(プラスチック製)",
       "nameKana": "ぷりんようきのふた(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "フロアマット",
@@ -4780,13 +4821,12 @@
     {
       "name": "ペットボトルのキャップ",
       "nameKana": "ぺっとぼとるのきゃっぷ",
-      "categoryId": "burnable",
-      "note": "資源リサイクルセンターへも持込可能。"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "ペットボトルのラベル",
       "nameKana": "ぺっとぼとるのらべる",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "ベッドマット",
@@ -4870,7 +4910,8 @@
     {
       "name": "弁当の容器(プラスチック製)",
       "nameKana": "べんとうのようき(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "ホイール(自動車部品)",
@@ -4910,7 +4951,7 @@
     {
       "name": "包装フィルム",
       "nameKana": "ほうそうふぃるむ",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "防虫剤(衣類用)",
@@ -4988,7 +5029,7 @@
     {
       "name": "ポケットティッシュの包装",
       "nameKana": "ぽけっとてぃっしゅのほうそう",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "歩行器(子供用)",
@@ -5027,7 +5068,8 @@
     {
       "name": "ポテトチップスの袋",
       "nameKana": "ぽてとちっぷすのふくろ",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "ほ乳瓶(ガラス製)",
@@ -5043,7 +5085,7 @@
     {
       "name": "ポラロイドフィルムケース(プラスチック製)",
       "nameKana": "ぽらろいどふぃるむけーす(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "ポリタンク",
@@ -5104,7 +5146,8 @@
     {
       "name": "マーガリンの容器(プラスチック製)",
       "nameKana": "まーがりんのようき(ぷらすちっくせい)",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "麻雀台",
@@ -5141,8 +5184,8 @@
       "categoryId": "burnable"
     },
     {
-      "name": "マジックペン(合成樹脂製)",
-      "nameKana": "まじっくぺん(ごうせいじゅしせい)",
+      "name": "マジックペン(プラスチック製)",
+      "nameKana": "まじっくぺん(ぷらすちっくせい)",
       "categoryId": "burnable",
       "note": "金属・ガラス製は燃えないごみ。"
     },
@@ -5179,10 +5222,10 @@
       "categoryId": "unburnable"
     },
     {
-      "name": "マヨネーズの容器",
-      "nameKana": "まよねーずのようき",
-      "categoryId": "burnable",
-      "note": "ビン製は中をきれいに洗えば資源物、汚れたものは燃えないごみ。"
+      "name": "マヨネーズの容器(プラスチック製)",
+      "nameKana": "まよねーずのようき(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "丸太",
@@ -5216,7 +5259,7 @@
     {
       "name": "みかん等のネット袋",
       "nameKana": "みかんなどのねっとふくろ",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "ミキサー",
@@ -5236,13 +5279,14 @@
       "categoryId": "burnable"
     },
     {
-      "name": "味噌の容器(合成樹脂製)",
-      "nameKana": "みそのようき(ごうせいじゅしせい)",
-      "categoryId": "burnable"
+      "name": "味噌の容器(プラスチック製)",
+      "nameKana": "みそのようき(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
-      "name": "ミニカー(合成樹脂製)",
-      "nameKana": "みにかー(ごうせいじゅしせい)",
+      "name": "ミニカー(プラスチック製)",
+      "nameKana": "みにかー(ぷらすちっくせい)",
       "categoryId": "burnable",
       "note": "金属製は燃えないごみ。"
     },
@@ -5264,8 +5308,8 @@
       "note": "中を洗浄してください。"
     },
     {
-      "name": "虫かご(合成樹脂・木・竹製)",
-      "nameKana": "むしかご(ごうせいじゅし・き・たけせい)",
+      "name": "虫かご(プラスチック製・木製・竹製)",
+      "nameKana": "むしかご(ぷらすちっくせい・もくせい・たけせい)",
       "categoryId": "burnable",
       "note": "金属製は燃えないごみ。"
     },
@@ -5281,8 +5325,8 @@
       "categoryId": "unburnable"
     },
     {
-      "name": "虫眼鏡(合成樹脂製)",
-      "nameKana": "むしめがね(ごうせいじゅしせい)",
+      "name": "虫眼鏡(プラスチック製)",
+      "nameKana": "むしめがね(ぷらすちっくせい)",
       "categoryId": "burnable"
     },
     {
@@ -5320,9 +5364,10 @@
       "categoryId": "unburnable"
     },
     {
-      "name": "目薬",
-      "nameKana": "めぐすり",
-      "categoryId": "burnable"
+      "name": "目薬の容器(プラスチック製)",
+      "nameKana": "めぐすりのようき(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging",
+      "note": "中身を使い切ってください。"
     },
     {
       "name": "目覚まし時計",
@@ -5389,8 +5434,8 @@
       "categoryId": "oversized"
     },
     {
-      "name": "物干し台(合成樹脂製、水注入タイプ)",
-      "nameKana": "ものほしだい(ごうせいじゅしせい、みずちゅうにゅうたいぷ)",
+      "name": "物干し台(プラスチック製、水注入タイプ)",
+      "nameKana": "ものほしだい(ぷらすちっくせい、みずちゅうにゅうたいぷ)",
       "categoryId": "burnable",
       "note": "水を抜いてください。"
     },
@@ -5485,8 +5530,8 @@
       "categoryId": "unburnable"
     },
     {
-      "name": "湯たんぽ(合成樹脂製)",
-      "nameKana": "ゆたんぽ(ごうせいじゅしせい)",
+      "name": "湯たんぽ(プラスチック製)",
+      "nameKana": "ゆたんぽ(ぷらすちっくせい)",
       "categoryId": "burnable"
     },
     {
@@ -5528,7 +5573,8 @@
     {
       "name": "ヨーグルトの容器",
       "nameKana": "よーぐるとのようき",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "ヨーグルト容器の蓋(アルミ製)",
@@ -5537,9 +5583,10 @@
       "note": "汚れていない物は燃えないごみ。"
     },
     {
-      "name": "ヨーグルト容器の蓋(合成樹脂製)",
-      "nameKana": "よーぐるとようきのふた(ごうせいじゅしせい)",
-      "categoryId": "burnable"
+      "name": "ヨーグルト容器の蓋(プラスチック製)",
+      "nameKana": "よーぐるとようきのふた(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "浴槽",
@@ -5590,9 +5637,10 @@
       "note": "電池は抜いて出してください。燃えないごみ袋の口が縛れない大きさのものは粗大ごみ。小型家電品として、資源リサイクルセンター、支所へも持込可能（壊れていても可能）。【木製は持込不可のため、燃えないごみ】。"
     },
     {
-      "name": "ラップ",
-      "nameKana": "らっぷ",
-      "categoryId": "burnable"
+      "name": "ラップ(魚や肉などが包まれたもの)",
+      "nameKana": "らっぷ(さかなやにくなどがつつまれたもの)",
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。市販のラップは燃えるごみ。"
     },
     {
       "name": "ラップ・アルミホイルの芯・箱",
@@ -5659,9 +5707,10 @@
       "note": "水分をよく切って出してください。"
     },
     {
-      "name": "リンスの容器",
-      "nameKana": "りんすのようき",
-      "categoryId": "burnable"
+      "name": "リンスの容器(プラスチック製)",
+      "nameKana": "りんすのようき(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "ルアー(金属製)",
@@ -5725,7 +5774,7 @@
     {
       "name": "レジ袋",
       "nameKana": "れじふくろ",
-      "categoryId": "burnable"
+      "categoryId": "plasticpackaging"
     },
     {
       "name": "レジャーシート",
@@ -5733,9 +5782,10 @@
       "categoryId": "burnable"
     },
     {
-      "name": "レトルト食品の容器(合成樹脂製)",
-      "nameKana": "れとるとしょくひんのようき(ごうせいじゅしせい)",
-      "categoryId": "burnable"
+      "name": "レトルト食品の容器(プラスチック製)",
+      "nameKana": "れとるとしょくひんのようき(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "レンガ",
@@ -5785,9 +5835,10 @@
       "categoryId": "cloth"
     },
     {
-      "name": "ワイシャツの外装フィルム",
-      "nameKana": "わいしゃつのがいそうふぃるむ",
-      "categoryId": "burnable"
+      "name": "ワイシャツの外装フィルム(プラスチック製)",
+      "nameKana": "わいしゃつのがいそうふぃるむ(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging",
+      "note": "商品が包まれていたものに限ります。クリーニングの外装フィルムは燃えるごみ"
     },
     {
       "name": "ワイヤーロープ",
@@ -5818,9 +5869,10 @@
       "categoryId": "oversized"
     },
     {
-      "name": "わさび等のチューブ",
-      "nameKana": "わさびなどのちゅーぶ",
-      "categoryId": "burnable"
+      "name": "わさび等のチューブ(プラスチック製)",
+      "nameKana": "わさびなどのちゅーぶ(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging",
+      "note": "汚れを取り除いてください。汚れや臭いが取れないものは燃えるごみ。"
     },
     {
       "name": "和ダンス",
@@ -5850,9 +5902,9 @@
       "note": "ミックスペーパーとして袋に入れて出してください。汚れたものは、燃えるごみ。"
     },
     {
-      "name": "割り箸の袋(合成樹脂製)",
-      "nameKana": "わりばしのふくろ(ごうせいじゅしせい)",
-      "categoryId": "burnable"
+      "name": "割り箸の袋(プラスチック製)",
+      "nameKana": "わりばしのふくろ(ぷらすちっくせい)",
+      "categoryId": "plasticpackaging"
     }
   ]
 }

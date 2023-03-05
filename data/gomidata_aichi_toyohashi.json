@@ -202,7 +202,7 @@
       "name": "一升瓶",
       "nameKana": "いっしょうびん",
       "categoryId": "grassbottle",
-      "note": "販売店等に引き取ってもらいましょう。"
+      "note": "販売店等に引き取ってもらいましょう。ふたはこわすごみへ"
     },
     {
       "name": "一升瓶のふた",
@@ -752,6 +752,11 @@
       "name": "カメラ",
       "nameKana": "かめら",
       "categoryId": "crushable"
+    },
+    {
+      "name": "殻(ナッツ・魚介類)",
+      "nameKana": "から(なっつ・ぎょかいるい)",
+      "categoryId": "foodscraps"
     },
     {
       "name": "カラーボックス",
@@ -2045,6 +2050,11 @@
       "categoryId": "burnable"
     },
     {
+      "name": "タブレット端末",
+      "nameKana": "たぶれっとたんまつ",
+      "categoryId": "crushable"
+    },
+    {
       "name": "卵のパック",
       "nameKana": "たまごのぱっく",
       "categoryId": "plasticpackaging",
@@ -2237,7 +2247,7 @@
       "name": "手筒花火(使用後)",
       "nameKana": "てつつはなび(しようご)",
       "categoryId": "burnable",
-      "note": "60㎝以下はもやすごみへ。120㎝以上は大きなごみへ。なお、分解し、縄は50cm以下、竹は60cm以下にして出してください。金属が使われている時はこわすごみへ"
+      "note": "分解し、縄は50cm以下、竹は60cm以下にして出してください。金属が使われている時はこわすごみへ"
     },
     {
       "name": "テニスラケット",
@@ -2547,7 +2557,8 @@
     {
       "name": "鍋",
       "nameKana": "なべ",
-      "categoryId": "crushable"
+      "categoryId": "crushable",
+      "note": "土鍋はうめるごみへ"
     },
     {
       "name": "生米",
@@ -2749,7 +2760,8 @@
     {
       "name": "バスマット(珪藻土)",
       "nameKana": "ばすまっと(けいそうつち)",
-      "categoryId": "unburnable"
+      "categoryId": "unburnable",
+      "note": "アスベストを含む製品はメーカーによる回収をお願いいたします。"
     },
     {
       "name": "パソコン(デスクトップ)",
@@ -2862,7 +2874,7 @@
       "name": "ハンガー (プラスチック製)",
       "nameKana": "はんがー (ぷらすちっくせい)",
       "categoryId": "crushable",
-      "note": "クリーニングのものはなるべく店へ返却　木製はもやすごみへ"
+      "note": "クリーニングのものはなるべく店へ返却　プラマークの有無に関わらずこわすごみへ　木製はもやすごみへ"
     },
     {
       "name": "ハンカチ",
@@ -2905,7 +2917,7 @@
       "name": "ビール瓶",
       "nameKana": "びーるかめ",
       "categoryId": "grassbottle",
-      "note": "販売店等での回収もご利用ください。キャップはこわすごみへ"
+      "note": "販売店等での回収もご利用ください。ふたはこわすごみへ"
     },
     {
       "name": "ピザ",
@@ -2997,6 +3009,12 @@
       "name": "プチプチ(緩衝材)",
       "nameKana": "ぷちぷち(かんしょうざい)",
       "categoryId": "plasticpackaging"
+    },
+    {
+      "name": "筆",
+      "nameKana": "ふで",
+      "categoryId": "crushable",
+      "note": "木製はもやすごみへ"
     },
     {
       "name": "布団",
@@ -3349,6 +3367,12 @@
       "categoryId": "foodscraps"
     },
     {
+      "name": "ボタン電池(水銀0使用)",
+      "nameKana": "ぼたんでんち(すいぎん0しよう)",
+      "categoryId": "crushable",
+      "note": "水銀使用は危険ごみへ"
+    },
+    {
       "name": "ホッチキス",
       "nameKana": "ほっちきす",
       "categoryId": "crushable"
@@ -3569,7 +3593,7 @@
     },
     {
       "name": "燃え殻(風呂のたき付けやバーベキュー等の燃えかす等)",
-      "nameKana": "もえから(ふろのたきつけやばーべきゅーなどのもえかすなど)",
+      "nameKana": "もえから(ふろのたきづけやばーべきゅーなどのもえかすなど)",
       "categoryId": "burnable",
       "note": "飛散しないように湿らせてください。"
     },
@@ -3691,6 +3715,11 @@
       "name": "ラップ",
       "nameKana": "らっぷ",
       "categoryId": "burnable"
+    },
+    {
+      "name": "ラップの刃",
+      "nameKana": "らっぷのは",
+      "categoryId": "crushable"
     },
     {
       "name": "ランチジャー",
